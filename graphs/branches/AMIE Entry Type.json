@@ -1,0 +1,92 @@
+{
+    "graph": [
+        {
+            "subtitle": "Used to describe the type of a specific resource", 
+            "functions_x_graphs": [], 
+            "mapfeaturecolor": "#FF0000", 
+            "isresource": false, 
+            "forms_x_cards": [], 
+            "relatable_resource_model_ids": [], 
+            "reports": [], 
+            "iconclass": "", 
+            "nodegroups": [
+                {
+                    "cardinality": "1", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "4a1a5768-8ca7-11e7-b43c-021893e306d8", 
+                    "parentnodegroup_id": null
+                }
+            ], 
+            "author": "Phil Carlisle", 
+            "deploymentfile": null, 
+            "forms": [], 
+            "version": "", 
+            "nodes": [
+                {
+                    "is_collector": true, 
+                    "description": "", 
+                    "istopnode": true, 
+                    "ontologyclass": "E55_Type", 
+                    "nodeid": "4a1a5768-8ca7-11e7-b43c-021893e306d8", 
+                    "datatype": "concept-list", 
+                    "nodegroup_id": "4a1a5768-8ca7-11e7-b43c-021893e306d8", 
+                    "issearchable": true, 
+                    "graph_id": "4a1a5769-8ca7-11e7-b43c-021893e306d8", 
+                    "config": {
+                        "rdmCollection": "ae73fede-dda2-422e-8291-dedf800c131e"
+                    }, 
+                    "parentproperty": "", 
+                    "name": "Entry Type"
+                }
+            ], 
+            "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd", 
+            "description": "Various resource types can be classified by different types, eg. Assets can be buildings, structures, findspots etc.", 
+            "resource_2_resource_constraints": [], 
+            "edges": [], 
+            "maplinewidth": 1, 
+            "mappointsize": 3, 
+            "graphid": "4a1a5769-8ca7-11e7-b43c-021893e306d8", 
+            "name": "AMIE Entry Type", 
+            "cards_x_nodes_x_widgets": [], 
+            "cards": [
+                {
+                    "graph_id": "4a1a5769-8ca7-11e7-b43c-021893e306d8", 
+                    "helpenabled": false, 
+                    "description": "Various resource types can be classified by different types, eg. Assets can be buildings, structures, findspots etc.", 
+                    "visible": true, 
+                    "nodegroup_id": "4a1a5768-8ca7-11e7-b43c-021893e306d8", 
+                    "helptext": null, 
+                    "sortorder": null, 
+                    "cardid": "4a1a576b-8ca7-11e7-b43c-021893e306d8", 
+                    "helptitle": null, 
+                    "instructions": null, 
+                    "active": true, 
+                    "name": "AMIE Entry Type"
+                }
+            ], 
+            "root": {
+                "is_collector": true, 
+                "description": "", 
+                "istopnode": true, 
+                "ontologyclass": "E55_Type", 
+                "nodeid": "4a1a5768-8ca7-11e7-b43c-021893e306d8", 
+                "datatype": "concept-list", 
+                "nodegroup_id": "4a1a5768-8ca7-11e7-b43c-021893e306d8", 
+                "issearchable": true, 
+                "graph_id": "4a1a5769-8ca7-11e7-b43c-021893e306d8", 
+                "config": {
+                    "rdmCollection": "ae73fede-dda2-422e-8291-dedf800c131e"
+                }, 
+                "name": "Entry Type"
+            }, 
+            "isactive": true, 
+            "deploymentdate": null
+        }
+    ], 
+    "metadata": {
+        "git hash": "205c31b 2017-06-01 12:07:14 -0700", 
+        "db": "PostgreSQL 9.6.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 5.3.1-14ubuntu2) 5.3.1 20160413, 64-bit", 
+        "os version": "4.4.0-79-generic", 
+        "os": "Linux"
+    }
+}

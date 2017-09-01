@@ -1,0 +1,350 @@
+{
+    "graph": [
+        {
+            "subtitle": "Describes the details of the compiler of a record - may only be necessary for migration purposes", 
+            "functions_x_graphs": [], 
+            "mapfeaturecolor": "#FF0000", 
+            "isresource": false, 
+            "forms_x_cards": [], 
+            "relatable_resource_model_ids": [], 
+            "reports": [], 
+            "iconclass": "", 
+            "nodegroups": [
+                {
+                    "cardinality": "1", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "ee2efe7d-8814-11e7-b43c-021893e306d8", 
+                    "parentnodegroup_id": null
+                }, 
+                {
+                    "cardinality": "n", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "ee2efe80-8814-11e7-b43c-021893e306d8", 
+                    "parentnodegroup_id": "ee2efe7d-8814-11e7-b43c-021893e306d8"
+                }
+            ], 
+            "author": "Phil Carlisle", 
+            "deploymentfile": null, 
+            "forms": [], 
+            "version": "", 
+            "nodes": [
+                {
+                    "is_collector": false, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
+                    "ontologyclass": "E39_Actor", 
+                    "nodeid": "ee2efe83-8814-11e7-b43c-021893e306d8", 
+                    "datatype": "semantic", 
+                    "nodegroup_id": "ee2efe80-8814-11e7-b43c-021893e306d8", 
+                    "issearchable": true, 
+                    "graph_id": "ee2efe7c-8814-11e7-b43c-021893e306d8", 
+                    "config": null, 
+                    "parentproperty": "P14_carried_out_by", 
+                    "name": "Compiler"
+                }, 
+                {
+                    "is_collector": false, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
+                    "ontologyclass": "E52_Time-Span", 
+                    "nodeid": "ee2efe84-8814-11e7-b43c-021893e306d8", 
+                    "datatype": "semantic", 
+                    "nodegroup_id": "ee2efe80-8814-11e7-b43c-021893e306d8", 
+                    "issearchable": true, 
+                    "graph_id": "ee2efe7c-8814-11e7-b43c-021893e306d8", 
+                    "config": null, 
+                    "parentproperty": "P4_has_time-span", 
+                    "name": "Time Span"
+                }, 
+                {
+                    "is_collector": false, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
+                    "ontologyclass": "E50_Date", 
+                    "nodeid": "ee2efe86-8814-11e7-b43c-021893e306d8", 
+                    "datatype": "date", 
+                    "nodegroup_id": "ee2efe80-8814-11e7-b43c-021893e306d8", 
+                    "issearchable": true, 
+                    "graph_id": "ee2efe7c-8814-11e7-b43c-021893e306d8", 
+                    "config": null, 
+                    "parentproperty": "L54_is_same-as", 
+                    "name": "Date of Compilation"
+                }, 
+                {
+                    "is_collector": true, 
+                    "description": "", 
+                    "istopnode": true, 
+                    "ontologyclass": "E31_Document", 
+                    "nodeid": "ee2efe7d-8814-11e7-b43c-021893e306d8", 
+                    "datatype": "semantic", 
+                    "nodegroup_id": "ee2efe7d-8814-11e7-b43c-021893e306d8", 
+                    "issearchable": true, 
+                    "graph_id": "ee2efe7c-8814-11e7-b43c-021893e306d8", 
+                    "config": null, 
+                    "parentproperty": "", 
+                    "name": "Compilation Record"
+                }, 
+                {
+                    "is_collector": false, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
+                    "ontologyclass": "E55_Type", 
+                    "nodeid": "ee2efe88-8814-11e7-b43c-021893e306d8", 
+                    "datatype": "domain-value", 
+                    "nodegroup_id": "ee2efe80-8814-11e7-b43c-021893e306d8", 
+                    "issearchable": true, 
+                    "graph_id": "ee2efe7c-8814-11e7-b43c-021893e306d8", 
+                    "config": {
+                        "options": [
+                            {
+                                "text": "Date of Creation", 
+                                "selected": false, 
+                                "id": "259dd6f6-64b0-4ecd-9875-e8f844e7040d"
+                            }, 
+                            {
+                                "text": "Date of Last Update", 
+                                "selected": false, 
+                                "id": "ce60e7bd-7da7-4577-851a-b0e959de7438"
+                            }
+                        ]
+                    }, 
+                    "parentproperty": "P2_has_type", 
+                    "name": "Date Type"
+                }, 
+                {
+                    "is_collector": false, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
+                    "ontologyclass": "E55_Type", 
+                    "nodeid": "ee2efe87-8814-11e7-b43c-021893e306d8", 
+                    "datatype": "concept-list", 
+                    "nodegroup_id": "ee2efe80-8814-11e7-b43c-021893e306d8", 
+                    "issearchable": true, 
+                    "graph_id": "ee2efe7c-8814-11e7-b43c-021893e306d8", 
+                    "config": {
+                        "rdmCollection": "bf737f3d-cc8b-42c9-8bad-7562043fa969"
+                    }, 
+                    "parentproperty": "P2_has_type", 
+                    "name": "Role"
+                }, 
+                {
+                    "is_collector": true, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
+                    "ontologyclass": "E65_Creation", 
+                    "nodeid": "ee2efe80-8814-11e7-b43c-021893e306d8", 
+                    "datatype": "semantic", 
+                    "nodegroup_id": "ee2efe80-8814-11e7-b43c-021893e306d8", 
+                    "issearchable": true, 
+                    "graph_id": "ee2efe7c-8814-11e7-b43c-021893e306d8", 
+                    "config": null, 
+                    "parentproperty": "P94i_was_created_by", 
+                    "name": "Record Creation"
+                }, 
+                {
+                    "is_collector": false, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
+                    "ontologyclass": "E41_Appellation", 
+                    "nodeid": "ee2efe85-8814-11e7-b43c-021893e306d8", 
+                    "datatype": "string", 
+                    "nodegroup_id": "ee2efe80-8814-11e7-b43c-021893e306d8", 
+                    "issearchable": true, 
+                    "graph_id": "ee2efe7c-8814-11e7-b43c-021893e306d8", 
+                    "config": null, 
+                    "parentproperty": "P1_is_identified_by", 
+                    "name": "Compiler Name"
+                }
+            ], 
+            "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd", 
+            "description": "Provides placeholders for migrated data.\n\nDate of Compilation\n- has type Date of Creation/Date of Last Update\nCompiler\n- has Name\n- has Role", 
+            "resource_2_resource_constraints": [], 
+            "edges": [
+                {
+                    "graph_id": "ee2efe7c-8814-11e7-b43c-021893e306d8", 
+                    "name": null, 
+                    "edgeid": "ee2efe92-8814-11e7-b43c-021893e306d8", 
+                    "domainnode_id": "ee2efe83-8814-11e7-b43c-021893e306d8", 
+                    "rangenode_id": "ee2efe87-8814-11e7-b43c-021893e306d8", 
+                    "ontologyproperty": "P2_has_type", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "ee2efe7c-8814-11e7-b43c-021893e306d8", 
+                    "name": null, 
+                    "edgeid": "ee2efe8d-8814-11e7-b43c-021893e306d8", 
+                    "domainnode_id": "ee2efe80-8814-11e7-b43c-021893e306d8", 
+                    "rangenode_id": "ee2efe83-8814-11e7-b43c-021893e306d8", 
+                    "ontologyproperty": "P14_carried_out_by", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "ee2efe7c-8814-11e7-b43c-021893e306d8", 
+                    "name": null, 
+                    "edgeid": "ee2efe8e-8814-11e7-b43c-021893e306d8", 
+                    "domainnode_id": "ee2efe86-8814-11e7-b43c-021893e306d8", 
+                    "rangenode_id": "ee2efe88-8814-11e7-b43c-021893e306d8", 
+                    "ontologyproperty": "P2_has_type", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "ee2efe7c-8814-11e7-b43c-021893e306d8", 
+                    "name": null, 
+                    "edgeid": "ee2efe8f-8814-11e7-b43c-021893e306d8", 
+                    "domainnode_id": "ee2efe80-8814-11e7-b43c-021893e306d8", 
+                    "rangenode_id": "ee2efe84-8814-11e7-b43c-021893e306d8", 
+                    "ontologyproperty": "P4_has_time-span", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "ee2efe7c-8814-11e7-b43c-021893e306d8", 
+                    "name": null, 
+                    "edgeid": "ee2efe90-8814-11e7-b43c-021893e306d8", 
+                    "domainnode_id": "ee2efe83-8814-11e7-b43c-021893e306d8", 
+                    "rangenode_id": "ee2efe85-8814-11e7-b43c-021893e306d8", 
+                    "ontologyproperty": "P1_is_identified_by", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "ee2efe7c-8814-11e7-b43c-021893e306d8", 
+                    "name": null, 
+                    "edgeid": "ee2efe93-8814-11e7-b43c-021893e306d8", 
+                    "domainnode_id": "ee2efe7d-8814-11e7-b43c-021893e306d8", 
+                    "rangenode_id": "ee2efe80-8814-11e7-b43c-021893e306d8", 
+                    "ontologyproperty": "P94i_was_created_by", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "ee2efe7c-8814-11e7-b43c-021893e306d8", 
+                    "name": null, 
+                    "edgeid": "ee2efe91-8814-11e7-b43c-021893e306d8", 
+                    "domainnode_id": "ee2efe84-8814-11e7-b43c-021893e306d8", 
+                    "rangenode_id": "ee2efe86-8814-11e7-b43c-021893e306d8", 
+                    "ontologyproperty": "L54_is_same-as", 
+                    "description": null
+                }
+            ], 
+            "maplinewidth": 1, 
+            "mappointsize": 3, 
+            "graphid": "ee2efe7c-8814-11e7-b43c-021893e306d8", 
+            "name": "AMIE Compilation - Phil", 
+            "cards_x_nodes_x_widgets": [
+                {
+                    "widget_id": "10000000-0000-0000-0000-000000000015", 
+                    "card_id": "ee2efe82-8814-11e7-b43c-021893e306d8", 
+                    "label": "Date Type", 
+                    "node_id": "ee2efe88-8814-11e7-b43c-021893e306d8", 
+                    "sortorder": 3, 
+                    "config": {
+                        "placeholder": "Select an option", 
+                        "label": "Date Type"
+                    }, 
+                    "id": "ee2efe8c-8814-11e7-b43c-021893e306d8"
+                }, 
+                {
+                    "widget_id": "10000000-0000-0000-0000-000000000001", 
+                    "card_id": "ee2efe82-8814-11e7-b43c-021893e306d8", 
+                    "label": "Compiler Name", 
+                    "node_id": "ee2efe85-8814-11e7-b43c-021893e306d8", 
+                    "sortorder": 0, 
+                    "config": {
+                        "width": "100%", 
+                        "maxLength": null, 
+                        "placeholder": "Enter text", 
+                        "label": "Compiler Name"
+                    }, 
+                    "id": "ee2efe89-8814-11e7-b43c-021893e306d8"
+                }, 
+                {
+                    "widget_id": "10000000-0000-0000-0000-000000000012", 
+                    "card_id": "ee2efe82-8814-11e7-b43c-021893e306d8", 
+                    "label": "Role", 
+                    "node_id": "ee2efe87-8814-11e7-b43c-021893e306d8", 
+                    "sortorder": 1, 
+                    "config": {
+                        "placeholder": "Select an option", 
+                        "options": [
+                            {
+                                "conceptid": "35fe2e5d-5b55-4801-8f76-5ed06b598802", 
+                                "text": "Compiler", 
+                                "children": [], 
+                                "sortorder": "", 
+                                "collector": "", 
+                                "id": "6d43b7a2-ea7c-4ffe-a688-d2032386d6da"
+                            }
+                        ], 
+                        "label": "Role"
+                    }, 
+                    "id": "ee2efe8a-8814-11e7-b43c-021893e306d8"
+                }, 
+                {
+                    "widget_id": "10000000-0000-0000-0000-000000000004", 
+                    "card_id": "ee2efe82-8814-11e7-b43c-021893e306d8", 
+                    "label": "Date of Compilation", 
+                    "node_id": "ee2efe86-8814-11e7-b43c-021893e306d8", 
+                    "sortorder": 2, 
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD", 
+                        "maxDate": false, 
+                        "label": "Date of Compilation", 
+                        "viewMode": "days", 
+                        "placeholder": "Enter date", 
+                        "minDate": false
+                    }, 
+                    "id": "ee2efe8b-8814-11e7-b43c-021893e306d8"
+                }
+            ], 
+            "cards": [
+                {
+                    "graph_id": "ee2efe7c-8814-11e7-b43c-021893e306d8", 
+                    "helpenabled": false, 
+                    "description": "Provides placeholders for migrated data.\n\nDate of Compilation\n- has type Date of Creation/Date of Last Update\nCompiler\n- has Name\n- has Role", 
+                    "visible": true, 
+                    "nodegroup_id": "ee2efe7d-8814-11e7-b43c-021893e306d8", 
+                    "helptext": null, 
+                    "sortorder": null, 
+                    "cardid": "ee2efe7f-8814-11e7-b43c-021893e306d8", 
+                    "helptitle": null, 
+                    "instructions": null, 
+                    "active": true, 
+                    "name": "AMIE Compilation - Phil"
+                }, 
+                {
+                    "graph_id": "ee2efe7c-8814-11e7-b43c-021893e306d8", 
+                    "helpenabled": false, 
+                    "description": "Represents a single node in a graph", 
+                    "visible": true, 
+                    "nodegroup_id": "ee2efe80-8814-11e7-b43c-021893e306d8", 
+                    "helptext": null, 
+                    "sortorder": 0, 
+                    "cardid": "ee2efe82-8814-11e7-b43c-021893e306d8", 
+                    "helptitle": null, 
+                    "instructions": null, 
+                    "active": true, 
+                    "name": "Record Creation"
+                }
+            ], 
+            "root": {
+                "is_collector": true, 
+                "description": "", 
+                "istopnode": true, 
+                "ontologyclass": "E31_Document", 
+                "nodeid": "ee2efe7d-8814-11e7-b43c-021893e306d8", 
+                "datatype": "semantic", 
+                "nodegroup_id": "ee2efe7d-8814-11e7-b43c-021893e306d8", 
+                "issearchable": true, 
+                "graph_id": "ee2efe7c-8814-11e7-b43c-021893e306d8", 
+                "config": null, 
+                "name": "Compilation Record"
+            }, 
+            "isactive": true, 
+            "deploymentdate": null
+        }
+    ], 
+    "metadata": {
+        "git hash": "205c31b 2017-06-01 12:07:14 -0700", 
+        "db": "PostgreSQL 9.6.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 5.3.1-14ubuntu2) 5.3.1 20160413, 64-bit", 
+        "os version": "4.4.0-79-generic", 
+        "os": "Linux"
+    }
+}

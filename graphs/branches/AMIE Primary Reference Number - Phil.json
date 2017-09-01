@@ -1,0 +1,114 @@
+{
+    "graph": [
+        {
+            "subtitle": "Used to store the Unique Identifier for a resource", 
+            "functions_x_graphs": [], 
+            "mapfeaturecolor": "#FF0000", 
+            "isresource": false, 
+            "forms_x_cards": [], 
+            "relatable_resource_model_ids": [], 
+            "reports": [], 
+            "iconclass": "", 
+            "nodegroups": [
+                {
+                    "cardinality": "1", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "4f0068d1-8806-11e7-b43c-021893e306d8", 
+                    "parentnodegroup_id": null
+                }
+            ], 
+            "author": "Phil Carlisle", 
+            "deploymentfile": null, 
+            "forms": [], 
+            "version": "", 
+            "nodes": [
+                {
+                    "is_collector": true, 
+                    "description": "", 
+                    "istopnode": true, 
+                    "ontologyclass": "E42_Identifier", 
+                    "nodeid": "4f0068d1-8806-11e7-b43c-021893e306d8", 
+                    "datatype": "semantic", 
+                    "nodegroup_id": "4f0068d1-8806-11e7-b43c-021893e306d8", 
+                    "issearchable": true, 
+                    "graph_id": "4f0068d0-8806-11e7-b43c-021893e306d8", 
+                    "config": null, 
+                    "parentproperty": "", 
+                    "name": "ResourceID"
+                }, 
+                {
+                    "is_collector": false, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
+                    "ontologyclass": "E55_Type", 
+                    "nodeid": "4f0068d4-8806-11e7-b43c-021893e306d8", 
+                    "datatype": "concept-list", 
+                    "nodegroup_id": "4f0068d1-8806-11e7-b43c-021893e306d8", 
+                    "issearchable": true, 
+                    "graph_id": "4f0068d0-8806-11e7-b43c-021893e306d8", 
+                    "config": {
+                        "rdmCollection": "8d3275ea-5ddc-4195-9e4a-807b029441f6"
+                    }, 
+                    "parentproperty": "P2_has_type", 
+                    "name": "Primary Reference Number Type"
+                }
+            ], 
+            "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd", 
+            "description": "", 
+            "resource_2_resource_constraints": [], 
+            "edges": [
+                {
+                    "graph_id": "4f0068d0-8806-11e7-b43c-021893e306d8", 
+                    "name": null, 
+                    "edgeid": "4f0068d5-8806-11e7-b43c-021893e306d8", 
+                    "domainnode_id": "4f0068d1-8806-11e7-b43c-021893e306d8", 
+                    "rangenode_id": "4f0068d4-8806-11e7-b43c-021893e306d8", 
+                    "ontologyproperty": "P2_has_type", 
+                    "description": null
+                }
+            ], 
+            "maplinewidth": 1, 
+            "mappointsize": 3, 
+            "graphid": "4f0068d0-8806-11e7-b43c-021893e306d8", 
+            "name": "AMIE Primary Reference Number - Phil", 
+            "cards_x_nodes_x_widgets": [], 
+            "cards": [
+                {
+                    "graph_id": "4f0068d0-8806-11e7-b43c-021893e306d8", 
+                    "helpenabled": false, 
+                    "description": "", 
+                    "visible": true, 
+                    "nodegroup_id": "4f0068d1-8806-11e7-b43c-021893e306d8", 
+                    "helptext": null, 
+                    "sortorder": null, 
+                    "cardid": "4f0068d3-8806-11e7-b43c-021893e306d8", 
+                    "helptitle": null, 
+                    "instructions": null, 
+                    "active": true, 
+                    "name": "AMIE Primary Reference Number - Phil"
+                }
+            ], 
+            "root": {
+                "is_collector": true, 
+                "description": "", 
+                "istopnode": true, 
+                "ontologyclass": "E42_Identifier", 
+                "nodeid": "4f0068d1-8806-11e7-b43c-021893e306d8", 
+                "datatype": "semantic", 
+                "nodegroup_id": "4f0068d1-8806-11e7-b43c-021893e306d8", 
+                "issearchable": true, 
+                "graph_id": "4f0068d0-8806-11e7-b43c-021893e306d8", 
+                "config": null, 
+                "name": "ResourceID"
+            }, 
+            "isactive": true, 
+            "deploymentdate": null
+        }
+    ], 
+    "metadata": {
+        "git hash": "205c31b 2017-06-01 12:07:14 -0700", 
+        "db": "PostgreSQL 9.6.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 5.3.1-14ubuntu2) 5.3.1 20160413, 64-bit", 
+        "os version": "4.4.0-79-generic", 
+        "os": "Linux"
+    }
+}
