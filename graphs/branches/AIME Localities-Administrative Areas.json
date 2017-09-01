@@ -1,0 +1,161 @@
+{
+    "graph": [
+        {
+            "author": " ", 
+            "cards": [
+                {
+                    "active": true, 
+                    "cardid": "527f7ddc-8879-11e7-89ae-dca90488358a", 
+                    "description": "", 
+                    "graph_id": "527deb2b-8879-11e7-873a-dca90488358a", 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "helptitle": null, 
+                    "instructions": null, 
+                    "name": "AIME Localities/Administrative Areas", 
+                    "nodegroup_id": "527de578-8879-11e7-8c78-dca90488358a", 
+                    "sortorder": null, 
+                    "visible": true
+                }
+            ], 
+            "cards_x_nodes_x_widgets": [], 
+            "deploymentdate": null, 
+            "deploymentfile": null, 
+            "description": "", 
+            "edges": [
+                {
+                    "description": null, 
+                    "domainnode_id": "527de578-8879-11e7-8c78-dca90488358a", 
+                    "edgeid": "7ca9a3ae-887a-11e7-a83c-dca90488358a", 
+                    "graph_id": "527deb2b-8879-11e7-873a-dca90488358a", 
+                    "name": null, 
+                    "ontologyproperty": "P1_is_identified_by", 
+                    "rangenode_id": "7ca99e17-887a-11e7-b1ec-dca90488358a"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "527de578-8879-11e7-8c78-dca90488358a", 
+                    "edgeid": "a13c016b-887a-11e7-87ec-dca90488358a", 
+                    "graph_id": "527deb2b-8879-11e7-873a-dca90488358a", 
+                    "name": null, 
+                    "ontologyproperty": "P2_has_type", 
+                    "rangenode_id": "a13bfe68-887a-11e7-973f-dca90488358a"
+                }
+            ], 
+            "forms": [], 
+            "forms_x_cards": [], 
+            "functions_x_graphs": [], 
+            "graphid": "527deb2b-8879-11e7-873a-dca90488358a", 
+            "iconclass": "fa fa-map-marker", 
+            "is_editable": true, 
+            "isactive": true, 
+            "isresource": false, 
+            "name": "AIME Localities/Administrative Areas", 
+            "nodegroups": [
+                {
+                    "cardinality": "1", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "527de578-8879-11e7-8c78-dca90488358a", 
+                    "parentnodegroup_id": null
+                }
+            ], 
+            "nodes": [
+                {
+                    "config": null, 
+                    "datatype": "semantic", 
+                    "description": "", 
+                    "graph_id": "527deb2b-8879-11e7-873a-dca90488358a", 
+                    "is_collector": true, 
+                    "issearchable": true, 
+                    "istopnode": true, 
+                    "name": "Localities/Administrative Areas", 
+                    "nodegroup_id": "527de578-8879-11e7-8c78-dca90488358a", 
+                    "nodeid": "527de578-8879-11e7-8c78-dca90488358a", 
+                    "ontologyclass": "E53_Place", 
+                    "parentproperty": ""
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "string", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "527deb2b-8879-11e7-873a-dca90488358a", 
+                    "is_collector": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Area Name", 
+                    "nodegroup_id": "527de578-8879-11e7-8c78-dca90488358a", 
+                    "nodeid": "7ca99e17-887a-11e7-b1ec-dca90488358a", 
+                    "ontologyclass": "E41_Appellation", 
+                    "parentproperty": "P1_is_identified_by"
+                }, 
+                {
+                    "config": {
+                        "options": [
+                            {
+                                "id": "889a9a38-210d-4d70-a98e-68f905a5c77e", 
+                                "selected": false, 
+                                "text": "Map Sheet"
+                            }, 
+                            {
+                                "id": "82079a19-d5ef-4dd0-a011-986f8f7785b5", 
+                                "selected": false, 
+                                "text": "Grid Reference"
+                            }, 
+                            {
+                                "id": "f883efb3-7dbe-4ea3-b410-fc108ba52b25", 
+                                "selected": false, 
+                                "text": "Neighborhood"
+                            }, 
+                            {
+                                "id": "e52552a5-3ff2-41b3-9a3f-a15e791b638d", 
+                                "selected": false, 
+                                "text": "Incorporated Area"
+                            }, 
+                            {
+                                "id": "6f229200-1acd-407f-a21c-18e4b6a9ca5e", 
+                                "selected": false, 
+                                "text": "Administrative Area"
+                            }
+                        ]
+                    }, 
+                    "datatype": "domain-value", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "527deb2b-8879-11e7-873a-dca90488358a", 
+                    "is_collector": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Area Type", 
+                    "nodegroup_id": "527de578-8879-11e7-8c78-dca90488358a", 
+                    "nodeid": "a13bfe68-887a-11e7-973f-dca90488358a", 
+                    "ontologyclass": "E55_Type", 
+                    "parentproperty": "P2_has_type"
+                }
+            ], 
+            "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd", 
+            "relatable_resource_model_ids": [], 
+            "reports": [], 
+            "resource_2_resource_constraints": [], 
+            "root": {
+                "config": null, 
+                "datatype": "semantic", 
+                "description": "", 
+                "graph_id": "527deb2b-8879-11e7-873a-dca90488358a", 
+                "is_collector": true, 
+                "issearchable": true, 
+                "istopnode": true, 
+                "name": "Localities/Administrative Areas", 
+                "nodegroup_id": "527de578-8879-11e7-8c78-dca90488358a", 
+                "nodeid": "527de578-8879-11e7-8c78-dca90488358a", 
+                "ontologyclass": "E53_Place"
+            }, 
+            "subtitle": "Describe location using neighborhood (and other locality) names, admin areas, and other district names", 
+            "version": ""
+        }
+    ], 
+    "metadata": {
+        "db": "PostgreSQL 9.6.3 on x86_64-apple-darwin14.5.0, compiled by Apple LLVM version 7.0.0 (clang-700.1.76), 64-bit", 
+        "git hash": "73a010a4 2017-08-31 16:30:17 -0700", 
+        "os": "Darwin", 
+        "os version": "16.7.0"
+    }
+}

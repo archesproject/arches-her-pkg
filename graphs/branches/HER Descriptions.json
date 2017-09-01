@@ -1,0 +1,135 @@
+{
+    "graph": [
+        {
+            "author": " ", 
+            "cards": [
+                {
+                    "active": true, 
+                    "cardid": "59acd957-887b-11e7-8e22-dca90488358a", 
+                    "description": "", 
+                    "graph_id": "59ab46fd-887b-11e7-b03b-dca90488358a", 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "helptitle": null, 
+                    "instructions": null, 
+                    "name": "HER Descriptions", 
+                    "nodegroup_id": "59ab4275-887b-11e7-809b-dca90488358a", 
+                    "sortorder": null, 
+                    "visible": true
+                }
+            ], 
+            "cards_x_nodes_x_widgets": [], 
+            "deploymentdate": null, 
+            "deploymentfile": null, 
+            "description": "", 
+            "edges": [
+                {
+                    "description": null, 
+                    "domainnode_id": "59ab4275-887b-11e7-809b-dca90488358a", 
+                    "edgeid": "ce8eb44c-887b-11e7-ba77-dca90488358a", 
+                    "graph_id": "59ab46fd-887b-11e7-b03b-dca90488358a", 
+                    "name": null, 
+                    "ontologyproperty": "P3_has_note", 
+                    "rangenode_id": "ce8eb15e-887b-11e7-8364-dca90488358a"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "59ab4275-887b-11e7-809b-dca90488358a", 
+                    "edgeid": "e515c21e-887b-11e7-a701-dca90488358a", 
+                    "graph_id": "59ab46fd-887b-11e7-b03b-dca90488358a", 
+                    "name": null, 
+                    "ontologyproperty": "P2_has_type", 
+                    "rangenode_id": "e515beb8-887b-11e7-8d65-dca90488358a"
+                }
+            ], 
+            "forms": [], 
+            "forms_x_cards": [], 
+            "functions_x_graphs": [], 
+            "graphid": "59ab46fd-887b-11e7-b03b-dca90488358a", 
+            "iconclass": "fa fa-edit", 
+            "is_editable": true, 
+            "isactive": true, 
+            "isresource": false, 
+            "name": "HER Descriptions", 
+            "nodegroups": [
+                {
+                    "cardinality": "1", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "59ab4275-887b-11e7-809b-dca90488358a", 
+                    "parentnodegroup_id": null
+                }
+            ], 
+            "nodes": [
+                {
+                    "config": null, 
+                    "datatype": "semantic", 
+                    "description": "", 
+                    "graph_id": "59ab46fd-887b-11e7-b03b-dca90488358a", 
+                    "is_collector": true, 
+                    "issearchable": true, 
+                    "istopnode": true, 
+                    "name": "Descriptions", 
+                    "nodegroup_id": "59ab4275-887b-11e7-809b-dca90488358a", 
+                    "nodeid": "59ab4275-887b-11e7-809b-dca90488358a", 
+                    "ontologyclass": "E13_Attribute_Assignment", 
+                    "parentproperty": ""
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "string", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "59ab46fd-887b-11e7-b03b-dca90488358a", 
+                    "is_collector": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Description", 
+                    "nodegroup_id": "59ab4275-887b-11e7-809b-dca90488358a", 
+                    "nodeid": "ce8eb15e-887b-11e7-8364-dca90488358a", 
+                    "ontologyclass": "E62_String", 
+                    "parentproperty": "P3_has_note"
+                }, 
+                {
+                    "config": {
+                        "rdmCollection": null
+                    }, 
+                    "datatype": "concept", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "59ab46fd-887b-11e7-b03b-dca90488358a", 
+                    "is_collector": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Description Type", 
+                    "nodegroup_id": "59ab4275-887b-11e7-809b-dca90488358a", 
+                    "nodeid": "e515beb8-887b-11e7-8d65-dca90488358a", 
+                    "ontologyclass": "E55_Type", 
+                    "parentproperty": "P2_has_type"
+                }
+            ], 
+            "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd", 
+            "relatable_resource_model_ids": [], 
+            "reports": [], 
+            "resource_2_resource_constraints": [], 
+            "root": {
+                "config": null, 
+                "datatype": "semantic", 
+                "description": "", 
+                "graph_id": "59ab46fd-887b-11e7-b03b-dca90488358a", 
+                "is_collector": true, 
+                "issearchable": true, 
+                "istopnode": true, 
+                "name": "Descriptions", 
+                "nodegroup_id": "59ab4275-887b-11e7-809b-dca90488358a", 
+                "nodeid": "59ab4275-887b-11e7-809b-dca90488358a", 
+                "ontologyclass": "E13_Attribute_Assignment"
+            }, 
+            "subtitle": "Description and type, general way to add descriptive text about a resource", 
+            "version": ""
+        }
+    ], 
+    "metadata": {
+        "db": "PostgreSQL 9.6.3 on x86_64-apple-darwin14.5.0, compiled by Apple LLVM version 7.0.0 (clang-700.1.76), 64-bit", 
+        "git hash": "73a010a4 2017-08-31 16:30:17 -0700", 
+        "os": "Darwin", 
+        "os version": "16.7.0"
+    }
+}

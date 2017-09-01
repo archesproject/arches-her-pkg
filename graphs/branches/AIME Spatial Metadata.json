@@ -1,0 +1,160 @@
+{
+    "graph": [
+        {
+            "author": " ", 
+            "cards": [
+                {
+                    "active": true, 
+                    "cardid": "f757ca2e-881e-11e7-bf24-dca90488358a", 
+                    "description": "", 
+                    "graph_id": "f74cddd1-881e-11e7-b54c-dca90488358a", 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "helptitle": null, 
+                    "instructions": null, 
+                    "name": "AIME Spatial Metadata", 
+                    "nodegroup_id": "f74cb8f8-881e-11e7-a01b-dca90488358a", 
+                    "sortorder": null, 
+                    "visible": true
+                }
+            ], 
+            "cards_x_nodes_x_widgets": [], 
+            "deploymentdate": null, 
+            "deploymentfile": null, 
+            "description": "", 
+            "edges": [
+                {
+                    "description": null, 
+                    "domainnode_id": "f74cb8f8-881e-11e7-a01b-dca90488358a", 
+                    "edgeid": "4ef9c80f-881f-11e7-a72b-dca90488358a", 
+                    "graph_id": "f74cddd1-881e-11e7-b54c-dca90488358a", 
+                    "name": null, 
+                    "ontologyproperty": "P2_has_type", 
+                    "rangenode_id": "4ef9c187-881f-11e7-8408-dca90488358a"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "f74cb8f8-881e-11e7-a01b-dca90488358a", 
+                    "edgeid": "95b0ca99-881f-11e7-ab53-dca90488358a", 
+                    "graph_id": "f74cddd1-881e-11e7-b54c-dca90488358a", 
+                    "name": null, 
+                    "ontologyproperty": "P3_has_note", 
+                    "rangenode_id": "95b0c733-881f-11e7-b077-dca90488358a"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "f74cb8f8-881e-11e7-a01b-dca90488358a", 
+                    "edgeid": "afc26073-881f-11e7-9010-dca90488358a", 
+                    "graph_id": "f74cddd1-881e-11e7-b54c-dca90488358a", 
+                    "name": null, 
+                    "ontologyproperty": "P2_has_type", 
+                    "rangenode_id": "afc25d7d-881f-11e7-85c7-dca90488358a"
+                }
+            ], 
+            "forms": [], 
+            "forms_x_cards": [], 
+            "functions_x_graphs": [], 
+            "graphid": "f74cddd1-881e-11e7-b54c-dca90488358a", 
+            "iconclass": "fa fa-map-marker", 
+            "is_editable": true, 
+            "isactive": true, 
+            "isresource": false, 
+            "name": "AIME Spatial Metadata", 
+            "nodegroups": [
+                {
+                    "cardinality": "1", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "f74cb8f8-881e-11e7-a01b-dca90488358a", 
+                    "parentnodegroup_id": null
+                }
+            ], 
+            "nodes": [
+                {
+                    "config": {
+                        "rdmCollection": null
+                    }, 
+                    "datatype": "concept", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "f74cddd1-881e-11e7-b54c-dca90488358a", 
+                    "is_collector": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Spatial Accuracy Qualifier", 
+                    "nodegroup_id": "f74cb8f8-881e-11e7-a01b-dca90488358a", 
+                    "nodeid": "4ef9c187-881f-11e7-8408-dca90488358a", 
+                    "ontologyclass": "E55_Type", 
+                    "parentproperty": "P2_has_type"
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "semantic", 
+                    "description": "", 
+                    "graph_id": "f74cddd1-881e-11e7-b54c-dca90488358a", 
+                    "is_collector": true, 
+                    "issearchable": true, 
+                    "istopnode": true, 
+                    "name": "Spatial Metadata", 
+                    "nodegroup_id": "f74cb8f8-881e-11e7-a01b-dca90488358a", 
+                    "nodeid": "f74cb8f8-881e-11e7-a01b-dca90488358a", 
+                    "ontologyclass": "E13_Attribute_Assignment", 
+                    "parentproperty": ""
+                }, 
+                {
+                    "config": {
+                        "rdmCollection": null
+                    }, 
+                    "datatype": "concept", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "f74cddd1-881e-11e7-b54c-dca90488358a", 
+                    "is_collector": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Geometry Source", 
+                    "nodegroup_id": "f74cb8f8-881e-11e7-a01b-dca90488358a", 
+                    "nodeid": "afc25d7d-881f-11e7-85c7-dca90488358a", 
+                    "ontologyclass": "E55_Type", 
+                    "parentproperty": "P2_has_type"
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "string", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "f74cddd1-881e-11e7-b54c-dca90488358a", 
+                    "is_collector": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Spatial Metadata Description", 
+                    "nodegroup_id": "f74cb8f8-881e-11e7-a01b-dca90488358a", 
+                    "nodeid": "95b0c733-881f-11e7-b077-dca90488358a", 
+                    "ontologyclass": "rdf-schema#Literal", 
+                    "parentproperty": "P3_has_note"
+                }
+            ], 
+            "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd", 
+            "relatable_resource_model_ids": [], 
+            "reports": [], 
+            "resource_2_resource_constraints": [], 
+            "root": {
+                "config": null, 
+                "datatype": "semantic", 
+                "description": "", 
+                "graph_id": "f74cddd1-881e-11e7-b54c-dca90488358a", 
+                "is_collector": true, 
+                "issearchable": true, 
+                "istopnode": true, 
+                "name": "Spatial Metadata", 
+                "nodegroup_id": "f74cb8f8-881e-11e7-a01b-dca90488358a", 
+                "nodeid": "f74cb8f8-881e-11e7-a01b-dca90488358a", 
+                "ontologyclass": "E13_Attribute_Assignment"
+            }, 
+            "subtitle": "Summary of geometry data quality and creation workflow", 
+            "version": ""
+        }
+    ], 
+    "metadata": {
+        "db": "PostgreSQL 9.6.3 on x86_64-apple-darwin14.5.0, compiled by Apple LLVM version 7.0.0 (clang-700.1.76), 64-bit", 
+        "git hash": "73a010a4 2017-08-31 16:30:17 -0700", 
+        "os": "Darwin", 
+        "os version": "16.7.0"
+    }
+}
