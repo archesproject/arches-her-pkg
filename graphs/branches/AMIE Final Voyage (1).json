@@ -76,18 +76,17 @@
             ], 
             "cards_x_nodes_x_widgets": [
                 {
-                    "card_id": "6c057bca-661e-11e7-b43c-021893e306d8", 
+                    "card_id": "a10dcf76-661d-11e7-b43c-021893e306d8", 
                     "config": {
-                        "label": "Crew Member Name", 
-                        "maxLength": null, 
-                        "placeholder": "Enter text", 
-                        "width": "100%"
+                        "label": "Cargo Type", 
+                        "options": [], 
+                        "placeholder": "Select an option"
                     }, 
-                    "id": "9528b45c-6625-11e7-b43c-021893e306d8", 
-                    "label": "Crew Member Name", 
-                    "node_id": "8adf0a15-661e-11e7-b43c-021893e306d8", 
+                    "id": "ab93c6ac-93df-11e7-b43c-021893e306d8", 
+                    "label": "Cargo Type", 
+                    "node_id": "2693bf67-93df-11e7-b43c-021893e306d8", 
                     "sortorder": 0, 
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                    "widget_id": "10000000-0000-0000-0000-000000000012"
                 }, 
                 {
                     "card_id": "37062da2-661e-11e7-b43c-021893e306d8", 
@@ -103,6 +102,20 @@
                     "widget_id": "10000000-0000-0000-0000-000000000012"
                 }, 
                 {
+                    "card_id": "6c057bca-661e-11e7-b43c-021893e306d8", 
+                    "config": {
+                        "label": "Crew Member Name", 
+                        "maxLength": null, 
+                        "placeholder": "Enter text", 
+                        "width": "100%"
+                    }, 
+                    "id": "9528b45c-6625-11e7-b43c-021893e306d8", 
+                    "label": "Crew Member Name", 
+                    "node_id": "8adf0a15-661e-11e7-b43c-021893e306d8", 
+                    "sortorder": 1, 
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                }, 
+                {
                     "card_id": "e6918e84-661d-11e7-b43c-021893e306d8", 
                     "config": {
                         "label": "Port of Departure Name", 
@@ -112,6 +125,60 @@
                     "id": "9528b45a-6625-11e7-b43c-021893e306d8", 
                     "label": "Port of Departure Name", 
                     "node_id": "ea6c3a49-661d-11e7-b43c-021893e306d8", 
+                    "sortorder": 0, 
+                    "widget_id": "10000000-0000-0000-0000-000000000012"
+                }, 
+                {
+                    "card_id": "6c057bca-661e-11e7-b43c-021893e306d8", 
+                    "config": {
+                        "label": "Crew Member Role", 
+                        "options": [
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "f78abac0-3363-4973-a496-95f03700cf95", 
+                                "id": "3ff7b573-f774-470e-813d-ee9f447626a5", 
+                                "sortorder": "", 
+                                "text": "Able Seaman"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "0d0ed234-1708-4d68-acf3-084d6980daaf", 
+                                "id": "f448b4a0-ba07-496c-8786-1aa7418d2ccb", 
+                                "sortorder": "", 
+                                "text": "Archaeological Event Recorder"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "2c607f2e-7a93-4fc0-8a20-0d4ce15af5ca", 
+                                "id": "6b201de0-7c25-4706-b857-6647649b0946", 
+                                "sortorder": "", 
+                                "text": "Boastswain"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "53d41c01-5466-437c-b9f2-6d4ef316e6c5", 
+                                "id": "cf98a73f-14c0-4afa-9126-b38b6f7c65a5", 
+                                "sortorder": "", 
+                                "text": "Captain"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "35fe2e5d-5b55-4801-8f76-5ed06b598802", 
+                                "id": "6d43b7a2-ea7c-4ffe-a688-d2032386d6da", 
+                                "sortorder": "", 
+                                "text": "Compiler"
+                            }
+                        ], 
+                        "placeholder": "Select an option"
+                    }, 
+                    "id": "ab93c6ad-93df-11e7-b43c-021893e306d8", 
+                    "label": "Crew Member Role", 
+                    "node_id": "59cf416b-8cc4-11e7-b43c-021893e306d8", 
                     "sortorder": 0, 
                     "widget_id": "10000000-0000-0000-0000-000000000012"
                 }
@@ -155,6 +222,15 @@
                     "name": null, 
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P27_moved_from", 
                     "rangenode_id": "addc1793-661d-11e7-b43c-021893e306d8"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "9293356b-661d-11e7-b43c-021893e306d8", 
+                    "edgeid": "2693bf68-93df-11e7-b43c-021893e306d8", 
+                    "graph_id": "5aabb9b1-661d-11e7-b43c-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type", 
+                    "rangenode_id": "2693bf67-93df-11e7-b43c-021893e306d8"
                 }, 
                 {
                     "description": null, 
@@ -221,7 +297,7 @@
                     "parentnodegroup_id": null
                 }, 
                 {
-                    "cardinality": "1", 
+                    "cardinality": "n", 
                     "legacygroupid": null, 
                     "nodegroupid": "9293356b-661d-11e7-b43c-021893e306d8", 
                     "parentnodegroup_id": "5aabb9b0-661d-11e7-b43c-021893e306d8"
@@ -239,7 +315,7 @@
                     "parentnodegroup_id": "5aabb9b0-661d-11e7-b43c-021893e306d8"
                 }, 
                 {
-                    "cardinality": "1", 
+                    "cardinality": "n", 
                     "legacygroupid": null, 
                     "nodegroupid": "2bb0b57f-661e-11e7-b43c-021893e306d8", 
                     "parentnodegroup_id": "5aabb9b0-661d-11e7-b43c-021893e306d8"
@@ -262,7 +338,7 @@
                 }, 
                 {
                     "config": {
-                        "rdmCollection": null
+                        "rdmCollection": "bf737f3d-cc8b-42c9-8bad-7562043fa969"
                     }, 
                     "datatype": "concept-list", 
                     "description": "Represents a single node in a graph", 
@@ -270,7 +346,7 @@
                     "is_collector": false, 
                     "issearchable": true, 
                     "istopnode": false, 
-                    "name": "Node", 
+                    "name": "Crew Member Role", 
                     "nodegroup_id": "563e27a5-661e-11e7-b43c-021893e306d8", 
                     "nodeid": "59cf416b-8cc4-11e7-b43c-021893e306d8", 
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type", 
@@ -328,6 +404,22 @@
                     "is_collector": false, 
                     "issearchable": true, 
                     "istopnode": false, 
+                    "name": "Port of Destination Name", 
+                    "nodegroup_id": "2bb0b57f-661e-11e7-b43c-021893e306d8", 
+                    "nodeid": "3abe40eb-661e-11e7-b43c-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by"
+                }, 
+                {
+                    "config": {
+                        "rdmCollection": null
+                    }, 
+                    "datatype": "concept-list", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "5aabb9b1-661d-11e7-b43c-021893e306d8", 
+                    "is_collector": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
                     "name": "Port of Departure Name", 
                     "nodegroup_id": "addc1793-661d-11e7-b43c-021893e306d8", 
                     "nodeid": "ea6c3a49-661d-11e7-b43c-021893e306d8", 
@@ -363,22 +455,6 @@
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P11_had_participant"
                 }, 
                 {
-                    "config": {
-                        "rdmCollection": null
-                    }, 
-                    "datatype": "concept-list", 
-                    "description": "Represents a single node in a graph", 
-                    "graph_id": "5aabb9b1-661d-11e7-b43c-021893e306d8", 
-                    "is_collector": false, 
-                    "issearchable": true, 
-                    "istopnode": false, 
-                    "name": "Port of Destination Name", 
-                    "nodegroup_id": "2bb0b57f-661e-11e7-b43c-021893e306d8", 
-                    "nodeid": "3abe40eb-661e-11e7-b43c-021893e306d8", 
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation", 
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by"
-                }, 
-                {
                     "config": null, 
                     "datatype": "semantic", 
                     "description": "Represents a single node in a graph", 
@@ -391,6 +467,22 @@
                     "nodeid": "2bb0b57f-661e-11e7-b43c-021893e306d8", 
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place", 
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P26_moved_to"
+                }, 
+                {
+                    "config": {
+                        "rdmCollection": null
+                    }, 
+                    "datatype": "concept-list", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "5aabb9b1-661d-11e7-b43c-021893e306d8", 
+                    "is_collector": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Cargo Type", 
+                    "nodegroup_id": "9293356b-661d-11e7-b43c-021893e306d8", 
+                    "nodeid": "2693bf67-93df-11e7-b43c-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type"
                 }
             ], 
             "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd", 

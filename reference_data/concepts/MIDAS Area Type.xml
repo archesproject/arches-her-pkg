@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <skos:ConceptScheme rdf:about="http://www.archesproject.org/038f0d8c-736f-4f18-86ca-7ed31815ada1">
+    <dcterms:title xml:lang="en">{"id": "5af4e81e-87e8-4028-9fdf-9395b40a36b8", "value": "MIDAS Area Type"}</dcterms:title>
+  </skos:ConceptScheme>
+</rdf:RDF>

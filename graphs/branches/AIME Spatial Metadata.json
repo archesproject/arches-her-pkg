@@ -29,7 +29,7 @@
                     "edgeid": "4ef9c80f-881f-11e7-a72b-dca90488358a", 
                     "graph_id": "f74cddd1-881e-11e7-b54c-dca90488358a", 
                     "name": null, 
-                    "ontologyproperty": "P2_has_type", 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type", 
                     "rangenode_id": "4ef9c187-881f-11e7-8408-dca90488358a"
                 }, 
                 {
@@ -38,7 +38,7 @@
                     "edgeid": "95b0ca99-881f-11e7-ab53-dca90488358a", 
                     "graph_id": "f74cddd1-881e-11e7-b54c-dca90488358a", 
                     "name": null, 
-                    "ontologyproperty": "P3_has_note", 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note", 
                     "rangenode_id": "95b0c733-881f-11e7-b077-dca90488358a"
                 }, 
                 {
@@ -47,7 +47,7 @@
                     "edgeid": "afc26073-881f-11e7-9010-dca90488358a", 
                     "graph_id": "f74cddd1-881e-11e7-b54c-dca90488358a", 
                     "name": null, 
-                    "ontologyproperty": "P2_has_type", 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type", 
                     "rangenode_id": "afc25d7d-881f-11e7-85c7-dca90488358a"
                 }
             ], 
@@ -82,8 +82,8 @@
                     "name": "Spatial Accuracy Qualifier", 
                     "nodegroup_id": "f74cb8f8-881e-11e7-a01b-dca90488358a", 
                     "nodeid": "4ef9c187-881f-11e7-8408-dca90488358a", 
-                    "ontologyclass": "E55_Type", 
-                    "parentproperty": "P2_has_type"
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type"
                 }, 
                 {
                     "config": null, 
@@ -96,7 +96,7 @@
                     "name": "Spatial Metadata", 
                     "nodegroup_id": "f74cb8f8-881e-11e7-a01b-dca90488358a", 
                     "nodeid": "f74cb8f8-881e-11e7-a01b-dca90488358a", 
-                    "ontologyclass": "E13_Attribute_Assignment", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment", 
                     "parentproperty": ""
                 }, 
                 {
@@ -112,8 +112,8 @@
                     "name": "Geometry Source", 
                     "nodegroup_id": "f74cb8f8-881e-11e7-a01b-dca90488358a", 
                     "nodeid": "afc25d7d-881f-11e7-85c7-dca90488358a", 
-                    "ontologyclass": "E55_Type", 
-                    "parentproperty": "P2_has_type"
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type"
                 }, 
                 {
                     "config": null, 
@@ -126,8 +126,8 @@
                     "name": "Spatial Metadata Description", 
                     "nodegroup_id": "f74cb8f8-881e-11e7-a01b-dca90488358a", 
                     "nodeid": "95b0c733-881f-11e7-b077-dca90488358a", 
-                    "ontologyclass": "rdf-schema#Literal", 
-                    "parentproperty": "P3_has_note"
+                    "ontologyclass": "http://www.w3.org/2000/01/rdf-schema#Literal", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note"
                 }
             ], 
             "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd", 
@@ -145,7 +145,8 @@
                 "name": "Spatial Metadata", 
                 "nodegroup_id": "f74cb8f8-881e-11e7-a01b-dca90488358a", 
                 "nodeid": "f74cb8f8-881e-11e7-a01b-dca90488358a", 
-                "ontologyclass": "E13_Attribute_Assignment"
+                "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment", 
+                "parentproperty": ""
             }, 
             "subtitle": "Summary of geometry data quality and creation workflow", 
             "version": ""

@@ -29,7 +29,7 @@
                     "edgeid": "43b9fb17-8820-11e7-af22-dca90488358a", 
                     "graph_id": "0cfa2b75-8820-11e7-b8c9-dca90488358a", 
                     "name": null, 
-                    "ontologyproperty": "P1_is_identified_by", 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by", 
                     "rangenode_id": "43b9f775-8820-11e7-a8ba-dca90488358a"
                 }
             ], 
@@ -62,7 +62,7 @@
                     "name": "Geospatial Coordinates", 
                     "nodegroup_id": "0cfa2799-8820-11e7-9792-dca90488358a", 
                     "nodeid": "0cfa2799-8820-11e7-9792-dca90488358a", 
-                    "ontologyclass": "E47_Spatial_Coordinates", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E47_Spatial_Coordinates", 
                     "parentproperty": ""
                 }, 
                 {
@@ -99,8 +99,8 @@
                     "name": "Geometry", 
                     "nodegroup_id": "0cfa2799-8820-11e7-9792-dca90488358a", 
                     "nodeid": "43b9f775-8820-11e7-a8ba-dca90488358a", 
-                    "ontologyclass": "E47_Spatial_Coordinates", 
-                    "parentproperty": "P1_is_identified_by"
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E47_Spatial_Coordinates", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by"
                 }
             ], 
             "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd", 
@@ -118,7 +118,8 @@
                 "name": "Geospatial Coordinates", 
                 "nodegroup_id": "0cfa2799-8820-11e7-9792-dca90488358a", 
                 "nodeid": "0cfa2799-8820-11e7-9792-dca90488358a", 
-                "ontologyclass": "E47_Spatial_Coordinates"
+                "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E47_Spatial_Coordinates", 
+                "parentproperty": ""
             }, 
             "subtitle": "Geo-spatial representation of a resource location", 
             "version": ""

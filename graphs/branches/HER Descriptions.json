@@ -29,7 +29,7 @@
                     "edgeid": "ce8eb44c-887b-11e7-ba77-dca90488358a", 
                     "graph_id": "59ab46fd-887b-11e7-b03b-dca90488358a", 
                     "name": null, 
-                    "ontologyproperty": "P3_has_note", 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note", 
                     "rangenode_id": "ce8eb15e-887b-11e7-8364-dca90488358a"
                 }, 
                 {
@@ -38,7 +38,7 @@
                     "edgeid": "e515c21e-887b-11e7-a701-dca90488358a", 
                     "graph_id": "59ab46fd-887b-11e7-b03b-dca90488358a", 
                     "name": null, 
-                    "ontologyproperty": "P2_has_type", 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type", 
                     "rangenode_id": "e515beb8-887b-11e7-8d65-dca90488358a"
                 }
             ], 
@@ -71,7 +71,7 @@
                     "name": "Descriptions", 
                     "nodegroup_id": "59ab4275-887b-11e7-809b-dca90488358a", 
                     "nodeid": "59ab4275-887b-11e7-809b-dca90488358a", 
-                    "ontologyclass": "E13_Attribute_Assignment", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment", 
                     "parentproperty": ""
                 }, 
                 {
@@ -85,8 +85,8 @@
                     "name": "Description", 
                     "nodegroup_id": "59ab4275-887b-11e7-809b-dca90488358a", 
                     "nodeid": "ce8eb15e-887b-11e7-8364-dca90488358a", 
-                    "ontologyclass": "E62_String", 
-                    "parentproperty": "P3_has_note"
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E62_String", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note"
                 }, 
                 {
                     "config": {
@@ -101,8 +101,8 @@
                     "name": "Description Type", 
                     "nodegroup_id": "59ab4275-887b-11e7-809b-dca90488358a", 
                     "nodeid": "e515beb8-887b-11e7-8d65-dca90488358a", 
-                    "ontologyclass": "E55_Type", 
-                    "parentproperty": "P2_has_type"
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type"
                 }
             ], 
             "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd", 
@@ -120,7 +120,8 @@
                 "name": "Descriptions", 
                 "nodegroup_id": "59ab4275-887b-11e7-809b-dca90488358a", 
                 "nodeid": "59ab4275-887b-11e7-809b-dca90488358a", 
-                "ontologyclass": "E13_Attribute_Assignment"
+                "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment", 
+                "parentproperty": ""
             }, 
             "subtitle": "Description and type, general way to add descriptive text about a resource", 
             "version": ""

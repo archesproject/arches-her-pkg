@@ -1,0 +1,72 @@
+{
+    "graph": [
+        {
+            "author": "Phil Carlisle", 
+            "cards": [], 
+            "cards_x_nodes_x_widgets": [], 
+            "deploymentdate": null, 
+            "deploymentfile": null, 
+            "description": "Includes individual artefacts, architectural items, artefact assemblages, individual ecofacts and ecofact assemblages, and environmental samples.", 
+            "edges": [], 
+            "forms": [], 
+            "forms_x_cards": [], 
+            "functions_x_graphs": [], 
+            "graphid": "15702d34-5ce2-11e7-b43c-021893e306d8", 
+            "iconclass": "fa fa-beer", 
+            "isactive": true, 
+            "isresource": true, 
+            "mapfeaturecolor": "#FF0000", 
+            "maplinewidth": 1, 
+            "mappointsize": 3, 
+            "name": "MIDAS Heritage Asset - Ecofact", 
+            "nodegroups": [], 
+            "nodes": [
+                {
+                    "config": null, 
+                    "datatype": "semantic", 
+                    "description": "", 
+                    "graph_id": "15702d34-5ce2-11e7-b43c-021893e306d8", 
+                    "is_collector": false, 
+                    "issearchable": true, 
+                    "istopnode": true, 
+                    "name": "Top Node", 
+                    "nodegroup_id": null, 
+                    "nodeid": "15702d35-5ce2-11e7-b43c-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E20_Biological_Object", 
+                    "parentproperty": ""
+                }
+            ], 
+            "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd", 
+            "relatable_resource_model_ids": [
+                "6aac6fd9-54ef-11e7-b43c-021893e306d8", 
+                "328d4f70-5ce0-11e7-b43c-021893e306d8", 
+                "4e658d37-54f0-11e7-b43c-021893e306d8", 
+                "f52f4b34-5cde-11e7-b43c-021893e306d8"
+            ], 
+            "reports": [], 
+            "resource_2_resource_constraints": [], 
+            "root": {
+                "config": null, 
+                "datatype": "semantic", 
+                "description": "", 
+                "graph_id": "15702d34-5ce2-11e7-b43c-021893e306d8", 
+                "is_collector": false, 
+                "issearchable": true, 
+                "istopnode": true, 
+                "name": "Top Node", 
+                "nodegroup_id": null, 
+                "nodeid": "15702d35-5ce2-11e7-b43c-021893e306d8", 
+                "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E20_Biological_Object", 
+                "parentproperty": ""
+            }, 
+            "subtitle": "Defines information relating to the character of natural portable items of heritage significance.", 
+            "version": ""
+        }
+    ], 
+    "metadata": {
+        "db": "PostgreSQL 9.6.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 5.3.1-14ubuntu2) 5.3.1 20160413, 64-bit", 
+        "git hash": "205c31b 2017-06-01 12:07:14 -0700", 
+        "os": "Linux", 
+        "os version": "4.4.0-79-generic"
+    }
+}

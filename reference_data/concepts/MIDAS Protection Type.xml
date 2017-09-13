@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <skos:ConceptScheme rdf:about="http://www.archesproject.org/c0254d4d-3948-4614-af80-4ee065deadbe">
+    <dcterms:title xml:lang="en">{"id": "9c6be866-2f9a-42c0-a954-f9d7167cfd82", "value": "MIDAS Protection Type"}</dcterms:title>
+  </skos:ConceptScheme>
+</rdf:RDF>

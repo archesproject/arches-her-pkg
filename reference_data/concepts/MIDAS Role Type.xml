@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+>
+  <skos:Concept rdf:about="http://www.archesproject.org/35fe2e5d-5b55-4801-8f76-5ed06b598802">
+    <skos:prefLabel xml:lang="en">{"id": "6d43b7a2-ea7c-4ffe-a688-d2032386d6da", "value": "Compiler"}</skos:prefLabel>
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://www.archesproject.org/a6bb9d1a-a318-4b6b-bc2d-20450996f96a">
+        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/35fe2e5d-5b55-4801-8f76-5ed06b598802"/>
+        <dcterms:title xml:lang="en">{"id": "c36e2f1a-6b7f-4c5c-8098-4c3b55fe73dc", "value": "MIDAS Role Type"}</dcterms:title>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+  </skos:Concept>
+</rdf:RDF>

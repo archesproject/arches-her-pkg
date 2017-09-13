@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+>
+  <skos:ConceptScheme rdf:about="http://www.archesproject.org/6250af90-487f-4337-9fdf-2c28a3942d6b">
+    <dcterms:title xml:lang="en">{"id": "762fbf1c-cc16-4c3f-bb39-5889ab246b5d", "value": "MIDAS Administrative Area Types"}</dcterms:title>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://www.archesproject.org/fb85ca63-9716-4f20-822d-3dedbafb47c1">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/6250af90-487f-4337-9fdf-2c28a3942d6b"/>
+        <skos:prefLabel xml:lang="en">{"id": "47dd90ec-8fa3-456c-af4b-9ec5d3b45dc0", "value": "Civil Parish"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://www.archesproject.org/30ae9a42-c1f8-4a06-9feb-61f092ad3b0b">
+        <skos:prefLabel xml:lang="en">{"id": "9e12cf13-152e-4e88-82ae-337ae73a6bfd", "value": "Metropolitan Borough"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/6250af90-487f-4337-9fdf-2c28a3942d6b"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://www.archesproject.org/51103e32-ad5b-42b2-9aa7-a80199dcc2f2">
+        <skos:prefLabel xml:lang="en">{"id": "a68acad6-6236-4a6d-a580-37aece41871b", "value": "Country"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/6250af90-487f-4337-9fdf-2c28a3942d6b"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://www.archesproject.org/442bade2-96d4-4b69-a4e3-e1ece4c6b4bc">
+        <skos:prefLabel xml:lang="en">{"id": "c5213556-8bae-470c-95f6-a5e1d83ed50e", "value": "Unitary Authority"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/6250af90-487f-4337-9fdf-2c28a3942d6b"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://www.archesproject.org/b9af220c-d4b4-49ff-b626-4a328691c527">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/6250af90-487f-4337-9fdf-2c28a3942d6b"/>
+        <skos:prefLabel xml:lang="en">{"id": "8c54b356-7804-42e9-81df-1446c20fbf4b", "value": "County"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://www.archesproject.org/ae1ee6c1-e022-4681-bd95-17718a9b141e">
+        <skos:prefLabel xml:lang="en">{"id": "923f20a2-eeb3-4503-bd91-736f32e8b506", "value": "District"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/6250af90-487f-4337-9fdf-2c28a3942d6b"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://www.archesproject.org/86f87811-3d70-4aed-a609-d00f46dfd259">
+        <skos:prefLabel xml:lang="en">{"id": "24241ba5-1ccc-427a-9e30-dde25428d3fe", "value": "Ceremonial County"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/6250af90-487f-4337-9fdf-2c28a3942d6b"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://www.archesproject.org/94acbea6-4975-458c-93a2-d549fa308b3a">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/6250af90-487f-4337-9fdf-2c28a3942d6b"/>
+        <skos:prefLabel xml:lang="en">{"id": "ba74c810-6890-4b4a-ba95-874013e05d09", "value": "Metropolitan County"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+  </skos:ConceptScheme>
+</rdf:RDF>

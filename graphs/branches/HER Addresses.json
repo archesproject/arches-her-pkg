@@ -72,7 +72,7 @@
                     "edgeid": "81ecafab-8878-11e7-a15f-dca90488358a", 
                     "graph_id": "2e35a268-8878-11e7-bab0-dca90488358a", 
                     "name": null, 
-                    "ontologyproperty": "P1_is_identified_by", 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by", 
                     "rangenode_id": "81ecac00-8878-11e7-9ed8-dca90488358a"
                 }, 
                 {
@@ -81,7 +81,7 @@
                     "edgeid": "d20d2782-8878-11e7-a0f3-dca90488358a", 
                     "graph_id": "2e35a268-8878-11e7-bab0-dca90488358a", 
                     "name": null, 
-                    "ontologyproperty": "P1_is_identified_by", 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by", 
                     "rangenode_id": "d20d2480-8878-11e7-ae28-dca90488358a"
                 }, 
                 {
@@ -90,7 +90,7 @@
                     "edgeid": "b48072e6-8878-11e7-8f2f-dca90488358a", 
                     "graph_id": "2e35a268-8878-11e7-bab0-dca90488358a", 
                     "name": null, 
-                    "ontologyproperty": "P1_is_identified_by", 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by", 
                     "rangenode_id": "b4806dd1-8878-11e7-b282-dca90488358a"
                 }
             ], 
@@ -123,7 +123,7 @@
                     "name": "Addresses", 
                     "nodegroup_id": "2e359ec0-8878-11e7-b26a-dca90488358a", 
                     "nodeid": "2e359ec0-8878-11e7-b26a-dca90488358a", 
-                    "ontologyclass": "E45_Address", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E45_Address", 
                     "parentproperty": ""
                 }, 
                 {
@@ -137,8 +137,8 @@
                     "name": "Postal Code", 
                     "nodegroup_id": "2e359ec0-8878-11e7-b26a-dca90488358a", 
                     "nodeid": "81ecac00-8878-11e7-9ed8-dca90488358a", 
-                    "ontologyclass": "E41_Appellation", 
-                    "parentproperty": "P1_is_identified_by"
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by"
                 }, 
                 {
                     "config": null, 
@@ -151,8 +151,8 @@
                     "name": "Town or Cirty", 
                     "nodegroup_id": "2e359ec0-8878-11e7-b26a-dca90488358a", 
                     "nodeid": "b4806dd1-8878-11e7-b282-dca90488358a", 
-                    "ontologyclass": "E41_Appellation", 
-                    "parentproperty": "P1_is_identified_by"
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by"
                 }, 
                 {
                     "config": null, 
@@ -165,8 +165,8 @@
                     "name": "Street Number and Name", 
                     "nodegroup_id": "2e359ec0-8878-11e7-b26a-dca90488358a", 
                     "nodeid": "d20d2480-8878-11e7-ae28-dca90488358a", 
-                    "ontologyclass": "E42_Identifier", 
-                    "parentproperty": "P1_is_identified_by"
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by"
                 }
             ], 
             "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd", 
@@ -184,7 +184,8 @@
                 "name": "Addresses", 
                 "nodegroup_id": "2e359ec0-8878-11e7-b26a-dca90488358a", 
                 "nodeid": "2e359ec0-8878-11e7-b26a-dca90488358a", 
-                "ontologyclass": "E45_Address"
+                "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E45_Address", 
+                "parentproperty": ""
             }, 
             "subtitle": "Street/postal addresses used to describe the location of a resource", 
             "version": ""

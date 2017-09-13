@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+>
+  <skos:Concept rdf:about="http://www.archesproject.org/75bc8a59-060c-4a60-804e-1a90d58b75bc">
+    <skos:prefLabel xml:lang="en">{"id": "d7e1f4d3-ca08-4dad-bb02-42091d391e49", "value": "Length"}</skos:prefLabel>
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://www.archesproject.org/64231b33-8548-466c-8f6a-93200f3a5614">
+        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/75bc8a59-060c-4a60-804e-1a90d58b75bc"/>
+        <dcterms:title xml:lang="en">{"id": "73f71ea4-6f91-4e78-9cda-b0c683ca2f71", "value": "MIDAS Dimension Type"}</dcterms:title>
+        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/9aaea1bc-de22-4aa5-b0dc-eaf0da68280d"/>
+        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/fc0e6a53-5091-4007-a877-0ff270223c4d"/>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/fc0e6a53-5091-4007-a877-0ff270223c4d">
+    <skos:prefLabel xml:lang="en">{"id": "506cdc68-9bbd-44cd-8691-132e1c5a913d", "value": "Depth"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/64231b33-8548-466c-8f6a-93200f3a5614"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/9aaea1bc-de22-4aa5-b0dc-eaf0da68280d">
+    <skos:inScheme rdf:resource="http://www.archesproject.org/64231b33-8548-466c-8f6a-93200f3a5614"/>
+    <skos:prefLabel xml:lang="en">{"id": "3e02e4ff-0464-4f5f-9ea5-68d3d6178307", "value": "Breadth"}</skos:prefLabel>
+  </skos:Concept>
+</rdf:RDF>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <skos:ConceptScheme rdf:about="http://www.archesproject.org/9afe2428-d9a8-41aa-ac5d-208f7e57f064">
+    <dcterms:title xml:lang="en">{"id": "16347b5a-438f-4fdf-85c5-a7b40e0578fb", "value": "MIDAS Measurement Type"}</dcterms:title>
+  </skos:ConceptScheme>
+</rdf:RDF>

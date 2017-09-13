@@ -29,7 +29,7 @@
                     "edgeid": "7ca9a3ae-887a-11e7-a83c-dca90488358a", 
                     "graph_id": "527deb2b-8879-11e7-873a-dca90488358a", 
                     "name": null, 
-                    "ontologyproperty": "P1_is_identified_by", 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by", 
                     "rangenode_id": "7ca99e17-887a-11e7-b1ec-dca90488358a"
                 }, 
                 {
@@ -38,7 +38,7 @@
                     "edgeid": "a13c016b-887a-11e7-87ec-dca90488358a", 
                     "graph_id": "527deb2b-8879-11e7-873a-dca90488358a", 
                     "name": null, 
-                    "ontologyproperty": "P2_has_type", 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type", 
                     "rangenode_id": "a13bfe68-887a-11e7-973f-dca90488358a"
                 }
             ], 
@@ -71,7 +71,7 @@
                     "name": "Localities/Administrative Areas", 
                     "nodegroup_id": "527de578-8879-11e7-8c78-dca90488358a", 
                     "nodeid": "527de578-8879-11e7-8c78-dca90488358a", 
-                    "ontologyclass": "E53_Place", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place", 
                     "parentproperty": ""
                 }, 
                 {
@@ -85,8 +85,8 @@
                     "name": "Area Name", 
                     "nodegroup_id": "527de578-8879-11e7-8c78-dca90488358a", 
                     "nodeid": "7ca99e17-887a-11e7-b1ec-dca90488358a", 
-                    "ontologyclass": "E41_Appellation", 
-                    "parentproperty": "P1_is_identified_by"
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by"
                 }, 
                 {
                     "config": {
@@ -127,8 +127,8 @@
                     "name": "Area Type", 
                     "nodegroup_id": "527de578-8879-11e7-8c78-dca90488358a", 
                     "nodeid": "a13bfe68-887a-11e7-973f-dca90488358a", 
-                    "ontologyclass": "E55_Type", 
-                    "parentproperty": "P2_has_type"
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type"
                 }
             ], 
             "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd", 
@@ -146,7 +146,8 @@
                 "name": "Localities/Administrative Areas", 
                 "nodegroup_id": "527de578-8879-11e7-8c78-dca90488358a", 
                 "nodeid": "527de578-8879-11e7-8c78-dca90488358a", 
-                "ontologyclass": "E53_Place"
+                "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place", 
+                "parentproperty": ""
             }, 
             "subtitle": "Describe location using neighborhood (and other locality) names, admin areas, and other district names", 
             "version": ""

@@ -29,7 +29,7 @@
                     "edgeid": "22a5f163-8877-11e7-8f92-dca90488358a", 
                     "graph_id": "e6697e5e-8875-11e7-83f5-dca90488358a", 
                     "name": null, 
-                    "ontologyproperty": "P2_has_type", 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type", 
                     "rangenode_id": "22a5ee2e-8877-11e7-9fb0-dca90488358a"
                 }, 
                 {
@@ -38,7 +38,7 @@
                     "edgeid": "fef73db5-8876-11e7-bbe3-dca90488358a", 
                     "graph_id": "e6697e5e-8875-11e7-83f5-dca90488358a", 
                     "name": null, 
-                    "ontologyproperty": "P1_is_identified_by", 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by", 
                     "rangenode_id": "fef73adc-8876-11e7-8733-dca90488358a"
                 }
             ], 
@@ -73,8 +73,8 @@
                     "name": "Map Reference Type", 
                     "nodegroup_id": "e66979f5-8875-11e7-8bc6-dca90488358a", 
                     "nodeid": "22a5ee2e-8877-11e7-9fb0-dca90488358a", 
-                    "ontologyclass": "E55_Type", 
-                    "parentproperty": "P2_has_type"
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type"
                 }, 
                 {
                     "config": null, 
@@ -87,7 +87,7 @@
                     "name": "Map References", 
                     "nodegroup_id": "e66979f5-8875-11e7-8bc6-dca90488358a", 
                     "nodeid": "e66979f5-8875-11e7-8bc6-dca90488358a", 
-                    "ontologyclass": "E42_Identifier", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier", 
                     "parentproperty": ""
                 }, 
                 {
@@ -101,8 +101,8 @@
                     "name": "Map Reference Name", 
                     "nodegroup_id": "e66979f5-8875-11e7-8bc6-dca90488358a", 
                     "nodeid": "fef73adc-8876-11e7-8733-dca90488358a", 
-                    "ontologyclass": "E41_Appellation", 
-                    "parentproperty": "P1_is_identified_by"
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by"
                 }
             ], 
             "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd", 
@@ -120,7 +120,8 @@
                 "name": "Map References", 
                 "nodegroup_id": "e66979f5-8875-11e7-8bc6-dca90488358a", 
                 "nodeid": "e66979f5-8875-11e7-8bc6-dca90488358a", 
-                "ontologyclass": "E42_Identifier"
+                "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier", 
+                "parentproperty": ""
             }, 
             "subtitle": "Mapsheet names, grid references to define resource location", 
             "version": ""

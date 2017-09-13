@@ -23,13 +23,54 @@
                     "card_id": "f5761607-8808-11e7-b43c-021893e306d8", 
                     "config": {
                         "label": "Description Type", 
-                        "options": [], 
+                        "options": [
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "2449765f-4f7f-419a-9a9c-5059d36e3c13", 
+                                "id": "a5b8c81d-5ddc-4610-9bad-eaccf85d2939", 
+                                "sortorder": "", 
+                                "text": "Architectural Description"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "d6b119f4-8d9d-4966-b2b2-79d7fc53c7c8", 
+                                "id": "0302a8f3-3db1-4bff-bc7d-b9f3df2919dc", 
+                                "sortorder": "", 
+                                "text": "Comments"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "930b1f9d-7243-4218-b868-e4ff9d8d3da7", 
+                                "id": "afb403cb-7bfc-474a-888c-c25b3b1c034d", 
+                                "sortorder": "", 
+                                "text": "General Description"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "a1975154-a9d9-42a7-8812-0a6e0a6e1cca", 
+                                "id": "eb3bd719-c473-40b8-bf0a-cdb9ed89aba3", 
+                                "sortorder": "", 
+                                "text": "Primary"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "d189cfab-8657-4072-af5b-70c58170dc4f", 
+                                "id": "b3d238a1-45da-4d57-bae8-f4fa9c2fda1f", 
+                                "sortorder": "", 
+                                "text": "Summary of Significance"
+                            }
+                        ], 
                         "placeholder": "Select a description type"
                     }, 
                     "id": "f576160a-8808-11e7-b43c-021893e306d8", 
                     "label": "Description Type", 
                     "node_id": "f5761609-8808-11e7-b43c-021893e306d8", 
-                    "sortorder": 1, 
+                    "sortorder": 0, 
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 }, 
                 {
@@ -42,7 +83,7 @@
                     "id": "f576160b-8808-11e7-b43c-021893e306d8", 
                     "label": "Description", 
                     "node_id": "f5761608-8808-11e7-b43c-021893e306d8", 
-                    "sortorder": 0, 
+                    "sortorder": 1, 
                     "widget_id": "10000000-0000-0000-0000-000000000005"
                 }
             ], 
