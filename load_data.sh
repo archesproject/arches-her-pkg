@@ -9,33 +9,33 @@ cd $ARCHESPATH
 # python manage.py packages -o setup_db
 
 # Load Arches HER thesauri and collections
-python manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/GLHER_LBSt_Qualifier.xml -ow overwrite -st keep
-python manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/GLHER_LBSt_Side.xml -ow overwrite -st keep
-python manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/GLHER_List_Address_Flag.xml -ow overwrite -st keep
-python manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/HER Designation Type.xml -ow overwrite -st keep
-python manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/Lincoln Additional Schemes.xml -ow overwrite -st keep
-python manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/Lincoln DM Type.xml -ow overwrite -st keep
-python manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/Lincoln HER Periods.xml -ow overwrite -st keep
-python manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/Lincoln Recording Event Type.xml -ow overwrite -st keep
-python manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/Lincoln Source Type.xml -ow overwrite -st keep
-python manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/MIDAS Actor Type.xml -ow overwrite -st keep
-python manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/MIDAS Administrative Areas.xml -ow overwrite -st keep
-python manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/MIDAS Administrative Area Types.xml -ow overwrite -st keep
-python manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/MIDAS Area Type.xml -ow overwrite -st keep
-python manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/MIDAS Components.xml -ow overwrite -st keep
-python manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/MIDAS Description Type.xml -ow overwrite -st keep
-python manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/MIDAS Dimension Type.xml -ow overwrite -st keep
-python manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/MIDAS Entry Type.xml -ow overwrite -st keep
-python manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/MIDAS Land Use Classification.xml -ow overwrite -st keep
-python manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/MIDAS Maritime Craft Type.xml -ow overwrite -st keep
-python manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/MIDAS Measurement Type.xml -ow overwrite -st keep
-python manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/MIDAS Named Locations.xml -ow overwrite -st keep
-python manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/MIDAS Name Type.xml -ow overwrite -st keep
-python manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/MIDAS PRN Type.xml -ow overwrite -st keep
-python manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/MIDAS Protection Type.xml -ow overwrite -st keep
-python manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/MIDAS Role Type.xml -ow overwrite -st keep
-python manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/seneschal_eh_components.rdf -ow overwrite -st keep
-python manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/seneschal_eh_evidence.rdf -ow overwrite -st keep
+python manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/"GLHER_LBSt_Qualifier.xml" -ow overwrite -st keep
+python manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/"GLHER_LBSt_Side.xml" -ow overwrite -st keep
+python manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/"GLHER_List_Address_Flag.xml" -ow overwrite -st keep
+python manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/"HER Designation Type.xml" -ow overwrite -st keep
+python manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/"Lincoln Additional Schemes.xml" -ow overwrite -st keep
+python manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/"Lincoln DM Type.xml" -ow overwrite -st keep
+python manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/"Lincoln HER Periods.xml" -ow overwrite -st keep
+python manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/"Lincoln Recording Event Type.xml" -ow overwrite -st keep
+python manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/"Lincoln Source Type.xml" -ow overwrite -st keep
+python manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/"MIDAS Actor Type.xml" -ow overwrite -st keep
+python manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/"MIDAS Administrative Areas.xml" -ow overwrite -st keep
+python manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/"MIDAS Administrative Area Types.xml" -ow overwrite -st keep
+python manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/"MIDAS Area Type.xml" -ow overwrite -st keep
+python manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/"MIDAS Components.xml" -ow overwrite -st keep
+python manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/"MIDAS Description Type.xml" -ow overwrite -st keep
+python manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/"MIDAS Dimension Type.xml" -ow overwrite -st keep
+python manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/"MIDAS Entry Type.xml" -ow overwrite -st keep
+python manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/"MIDAS Land Use Classification.xml" -ow overwrite -st keep
+python manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/"MIDAS Maritime Craft Type.xml" -ow overwrite -st keep
+python manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/"MIDAS Measurement Type.xml" -ow overwrite -st keep
+python manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/"MIDAS Named Locations.xml" -ow overwrite -st keep
+python manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/"MIDAS Name Type.xml" -ow overwrite -st keep
+python manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/"MIDAS PRN Type.xml" -ow overwrite -st keep
+python manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/"MIDAS Protection Type.xml" -ow overwrite -st keep
+python manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/"MIDAS Role Type.xml" -ow overwrite -st keep
+python manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/"seneschal_eh_components.rdf" -ow overwrite -st keep
+python manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/"seneschal_eh_evidence.rdf" -ow overwrite -st keep
 
 # Load Resource Models, Branches
 # python manage.py packages -o import_graphs -s arches/db/graphs/branches
