@@ -10,7 +10,7 @@ python manage.py packages -o load_package -s https://github.com/archesproject/Ar
 If you do not want to rebuild your database use the following:
 
 ```
-python manage.py packages -o load_package -s https://github.com/archesproject/Arches_HER/archive/master.zip -db true
+python manage.py packages -o load_package -s https://github.com/archesproject/Arches_HER/archive/master.zip
 ```
 
 For more information on loading packages, visit: https://arches4.readthedocs.io/en/latest/create-package/
