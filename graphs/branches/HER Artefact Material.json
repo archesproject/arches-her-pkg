@@ -1,0 +1,252 @@
+{
+    "graph": [
+        {
+            "author": "Phil Carlisle", 
+            "cards": [
+                {
+                    "active": true, 
+                    "cardid": "c927a39f-a2bb-11e7-9f72-021893e306d8", 
+                    "description": "", 
+                    "graph_id": "c927a39d-a2bb-11e7-9f72-021893e306d8", 
+                    "helpenabled": true, 
+                    "helptext": "<p><strong>Material</strong></p>\n\n<p>The basic material&nbsp;or medium&nbsp;of which the Resource&nbsp;is composed, eg. Ceramic, Plastic, Brick. The material can be further qualified by the addition of a Material Name</p>\n\n<p><strong>Material Name</strong></p>\n\n<p>Use this field to record the name commonly used for a particular, or characteristic, material. This may be the vernacular or generally used name for a certain type of material or a brand name eg. Samian ware, Bakelite, Teflon.</p>\n\n<p><strong>Material Type</strong></p>\n\n<p>Use this field to record the&nbsp;how the material has been used.</p>\n", 
+                    "helptitle": "Material Name", 
+                    "instructions": null, 
+                    "name": "HER Artefact Material", 
+                    "nodegroup_id": "c927a39c-a2bb-11e7-9f72-021893e306d8", 
+                    "sortorder": null, 
+                    "visible": true
+                }
+            ], 
+            "cards_x_nodes_x_widgets": [
+                {
+                    "card_id": "c927a39f-a2bb-11e7-9f72-021893e306d8", 
+                    "config": {
+                        "label": "Material Type", 
+                        "options": [
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "8e2dfddf-a989-44bd-b102-43d2a345b3a6", 
+                                "id": "d5124298-25a4-4c7e-9f00-b32509c21b0c", 
+                                "sortorder": "", 
+                                "text": "Construction material"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "c7512ec7-d19d-42cb-89e7-e10097a3f70d", 
+                                "id": "4b69b383-49ad-4c85-8cf8-56398eb2d95b", 
+                                "sortorder": "", 
+                                "text": "Covering material"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "14fd3f0b-14ec-416c-8aa1-3d606cd23815", 
+                                "id": "c17be8ab-9f41-4e6b-a9a3-e96c22a3bee9", 
+                                "sortorder": "", 
+                                "text": "Primary material"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "55d0c851-b6dd-41b2-82aa-7d1b5cd3ae82", 
+                                "id": "4fcfea9a-5db8-4b9d-963b-350d5fbf93ee", 
+                                "sortorder": "", 
+                                "text": "Secondary material"
+                            }
+                        ], 
+                        "placeholder": "Select an option"
+                    }, 
+                    "id": "fa031323-a4ee-11e7-9f72-021893e306d8", 
+                    "label": "Material Type", 
+                    "node_id": "e8b91681-a2bd-11e7-9f72-021893e306d8", 
+                    "sortorder": 1, 
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                }, 
+                {
+                    "card_id": "c927a39f-a2bb-11e7-9f72-021893e306d8", 
+                    "config": {
+                        "label": "Material Name", 
+                        "options": [
+                            {
+                                "children": [
+                                    {
+                                        "children": [], 
+                                        "collector": "", 
+                                        "conceptid": "93f229a8-f270-44d6-8395-b6c75fb094d2", 
+                                        "id": "c3547611-d618-4dd1-aa45-adb2d47250e7", 
+                                        "sortorder": "", 
+                                        "text": "Teflon"
+                                    }
+                                ], 
+                                "collector": "", 
+                                "conceptid": "fa6ad4f0-06f1-461c-926e-cc7e52430de4", 
+                                "id": "8f6320e4-00bd-413e-8c6b-73ae15d57350", 
+                                "sortorder": "", 
+                                "text": "Proprietary Names"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "bf253608-fd12-4b58-9ef4-320f8670c472", 
+                                "id": "6e4929fe-d91a-4ce5-8a9c-10c3886d5953", 
+                                "sortorder": "", 
+                                "text": "Scientific Names"
+                            }, 
+                            {
+                                "children": [
+                                    {
+                                        "children": [], 
+                                        "collector": "", 
+                                        "conceptid": "23b5ce7e-fb79-4f54-a721-2af55b3c5d19", 
+                                        "id": "fd10881e-e05e-4a3a-b1ea-1e1bd8cefae3", 
+                                        "sortorder": "", 
+                                        "text": "Ipswich ware"
+                                    }, 
+                                    {
+                                        "children": [], 
+                                        "collector": "", 
+                                        "conceptid": "7462e6bb-98b5-44da-aef0-3d597f2f91ac", 
+                                        "id": "fcab09bc-fc89-4160-aa09-2b5b08936152", 
+                                        "sortorder": "", 
+                                        "text": "Samian ware"
+                                    }
+                                ], 
+                                "collector": "", 
+                                "conceptid": "eebf5171-6c4f-4c99-a7bf-ed7cd2b24a5f", 
+                                "id": "b83643b3-e3b5-424f-83dd-b8c8d8e4ab3a", 
+                                "sortorder": "", 
+                                "text": "Ware Types"
+                            }
+                        ], 
+                        "placeholder": "Select an option"
+                    }, 
+                    "id": "fa031322-a4ee-11e7-9f72-021893e306d8", 
+                    "label": "Material Name", 
+                    "node_id": "7339578b-a2bd-11e7-9f72-021893e306d8", 
+                    "sortorder": 0, 
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                }
+            ], 
+            "deploymentdate": null, 
+            "deploymentfile": null, 
+            "description": "", 
+            "edges": [
+                {
+                    "description": null, 
+                    "domainnode_id": "c927a39c-a2bb-11e7-9f72-021893e306d8", 
+                    "edgeid": "7339578c-a2bd-11e7-9f72-021893e306d8", 
+                    "graph_id": "c927a39d-a2bb-11e7-9f72-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2i_is_type_of", 
+                    "rangenode_id": "7339578b-a2bd-11e7-9f72-021893e306d8"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "c927a39c-a2bb-11e7-9f72-021893e306d8", 
+                    "edgeid": "e8b91682-a2bd-11e7-9f72-021893e306d8", 
+                    "graph_id": "c927a39d-a2bb-11e7-9f72-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type", 
+                    "rangenode_id": "e8b91681-a2bd-11e7-9f72-021893e306d8"
+                }
+            ], 
+            "forms": [], 
+            "forms_x_cards": [], 
+            "functions_x_graphs": [], 
+            "graphid": "c927a39d-a2bb-11e7-9f72-021893e306d8", 
+            "iconclass": "fa fa-gears", 
+            "is_editable": true, 
+            "isactive": true, 
+            "isresource": false, 
+            "name": "HER Artefact Material", 
+            "nodegroups": [
+                {
+                    "cardinality": "n", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "c927a39c-a2bb-11e7-9f72-021893e306d8", 
+                    "parentnodegroup_id": null
+                }
+            ], 
+            "nodes": [
+                {
+                    "config": {
+                        "fillColor": "rgba(233,112,111,0.8)"
+                    }, 
+                    "datatype": "semantic", 
+                    "description": "", 
+                    "graph_id": "c927a39d-a2bb-11e7-9f72-021893e306d8", 
+                    "is_collector": true, 
+                    "issearchable": true, 
+                    "istopnode": true, 
+                    "name": "Material", 
+                    "nodegroup_id": "c927a39c-a2bb-11e7-9f72-021893e306d8", 
+                    "nodeid": "c927a39c-a2bb-11e7-9f72-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E57_Material", 
+                    "parentproperty": ""
+                }, 
+                {
+                    "config": {
+                        "rdmCollection": "ff0722fa-617a-4509-b55c-0ec568343e99"
+                    }, 
+                    "datatype": "concept", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "c927a39d-a2bb-11e7-9f72-021893e306d8", 
+                    "is_collector": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Material Name", 
+                    "nodegroup_id": "c927a39c-a2bb-11e7-9f72-021893e306d8", 
+                    "nodeid": "7339578b-a2bd-11e7-9f72-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2i_is_type_of"
+                }, 
+                {
+                    "config": {
+                        "rdmCollection": "bb743dcd-5786-49c8-9fda-1d36dceb65b6"
+                    }, 
+                    "datatype": "concept", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "c927a39d-a2bb-11e7-9f72-021893e306d8", 
+                    "is_collector": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Material Type", 
+                    "nodegroup_id": "c927a39c-a2bb-11e7-9f72-021893e306d8", 
+                    "nodeid": "e8b91681-a2bd-11e7-9f72-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type"
+                }
+            ], 
+            "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd", 
+            "relatable_resource_model_ids": [], 
+            "reports": [], 
+            "resource_2_resource_constraints": [], 
+            "root": {
+                "config": {
+                    "fillColor": "rgba(233,112,111,0.8)"
+                }, 
+                "datatype": "semantic", 
+                "description": "", 
+                "graph_id": "c927a39d-a2bb-11e7-9f72-021893e306d8", 
+                "is_collector": true, 
+                "issearchable": true, 
+                "istopnode": true, 
+                "name": "Material", 
+                "nodegroup_id": "c927a39c-a2bb-11e7-9f72-021893e306d8", 
+                "nodeid": "c927a39c-a2bb-11e7-9f72-021893e306d8", 
+                "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E57_Material"
+            }, 
+            "subtitle": "Describes the materials used in the manufacture of an Artefact resource", 
+            "version": ""
+        }
+    ], 
+    "metadata": {
+        "db": "PostgreSQL 9.6.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 5.3.1-14ubuntu2) 5.3.1 20160413, 64-bit", 
+        "git hash": "205c31b 2017-06-01 12:07:14 -0700", 
+        "os": "Linux", 
+        "os version": "4.4.0-93-generic"
+    }
+}

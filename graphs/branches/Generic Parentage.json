@@ -1,0 +1,164 @@
+{
+    "graph": [
+        {
+            "author": "Phil Carlisle", 
+            "cards": [
+                {
+                    "active": true, 
+                    "cardid": "6af8217d-a81a-11e7-9f72-021893e306d8", 
+                    "description": "", 
+                    "graph_id": "6af8217b-a81a-11e7-9f72-021893e306d8", 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "helptitle": null, 
+                    "instructions": null, 
+                    "name": "Generic Parentage", 
+                    "nodegroup_id": "6af8217a-a81a-11e7-9f72-021893e306d8", 
+                    "sortorder": null, 
+                    "visible": true
+                }
+            ], 
+            "cards_x_nodes_x_widgets": [], 
+            "deploymentdate": null, 
+            "deploymentfile": null, 
+            "description": "", 
+            "edges": [
+                {
+                    "description": null, 
+                    "domainnode_id": "6af8217a-a81a-11e7-9f72-021893e306d8", 
+                    "edgeid": "af272adc-a81a-11e7-9f72-021893e306d8", 
+                    "graph_id": "6af8217b-a81a-11e7-9f72-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by", 
+                    "rangenode_id": "af272adb-a81a-11e7-9f72-021893e306d8"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "6af8217a-a81a-11e7-9f72-021893e306d8", 
+                    "edgeid": "c54cd276-a81a-11e7-9f72-021893e306d8", 
+                    "graph_id": "6af8217b-a81a-11e7-9f72-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P152_has_parent", 
+                    "rangenode_id": "c54cd275-a81a-11e7-9f72-021893e306d8"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "c54cd275-a81a-11e7-9f72-021893e306d8", 
+                    "edgeid": "2164c424-a81b-11e7-9f72-021893e306d8", 
+                    "graph_id": "6af8217b-a81a-11e7-9f72-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/BM.PX_is_related_to", 
+                    "rangenode_id": "2164c423-a81b-11e7-9f72-021893e306d8"
+                }
+            ], 
+            "forms": [], 
+            "forms_x_cards": [], 
+            "functions_x_graphs": [], 
+            "graphid": "6af8217b-a81a-11e7-9f72-021893e306d8", 
+            "iconclass": "fa fa-users", 
+            "is_editable": true, 
+            "isactive": true, 
+            "isresource": false, 
+            "name": "Generic Parentage", 
+            "nodegroups": [
+                {
+                    "cardinality": "1", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "6af8217a-a81a-11e7-9f72-021893e306d8", 
+                    "parentnodegroup_id": null
+                }
+            ], 
+            "nodes": [
+                {
+                    "config": {
+                        "fillColor": "rgba(233,112,111,0.8)"
+                    }, 
+                    "datatype": "semantic", 
+                    "description": "", 
+                    "graph_id": "6af8217b-a81a-11e7-9f72-021893e306d8", 
+                    "is_collector": true, 
+                    "issearchable": true, 
+                    "istopnode": true, 
+                    "name": "Child", 
+                    "nodegroup_id": "6af8217a-a81a-11e7-9f72-021893e306d8", 
+                    "nodeid": "6af8217a-a81a-11e7-9f72-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E21_Person", 
+                    "parentproperty": ""
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "semantic", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "6af8217b-a81a-11e7-9f72-021893e306d8", 
+                    "is_collector": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Name", 
+                    "nodegroup_id": "6af8217a-a81a-11e7-9f72-021893e306d8", 
+                    "nodeid": "af272adb-a81a-11e7-9f72-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by"
+                }, 
+                {
+                    "config": {
+                        "graphid": "bceb9f1d-9c84-11e7-9f72-021893e306d8"
+                    }, 
+                    "datatype": "resource-instance", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "6af8217b-a81a-11e7-9f72-021893e306d8", 
+                    "is_collector": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Parent", 
+                    "nodegroup_id": "6af8217a-a81a-11e7-9f72-021893e306d8", 
+                    "nodeid": "c54cd275-a81a-11e7-9f72-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E21_Person", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P152_has_parent"
+                }, 
+                {
+                    "config": {
+                        "rdmCollection": "0af47189-97e6-49ce-a639-6d1f08b4f062"
+                    }, 
+                    "datatype": "concept", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "6af8217b-a81a-11e7-9f72-021893e306d8", 
+                    "is_collector": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Parent Type", 
+                    "nodegroup_id": "6af8217a-a81a-11e7-9f72-021893e306d8", 
+                    "nodeid": "2164c423-a81b-11e7-9f72-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/BM.PX_is_related_to"
+                }
+            ], 
+            "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd", 
+            "relatable_resource_model_ids": [], 
+            "reports": [], 
+            "resource_2_resource_constraints": [], 
+            "root": {
+                "config": {
+                    "fillColor": "rgba(233,112,111,0.8)"
+                }, 
+                "datatype": "semantic", 
+                "description": "", 
+                "graph_id": "6af8217b-a81a-11e7-9f72-021893e306d8", 
+                "is_collector": true, 
+                "issearchable": true, 
+                "istopnode": true, 
+                "name": "Child", 
+                "nodegroup_id": "6af8217a-a81a-11e7-9f72-021893e306d8", 
+                "nodeid": "6af8217a-a81a-11e7-9f72-021893e306d8", 
+                "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E21_Person"
+            }, 
+            "subtitle": "Use to describe step-parent or adoptive parent relationships between actors", 
+            "version": ""
+        }
+    ], 
+    "metadata": {
+        "db": "PostgreSQL 9.6.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 5.3.1-14ubuntu2) 5.3.1 20160413, 64-bit", 
+        "git hash": "205c31b 2017-06-01 12:07:14 -0700", 
+        "os": "Linux", 
+        "os version": "4.4.0-93-generic"
+    }
+}

@@ -1,0 +1,116 @@
+{
+    "graph": [
+        {
+            "author": "Phil Carlisle", 
+            "cards": [
+                {
+                    "active": true, 
+                    "cardid": "69fe9c8d-992f-11e7-9f72-021893e306d8", 
+                    "description": "Relates to a resource via P1 is identified by (identifies)", 
+                    "graph_id": "69fe9c8a-992f-11e7-9f72-021893e306d8", 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "helptitle": null, 
+                    "instructions": null, 
+                    "name": "HER Name/Name Type", 
+                    "nodegroup_id": "69fe9c8b-992f-11e7-9f72-021893e306d8", 
+                    "sortorder": null, 
+                    "visible": true
+                }
+            ], 
+            "cards_x_nodes_x_widgets": [], 
+            "deploymentdate": null, 
+            "deploymentfile": null, 
+            "description": "Relates to a resource via P1 is identified by (identifies)", 
+            "edges": [
+                {
+                    "description": null, 
+                    "domainnode_id": "69fe9c8b-992f-11e7-9f72-021893e306d8", 
+                    "edgeid": "69fe9c8f-992f-11e7-9f72-021893e306d8", 
+                    "graph_id": "69fe9c8a-992f-11e7-9f72-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type", 
+                    "rangenode_id": "69fe9c8e-992f-11e7-9f72-021893e306d8"
+                }
+            ], 
+            "forms": [], 
+            "forms_x_cards": [], 
+            "functions_x_graphs": [], 
+            "graphid": "69fe9c8a-992f-11e7-9f72-021893e306d8", 
+            "iconclass": "fa fa-tag", 
+            "is_editable": true, 
+            "isactive": true, 
+            "isresource": false, 
+            "name": "HER Name/Name Type", 
+            "nodegroups": [
+                {
+                    "cardinality": "1", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "69fe9c8b-992f-11e7-9f72-021893e306d8", 
+                    "parentnodegroup_id": null
+                }
+            ], 
+            "nodes": [
+                {
+                    "config": {
+                        "fillColor": "rgba(233,112,111,0.8)"
+                    }, 
+                    "datatype": "string", 
+                    "description": "", 
+                    "graph_id": "69fe9c8a-992f-11e7-9f72-021893e306d8", 
+                    "is_collector": true, 
+                    "issearchable": true, 
+                    "istopnode": true, 
+                    "name": "Appellation", 
+                    "nodegroup_id": "69fe9c8b-992f-11e7-9f72-021893e306d8", 
+                    "nodeid": "69fe9c8b-992f-11e7-9f72-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation", 
+                    "parentproperty": ""
+                }, 
+                {
+                    "config": {
+                        "rdmCollection": "0ace7a7d-c38b-4a8c-b9f8-392784f44d21"
+                    }, 
+                    "datatype": "concept-list", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "69fe9c8a-992f-11e7-9f72-021893e306d8", 
+                    "is_collector": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Name Type", 
+                    "nodegroup_id": "69fe9c8b-992f-11e7-9f72-021893e306d8", 
+                    "nodeid": "69fe9c8e-992f-11e7-9f72-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type"
+                }
+            ], 
+            "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd", 
+            "relatable_resource_model_ids": [], 
+            "reports": [], 
+            "resource_2_resource_constraints": [], 
+            "root": {
+                "config": {
+                    "fillColor": "rgba(233,112,111,0.8)"
+                }, 
+                "datatype": "string", 
+                "description": "", 
+                "graph_id": "69fe9c8a-992f-11e7-9f72-021893e306d8", 
+                "is_collector": true, 
+                "issearchable": true, 
+                "istopnode": true, 
+                "name": "Appellation", 
+                "nodegroup_id": "69fe9c8b-992f-11e7-9f72-021893e306d8", 
+                "nodeid": "69fe9c8b-992f-11e7-9f72-021893e306d8", 
+                "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"
+            }, 
+            "subtitle": "Describes a generic branch for associating a Name and Name Type to a reosurce", 
+            "version": ""
+        }
+    ], 
+    "metadata": {
+        "db": "PostgreSQL 9.6.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 5.3.1-14ubuntu2) 5.3.1 20160413, 64-bit", 
+        "git hash": "205c31b 2017-06-01 12:07:14 -0700", 
+        "os": "Linux", 
+        "os version": "4.4.0-93-generic"
+    }
+}

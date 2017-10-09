@@ -1,0 +1,64 @@
+{
+    "graph": [
+        {
+            "author": "Arches", 
+            "cards": [], 
+            "cards_x_nodes_x_widgets": [], 
+            "deploymentdate": null, 
+            "deploymentfile": null, 
+            "description": "Represents a single node in a graph", 
+            "edges": [], 
+            "forms": [], 
+            "forms_x_cards": [], 
+            "functions_x_graphs": [], 
+            "graphid": "22000000-0000-0000-0000-000000000000", 
+            "iconclass": "fa fa-circle", 
+            "is_editable": true, 
+            "isactive": true, 
+            "isresource": false, 
+            "name": "Node", 
+            "nodegroups": [], 
+            "nodes": [
+                {
+                    "config": null, 
+                    "datatype": "semantic", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "22000000-0000-0000-0000-000000000000", 
+                    "is_collector": false, 
+                    "issearchable": true, 
+                    "istopnode": true, 
+                    "name": "Node", 
+                    "nodegroup_id": null, 
+                    "nodeid": "20000000-0000-0000-0000-100000000000", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity", 
+                    "parentproperty": ""
+                }
+            ], 
+            "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd", 
+            "relatable_resource_model_ids": [], 
+            "reports": [], 
+            "resource_2_resource_constraints": [], 
+            "root": {
+                "config": null, 
+                "datatype": "semantic", 
+                "description": "Represents a single node in a graph", 
+                "graph_id": "22000000-0000-0000-0000-000000000000", 
+                "is_collector": false, 
+                "issearchable": true, 
+                "istopnode": true, 
+                "name": "Node", 
+                "nodegroup_id": null, 
+                "nodeid": "20000000-0000-0000-0000-100000000000", 
+                "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"
+            }, 
+            "subtitle": "Represents a single node in a graph.", 
+            "version": "v1"
+        }
+    ], 
+    "metadata": {
+        "db": "PostgreSQL 9.6.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 5.3.1-14ubuntu2) 5.3.1 20160413, 64-bit", 
+        "git hash": "205c31b 2017-06-01 12:07:14 -0700", 
+        "os": "Linux", 
+        "os version": "4.4.0-93-generic"
+    }
+}

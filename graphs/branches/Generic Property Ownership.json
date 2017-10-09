@@ -1,0 +1,152 @@
+{
+    "graph": [
+        {
+            "author": " ", 
+            "cards": [
+                {
+                    "active": true, 
+                    "cardid": "08dbdf3d-a848-11e7-9f72-021893e306d8", 
+                    "description": "", 
+                    "graph_id": "08dbdf3a-a848-11e7-9f72-021893e306d8", 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "helptitle": null, 
+                    "instructions": null, 
+                    "name": "Generic Property Ownership", 
+                    "nodegroup_id": "08dbdf3b-a848-11e7-9f72-021893e306d8", 
+                    "sortorder": null, 
+                    "visible": true
+                }
+            ], 
+            "cards_x_nodes_x_widgets": [
+                {
+                    "card_id": "08dbdf3d-a848-11e7-9f72-021893e306d8", 
+                    "config": {
+                        "label": "Property Ownership Identifier", 
+                        "maxLength": null, 
+                        "placeholder": "Enter text", 
+                        "width": "100%"
+                    }, 
+                    "id": "08dbdf40-a848-11e7-9f72-021893e306d8", 
+                    "label": "Property Ownership Identifier", 
+                    "node_id": "08dbdf3f-a848-11e7-9f72-021893e306d8", 
+                    "sortorder": 0, 
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                }
+            ], 
+            "deploymentdate": null, 
+            "deploymentfile": null, 
+            "description": "", 
+            "edges": [
+                {
+                    "description": null, 
+                    "domainnode_id": "08dbdf3b-a848-11e7-9f72-021893e306d8", 
+                    "edgeid": "08dbdf41-a848-11e7-9f72-021893e306d8", 
+                    "graph_id": "08dbdf3a-a848-11e7-9f72-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note", 
+                    "rangenode_id": "08dbdf3e-a848-11e7-9f72-021893e306d8"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "08dbdf3b-a848-11e7-9f72-021893e306d8", 
+                    "edgeid": "08dbdf42-a848-11e7-9f72-021893e306d8", 
+                    "graph_id": "08dbdf3a-a848-11e7-9f72-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by", 
+                    "rangenode_id": "08dbdf3f-a848-11e7-9f72-021893e306d8"
+                }
+            ], 
+            "forms": [], 
+            "forms_x_cards": [], 
+            "functions_x_graphs": [], 
+            "graphid": "08dbdf3a-a848-11e7-9f72-021893e306d8", 
+            "iconclass": "fa fa-map-marker", 
+            "is_editable": true, 
+            "isactive": true, 
+            "isresource": false, 
+            "name": "Generic Property Ownership", 
+            "nodegroups": [
+                {
+                    "cardinality": "n", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "08dbdf3b-a848-11e7-9f72-021893e306d8", 
+                    "parentnodegroup_id": null
+                }
+            ], 
+            "nodes": [
+                {
+                    "config": null, 
+                    "datatype": "string", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "08dbdf3a-a848-11e7-9f72-021893e306d8", 
+                    "is_collector": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Property Ownership Source", 
+                    "nodegroup_id": "08dbdf3b-a848-11e7-9f72-021893e306d8", 
+                    "nodeid": "08dbdf3e-a848-11e7-9f72-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E62_String", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note"
+                }, 
+                {
+                    "config": {
+                        "fillColor": "rgba(233,112,111,0.8)"
+                    }, 
+                    "datatype": "semantic", 
+                    "description": "", 
+                    "graph_id": "08dbdf3a-a848-11e7-9f72-021893e306d8", 
+                    "is_collector": true, 
+                    "issearchable": true, 
+                    "istopnode": true, 
+                    "name": "Property Ownership", 
+                    "nodegroup_id": "08dbdf3b-a848-11e7-9f72-021893e306d8", 
+                    "nodeid": "08dbdf3b-a848-11e7-9f72-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier", 
+                    "parentproperty": ""
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "string", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "08dbdf3a-a848-11e7-9f72-021893e306d8", 
+                    "is_collector": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Property Ownership Identifier", 
+                    "nodegroup_id": "08dbdf3b-a848-11e7-9f72-021893e306d8", 
+                    "nodeid": "08dbdf3f-a848-11e7-9f72-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by"
+                }
+            ], 
+            "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd", 
+            "relatable_resource_model_ids": [], 
+            "reports": [], 
+            "resource_2_resource_constraints": [], 
+            "root": {
+                "config": {
+                    "fillColor": "rgba(233,112,111,0.8)"
+                }, 
+                "datatype": "semantic", 
+                "description": "", 
+                "graph_id": "08dbdf3a-a848-11e7-9f72-021893e306d8", 
+                "is_collector": true, 
+                "issearchable": true, 
+                "istopnode": true, 
+                "name": "Property Ownership", 
+                "nodegroup_id": "08dbdf3b-a848-11e7-9f72-021893e306d8", 
+                "nodeid": "08dbdf3b-a848-11e7-9f72-021893e306d8", 
+                "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier"
+            }, 
+            "subtitle": "Used to record cadastral references and other property ownership identifiers.", 
+            "version": ""
+        }
+    ], 
+    "metadata": {
+        "db": "PostgreSQL 9.6.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 5.3.1-14ubuntu2) 5.3.1 20160413, 64-bit", 
+        "git hash": "205c31b 2017-06-01 12:07:14 -0700", 
+        "os": "Linux", 
+        "os version": "4.4.0-93-generic"
+    }
+}

@@ -1,0 +1,227 @@
+{
+    "graph": [
+        {
+            "author": " ", 
+            "cards": [
+                {
+                    "active": true, 
+                    "cardid": "527f7ddc-8879-11e7-89ae-dca90488358a", 
+                    "description": "", 
+                    "graph_id": "527deb2b-8879-11e7-873a-dca90488358a", 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "helptitle": null, 
+                    "instructions": null, 
+                    "name": "HER Localities/Administrative Areas", 
+                    "nodegroup_id": "527de578-8879-11e7-8c78-dca90488358a", 
+                    "sortorder": null, 
+                    "visible": true
+                }
+            ], 
+            "cards_x_nodes_x_widgets": [
+                {
+                    "card_id": "527f7ddc-8879-11e7-89ae-dca90488358a", 
+                    "config": {
+                        "label": "Area Name", 
+                        "maxLength": null, 
+                        "placeholder": "Enter text", 
+                        "width": "100%"
+                    }, 
+                    "id": "71940446-a431-11e7-9f72-021893e306d8", 
+                    "label": "Area Name", 
+                    "node_id": "7ca99e17-887a-11e7-b1ec-dca90488358a", 
+                    "sortorder": 0, 
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                }, 
+                {
+                    "card_id": "527f7ddc-8879-11e7-89ae-dca90488358a", 
+                    "config": {
+                        "label": "Area Type", 
+                        "placeholder": "Select an option"
+                    }, 
+                    "id": "71940447-a431-11e7-9f72-021893e306d8", 
+                    "label": "Area Type", 
+                    "node_id": "a13bfe68-887a-11e7-973f-dca90488358a", 
+                    "sortorder": 1, 
+                    "widget_id": "10000000-0000-0000-0000-000000000015"
+                }
+            ], 
+            "deploymentdate": null, 
+            "deploymentfile": null, 
+            "description": "", 
+            "edges": [
+                {
+                    "description": null, 
+                    "domainnode_id": "527de578-8879-11e7-8c78-dca90488358a", 
+                    "edgeid": "7ca9a3ae-887a-11e7-a83c-dca90488358a", 
+                    "graph_id": "527deb2b-8879-11e7-873a-dca90488358a", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by", 
+                    "rangenode_id": "7ca99e17-887a-11e7-b1ec-dca90488358a"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "527de578-8879-11e7-8c78-dca90488358a", 
+                    "edgeid": "a13c016b-887a-11e7-87ec-dca90488358a", 
+                    "graph_id": "527deb2b-8879-11e7-873a-dca90488358a", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type", 
+                    "rangenode_id": "a13bfe68-887a-11e7-973f-dca90488358a"
+                }
+            ], 
+            "forms": [], 
+            "forms_x_cards": [], 
+            "functions_x_graphs": [], 
+            "graphid": "527deb2b-8879-11e7-873a-dca90488358a", 
+            "iconclass": "fa fa-map-marker", 
+            "is_editable": true, 
+            "isactive": true, 
+            "isresource": false, 
+            "name": "HER Localities/Administrative Areas", 
+            "nodegroups": [
+                {
+                    "cardinality": "n", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "527de578-8879-11e7-8c78-dca90488358a", 
+                    "parentnodegroup_id": null
+                }
+            ], 
+            "nodes": [
+                {
+                    "config": {
+                        "fillColor": "rgba(233,112,111,0.8)"
+                    }, 
+                    "datatype": "semantic", 
+                    "description": "", 
+                    "graph_id": "527deb2b-8879-11e7-873a-dca90488358a", 
+                    "is_collector": true, 
+                    "issearchable": true, 
+                    "istopnode": true, 
+                    "name": "Localities/Administrative Areas", 
+                    "nodegroup_id": "527de578-8879-11e7-8c78-dca90488358a", 
+                    "nodeid": "527de578-8879-11e7-8c78-dca90488358a", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place", 
+                    "parentproperty": ""
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "string", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "527deb2b-8879-11e7-873a-dca90488358a", 
+                    "is_collector": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Area Name", 
+                    "nodegroup_id": "527de578-8879-11e7-8c78-dca90488358a", 
+                    "nodeid": "7ca99e17-887a-11e7-b1ec-dca90488358a", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by"
+                }, 
+                {
+                    "config": {
+                        "options": [
+                            {
+                                "id": "8c660996-5f48-4b06-8eac-dae544dbc038", 
+                                "selected": false, 
+                                "text": "Country"
+                            }, 
+                            {
+                                "id": "80c43e20-aaad-49d5-a4ff-c8e5e883014d", 
+                                "selected": false, 
+                                "text": "County"
+                            }, 
+                            {
+                                "id": "c6cbac8a-40f2-4d4c-a9a0-7353e4b6f89f", 
+                                "selected": false, 
+                                "text": "District"
+                            }, 
+                            {
+                                "id": "75847876-21dc-440f-b6f1-5a4c160cc425", 
+                                "selected": false, 
+                                "text": "Parish"
+                            }, 
+                            {
+                                "id": "5080dbdf-7167-485d-962c-619f58f67038", 
+                                "selected": false, 
+                                "text": "Locality"
+                            }, 
+                            {
+                                "id": "b3bee940-24b0-45d1-b005-ca16962aae04", 
+                                "selected": false, 
+                                "text": "Unitary Authority"
+                            }, 
+                            {
+                                "id": "ad3d2e20-260e-4c99-b50b-d48021f809ba", 
+                                "selected": false, 
+                                "text": "Borough"
+                            }, 
+                            {
+                                "id": "3b97cddb-f9f7-4007-a567-2ecd8007a739", 
+                                "selected": false, 
+                                "text": "Region"
+                            }, 
+                            {
+                                "id": "159e10ce-d2ee-44b5-97b4-6d33c6224200", 
+                                "selected": false, 
+                                "text": "National Park"
+                            }, 
+                            {
+                                "id": "020c185c-1525-439a-ad0f-2245e5e1e6ef", 
+                                "selected": false, 
+                                "text": "Ward"
+                            }, 
+                            {
+                                "id": "1df1c32c-9458-4f87-a5cf-1e8782e6dda6", 
+                                "selected": false, 
+                                "text": "Westminster Constituency"
+                            }, 
+                            {
+                                "id": "5896e919-35e1-4d9c-a28f-40fb7d3843e0", 
+                                "selected": false, 
+                                "text": "Church of England Diocese"
+                            }
+                        ]
+                    }, 
+                    "datatype": "domain-value", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "527deb2b-8879-11e7-873a-dca90488358a", 
+                    "is_collector": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Area Type", 
+                    "nodegroup_id": "527de578-8879-11e7-8c78-dca90488358a", 
+                    "nodeid": "a13bfe68-887a-11e7-973f-dca90488358a", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type"
+                }
+            ], 
+            "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd", 
+            "relatable_resource_model_ids": [], 
+            "reports": [], 
+            "resource_2_resource_constraints": [], 
+            "root": {
+                "config": {
+                    "fillColor": "rgba(233,112,111,0.8)"
+                }, 
+                "datatype": "semantic", 
+                "description": "", 
+                "graph_id": "527deb2b-8879-11e7-873a-dca90488358a", 
+                "is_collector": true, 
+                "issearchable": true, 
+                "istopnode": true, 
+                "name": "Localities/Administrative Areas", 
+                "nodegroup_id": "527de578-8879-11e7-8c78-dca90488358a", 
+                "nodeid": "527de578-8879-11e7-8c78-dca90488358a", 
+                "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place"
+            }, 
+            "subtitle": "Describe location using neighborhood (and other locality) names, admin areas, and other district names", 
+            "version": ""
+        }
+    ], 
+    "metadata": {
+        "db": "PostgreSQL 9.6.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 5.3.1-14ubuntu2) 5.3.1 20160413, 64-bit", 
+        "git hash": "205c31b 2017-06-01 12:07:14 -0700", 
+        "os": "Linux", 
+        "os version": "4.4.0-93-generic"
+    }
+}

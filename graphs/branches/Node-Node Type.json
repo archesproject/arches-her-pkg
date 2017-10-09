@@ -1,0 +1,112 @@
+{
+    "graph": [
+        {
+            "author": "Arches", 
+            "cards": [
+                {
+                    "active": true, 
+                    "cardid": "d68ef1fe-98ca-11e7-9f72-0f443355c64b", 
+                    "description": "Represents a node and node type pairing", 
+                    "graph_id": "22000000-0000-0000-0000-000000000001", 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "helptitle": null, 
+                    "instructions": "", 
+                    "name": "Node/Node Type", 
+                    "nodegroup_id": "20000000-0000-0000-0000-100000000001", 
+                    "sortorder": null, 
+                    "visible": true
+                }
+            ], 
+            "cards_x_nodes_x_widgets": [], 
+            "deploymentdate": null, 
+            "deploymentfile": null, 
+            "description": "Represents a node and node type pairing", 
+            "edges": [
+                {
+                    "description": null, 
+                    "domainnode_id": "20000000-0000-0000-0000-100000000001", 
+                    "edgeid": "22200000-0000-0000-0000-000000000001", 
+                    "graph_id": "22000000-0000-0000-0000-000000000001", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type", 
+                    "rangenode_id": "20000000-0000-0000-0000-100000000002"
+                }
+            ], 
+            "forms": [], 
+            "forms_x_cards": [], 
+            "functions_x_graphs": [], 
+            "graphid": "22000000-0000-0000-0000-000000000001", 
+            "iconclass": "fa fa-angle-double-down", 
+            "is_editable": true, 
+            "isactive": true, 
+            "isresource": false, 
+            "name": "Node/Node Type", 
+            "nodegroups": [
+                {
+                    "cardinality": "n", 
+                    "legacygroupid": "", 
+                    "nodegroupid": "20000000-0000-0000-0000-100000000001", 
+                    "parentnodegroup_id": null
+                }
+            ], 
+            "nodes": [
+                {
+                    "config": null, 
+                    "datatype": "string", 
+                    "description": "", 
+                    "graph_id": "22000000-0000-0000-0000-000000000001", 
+                    "is_collector": true, 
+                    "issearchable": true, 
+                    "istopnode": true, 
+                    "name": "Node", 
+                    "nodegroup_id": "20000000-0000-0000-0000-100000000001", 
+                    "nodeid": "20000000-0000-0000-0000-100000000001", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity", 
+                    "parentproperty": ""
+                }, 
+                {
+                    "config": {
+                        "rdmCollection": null
+                    }, 
+                    "datatype": "concept", 
+                    "description": "", 
+                    "graph_id": "22000000-0000-0000-0000-000000000001", 
+                    "is_collector": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Node Type", 
+                    "nodegroup_id": "20000000-0000-0000-0000-100000000001", 
+                    "nodeid": "20000000-0000-0000-0000-100000000002", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type"
+                }
+            ], 
+            "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd", 
+            "relatable_resource_model_ids": [], 
+            "reports": [], 
+            "resource_2_resource_constraints": [], 
+            "root": {
+                "config": null, 
+                "datatype": "string", 
+                "description": "", 
+                "graph_id": "22000000-0000-0000-0000-000000000001", 
+                "is_collector": true, 
+                "issearchable": true, 
+                "istopnode": true, 
+                "name": "Node", 
+                "nodegroup_id": "20000000-0000-0000-0000-100000000001", 
+                "nodeid": "20000000-0000-0000-0000-100000000001", 
+                "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"
+            }, 
+            "subtitle": "Represents a node and node type pairing", 
+            "version": "v1"
+        }
+    ], 
+    "metadata": {
+        "db": "PostgreSQL 9.6.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 5.3.1-14ubuntu2) 5.3.1 20160413, 64-bit", 
+        "git hash": "205c31b 2017-06-01 12:07:14 -0700", 
+        "os": "Linux", 
+        "os version": "4.4.0-93-generic"
+    }
+}

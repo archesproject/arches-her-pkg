@@ -1,0 +1,271 @@
+{
+    "graph": [
+        {
+            "author": "Phil", 
+            "cards": [
+                {
+                    "active": true, 
+                    "cardid": "ab69da67-a522-11e7-9f72-021893e306d8", 
+                    "description": "External XRef Number\nUsed for UIDs of legacy or external systems\n\nExternal XRef Source\nUsed for recording the name of the legacy or external system\n\nExternal XRef Notes\nUsed to record quick textual references to other attributes which may be helpful in identifying the resource eg. Grade, Title etc.\n", 
+                    "graph_id": "ab69da64-a522-11e7-9f72-021893e306d8", 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "helptitle": null, 
+                    "instructions": "Enter information for identifiers of the resource from other external sources.", 
+                    "name": "Generic External Cross Reference", 
+                    "nodegroup_id": "ab69da65-a522-11e7-9f72-021893e306d8", 
+                    "sortorder": null, 
+                    "visible": true
+                }
+            ], 
+            "cards_x_nodes_x_widgets": [
+                {
+                    "card_id": "ab69da67-a522-11e7-9f72-021893e306d8", 
+                    "config": {
+                        "label": "Source", 
+                        "maxLength": null, 
+                        "options": [], 
+                        "placeholder": "Select the source of the indentifier", 
+                        "width": "100%"
+                    }, 
+                    "id": "ab69da6b-a522-11e7-9f72-021893e306d8", 
+                    "label": "Source", 
+                    "node_id": "ab69da69-a522-11e7-9f72-021893e306d8", 
+                    "sortorder": 1, 
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                }, 
+                {
+                    "card_id": "ab69da67-a522-11e7-9f72-021893e306d8", 
+                    "config": {
+                        "label": "External Cross Reference", 
+                        "maxLength": null, 
+                        "placeholder": "Enter indentifier", 
+                        "width": "100%"
+                    }, 
+                    "id": "ab69da6c-a522-11e7-9f72-021893e306d8", 
+                    "label": "External Cross Reference", 
+                    "node_id": "ab69da65-a522-11e7-9f72-021893e306d8", 
+                    "sortorder": 0, 
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                }, 
+                {
+                    "card_id": "ab69da67-a522-11e7-9f72-021893e306d8", 
+                    "config": {
+                        "label": "Notes", 
+                        "maxLength": null, 
+                        "options": [
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "21ab0b62-809b-47da-a48c-ab1cd13f0db2", 
+                                "id": "d796303e-5075-4a57-ad9c-226775cf1f4f", 
+                                "sortorder": "", 
+                                "text": "ARK"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "72d3b085-2d10-4f9e-8697-20744299bacf", 
+                                "id": "61bc441a-dad2-4cdb-9c9b-f0112c352731", 
+                                "sortorder": "", 
+                                "text": "DOI"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "818b9221-78f2-4c25-84cf-686c21eff8e3", 
+                                "id": "24bcc5d3-ba51-42bd-a9c6-44d5bd6ed681", 
+                                "sortorder": "", 
+                                "text": "HANDLE"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "7ca60d3f-6f3c-4d19-8914-e5800fb805ca", 
+                                "id": "5c340034-fa93-4131-ade8-f670da714bad", 
+                                "sortorder": "", 
+                                "text": "ISBN"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "01251c2a-8e5a-49e5-a389-20b4637c4c76", 
+                                "id": "c8d1e199-ccfc-4882-b551-8d85c37c04e6", 
+                                "sortorder": "", 
+                                "text": "ISSN"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "67b17fc8-d205-471b-bdf5-a361f032e545", 
+                                "id": "77569746-6bf0-4c73-949d-496115fc9cea", 
+                                "sortorder": "", 
+                                "text": "POI"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "02c09240-a9a3-4cd5-98cd-c2fbafc9173b", 
+                                "id": "fb795aad-a09c-4fd0-87ce-3012c2f3d631", 
+                                "sortorder": "", 
+                                "text": "PURL"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "0a4ce957-d837-4595-8320-8d142af864ab", 
+                                "id": "acab77ad-dbee-4448-8ce9-8e7dd2ec1651", 
+                                "sortorder": "", 
+                                "text": "SICI"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "eaa19556-fcfa-40c8-9696-0d89804ad895", 
+                                "id": "f39679be-899b-4472-9484-df377e43d776", 
+                                "sortorder": "", 
+                                "text": "URI"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "d8f00076-3b8e-4984-8ab9-152cc21ebc40", 
+                                "id": "763105f1-757f-431b-90ff-a0511d2ba900", 
+                                "sortorder": "", 
+                                "text": "URL"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "ec9e80e3-ae93-4aed-97a6-f61b0f93da43", 
+                                "id": "b411a4a6-1db0-4745-a67a-e74cf586193e", 
+                                "sortorder": "", 
+                                "text": "URN"
+                            }
+                        ], 
+                        "placeholder": "Select the type of identifier", 
+                        "width": "100%"
+                    }, 
+                    "id": "ab69da6a-a522-11e7-9f72-021893e306d8", 
+                    "label": "Notes", 
+                    "node_id": "ab69da68-a522-11e7-9f72-021893e306d8", 
+                    "sortorder": 2, 
+                    "widget_id": "10000000-0000-0000-0000-000000000005"
+                }
+            ], 
+            "deploymentdate": null, 
+            "deploymentfile": null, 
+            "description": "External XRef Number\nUsed for UIDs of legacy or external systems\n\nExternal XRef Source\nUsed for recording the name of the legacy or external system\n\nExternal XRef Notes\nUsed to record quick textual references to other attributes which may be helpful in identifying the resource eg. Grade, Title etc.\n", 
+            "edges": [
+                {
+                    "description": null, 
+                    "domainnode_id": "ab69da65-a522-11e7-9f72-021893e306d8", 
+                    "edgeid": "ab69da6d-a522-11e7-9f72-021893e306d8", 
+                    "graph_id": "ab69da64-a522-11e7-9f72-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note", 
+                    "rangenode_id": "ab69da68-a522-11e7-9f72-021893e306d8"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "ab69da65-a522-11e7-9f72-021893e306d8", 
+                    "edgeid": "ab69da6e-a522-11e7-9f72-021893e306d8", 
+                    "graph_id": "ab69da64-a522-11e7-9f72-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type", 
+                    "rangenode_id": "ab69da69-a522-11e7-9f72-021893e306d8"
+                }
+            ], 
+            "forms": [], 
+            "forms_x_cards": [], 
+            "functions_x_graphs": [], 
+            "graphid": "ab69da64-a522-11e7-9f72-021893e306d8", 
+            "iconclass": "fa fa-info", 
+            "is_editable": true, 
+            "isactive": true, 
+            "isresource": false, 
+            "name": "Generic External Cross Reference", 
+            "nodegroups": [
+                {
+                    "cardinality": "n", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "ab69da65-a522-11e7-9f72-021893e306d8", 
+                    "parentnodegroup_id": null
+                }
+            ], 
+            "nodes": [
+                {
+                    "config": null, 
+                    "datatype": "string", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "ab69da64-a522-11e7-9f72-021893e306d8", 
+                    "is_collector": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "External Cross Reference Notes", 
+                    "nodegroup_id": "ab69da65-a522-11e7-9f72-021893e306d8", 
+                    "nodeid": "ab69da68-a522-11e7-9f72-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E62_String", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note"
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "string", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "ab69da64-a522-11e7-9f72-021893e306d8", 
+                    "is_collector": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "External Cross Reference Source", 
+                    "nodegroup_id": "ab69da65-a522-11e7-9f72-021893e306d8", 
+                    "nodeid": "ab69da69-a522-11e7-9f72-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type"
+                }, 
+                {
+                    "config": {
+                        "fillColor": "rgba(233,112,111,0.8)"
+                    }, 
+                    "datatype": "semantic", 
+                    "description": "", 
+                    "graph_id": "ab69da64-a522-11e7-9f72-021893e306d8", 
+                    "is_collector": true, 
+                    "issearchable": true, 
+                    "istopnode": true, 
+                    "name": "External Cross Reference Number", 
+                    "nodegroup_id": "ab69da65-a522-11e7-9f72-021893e306d8", 
+                    "nodeid": "ab69da65-a522-11e7-9f72-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier", 
+                    "parentproperty": ""
+                }
+            ], 
+            "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd", 
+            "relatable_resource_model_ids": [], 
+            "reports": [], 
+            "resource_2_resource_constraints": [], 
+            "root": {
+                "config": {
+                    "fillColor": "rgba(233,112,111,0.8)"
+                }, 
+                "datatype": "semantic", 
+                "description": "", 
+                "graph_id": "ab69da64-a522-11e7-9f72-021893e306d8", 
+                "is_collector": true, 
+                "issearchable": true, 
+                "istopnode": true, 
+                "name": "External Cross Reference Number", 
+                "nodegroup_id": "ab69da65-a522-11e7-9f72-021893e306d8", 
+                "nodeid": "ab69da65-a522-11e7-9f72-021893e306d8", 
+                "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier"
+            }, 
+            "subtitle": "Used to hold identifiers necessary to link a given resource to records in an external or legacy.", 
+            "version": ""
+        }
+    ], 
+    "metadata": {
+        "db": "PostgreSQL 9.6.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 5.3.1-14ubuntu2) 5.3.1 20160413, 64-bit", 
+        "git hash": "205c31b 2017-06-01 12:07:14 -0700", 
+        "os": "Linux", 
+        "os version": "4.4.0-93-generic"
+    }
+}

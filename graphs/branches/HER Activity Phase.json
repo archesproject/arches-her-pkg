@@ -1,0 +1,1368 @@
+{
+    "graph": [
+        {
+            "author": "Phil", 
+            "cards": [
+                {
+                    "active": true, 
+                    "cardid": "65cfb652-9df1-11e7-9f72-021893e306d8", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "d0508146-9246-11e7-b43c-021893e306d8", 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "helptitle": null, 
+                    "instructions": null, 
+                    "name": "Activity Method", 
+                    "nodegroup_id": "abf58ce3-9def-11e7-9f72-021893e306d8", 
+                    "sortorder": 1, 
+                    "visible": true
+                }, 
+                {
+                    "active": true, 
+                    "cardid": "d0508149-9246-11e7-b43c-021893e306d8", 
+                    "description": "Describes the time span and type of an Activity Resource.", 
+                    "graph_id": "d0508146-9246-11e7-b43c-021893e306d8", 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "helptitle": null, 
+                    "instructions": null, 
+                    "name": "HER Activity Phase", 
+                    "nodegroup_id": "d0508147-9246-11e7-b43c-021893e306d8", 
+                    "sortorder": null, 
+                    "visible": true
+                }, 
+                {
+                    "active": true, 
+                    "cardid": "87954c6d-9df0-11e7-9f72-021893e306d8", 
+                    "description": "", 
+                    "graph_id": "d0508146-9246-11e7-b43c-021893e306d8", 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "helptitle": null, 
+                    "instructions": "Enter a description and description type for the resource.", 
+                    "name": "Descriptions", 
+                    "nodegroup_id": "87954c6b-9df0-11e7-9f72-021893e306d8", 
+                    "sortorder": 2, 
+                    "visible": true
+                }, 
+                {
+                    "active": true, 
+                    "cardid": "d050814c-9246-11e7-b43c-021893e306d8", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "d0508146-9246-11e7-b43c-021893e306d8", 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "helptitle": null, 
+                    "instructions": "Select an activity type and its corresponding to and from dates.", 
+                    "name": "Phase Type Assignment", 
+                    "nodegroup_id": "d050814a-9246-11e7-b43c-021893e306d8", 
+                    "sortorder": 0, 
+                    "visible": true
+                }
+            ], 
+            "cards_x_nodes_x_widgets": [
+                {
+                    "card_id": "d050814c-9246-11e7-b43c-021893e306d8", 
+                    "config": {
+                        "label": "Activity Type", 
+                        "options": [
+                            {
+                                "children": [
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [], 
+                                                "collector": "", 
+                                                "conceptid": "a9160edb-fe10-3fea-b42a-75ea743a80b7", 
+                                                "id": "0462d402-90fd-44e4-aba5-b902d4d86430", 
+                                                "sortorder": "", 
+                                                "text": "AUGER SURVEY"
+                                            }, 
+                                            {
+                                                "children": [], 
+                                                "collector": "", 
+                                                "conceptid": "a6063168-13b5-34e1-8a40-a7e73b37777f", 
+                                                "id": "d319115d-3d95-4dd0-8910-e51fb8dfd357", 
+                                                "sortorder": "", 
+                                                "text": "BOREHOLE SURVEY"
+                                            }, 
+                                            {
+                                                "children": [
+                                                    {
+                                                        "children": [], 
+                                                        "collector": "", 
+                                                        "conceptid": "c288f036-4dee-361b-b5dd-e814a6acb8b5", 
+                                                        "id": "a55ebfb5-7b74-4dea-9c6e-a4fa66746b49", 
+                                                        "sortorder": "", 
+                                                        "text": "TEST PIT"
+                                                    }, 
+                                                    {
+                                                        "children": [], 
+                                                        "collector": "", 
+                                                        "conceptid": "925d492b-dc14-3086-a099-d6a1537ef5d7", 
+                                                        "id": "839e2f8f-ed8c-4b50-bf1d-82930b17f1e7", 
+                                                        "sortorder": "", 
+                                                        "text": "TRIAL TRENCH"
+                                                    }, 
+                                                    {
+                                                        "children": [], 
+                                                        "collector": "", 
+                                                        "conceptid": "5999616b-a713-3a32-bf58-1e61059ec971", 
+                                                        "id": "67ff518a-f5c3-4d57-bb66-c2e222b90f24", 
+                                                        "sortorder": "", 
+                                                        "text": "UNDERWATER EVALUATION"
+                                                    }
+                                                ], 
+                                                "collector": "", 
+                                                "conceptid": "0c69ed3e-c1d1-37b2-8092-8f318fdb4541", 
+                                                "id": "6194684a-fc96-4b5b-9edb-f9bf837582a0", 
+                                                "sortorder": "", 
+                                                "text": "EVALUATION"
+                                            }, 
+                                            {
+                                                "children": [
+                                                    {
+                                                        "children": [], 
+                                                        "collector": "", 
+                                                        "conceptid": "26aa5d4c-3c87-3325-8a9c-85f0b027bc42", 
+                                                        "id": "34653daa-3b2d-4470-b03b-ba4e981b8fda", 
+                                                        "sortorder": "", 
+                                                        "text": "BOX TRENCHING"
+                                                    }, 
+                                                    {
+                                                        "children": [], 
+                                                        "collector": "", 
+                                                        "conceptid": "397e9364-9835-39a7-9627-8e4926f19500", 
+                                                        "id": "239e0d1c-673e-4ca2-b5c1-4a751eeca56c", 
+                                                        "sortorder": "", 
+                                                        "text": "OPEN AREA EXCAVATION"
+                                                    }, 
+                                                    {
+                                                        "children": [], 
+                                                        "collector": "", 
+                                                        "conceptid": "35363105-a82a-3259-80a0-7ed59a6f463d", 
+                                                        "id": "bed3a861-2ce3-4e6a-935b-2c9c884c8048", 
+                                                        "sortorder": "", 
+                                                        "text": "RESCUE EXCAVATION"
+                                                    }, 
+                                                    {
+                                                        "children": [], 
+                                                        "collector": "", 
+                                                        "conceptid": "bd2a0a7a-b278-32bf-aa82-bec408aa3059", 
+                                                        "id": "71c169db-1cc4-429c-beb6-64258d1036e8", 
+                                                        "sortorder": "", 
+                                                        "text": "RESEARCH EXCAVATION"
+                                                    }, 
+                                                    {
+                                                        "children": [], 
+                                                        "collector": "", 
+                                                        "conceptid": "d509ed5e-970c-395b-ad91-e91cd6c32b9f", 
+                                                        "id": "9ae0e99a-1e62-43ce-bc11-7e3b441894c8", 
+                                                        "sortorder": "", 
+                                                        "text": "STRIP MAP AND SAMPLE"
+                                                    }, 
+                                                    {
+                                                        "children": [], 
+                                                        "collector": "", 
+                                                        "conceptid": "fc279b3c-7251-31c9-8d96-c9f1807e7bcf", 
+                                                        "id": "d91ae491-b1d6-4519-af3f-9711d1f2d25b", 
+                                                        "sortorder": "", 
+                                                        "text": "UNDERWATER EXCAVATION"
+                                                    }
+                                                ], 
+                                                "collector": "", 
+                                                "conceptid": "ffd48131-2c70-3e26-bfc4-3ebd7fd96715", 
+                                                "id": "704d6644-7f2e-480d-a7c7-c7cfbcc39201", 
+                                                "sortorder": "", 
+                                                "text": "EXCAVATION"
+                                            }, 
+                                            {
+                                                "children": [], 
+                                                "collector": "", 
+                                                "conceptid": "7e1bd801-b42f-34f4-841b-8c3e5191ddaf", 
+                                                "id": "e943df5b-241c-4c05-b0cc-93914db550ea", 
+                                                "sortorder": "", 
+                                                "text": "FIELD OBSERVATION (MONITORING)"
+                                            }, 
+                                            {
+                                                "children": [], 
+                                                "collector": "", 
+                                                "conceptid": "4155a548-a251-36a3-af75-05bb17157e70", 
+                                                "id": "ea9319c7-c7d7-448b-aac4-e4bd2774a7b8", 
+                                                "sortorder": "", 
+                                                "text": "GRAB SAMPLING"
+                                            }, 
+                                            {
+                                                "children": [], 
+                                                "collector": "", 
+                                                "conceptid": "fdb3888f-aa06-3d83-89c4-1d634c9bce3d", 
+                                                "id": "92309807-00bf-4043-91a1-b62752ca3d95", 
+                                                "sortorder": "", 
+                                                "text": "METAL DETECTING USE"
+                                            }, 
+                                            {
+                                                "children": [], 
+                                                "collector": "", 
+                                                "conceptid": "a3aeee6f-4a4b-30fe-9030-a488e5ec4801", 
+                                                "id": "7a8fa579-db10-453a-9f45-1c30a0b3bc97", 
+                                                "sortorder": "", 
+                                                "text": "SALVAGE RECORDING"
+                                            }, 
+                                            {
+                                                "children": [], 
+                                                "collector": "", 
+                                                "conceptid": "d5866e21-0fa8-3347-9638-3cf805e4abc5", 
+                                                "id": "f216f0c2-7761-4f7e-bd6b-c19ca7cc1810", 
+                                                "sortorder": "", 
+                                                "text": "WATCHING BRIEF"
+                                            }
+                                        ], 
+                                        "collector": "", 
+                                        "conceptid": "896d5acf-ddb6-340d-95a8-51dd66496ce0", 
+                                        "id": "6959cf41-a8af-4fdf-be5e-423ecf277ec9", 
+                                        "sortorder": "", 
+                                        "text": "ARCHAEOLOGICAL INTERVENTION"
+                                    }, 
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [], 
+                                                "collector": "", 
+                                                "conceptid": "a9160edb-fe10-3fea-b42a-75ea743a80b7", 
+                                                "id": "0462d402-90fd-44e4-aba5-b902d4d86430", 
+                                                "sortorder": "", 
+                                                "text": "AUGER SURVEY"
+                                            }, 
+                                            {
+                                                "children": [], 
+                                                "collector": "", 
+                                                "conceptid": "a6063168-13b5-34e1-8a40-a7e73b37777f", 
+                                                "id": "d319115d-3d95-4dd0-8910-e51fb8dfd357", 
+                                                "sortorder": "", 
+                                                "text": "BOREHOLE SURVEY"
+                                            }, 
+                                            {
+                                                "children": [], 
+                                                "collector": "", 
+                                                "conceptid": "e2f49d27-dfd6-30e3-8a33-4f134aaeb69a", 
+                                                "id": "74b71b4d-a83f-41f8-9441-4f9b76f57625", 
+                                                "sortorder": "", 
+                                                "text": "DENDROCHRONOLOGICAL SURVEY"
+                                            }, 
+                                            {
+                                                "children": [
+                                                    {
+                                                        "children": [
+                                                            {
+                                                                "children": [], 
+                                                                "collector": "", 
+                                                                "conceptid": "caa985c5-0883-3cd2-81be-10586474109d", 
+                                                                "id": "a92413b1-eef9-4959-8fb2-e7d871fa3036", 
+                                                                "sortorder": "", 
+                                                                "text": "GRAVITY CORE"
+                                                            }, 
+                                                            {
+                                                                "children": [], 
+                                                                "collector": "", 
+                                                                "conceptid": "6c1722f4-a372-3cce-bdbc-bbe274fc1757", 
+                                                                "id": "03cb76f2-2ce8-42be-9a0d-b3c7405d905c", 
+                                                                "sortorder": "", 
+                                                                "text": "VIBRO CORE"
+                                                            }
+                                                        ], 
+                                                        "collector": "", 
+                                                        "conceptid": "95e5d626-488a-3725-a78b-7bbdcdc638e6", 
+                                                        "id": "6e889eb4-751f-4f5e-a0ba-061ca479be6c", 
+                                                        "sortorder": "", 
+                                                        "text": "CORE SAMPLING"
+                                                    }, 
+                                                    {
+                                                        "children": [], 
+                                                        "collector": "", 
+                                                        "conceptid": "7ff5156c-47f3-35e7-a410-26c71e770d18", 
+                                                        "id": "ff4b91df-1ec9-4db8-8776-4e7bd8d04751", 
+                                                        "sortorder": "", 
+                                                        "text": "MONOLITH SAMPLING"
+                                                    }
+                                                ], 
+                                                "collector": "", 
+                                                "conceptid": "af4ce6df-5be4-3cc1-ae41-88694394a741", 
+                                                "id": "ffc95a5e-b82b-4f37-82d4-173d74688146", 
+                                                "sortorder": "", 
+                                                "text": "ENVIRONMENTAL SAMPLING"
+                                            }, 
+                                            {
+                                                "children": [
+                                                    {
+                                                        "children": [], 
+                                                        "collector": "", 
+                                                        "conceptid": "00dd5e07-73cd-39db-a6f3-e42f26ec368c", 
+                                                        "id": "018f6afc-e95f-40c1-93a1-2ac1c350c4c2", 
+                                                        "sortorder": "", 
+                                                        "text": "PHOSPHATE SURVEY"
+                                                    }
+                                                ], 
+                                                "collector": "", 
+                                                "conceptid": "e156de38-552e-39e4-a120-d0a28dda9883", 
+                                                "id": "7feafc1d-aa76-46d7-a185-0239be94bb65", 
+                                                "sortorder": "", 
+                                                "text": "GEOCHEMICAL SURVEY"
+                                            }, 
+                                            {
+                                                "children": [], 
+                                                "collector": "", 
+                                                "conceptid": "f49f8f07-fb2f-3507-ae40-f3a5a85d0fa8", 
+                                                "id": "8fdae9fb-a18d-4b1a-96fc-28c1e3a2d3e5", 
+                                                "sortorder": "", 
+                                                "text": "TIMBER SAMPLING"
+                                            }
+                                        ], 
+                                        "collector": "", 
+                                        "conceptid": "9e5c5410-b111-3371-bce4-1eb3365fa771", 
+                                        "id": "c0bd2ee6-02c7-4717-965a-24a6db12a6d7", 
+                                        "sortorder": "", 
+                                        "text": "ENVIRONMENTAL INTERVENTION"
+                                    }, 
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [], 
+                                                "collector": "", 
+                                                "conceptid": "a9160edb-fe10-3fea-b42a-75ea743a80b7", 
+                                                "id": "0462d402-90fd-44e4-aba5-b902d4d86430", 
+                                                "sortorder": "", 
+                                                "text": "AUGER SURVEY"
+                                            }, 
+                                            {
+                                                "children": [], 
+                                                "collector": "", 
+                                                "conceptid": "a6063168-13b5-34e1-8a40-a7e73b37777f", 
+                                                "id": "d319115d-3d95-4dd0-8910-e51fb8dfd357", 
+                                                "sortorder": "", 
+                                                "text": "BOREHOLE SURVEY"
+                                            }, 
+                                            {
+                                                "children": [], 
+                                                "collector": "", 
+                                                "conceptid": "750f3c88-a95e-3e4c-93b6-050937aa7ea5", 
+                                                "id": "5bbfcaa4-7d6e-473a-90ae-ec8968d79029", 
+                                                "sortorder": "", 
+                                                "text": "CASUAL OBSERVATION"
+                                            }, 
+                                            {
+                                                "children": [
+                                                    {
+                                                        "children": [], 
+                                                        "collector": "", 
+                                                        "conceptid": "e97617a5-dd31-3e7c-b1ae-12b1f5c7bb47", 
+                                                        "id": "0eecaafd-ee43-4011-84e8-2974a8476e84", 
+                                                        "sortorder": "", 
+                                                        "text": "GEOTECHNICAL TEST PIT"
+                                                    }
+                                                ], 
+                                                "collector": "", 
+                                                "conceptid": "5dce0e85-485c-3c89-9251-87bc1a2b8ef2", 
+                                                "id": "8cdf129e-0419-438c-8776-697f3c92d780", 
+                                                "sortorder": "", 
+                                                "text": "GEOTECHNICAL SURVEY"
+                                            }, 
+                                            {
+                                                "children": [], 
+                                                "collector": "", 
+                                                "conceptid": "fdb3888f-aa06-3d83-89c4-1d634c9bce3d", 
+                                                "id": "92309807-00bf-4043-91a1-b62752ca3d95", 
+                                                "sortorder": "", 
+                                                "text": "METAL DETECTING USE"
+                                            }
+                                        ], 
+                                        "collector": "", 
+                                        "conceptid": "485ebb3b-6cf1-3905-bc8a-9f6f788cbf43", 
+                                        "id": "91461942-ceb0-410f-b332-d1141431d05e", 
+                                        "sortorder": "", 
+                                        "text": "NON ARCHAEOLOGICAL INTERVENTION"
+                                    }
+                                ], 
+                                "collector": "", 
+                                "conceptid": "37f9d056-a4a3-3c43-a357-e35b0e932448", 
+                                "id": "96a049ee-fe61-47ff-adbb-878a4a629809", 
+                                "sortorder": "", 
+                                "text": "Intrusive Event"
+                            }, 
+                            {
+                                "children": [
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [], 
+                                                "collector": "", 
+                                                "conceptid": "2aa14fe1-78e7-33b0-babc-740e33362a9d", 
+                                                "id": "40ed8f16-c240-4d43-a39e-508dc1519791", 
+                                                "sortorder": "", 
+                                                "text": "ANALYTICAL EARTHWORK SURVEY"
+                                            }, 
+                                            {
+                                                "children": [], 
+                                                "collector": "", 
+                                                "conceptid": "1f909607-b1c8-32ff-9394-69f070a3aff3", 
+                                                "id": "6fbf286b-7ba2-43b8-b896-b8efabaa8739", 
+                                                "sortorder": "", 
+                                                "text": "ARCHITECTURAL SURVEY"
+                                            }, 
+                                            {
+                                                "children": [], 
+                                                "collector": "", 
+                                                "conceptid": "40f1b4fb-27b9-3803-a172-8377d242ed0f", 
+                                                "id": "84944111-cd21-49f6-b663-3dc0a0e48fe9", 
+                                                "sortorder": "", 
+                                                "text": "BOSING SURVEY"
+                                            }, 
+                                            {
+                                                "children": [], 
+                                                "collector": "", 
+                                                "conceptid": "44fd8aec-7a8d-316e-85af-7ba154ef1f15", 
+                                                "id": "c51dade9-1474-40de-8b7e-359e71b9f84e", 
+                                                "sortorder": "", 
+                                                "text": "BUILDING SURVEY"
+                                            }, 
+                                            {
+                                                "children": [], 
+                                                "collector": "", 
+                                                "conceptid": "39ef905a-b3b8-3978-b608-8d39f417a168", 
+                                                "id": "c69eb135-5e46-4f12-aaec-f033fe83137e", 
+                                                "sortorder": "", 
+                                                "text": "DOWSING SURVEY"
+                                            }, 
+                                            {
+                                                "children": [], 
+                                                "collector": "", 
+                                                "conceptid": "6b8d1f66-9bcb-38a2-8dd2-9e69b8fe6632", 
+                                                "id": "97912ed3-e234-43de-9eeb-6c8055c89f4a", 
+                                                "sortorder": "", 
+                                                "text": "FIELD OBSERVATION (VISUAL ASSESSMENT)"
+                                            }, 
+                                            {
+                                                "children": [], 
+                                                "collector": "", 
+                                                "conceptid": "08cb6734-621a-36d9-98f8-4c4b2f609b64", 
+                                                "id": "52e50e50-716c-455d-992d-743d61da2bb2", 
+                                                "sortorder": "", 
+                                                "text": "FIELD VISIT"
+                                            }, 
+                                            {
+                                                "children": [
+                                                    {
+                                                        "children": [], 
+                                                        "collector": "", 
+                                                        "conceptid": "103f4828-70f7-3356-aa42-a046e36ddd06", 
+                                                        "id": "771cfdd5-abca-4e83-911d-748aeffc05bc", 
+                                                        "sortorder": "", 
+                                                        "text": "SYSTEMATIC FIELDWALKING SURVEY"
+                                                    }, 
+                                                    {
+                                                        "children": [], 
+                                                        "collector": "", 
+                                                        "conceptid": "27af3d88-2d5c-3d26-9ba4-f378d7509267", 
+                                                        "id": "540b1d63-312c-48d5-a87a-8031e8e388c8", 
+                                                        "sortorder": "", 
+                                                        "text": "UNSYSTEMATIC FIELDWALKING SURVEY"
+                                                    }
+                                                ], 
+                                                "collector": "", 
+                                                "conceptid": "5f6b66ca-e43a-3868-a760-f9df31593aa9", 
+                                                "id": "332c073a-c3bd-4a8e-bd4a-1948a84975f3", 
+                                                "sortorder": "", 
+                                                "text": "FIELDWALKING SURVEY"
+                                            }, 
+                                            {
+                                                "children": [], 
+                                                "collector": "", 
+                                                "conceptid": "323a9eea-75a5-3aa5-afcd-9512435684f9", 
+                                                "id": "caac418b-67de-4cde-92d5-5cf32c5eb931", 
+                                                "sortorder": "", 
+                                                "text": "GEOMORPHOLOGICAL SURVEY"
+                                            }, 
+                                            {
+                                                "children": [
+                                                    {
+                                                        "children": [], 
+                                                        "collector": "", 
+                                                        "conceptid": "15df6a2f-086b-3e4f-9471-99855b743d3f", 
+                                                        "id": "fac61497-3e43-4e98-8ccd-9a09cb7e635d", 
+                                                        "sortorder": "", 
+                                                        "text": "3D SEISMIC SURVEY"
+                                                    }, 
+                                                    {
+                                                        "children": [], 
+                                                        "collector": "", 
+                                                        "conceptid": "e4cbcec5-1e0b-3535-bea2-28e9c60e3498", 
+                                                        "id": "486a7032-7dd1-4e08-8c45-685d12a2897b", 
+                                                        "sortorder": "", 
+                                                        "text": "ACOUSTIC GROUND DISCRIMINATING RADAR"
+                                                    }, 
+                                                    {
+                                                        "children": [], 
+                                                        "collector": "", 
+                                                        "conceptid": "5ba6982f-54ea-3407-b7ea-b3d0669d8da4", 
+                                                        "id": "c20e2967-ce29-4082-8983-951da9f3df80", 
+                                                        "sortorder": "", 
+                                                        "text": "EARTH RESISTANCE (RESISTIVITY) SURVEY"
+                                                    }, 
+                                                    {
+                                                        "children": [], 
+                                                        "collector": "", 
+                                                        "conceptid": "5769cc38-02d9-32e3-8998-05630441f40f", 
+                                                        "id": "e263521f-c24b-40f0-9564-802f9efd6af5", 
+                                                        "sortorder": "", 
+                                                        "text": "ELECTRICAL RESISTIVITY TOMOGRAPHY"
+                                                    }, 
+                                                    {
+                                                        "children": [], 
+                                                        "collector": "", 
+                                                        "conceptid": "7a71700d-3ce9-3a56-8053-1095f45c70d5", 
+                                                        "id": "0f8dbffe-4998-44b3-b8d2-697d09d30f2c", 
+                                                        "sortorder": "", 
+                                                        "text": "ELECTROMAGNETIC SURVEY"
+                                                    }, 
+                                                    {
+                                                        "children": [], 
+                                                        "collector": "", 
+                                                        "conceptid": "b4c8de2b-1a27-32f3-b489-2c45ef58f4c6", 
+                                                        "id": "ae3ddfdb-d7c6-4d2a-b093-a0d73a3ec7b0", 
+                                                        "sortorder": "", 
+                                                        "text": "GROUND PENETRATING RADAR SURVEY"
+                                                    }, 
+                                                    {
+                                                        "children": [], 
+                                                        "collector": "", 
+                                                        "conceptid": "10170c30-82ad-30e0-8072-1a4330d30b0d", 
+                                                        "id": "abe447a7-f0c8-4843-9ab3-954c96e24c35", 
+                                                        "sortorder": "", 
+                                                        "text": "MAGNETIC SUSCEPTIBILITY SURVEY"
+                                                    }, 
+                                                    {
+                                                        "children": [], 
+                                                        "collector": "", 
+                                                        "conceptid": "f6ff8f96-a4ff-3156-8cc0-869b64a27351", 
+                                                        "id": "da2777b2-9f28-4c4f-ae91-578ca3cfa044", 
+                                                        "sortorder": "", 
+                                                        "text": "MAGNETOMETRY SURVEY"
+                                                    }, 
+                                                    {
+                                                        "children": [], 
+                                                        "collector": "", 
+                                                        "conceptid": "43ce08fe-fd6d-3068-b268-926e9dba7c2c", 
+                                                        "id": "006da010-26b9-404d-9b97-87ac766b9395", 
+                                                        "sortorder": "", 
+                                                        "text": "MICROGRAVITY SURVEY"
+                                                    }, 
+                                                    {
+                                                        "children": [], 
+                                                        "collector": "", 
+                                                        "conceptid": "97bb9a2e-bcb6-344c-96a9-e3e0a0a5d2fe", 
+                                                        "id": "46ca43c0-8561-4d8f-9cc3-61b3d89bcacf", 
+                                                        "sortorder": "", 
+                                                        "text": "SEISMIC SURVEY"
+                                                    }, 
+                                                    {
+                                                        "children": [
+                                                            {
+                                                                "children": [], 
+                                                                "collector": "", 
+                                                                "conceptid": "ebccadb1-2e37-3715-895d-50108d713fc5", 
+                                                                "id": "abddb3e8-6105-4efe-a9b5-c9dd1c775564", 
+                                                                "sortorder": "", 
+                                                                "text": "BATHYMETRIC SURVEY"
+                                                            }, 
+                                                            {
+                                                                "children": [], 
+                                                                "collector": "", 
+                                                                "conceptid": "983e1ce7-84f3-3b16-b328-9d6d89c3814d", 
+                                                                "id": "96a6744d-b65c-4375-b328-b2040a5c8e2e", 
+                                                                "sortorder": "", 
+                                                                "text": "MULTI BEAM ECHO SOUNDER SURVEY"
+                                                            }, 
+                                                            {
+                                                                "children": [], 
+                                                                "collector": "", 
+                                                                "conceptid": "492754fe-f1fd-314f-9047-5d5848323091", 
+                                                                "id": "0a17efd2-4311-466a-a724-be7e3a8577b8", 
+                                                                "sortorder": "", 
+                                                                "text": "SIDE SCAN SONAR SURVEY"
+                                                            }, 
+                                                            {
+                                                                "children": [], 
+                                                                "collector": "", 
+                                                                "conceptid": "296baab3-4bd0-33b2-8a99-aade6c259020", 
+                                                                "id": "3481448b-1092-4cec-81a6-3dfcf24bd716", 
+                                                                "sortorder": "", 
+                                                                "text": "SINGLE BEAM ECHO SOUNDER SURVEY"
+                                                            }, 
+                                                            {
+                                                                "children": [], 
+                                                                "collector": "", 
+                                                                "conceptid": "721a2db1-37ed-35ac-b3d3-716b3d65804b", 
+                                                                "id": "e4396039-c4fe-4a14-a166-2f49ee0a7ddf", 
+                                                                "sortorder": "", 
+                                                                "text": "SUB BOTTOM PROFILING SURVEY"
+                                                            }
+                                                        ], 
+                                                        "collector": "", 
+                                                        "conceptid": "ce6d20d9-a7d8-3f58-9e1d-fbbf11435b5a", 
+                                                        "id": "34256720-ef9f-4aa0-85e9-c316114f12bf", 
+                                                        "sortorder": "", 
+                                                        "text": "SONAR SURVEY"
+                                                    }
+                                                ], 
+                                                "collector": "", 
+                                                "conceptid": "74279a06-92dd-3a1f-82f1-f94ca6e0b1d9", 
+                                                "id": "e0bc71c1-9c3e-4568-aacf-bb02f490e0a0", 
+                                                "sortorder": "", 
+                                                "text": "GEOPHYSICAL SURVEY"
+                                            }, 
+                                            {
+                                                "children": [], 
+                                                "collector": "", 
+                                                "conceptid": "8e1c2309-e1b0-322e-92cc-23edf4bf4fe1", 
+                                                "id": "88097916-1a9e-469c-a511-7d450d9e67ca", 
+                                                "sortorder": "", 
+                                                "text": "HEDGEROW SURVEY"
+                                            }, 
+                                            {
+                                                "children": [], 
+                                                "collector": "", 
+                                                "conceptid": "bd62ceef-efc4-3f6c-bbc4-7ad7e1fd2549", 
+                                                "id": "93544330-3194-416c-a0bb-e871e4f8b738", 
+                                                "sortorder": "", 
+                                                "text": "HISTORIC AREA ASSESSMENT"
+                                            }, 
+                                            {
+                                                "children": [], 
+                                                "collector": "", 
+                                                "conceptid": "ffd288c8-b708-31dc-ad17-6c0139788aa8", 
+                                                "id": "c1ae3180-fc6a-4d1b-940e-db87caf6ce78", 
+                                                "sortorder": "", 
+                                                "text": "LASER SCANNING SURVEY"
+                                            }, 
+                                            {
+                                                "children": [], 
+                                                "collector": "", 
+                                                "conceptid": "b0bda9ef-b521-3010-8f17-6796ea3c3ac5", 
+                                                "id": "914140cd-2a31-44e9-855b-5e1dd6cbf616", 
+                                                "sortorder": "", 
+                                                "text": "MEASURED SURVEY"
+                                            }, 
+                                            {
+                                                "children": [], 
+                                                "collector": "", 
+                                                "conceptid": "6501f843-fa81-3ae0-b8b2-3f7ba46d9187", 
+                                                "id": "c428dfcc-9929-4a65-80b7-3cf6db62da9b", 
+                                                "sortorder": "", 
+                                                "text": "METAL DETECTING SURVEY"
+                                            }, 
+                                            {
+                                                "children": [], 
+                                                "collector": "", 
+                                                "conceptid": "ee88e923-0a5a-3812-8ed0-eff1f844d3d3", 
+                                                "id": "a66ac72e-46ea-4b1f-9a28-7389bd74242e", 
+                                                "sortorder": "", 
+                                                "text": "PHOTOGRAPHIC RECORDING"
+                                            }, 
+                                            {
+                                                "children": [
+                                                    {
+                                                        "children": [], 
+                                                        "collector": "", 
+                                                        "conceptid": "40fb630e-30bc-36ce-9fe9-ca612f68f425", 
+                                                        "id": "ae902b39-7122-4945-8b16-43f936785528", 
+                                                        "sortorder": "", 
+                                                        "text": "PHOTOGRAMMETRIC SURVEY"
+                                                    }, 
+                                                    {
+                                                        "children": [], 
+                                                        "collector": "", 
+                                                        "conceptid": "79929776-710d-3612-8f78-5a10de3613cf", 
+                                                        "id": "0b007ec2-a571-4f98-8a98-14fff0c0bb1c", 
+                                                        "sortorder": "", 
+                                                        "text": "RECTIFIED PHOTOGRAPHIC SURVEY"
+                                                    }
+                                                ], 
+                                                "collector": "", 
+                                                "conceptid": "025203d8-29a6-3cd5-8128-75d899463130", 
+                                                "id": "24ed895e-00d9-4498-9138-cd6ecd40e15c", 
+                                                "sortorder": "", 
+                                                "text": "PHOTOGRAPHIC SURVEY"
+                                            }, 
+                                            {
+                                                "children": [], 
+                                                "collector": "", 
+                                                "conceptid": "3b414c17-e0fc-302c-bc21-af4526abb005", 
+                                                "id": "354c928d-2cfd-4d04-ad1a-5a8d4a04abae", 
+                                                "sortorder": "", 
+                                                "text": "THEMATIC SURVEY"
+                                            }, 
+                                            {
+                                                "children": [], 
+                                                "collector": "", 
+                                                "conceptid": "c127d9f6-1a80-344c-8a21-8b76c7dda9bc", 
+                                                "id": "bd208567-4171-486a-bc14-4cc2fe3b41e2", 
+                                                "sortorder": "", 
+                                                "text": "TOPOGRAPHIC SURVEY"
+                                            }, 
+                                            {
+                                                "children": [], 
+                                                "collector": "", 
+                                                "conceptid": "fe0c03c3-ae3a-3983-aa18-ce4b9ab752e4", 
+                                                "id": "4884cf88-0814-474a-9b8b-79db49344016", 
+                                                "sortorder": "", 
+                                                "text": "UNDERWATER SURVEY"
+                                            }, 
+                                            {
+                                                "children": [], 
+                                                "collector": "", 
+                                                "conceptid": "658c777b-3646-3032-b3b3-20b9b0e50528", 
+                                                "id": "d92a2fd4-2f87-4d6c-90d7-c2786dca954b", 
+                                                "sortorder": "", 
+                                                "text": "WALKOVER SURVEY"
+                                            }
+                                        ], 
+                                        "collector": "", 
+                                        "conceptid": "5fb8ed79-04d6-3ca8-8483-7bfc9377cd21", 
+                                        "id": "08b27b48-bcbb-4635-8725-bd8dc28a0ddb", 
+                                        "sortorder": "", 
+                                        "text": "FIELD SURVEY"
+                                    }, 
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [], 
+                                                "collector": "", 
+                                                "conceptid": "cadc8000-49e3-3c6d-a4dc-323fcfed61e4", 
+                                                "id": "f1fbce86-f515-48b2-9e45-616c7e63d037", 
+                                                "sortorder": "", 
+                                                "text": "AERIAL PHOTOGRAPH INTERPRETATION"
+                                            }, 
+                                            {
+                                                "children": [], 
+                                                "collector": "", 
+                                                "conceptid": "f6596407-675f-3066-b5ad-e04a31a60b60", 
+                                                "id": "79724209-6e45-48bd-b600-3fbcfff8e650", 
+                                                "sortorder": "", 
+                                                "text": "ANTIQUARIAN OBSERVATION"
+                                            }, 
+                                            {
+                                                "children": [], 
+                                                "collector": "", 
+                                                "conceptid": "ae1fd1cb-a020-3bb1-b41b-7db301cf682d", 
+                                                "id": "914ba9ac-934b-4c5e-97d5-9a34406dfcba", 
+                                                "sortorder": "", 
+                                                "text": "CONSERVATION AREA APPRAILSAL"
+                                            }, 
+                                            {
+                                                "children": [], 
+                                                "collector": "", 
+                                                "conceptid": "4987dcb0-e15b-3fdc-acd1-a1f4210c3758", 
+                                                "id": "c67be175-df46-45c2-b017-390832cf94ce", 
+                                                "sortorder": "", 
+                                                "text": "DESK BASED ASSESSMENT"
+                                            }, 
+                                            {
+                                                "children": [], 
+                                                "collector": "", 
+                                                "conceptid": "79492fba-2ecc-3c4a-aaaa-eb31e176c5e6", 
+                                                "id": "54afab97-e408-4414-beb8-372042c43188", 
+                                                "sortorder": "", 
+                                                "text": "ENVIRONMENTAL IMPACT ASSESSMENT"
+                                            }, 
+                                            {
+                                                "children": [], 
+                                                "collector": "", 
+                                                "conceptid": "6b8d1f66-9bcb-38a2-8dd2-9e69b8fe6632", 
+                                                "id": "97912ed3-e234-43de-9eeb-6c8055c89f4a", 
+                                                "sortorder": "", 
+                                                "text": "FIELD OBSERVATION (VISUAL ASSESSMENT)"
+                                            }, 
+                                            {
+                                                "children": [], 
+                                                "collector": "", 
+                                                "conceptid": "08cb6734-621a-36d9-98f8-4c4b2f609b64", 
+                                                "id": "52e50e50-716c-455d-992d-743d61da2bb2", 
+                                                "sortorder": "", 
+                                                "text": "FIELD VISIT"
+                                            }, 
+                                            {
+                                                "children": [], 
+                                                "collector": "", 
+                                                "conceptid": "bd62ceef-efc4-3f6c-bbc4-7ad7e1fd2549", 
+                                                "id": "93544330-3194-416c-a0bb-e871e4f8b738", 
+                                                "sortorder": "", 
+                                                "text": "HISTORIC AREA ASSESSMENT"
+                                            }, 
+                                            {
+                                                "children": [], 
+                                                "collector": "", 
+                                                "conceptid": "ca3c2fda-3f58-311f-a793-1890481e9af0", 
+                                                "id": "a5611d4a-79b5-418e-8f5e-338301165f7a", 
+                                                "sortorder": "", 
+                                                "text": "HISTORIC LANDSCAPE CHARACTERISATION"
+                                            }, 
+                                            {
+                                                "children": [], 
+                                                "collector": "", 
+                                                "conceptid": "b48c8252-9e9a-3a1e-80ea-402991dc8c0a", 
+                                                "id": "71257a9a-d771-4a46-85a9-fdfcf3aa6c30", 
+                                                "sortorder": "", 
+                                                "text": "HISTORIC SEASCAPE CHARACTERISATION"
+                                            }, 
+                                            {
+                                                "children": [], 
+                                                "collector": "", 
+                                                "conceptid": "7f8b9c61-917d-3bc0-a756-4dec2154ebf4", 
+                                                "id": "ffd71c80-f716-472b-9858-dcc103f13470", 
+                                                "sortorder": "", 
+                                                "text": "MANAGEMENT SURVEY"
+                                            }
+                                        ], 
+                                        "collector": "", 
+                                        "conceptid": "a39cd5b0-76ee-3fb9-bc79-1eac8af1753b", 
+                                        "id": "e64a3f6a-c9a9-4468-8b92-74a5482bab63", 
+                                        "sortorder": "", 
+                                        "text": "HERITAGE ASSESSMENT"
+                                    }, 
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [
+                                                    {
+                                                        "children": [
+                                                            {
+                                                                "children": [], 
+                                                                "collector": "", 
+                                                                "conceptid": "c9331775-2b64-3d36-8b8b-35f8018bcafd", 
+                                                                "id": "758d1297-fd85-4d99-ace2-6b36387a5f43", 
+                                                                "sortorder": "", 
+                                                                "text": "CONVENTIONAL AERIAL PHOTOGRAPHY"
+                                                            }, 
+                                                            {
+                                                                "children": [
+                                                                    {
+                                                                        "children": [], 
+                                                                        "collector": "", 
+                                                                        "conceptid": "3db70b1c-0c21-3229-9f3b-6155cdb9da8c", 
+                                                                        "id": "0cdde0e5-a3b3-4794-93df-2b8627b247af", 
+                                                                        "sortorder": "", 
+                                                                        "text": "INFRARED AERIAL PHOTOGRAPHY"
+                                                                    }, 
+                                                                    {
+                                                                        "children": [], 
+                                                                        "collector": "", 
+                                                                        "conceptid": "451bdaaf-42ab-3066-9c09-b724cd7ffb17", 
+                                                                        "id": "6251af5c-763d-4be4-b0c2-640efa966071", 
+                                                                        "sortorder": "", 
+                                                                        "text": "INFRARED LINE SCAN AERIAL PHOTOGRAPHY"
+                                                                    }, 
+                                                                    {
+                                                                        "children": [], 
+                                                                        "collector": "", 
+                                                                        "conceptid": "43855e38-84a8-3a79-8480-58971f27f1b1", 
+                                                                        "id": "e063e694-c127-47f1-9773-cd1c2838867e", 
+                                                                        "sortorder": "", 
+                                                                        "text": "INFRARED THERMOGRAPHY SURVEY"
+                                                                    }
+                                                                ], 
+                                                                "collector": "", 
+                                                                "conceptid": "b2e875b9-7b39-32bc-915e-06b450d50800", 
+                                                                "id": "cf8e1e94-7ec4-401e-b288-06deb423b504", 
+                                                                "sortorder": "", 
+                                                                "text": "MULTI SPECTRAL AERIAL PHOTOGRAPHY"
+                                                            }
+                                                        ], 
+                                                        "collector": "", 
+                                                        "conceptid": "b8a7399d-0314-3a81-92a6-0626477ee126", 
+                                                        "id": "51cd3b45-94d3-472a-a562-45222d1ae12e", 
+                                                        "sortorder": "", 
+                                                        "text": "AERIAL PHOTOGRAPHY"
+                                                    }, 
+                                                    {
+                                                        "children": [], 
+                                                        "collector": "", 
+                                                        "conceptid": "5aa69b64-14f5-38fe-8d21-0749727619ca", 
+                                                        "id": "7ef79383-1d9e-4850-94df-94b382db4571", 
+                                                        "sortorder": "", 
+                                                        "text": "LIDAR SURVEY"
+                                                    }
+                                                ], 
+                                                "collector": "", 
+                                                "conceptid": "0b647dbf-6c95-3422-b861-3d4d9230d8f5", 
+                                                "id": "3407b1b1-ff82-4b77-8045-7ec8d73a2bf8", 
+                                                "sortorder": "", 
+                                                "text": "AERIAL RECONNAISSANCE"
+                                            }, 
+                                            {
+                                                "children": [], 
+                                                "collector": "", 
+                                                "conceptid": "728bf185-d0fa-3c35-9502-abc731080ea3", 
+                                                "id": "07c684b1-d39e-4b6c-8714-6555137e15db", 
+                                                "sortorder": "", 
+                                                "text": "REMOTE OPERATED VEHICLE SURVEY"
+                                            }, 
+                                            {
+                                                "children": [], 
+                                                "collector": "", 
+                                                "conceptid": "ed255dbd-c615-3311-b525-e348c65e348f", 
+                                                "id": "e3c9281e-a222-4629-9fe5-d249ea8e0111", 
+                                                "sortorder": "", 
+                                                "text": "SATELLITE IMAGING"
+                                            }
+                                        ], 
+                                        "collector": "", 
+                                        "conceptid": "6297f794-e9ba-3c5f-b6a4-c3007aa45a70", 
+                                        "id": "9a3e3a09-9520-497e-ad41-368f133d20ac", 
+                                        "sortorder": "", 
+                                        "text": "REMOTE SENSING"
+                                    }
+                                ], 
+                                "collector": "", 
+                                "conceptid": "6d48aff1-80b0-3da9-b36d-905dd659a651", 
+                                "id": "60c36d4c-5fdd-4905-b339-1445436f0365", 
+                                "sortorder": "", 
+                                "text": "Non Intrusive Event"
+                            }
+                        ], 
+                        "placeholder": "Select an activity type"
+                    }, 
+                    "id": "d0508151-9246-11e7-b43c-021893e306d8", 
+                    "label": "Activity Type", 
+                    "node_id": "d050814f-9246-11e7-b43c-021893e306d8", 
+                    "sortorder": 0, 
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                }, 
+                {
+                    "card_id": "d050814c-9246-11e7-b43c-021893e306d8", 
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD", 
+                        "label": "To Date", 
+                        "maxDate": false, 
+                        "minDate": false, 
+                        "placeholder": "Enter date", 
+                        "viewMode": "days"
+                    }, 
+                    "id": "d0508152-9246-11e7-b43c-021893e306d8", 
+                    "label": "To Date", 
+                    "node_id": "d050814e-9246-11e7-b43c-021893e306d8", 
+                    "sortorder": 1, 
+                    "widget_id": "10000000-0000-0000-0000-000000000004"
+                }, 
+                {
+                    "card_id": "d050814c-9246-11e7-b43c-021893e306d8", 
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD", 
+                        "label": "From Date", 
+                        "maxDate": false, 
+                        "minDate": false, 
+                        "placeholder": "Enter date", 
+                        "viewMode": "days"
+                    }, 
+                    "id": "d0508153-9246-11e7-b43c-021893e306d8", 
+                    "label": "From Date", 
+                    "node_id": "d0508150-9246-11e7-b43c-021893e306d8", 
+                    "sortorder": 2, 
+                    "widget_id": "10000000-0000-0000-0000-000000000004"
+                }, 
+                {
+                    "card_id": "87954c6d-9df0-11e7-9f72-021893e306d8", 
+                    "config": {
+                        "label": "Description", 
+                        "placeholder": "Enter text", 
+                        "width": "100%"
+                    }, 
+                    "id": "87954c70-9df0-11e7-9f72-021893e306d8", 
+                    "label": "Description", 
+                    "node_id": "87954c6e-9df0-11e7-9f72-021893e306d8", 
+                    "sortorder": 1, 
+                    "widget_id": "10000000-0000-0000-0000-000000000005"
+                }, 
+                {
+                    "card_id": "87954c6d-9df0-11e7-9f72-021893e306d8", 
+                    "config": {
+                        "label": "Description Type", 
+                        "options": [], 
+                        "placeholder": "Select a description type"
+                    }, 
+                    "id": "87954c71-9df0-11e7-9f72-021893e306d8", 
+                    "label": "Description Type", 
+                    "node_id": "87954c6f-9df0-11e7-9f72-021893e306d8", 
+                    "sortorder": 0, 
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                }, 
+                {
+                    "card_id": "65cfb652-9df1-11e7-9f72-021893e306d8", 
+                    "config": {
+                        "label": "Activity Method Type", 
+                        "options": [
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "24bbb521-1361-40d1-8c61-10779323a0b1", 
+                                "id": "0ac9d565-7987-4535-9598-26fa2a1ac36b", 
+                                "sortorder": "", 
+                                "text": "Chance find"
+                            }, 
+                            {
+                                "children": [
+                                    {
+                                        "children": [], 
+                                        "collector": "", 
+                                        "conceptid": "46734933-da4e-4de7-86d3-b0852b9b5315", 
+                                        "id": "d90b2a54-7475-4e05-ab07-80f9490f16aa", 
+                                        "sortorder": "", 
+                                        "text": "Hand excavation"
+                                    }, 
+                                    {
+                                        "children": [], 
+                                        "collector": "", 
+                                        "conceptid": "fcc39e94-1041-4230-bd7f-91633ba239ee", 
+                                        "id": "4fbcd8af-4d3c-4a44-a817-f9fe6ff62c55", 
+                                        "sortorder": "", 
+                                        "text": "Mechanical excavation"
+                                    }
+                                ], 
+                                "collector": "", 
+                                "conceptid": "7b752e22-eb71-4e88-a21c-48774a4d352f", 
+                                "id": "108d5230-3d36-4451-823a-168d3c41db2a", 
+                                "sortorder": "", 
+                                "text": "Excavation"
+                            }
+                        ], 
+                        "placeholder": "Select an option"
+                    }, 
+                    "id": "c6f830ec-9df1-11e7-9f72-021893e306d8", 
+                    "label": "Activity Method Type", 
+                    "node_id": "c5b5b4cd-9def-11e7-9f72-021893e306d8", 
+                    "sortorder": 0, 
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                }
+            ], 
+            "deploymentdate": null, 
+            "deploymentfile": null, 
+            "description": "Describes the time span and type of an Activity Resource.", 
+            "edges": [
+                {
+                    "description": null, 
+                    "domainnode_id": "d050814d-9246-11e7-b43c-021893e306d8", 
+                    "edgeid": "d0508155-9246-11e7-b43c-021893e306d8", 
+                    "graph_id": "d0508146-9246-11e7-b43c-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P78_is_identified_by", 
+                    "rangenode_id": "d050814e-9246-11e7-b43c-021893e306d8"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "87954c6b-9df0-11e7-9f72-021893e306d8", 
+                    "edgeid": "87954c73-9df0-11e7-9f72-021893e306d8", 
+                    "graph_id": "d0508146-9246-11e7-b43c-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type", 
+                    "rangenode_id": "87954c6f-9df0-11e7-9f72-021893e306d8"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "d050814a-9246-11e7-b43c-021893e306d8", 
+                    "edgeid": "d0508156-9246-11e7-b43c-021893e306d8", 
+                    "graph_id": "d0508146-9246-11e7-b43c-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span", 
+                    "rangenode_id": "d050814d-9246-11e7-b43c-021893e306d8"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "d0508147-9246-11e7-b43c-021893e306d8", 
+                    "edgeid": "87954c74-9df0-11e7-9f72-021893e306d8", 
+                    "graph_id": "d0508146-9246-11e7-b43c-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P140i_was_attributed_by", 
+                    "rangenode_id": "87954c6b-9df0-11e7-9f72-021893e306d8"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "d050814a-9246-11e7-b43c-021893e306d8", 
+                    "edgeid": "d0508158-9246-11e7-b43c-021893e306d8", 
+                    "graph_id": "d0508146-9246-11e7-b43c-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P41_classified", 
+                    "rangenode_id": "d050814f-9246-11e7-b43c-021893e306d8"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "d050814d-9246-11e7-b43c-021893e306d8", 
+                    "edgeid": "d0508154-9246-11e7-b43c-021893e306d8", 
+                    "graph_id": "d0508146-9246-11e7-b43c-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P78_is_identified_by", 
+                    "rangenode_id": "d0508150-9246-11e7-b43c-021893e306d8"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "d0508147-9246-11e7-b43c-021893e306d8", 
+                    "edgeid": "abf58ce4-9def-11e7-9f72-021893e306d8", 
+                    "graph_id": "d0508146-9246-11e7-b43c-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P33_used_specific_technique", 
+                    "rangenode_id": "abf58ce3-9def-11e7-9f72-021893e306d8"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "d0508147-9246-11e7-b43c-021893e306d8", 
+                    "edgeid": "d0508157-9246-11e7-b43c-021893e306d8", 
+                    "graph_id": "d0508146-9246-11e7-b43c-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P41i_was_classified_by", 
+                    "rangenode_id": "d050814a-9246-11e7-b43c-021893e306d8"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "87954c6b-9df0-11e7-9f72-021893e306d8", 
+                    "edgeid": "87954c72-9df0-11e7-9f72-021893e306d8", 
+                    "graph_id": "d0508146-9246-11e7-b43c-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note", 
+                    "rangenode_id": "87954c6e-9df0-11e7-9f72-021893e306d8"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "abf58ce3-9def-11e7-9f72-021893e306d8", 
+                    "edgeid": "c5b5b4ce-9def-11e7-9f72-021893e306d8", 
+                    "graph_id": "d0508146-9246-11e7-b43c-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type", 
+                    "rangenode_id": "c5b5b4cd-9def-11e7-9f72-021893e306d8"
+                }
+            ], 
+            "forms": [], 
+            "forms_x_cards": [], 
+            "functions_x_graphs": [], 
+            "graphid": "d0508146-9246-11e7-b43c-021893e306d8", 
+            "iconclass": "fa fa-tasks", 
+            "is_editable": true, 
+            "isactive": true, 
+            "isresource": false, 
+            "name": "HER Activity Phase", 
+            "nodegroups": [
+                {
+                    "cardinality": "1", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "d050814a-9246-11e7-b43c-021893e306d8", 
+                    "parentnodegroup_id": "d0508147-9246-11e7-b43c-021893e306d8"
+                }, 
+                {
+                    "cardinality": "n", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "d0508147-9246-11e7-b43c-021893e306d8", 
+                    "parentnodegroup_id": null
+                }, 
+                {
+                    "cardinality": "n", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "87954c6b-9df0-11e7-9f72-021893e306d8", 
+                    "parentnodegroup_id": "d0508147-9246-11e7-b43c-021893e306d8"
+                }, 
+                {
+                    "cardinality": "1", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "abf58ce3-9def-11e7-9f72-021893e306d8", 
+                    "parentnodegroup_id": "d0508147-9246-11e7-b43c-021893e306d8"
+                }
+            ], 
+            "nodes": [
+                {
+                    "config": null, 
+                    "datatype": "semantic", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "d0508146-9246-11e7-b43c-021893e306d8", 
+                    "is_collector": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Time Span Phase", 
+                    "nodegroup_id": "d050814a-9246-11e7-b43c-021893e306d8", 
+                    "nodeid": "d050814d-9246-11e7-b43c-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span"
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "date", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "d0508146-9246-11e7-b43c-021893e306d8", 
+                    "is_collector": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "To Date", 
+                    "nodegroup_id": "d050814a-9246-11e7-b43c-021893e306d8", 
+                    "nodeid": "d050814e-9246-11e7-b43c-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E49_Time_Appellation", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P78_is_identified_by"
+                }, 
+                {
+                    "config": {
+                        "rdmCollection": "5ea0b051-b060-40e3-bc71-5970390e7ac2"
+                    }, 
+                    "datatype": "concept", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "d0508146-9246-11e7-b43c-021893e306d8", 
+                    "is_collector": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Activity Type", 
+                    "nodegroup_id": "d050814a-9246-11e7-b43c-021893e306d8", 
+                    "nodeid": "d050814f-9246-11e7-b43c-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P41_classified"
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "semantic", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "d0508146-9246-11e7-b43c-021893e306d8", 
+                    "is_collector": true, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Phase Type Assignment", 
+                    "nodegroup_id": "d050814a-9246-11e7-b43c-021893e306d8", 
+                    "nodeid": "d050814a-9246-11e7-b43c-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P41i_was_classified_by"
+                }, 
+                {
+                    "config": {
+                        "fillColor": "rgba(233,112,111,0.8)"
+                    }, 
+                    "datatype": "semantic", 
+                    "description": "", 
+                    "graph_id": "d0508146-9246-11e7-b43c-021893e306d8", 
+                    "is_collector": true, 
+                    "issearchable": true, 
+                    "istopnode": true, 
+                    "name": "Activity Phase", 
+                    "nodegroup_id": "d0508147-9246-11e7-b43c-021893e306d8", 
+                    "nodeid": "d0508147-9246-11e7-b43c-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E7_Activity", 
+                    "parentproperty": ""
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "date", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "d0508146-9246-11e7-b43c-021893e306d8", 
+                    "is_collector": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "From Date", 
+                    "nodegroup_id": "d050814a-9246-11e7-b43c-021893e306d8", 
+                    "nodeid": "d0508150-9246-11e7-b43c-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E49_Time_Appellation", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P78_is_identified_by"
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "semantic", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "d0508146-9246-11e7-b43c-021893e306d8", 
+                    "is_collector": true, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Activity Method", 
+                    "nodegroup_id": "abf58ce3-9def-11e7-9f72-021893e306d8", 
+                    "nodeid": "abf58ce3-9def-11e7-9f72-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E29_Design_or_Procedure", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P33_used_specific_technique"
+                }, 
+                {
+                    "config": {
+                        "rdmCollection": "5ca159eb-4db7-4d0e-9018-fa3fbc42d32b"
+                    }, 
+                    "datatype": "concept", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "d0508146-9246-11e7-b43c-021893e306d8", 
+                    "is_collector": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Activity Method Type", 
+                    "nodegroup_id": "abf58ce3-9def-11e7-9f72-021893e306d8", 
+                    "nodeid": "c5b5b4cd-9def-11e7-9f72-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type"
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "string", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "d0508146-9246-11e7-b43c-021893e306d8", 
+                    "is_collector": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Description", 
+                    "nodegroup_id": "87954c6b-9df0-11e7-9f72-021893e306d8", 
+                    "nodeid": "87954c6e-9df0-11e7-9f72-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E62_String", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note"
+                }, 
+                {
+                    "config": {
+                        "rdmCollection": null
+                    }, 
+                    "datatype": "concept", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "d0508146-9246-11e7-b43c-021893e306d8", 
+                    "is_collector": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Description Type", 
+                    "nodegroup_id": "87954c6b-9df0-11e7-9f72-021893e306d8", 
+                    "nodeid": "87954c6f-9df0-11e7-9f72-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type"
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "semantic", 
+                    "description": "", 
+                    "graph_id": "d0508146-9246-11e7-b43c-021893e306d8", 
+                    "is_collector": true, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Description Assignment", 
+                    "nodegroup_id": "87954c6b-9df0-11e7-9f72-021893e306d8", 
+                    "nodeid": "87954c6b-9df0-11e7-9f72-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P140i_was_attributed_by"
+                }
+            ], 
+            "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd", 
+            "relatable_resource_model_ids": [], 
+            "reports": [], 
+            "resource_2_resource_constraints": [], 
+            "root": {
+                "config": {
+                    "fillColor": "rgba(233,112,111,0.8)"
+                }, 
+                "datatype": "semantic", 
+                "description": "", 
+                "graph_id": "d0508146-9246-11e7-b43c-021893e306d8", 
+                "is_collector": true, 
+                "issearchable": true, 
+                "istopnode": true, 
+                "name": "Activity Phase", 
+                "nodegroup_id": "d0508147-9246-11e7-b43c-021893e306d8", 
+                "nodeid": "d0508147-9246-11e7-b43c-021893e306d8", 
+                "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E7_Activity"
+            }, 
+            "subtitle": "Describes the time span and type of an Activity Resource", 
+            "version": ""
+        }
+    ], 
+    "metadata": {
+        "db": "PostgreSQL 9.6.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 5.3.1-14ubuntu2) 5.3.1 20160413, 64-bit", 
+        "git hash": "205c31b 2017-06-01 12:07:14 -0700", 
+        "os": "Linux", 
+        "os version": "4.4.0-93-generic"
+    }
+}

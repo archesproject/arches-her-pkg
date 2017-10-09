@@ -1,0 +1,964 @@
+{
+    "graph": [
+        {
+            "author": "Phil Carlisle", 
+            "cards": [
+                {
+                    "active": true, 
+                    "cardid": "a66c0c3c-a81e-11e7-9f72-021893e306d8", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "a66c0c36-a81e-11e7-9f72-021893e306d8", 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "helptitle": null, 
+                    "instructions": null, 
+                    "name": "Record Creation", 
+                    "nodegroup_id": "a66c0c3a-a81e-11e7-9f72-021893e306d8", 
+                    "sortorder": 0, 
+                    "visible": true
+                }, 
+                {
+                    "active": true, 
+                    "cardid": "a66c0c39-a81e-11e7-9f72-021893e306d8", 
+                    "description": "Provides placeholders for migrated data.\n\nDate of Compilation\n- has type Date of Creation/Date of Last Update\nCompiler\n- has Name\n- has Role", 
+                    "graph_id": "a66c0c36-a81e-11e7-9f72-021893e306d8", 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "helptitle": null, 
+                    "instructions": null, 
+                    "name": "Generic Compilation", 
+                    "nodegroup_id": "a66c0c37-a81e-11e7-9f72-021893e306d8", 
+                    "sortorder": null, 
+                    "visible": true
+                }
+            ], 
+            "cards_x_nodes_x_widgets": [
+                {
+                    "card_id": "a66c0c3c-a81e-11e7-9f72-021893e306d8", 
+                    "config": {
+                        "label": "Date Type", 
+                        "placeholder": "Select an option"
+                    }, 
+                    "id": "a66c0c45-a81e-11e7-9f72-021893e306d8", 
+                    "label": "Date Type", 
+                    "node_id": "a66c0c43-a81e-11e7-9f72-021893e306d8", 
+                    "sortorder": 3, 
+                    "widget_id": "10000000-0000-0000-0000-000000000015"
+                }, 
+                {
+                    "card_id": "a66c0c3c-a81e-11e7-9f72-021893e306d8", 
+                    "config": {
+                        "label": "Compiler Name", 
+                        "maxLength": null, 
+                        "placeholder": "Enter text", 
+                        "width": "100%"
+                    }, 
+                    "id": "a66c0c46-a81e-11e7-9f72-021893e306d8", 
+                    "label": "Compiler Name", 
+                    "node_id": "a66c0c41-a81e-11e7-9f72-021893e306d8", 
+                    "sortorder": 0, 
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                }, 
+                {
+                    "card_id": "a66c0c3c-a81e-11e7-9f72-021893e306d8", 
+                    "config": {
+                        "label": "Organization Name", 
+                        "maxLength": null, 
+                        "placeholder": "Enter text", 
+                        "width": "100%"
+                    }, 
+                    "id": "a66c0c49-a81e-11e7-9f72-021893e306d8", 
+                    "label": "Organization Name", 
+                    "node_id": "a66c0c3f-a81e-11e7-9f72-021893e306d8", 
+                    "sortorder": 4, 
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                }, 
+                {
+                    "card_id": "a66c0c3c-a81e-11e7-9f72-021893e306d8", 
+                    "config": {
+                        "label": "Role", 
+                        "options": [
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "81469b37-17cb-42f6-8916-6a9073dedb10", 
+                                "id": "1a047c3b-e377-4617-9ebd-67e02b37dd49", 
+                                "sortorder": "", 
+                                "text": "Aerial Surveyor"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "fe37130b-0d05-4855-99eb-0fe9f0c03a08", 
+                                "id": "06bf9b3b-c7c4-466d-8f5c-40e507de0cb5", 
+                                "sortorder": "", 
+                                "text": "Air Photograph Interpreter"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "30a497ea-7761-4c83-9355-1d1b3a2ba702", 
+                                "id": "9d4cd90f-6794-48f4-a9b5-f57399a93ccb", 
+                                "sortorder": "", 
+                                "text": "Aircraft Crew"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "4067d705-1c3a-4d41-99ce-87e2af30976b", 
+                                "id": "2447df49-2279-46d7-9a64-b080633f0391", 
+                                "sortorder": "", 
+                                "text": "Annotator"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "25c3a535-88ac-4357-ab12-7eae872c1df2", 
+                                "id": "95538e79-015c-4fce-8563-0625ab4e4835", 
+                                "sortorder": "", 
+                                "text": "Antiquarian"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "496206ca-001d-4beb-bb07-6519ee0c037f", 
+                                "id": "58efc6e4-840b-43e5-b91f-0cf087833e75", 
+                                "sortorder": "", 
+                                "text": "Archaeological FIeld Investigator"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "b4f7e4b0-f9da-40e5-8673-788517fb44a3", 
+                                "id": "92c713e8-7057-4175-beab-53b37152f956", 
+                                "sortorder": "", 
+                                "text": "Architect"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "0ffa23e7-acf1-451d-a8fe-1267f2cbeadf", 
+                                "id": "e1bb29b8-3a86-4dec-a04e-323eebc9981d", 
+                                "sortorder": "", 
+                                "text": "Architectural Field Investigator"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "61a22eb0-8358-4c6b-b743-e5160dd72e11", 
+                                "id": "fc0f5902-ec10-48ad-a445-15cf14e67acb", 
+                                "sortorder": "", 
+                                "text": "Archive Holder"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "0a7a94e9-8418-410a-9211-0be0977ef2c1", 
+                                "id": "534be06e-8f14-4ae1-bd3e-616e9e7c7a22", 
+                                "sortorder": "", 
+                                "text": "Artist"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "4fa3c1aa-fc4f-498e-b23c-5795512fe07d", 
+                                "id": "c8c2355d-aede-4208-952b-18ddbb8e58c9", 
+                                "sortorder": "", 
+                                "text": "Auspices"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "7f788f2f-b7e1-4eb6-9be4-1a3607cad59a", 
+                                "id": "2aab4259-2381-4987-907a-fa461dfc0adc", 
+                                "sortorder": "", 
+                                "text": "Author"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "4bdd0d52-1140-485e-8edc-d3a65740c2bf", 
+                                "id": "359acf9b-81d5-45b6-a7dc-e2481e4234b5", 
+                                "sortorder": "", 
+                                "text": "Builder"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "b5f372d6-8daa-45f7-bc63-e22a7098e0b6", 
+                                "id": "26fbc26c-8235-42e2-a099-923352a32a28", 
+                                "sortorder": "", 
+                                "text": "Captain"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "78ee1b0e-9ffd-41df-abe0-fb1bb8ee0e54", 
+                                "id": "d08c54f2-49f6-4e41-ac55-5a76e88349fc", 
+                                "sortorder": "", 
+                                "text": "Cataloguer/Indexer"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "13039aeb-b019-44b2-af97-7161f54a4141", 
+                                "id": "1a17029a-aef4-449b-a3c5-608b9cfd4d08", 
+                                "sortorder": "", 
+                                "text": "Client"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "84040d81-3952-4848-9b6a-3f171a65e461", 
+                                "id": "306f95db-4733-4f06-bfae-7c84d1068fef", 
+                                "sortorder": "", 
+                                "text": "Collector"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "35fe2e5d-5b55-4801-8f76-5ed06b598802", 
+                                "id": "6d43b7a2-ea7c-4ffe-a688-d2032386d6da", 
+                                "sortorder": "", 
+                                "text": "Compiler"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "7c8b5a70-f5b6-430e-957c-f813c7994b23", 
+                                "id": "52bfc0cc-8958-429e-b0c5-8928a4b3ea5d", 
+                                "sortorder": "", 
+                                "text": "Copyright Owner"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "ae39c55d-2862-45e6-9baa-2b96b69bd831", 
+                                "id": "f9a2893b-655e-48fa-af3c-8d09d37c9ec2", 
+                                "sortorder": "", 
+                                "text": "Correspondent"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "adaaa755-606d-4e4e-8bed-669873331845", 
+                                "id": "c75c194b-78ab-45d6-a977-1ec975af1df3", 
+                                "sortorder": "", 
+                                "text": "Craftsperson"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "1b9eb06e-438d-4660-be3b-03849754a343", 
+                                "id": "d592efb4-a6bc-48a3-82f6-4b4b75f6f2b9", 
+                                "sortorder": "", 
+                                "text": "Creator of Archive"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "13725ba9-9d0d-4d15-a70c-8bb6465ee6b5", 
+                                "id": "5222ec26-e41d-4265-bcee-414a9c0d5e96", 
+                                "sortorder": "", 
+                                "text": "Creator of Digital Copy"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "f04ac2aa-0d09-43bb-a975-4e4c2ddded12", 
+                                "id": "1541abf7-3a3c-40d2-a729-08fcd2fb2633", 
+                                "sortorder": "", 
+                                "text": "Curator"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "05441678-622d-4ce1-a269-49a30a535451", 
+                                "id": "db67e808-ada0-4dc0-b64e-5c7799900360", 
+                                "sortorder": "", 
+                                "text": "Customer"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "57c5845a-c434-48d1-ac57-957601b1d977", 
+                                "id": "338cb2b0-490f-4aee-8cec-0205433495e9", 
+                                "sortorder": "", 
+                                "text": "Darkroom Printer"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "b407b5e5-7e2e-420c-9717-7f22df0d6ace", 
+                                "id": "daa85d8e-64af-44cc-9535-61497c1cbffa", 
+                                "sortorder": "", 
+                                "text": "Designer"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "05191a16-47fb-410e-8a30-6b67ca94f82d", 
+                                "id": "5f676939-94cc-4c9e-b26b-d89967ce6b75", 
+                                "sortorder": "", 
+                                "text": "Director of Fieldwork"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "6a0bbfa0-fd56-4eb1-a21d-8f860fe900c3", 
+                                "id": "b977853f-6381-4f69-89cc-e988106e9145", 
+                                "sortorder": "", 
+                                "text": "Diver"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "03114e10-8433-4a13-8aab-6bafbbf218a2", 
+                                "id": "ea179f13-36d6-4875-8bb3-5f092edd695d", 
+                                "sortorder": "", 
+                                "text": "Donor"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "c7869bc4-08cc-48c1-968a-0125493555e2", 
+                                "id": "8b5e8dd9-2a7a-4003-a374-929d14fb45fd", 
+                                "sortorder": "", 
+                                "text": "Draftsman"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "9665bf64-67b9-4f1c-a654-1d1dc4e2f46f", 
+                                "id": "8ad2ca80-238f-4b6d-b6d4-1040298bd2b0", 
+                                "sortorder": "", 
+                                "text": "Editor"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "25e9152c-0079-4c06-a17f-d88de7f5278a", 
+                                "id": "0a32a247-2b40-4f89-a24e-ce9b88bac793", 
+                                "sortorder": "", 
+                                "text": "Employee"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "eb0db728-c13e-4198-ac11-c13831b25687", 
+                                "id": "6244f189-df32-42ca-925e-ef938280b29e", 
+                                "sortorder": "", 
+                                "text": "Engineer"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "201d4f86-d227-4fe0-902a-896d67b859d8", 
+                                "id": "10a16ddc-6fcf-4b6f-8d70-6f3ce218ff38", 
+                                "sortorder": "", 
+                                "text": "Engraver"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "57918eeb-e345-48a5-9d5c-595614d77beb", 
+                                "id": "cb8c9109-512f-4f67-9a90-b5fe2fe20c00", 
+                                "sortorder": "", 
+                                "text": "Excavator"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "aba711ee-c5c8-46ea-8ac7-26ae0853b22c", 
+                                "id": "2dfbd199-469a-42d9-98ae-ca9354ae21c1", 
+                                "sortorder": "", 
+                                "text": "Field Walker"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "3153f35e-7b01-4aa7-8248-483b13c3e304", 
+                                "id": "3ccb1f26-64a0-4a77-a61b-42b5a98678c0", 
+                                "sortorder": "", 
+                                "text": "Finder"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "2cb84676-f44c-4014-a563-932f5ec9e803", 
+                                "id": "a5934865-97b5-46f7-8646-3e1e40582b6f", 
+                                "sortorder": "", 
+                                "text": "Finds Holder"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "11f88573-1758-4d0f-98f4-6b5081a0ee3b", 
+                                "id": "143d7eb8-d353-4d75-83ad-c39431fd8f6e", 
+                                "sortorder": "", 
+                                "text": "Funding Body/FInancier"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "2e20d407-aff1-4388-a9ed-801880833fe0", 
+                                "id": "db5c7cea-0a99-4c57-8e47-5c53a74a51bd", 
+                                "sortorder": "", 
+                                "text": "Heritage Protection Advisor"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "050c1c9e-8c6c-405a-a5b9-3e708389a9a0", 
+                                "id": "36fd7761-acb4-43cf-b2e2-1eacd2d5b6eb", 
+                                "sortorder": "", 
+                                "text": "Holder of Original Archive"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "f44e5919-bc31-4a8e-b3b8-add559028f82", 
+                                "id": "51050582-b4d5-4ab0-ac4c-54970c3ed713", 
+                                "sortorder": "", 
+                                "text": "Illustrator"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "ab27f0b0-0aa4-49ae-aa3d-a89125f8c10f", 
+                                "id": "9c116ab4-0c1e-4fce-9c82-dfb856ac2e80", 
+                                "sortorder": "", 
+                                "text": "Interior Designer"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "8d4e5326-7ba3-4ac5-a1df-6982c06b9f5c", 
+                                "id": "615bd8ef-a763-4110-b3f6-adc31939d843", 
+                                "sortorder": "", 
+                                "text": "Landscape Gardener"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "b3c08fd5-827e-4973-83ce-806a49058145", 
+                                "id": "cd0cf81b-07db-43ac-b69f-eb65d3275142", 
+                                "sortorder": "", 
+                                "text": "Manufacturer"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "794ae3de-737c-4741-9026-24cffc216d13", 
+                                "id": "60e589c3-53d2-49be-8dd1-2f3002af47d8", 
+                                "sortorder": "", 
+                                "text": "Marine Aggregate Producer"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "80816e70-ef91-4f07-ba8f-08284df9e8a1", 
+                                "id": "75d41027-ec80-436f-9a1d-7f59af316305", 
+                                "sortorder": "", 
+                                "text": "Master Mariner"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "90ca1444-2ce4-4f38-b9b4-98e70c64444a", 
+                                "id": "17bfcc28-6fee-4a7c-a0f5-7bebe2d4cd06", 
+                                "sortorder": "", 
+                                "text": "Owner"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "44851cc6-180d-4d67-9fec-883253dd5146", 
+                                "id": "1e17e638-0159-446f-9777-e3516624ba8c", 
+                                "sortorder": "", 
+                                "text": "Painter"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "cc236801-7efb-4bd7-abc3-0a31d9e083f8", 
+                                "id": "0d5f1ee2-2910-46d9-858f-4040f113a79c", 
+                                "sortorder": "", 
+                                "text": "Patron"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "ce01ce24-cb19-4388-b182-447ba7880f48", 
+                                "id": "b7a88c28-509c-498d-b661-b5b38c4f914b", 
+                                "sortorder": "", 
+                                "text": "Person of Historic Interest"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "7f5b07fe-c381-41a6-a787-5f245d304fb0", 
+                                "id": "d00e6c07-63fd-4ec9-94b0-e5b4d47d4f1c", 
+                                "sortorder": "", 
+                                "text": "Photographer"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "a175734c-0a2d-47df-853a-32cad93f8d17", 
+                                "id": "8872bac9-470f-4eab-91bf-4f04e3f9acad", 
+                                "sortorder": "", 
+                                "text": "Photographic Printer"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "1885ba0c-d97e-4cee-b703-570c30aba955", 
+                                "id": "51fcc84d-1af7-40aa-a7a8-8730d6bc0d55", 
+                                "sortorder": "", 
+                                "text": "Preservation Management"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "5e9c7379-a044-405a-a5bc-3010929264e2", 
+                                "id": "40067134-729c-4bdd-9e56-fc2db6dbf551", 
+                                "sortorder": "", 
+                                "text": "Printer"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "7fbcab95-f967-4ee7-8ed7-7076d94ebebe", 
+                                "id": "6a08646f-a2d8-45f7-b2f5-bafa2200e1f8", 
+                                "sortorder": "", 
+                                "text": "Project Manager"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "85fbff7e-268f-4403-ab70-a68e484644e5", 
+                                "id": "ce07f348-d14f-4be1-a6f8-be2dec383fd8", 
+                                "sortorder": "", 
+                                "text": "Publisher"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "89e09433-488c-4b39-9bdd-2cfe4cf0bfb3", 
+                                "id": "b9e65d90-d479-405a-91a5-d50a6bf8d909", 
+                                "sortorder": "", 
+                                "text": "Recorder"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "adcd09e3-5ab2-451a-b5a3-b52a8ae9de52", 
+                                "id": "e7cb5beb-240b-4d91-a7e6-9b640cf642eb", 
+                                "sortorder": "", 
+                                "text": "Researcher"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "abebae40-e606-407a-9c57-f251da2b2c5a", 
+                                "id": "5ef1c85d-13e5-4995-93ce-1fbc3d62f7cf", 
+                                "sortorder": "", 
+                                "text": "Reviser"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "8aaddb68-04b8-442b-8522-547d1a6f3da7", 
+                                "id": "34c962d6-91e4-40cc-a75f-08e5b5572586", 
+                                "sortorder": "", 
+                                "text": "Salvager"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "7d6feee2-f976-4739-b023-7fc8dce9d1ef", 
+                                "id": "38397528-2de1-40a8-ab21-19a98bcdc3f1", 
+                                "sortorder": "", 
+                                "text": "Sculptor"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "ff215f29-56c6-4080-af87-6cb7b2be6951", 
+                                "id": "e0c04ab8-b6ff-4a73-bf49-3e3a703e1539", 
+                                "sortorder": "", 
+                                "text": "Site Inspector"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "0ae4bfb1-a234-487d-90b9-9fba945a908b", 
+                                "id": "81699e44-b133-45a0-9e37-14dbc24d2f0a", 
+                                "sortorder": "", 
+                                "text": "Sponsor"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "89cca74d-504b-47b4-99a5-3fb8912f4a2c", 
+                                "id": "ee3430bb-2770-4fcf-b81c-05fdfcdbb168", 
+                                "sortorder": "", 
+                                "text": "Stained Glass Worker"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "f2196d5e-eedd-4a9d-86a4-e503f6d76f98", 
+                                "id": "7656f2b6-8aff-4e53-9d30-b9563bb86a42", 
+                                "sortorder": "", 
+                                "text": "Stonemason"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "75f82d18-de48-42a4-8307-805c281f061f", 
+                                "id": "f6cc0b65-54e5-4841-a877-8fe6d2559848", 
+                                "sortorder": "", 
+                                "text": "Submitter of Archive"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "bffcd100-1252-4cbc-9400-084f68131746", 
+                                "id": "17bb17da-d181-44f1-aa07-b1b2b29556f2", 
+                                "sortorder": "", 
+                                "text": "Surveyor"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "698f659b-3650-45e4-96ac-9d74a672abc9", 
+                                "id": "1a10e042-d273-451f-9872-f0a5c19e5ee9", 
+                                "sortorder": "", 
+                                "text": "Translator"
+                            }
+                        ], 
+                        "placeholder": "Select an option"
+                    }, 
+                    "id": "a66c0c48-a81e-11e7-9f72-021893e306d8", 
+                    "label": "Role", 
+                    "node_id": "a66c0c44-a81e-11e7-9f72-021893e306d8", 
+                    "sortorder": 1, 
+                    "widget_id": "10000000-0000-0000-0000-000000000012"
+                }, 
+                {
+                    "card_id": "a66c0c3c-a81e-11e7-9f72-021893e306d8", 
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD", 
+                        "label": "Date of Compilation", 
+                        "maxDate": false, 
+                        "minDate": false, 
+                        "placeholder": "Enter date", 
+                        "viewMode": "days"
+                    }, 
+                    "id": "a66c0c47-a81e-11e7-9f72-021893e306d8", 
+                    "label": "Date of Compilation", 
+                    "node_id": "a66c0c40-a81e-11e7-9f72-021893e306d8", 
+                    "sortorder": 2, 
+                    "widget_id": "10000000-0000-0000-0000-000000000004"
+                }
+            ], 
+            "deploymentdate": null, 
+            "deploymentfile": null, 
+            "description": "Provides placeholders for migrated data.\n\nDate of Compilation\n- has type Date of Creation/Date of Last Update\nCompiler\n- has Name\n- has Role", 
+            "edges": [
+                {
+                    "description": null, 
+                    "domainnode_id": "a66c0c42-a81e-11e7-9f72-021893e306d8", 
+                    "edgeid": "a66c0c50-a81e-11e7-9f72-021893e306d8", 
+                    "graph_id": "a66c0c36-a81e-11e7-9f72-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type", 
+                    "rangenode_id": "a66c0c44-a81e-11e7-9f72-021893e306d8"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "a66c0c40-a81e-11e7-9f72-021893e306d8", 
+                    "edgeid": "a66c0c4a-a81e-11e7-9f72-021893e306d8", 
+                    "graph_id": "a66c0c36-a81e-11e7-9f72-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type", 
+                    "rangenode_id": "a66c0c43-a81e-11e7-9f72-021893e306d8"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "a66c0c42-a81e-11e7-9f72-021893e306d8", 
+                    "edgeid": "a66c0c4e-a81e-11e7-9f72-021893e306d8", 
+                    "graph_id": "a66c0c36-a81e-11e7-9f72-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by", 
+                    "rangenode_id": "a66c0c41-a81e-11e7-9f72-021893e306d8"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "a66c0c3d-a81e-11e7-9f72-021893e306d8", 
+                    "edgeid": "a66c0c4c-a81e-11e7-9f72-021893e306d8", 
+                    "graph_id": "a66c0c36-a81e-11e7-9f72-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by", 
+                    "rangenode_id": "a66c0c3f-a81e-11e7-9f72-021893e306d8"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "a66c0c3e-a81e-11e7-9f72-021893e306d8", 
+                    "edgeid": "a66c0c52-a81e-11e7-9f72-021893e306d8", 
+                    "graph_id": "a66c0c36-a81e-11e7-9f72-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as", 
+                    "rangenode_id": "a66c0c40-a81e-11e7-9f72-021893e306d8"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "a66c0c37-a81e-11e7-9f72-021893e306d8", 
+                    "edgeid": "a66c0c51-a81e-11e7-9f72-021893e306d8", 
+                    "graph_id": "a66c0c36-a81e-11e7-9f72-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P94i_was_created_by", 
+                    "rangenode_id": "a66c0c3a-a81e-11e7-9f72-021893e306d8"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "a66c0c42-a81e-11e7-9f72-021893e306d8", 
+                    "edgeid": "a66c0c4b-a81e-11e7-9f72-021893e306d8", 
+                    "graph_id": "a66c0c36-a81e-11e7-9f72-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P107i_is_current_or_former_member_of", 
+                    "rangenode_id": "a66c0c3d-a81e-11e7-9f72-021893e306d8"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "a66c0c3a-a81e-11e7-9f72-021893e306d8", 
+                    "edgeid": "a66c0c4d-a81e-11e7-9f72-021893e306d8", 
+                    "graph_id": "a66c0c36-a81e-11e7-9f72-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by", 
+                    "rangenode_id": "a66c0c42-a81e-11e7-9f72-021893e306d8"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "a66c0c3a-a81e-11e7-9f72-021893e306d8", 
+                    "edgeid": "a66c0c4f-a81e-11e7-9f72-021893e306d8", 
+                    "graph_id": "a66c0c36-a81e-11e7-9f72-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span", 
+                    "rangenode_id": "a66c0c3e-a81e-11e7-9f72-021893e306d8"
+                }
+            ], 
+            "forms": [], 
+            "forms_x_cards": [], 
+            "functions_x_graphs": [], 
+            "graphid": "a66c0c36-a81e-11e7-9f72-021893e306d8", 
+            "iconclass": "fa fa-file-o", 
+            "is_editable": true, 
+            "isactive": true, 
+            "isresource": false, 
+            "name": "Generic Compilation", 
+            "nodegroups": [
+                {
+                    "cardinality": "n", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "a66c0c3a-a81e-11e7-9f72-021893e306d8", 
+                    "parentnodegroup_id": "a66c0c37-a81e-11e7-9f72-021893e306d8"
+                }, 
+                {
+                    "cardinality": "n", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "a66c0c37-a81e-11e7-9f72-021893e306d8", 
+                    "parentnodegroup_id": null
+                }
+            ], 
+            "nodes": [
+                {
+                    "config": {
+                        "rdmCollection": "a7ac6b59-9470-4421-a85b-8c18956574db"
+                    }, 
+                    "datatype": "concept-list", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "a66c0c36-a81e-11e7-9f72-021893e306d8", 
+                    "is_collector": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Role", 
+                    "nodegroup_id": "a66c0c3a-a81e-11e7-9f72-021893e306d8", 
+                    "nodeid": "a66c0c44-a81e-11e7-9f72-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type"
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "semantic", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "a66c0c36-a81e-11e7-9f72-021893e306d8", 
+                    "is_collector": true, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Record Creation", 
+                    "nodegroup_id": "a66c0c3a-a81e-11e7-9f72-021893e306d8", 
+                    "nodeid": "a66c0c3a-a81e-11e7-9f72-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E65_Creation", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P94i_was_created_by"
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "semantic", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "a66c0c36-a81e-11e7-9f72-021893e306d8", 
+                    "is_collector": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Time Span", 
+                    "nodegroup_id": "a66c0c3a-a81e-11e7-9f72-021893e306d8", 
+                    "nodeid": "a66c0c3e-a81e-11e7-9f72-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span"
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "semantic", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "a66c0c36-a81e-11e7-9f72-021893e306d8", 
+                    "is_collector": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Compiler", 
+                    "nodegroup_id": "a66c0c3a-a81e-11e7-9f72-021893e306d8", 
+                    "nodeid": "a66c0c42-a81e-11e7-9f72-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E39_Actor", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by"
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "string", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "a66c0c36-a81e-11e7-9f72-021893e306d8", 
+                    "is_collector": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Organization Name", 
+                    "nodegroup_id": "a66c0c3a-a81e-11e7-9f72-021893e306d8", 
+                    "nodeid": "a66c0c3f-a81e-11e7-9f72-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by"
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "string", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "a66c0c36-a81e-11e7-9f72-021893e306d8", 
+                    "is_collector": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Compiler Name", 
+                    "nodegroup_id": "a66c0c3a-a81e-11e7-9f72-021893e306d8", 
+                    "nodeid": "a66c0c41-a81e-11e7-9f72-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by"
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "semantic", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "a66c0c36-a81e-11e7-9f72-021893e306d8", 
+                    "is_collector": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Organization", 
+                    "nodegroup_id": "a66c0c3a-a81e-11e7-9f72-021893e306d8", 
+                    "nodeid": "a66c0c3d-a81e-11e7-9f72-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E74_Group", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P107i_is_current_or_former_member_of"
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "date", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "a66c0c36-a81e-11e7-9f72-021893e306d8", 
+                    "is_collector": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Date of Compilation", 
+                    "nodegroup_id": "a66c0c3a-a81e-11e7-9f72-021893e306d8", 
+                    "nodeid": "a66c0c40-a81e-11e7-9f72-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E50_Date", 
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as"
+                }, 
+                {
+                    "config": {
+                        "options": [
+                            {
+                                "id": "259dd6f6-64b0-4ecd-9875-e8f844e7040d", 
+                                "selected": false, 
+                                "text": "Date of Creation"
+                            }, 
+                            {
+                                "id": "ce60e7bd-7da7-4577-851a-b0e959de7438", 
+                                "selected": false, 
+                                "text": "Date of Last Update"
+                            }
+                        ]
+                    }, 
+                    "datatype": "domain-value", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "a66c0c36-a81e-11e7-9f72-021893e306d8", 
+                    "is_collector": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Date Type", 
+                    "nodegroup_id": "a66c0c3a-a81e-11e7-9f72-021893e306d8", 
+                    "nodeid": "a66c0c43-a81e-11e7-9f72-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type"
+                }, 
+                {
+                    "config": {
+                        "fillColor": "rgba(233,112,111,0.8)"
+                    }, 
+                    "datatype": "semantic", 
+                    "description": "", 
+                    "graph_id": "a66c0c36-a81e-11e7-9f72-021893e306d8", 
+                    "is_collector": true, 
+                    "issearchable": true, 
+                    "istopnode": true, 
+                    "name": "Compilation Record", 
+                    "nodegroup_id": "a66c0c37-a81e-11e7-9f72-021893e306d8", 
+                    "nodeid": "a66c0c37-a81e-11e7-9f72-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E31_Document", 
+                    "parentproperty": ""
+                }
+            ], 
+            "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd", 
+            "relatable_resource_model_ids": [], 
+            "reports": [], 
+            "resource_2_resource_constraints": [], 
+            "root": {
+                "config": {
+                    "fillColor": "rgba(233,112,111,0.8)"
+                }, 
+                "datatype": "semantic", 
+                "description": "", 
+                "graph_id": "a66c0c36-a81e-11e7-9f72-021893e306d8", 
+                "is_collector": true, 
+                "issearchable": true, 
+                "istopnode": true, 
+                "name": "Compilation Record", 
+                "nodegroup_id": "a66c0c37-a81e-11e7-9f72-021893e306d8", 
+                "nodeid": "a66c0c37-a81e-11e7-9f72-021893e306d8", 
+                "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E31_Document"
+            }, 
+            "subtitle": "Describes the details of the compiler of a record - may only be necessary for migration purposes", 
+            "version": ""
+        }
+    ], 
+    "metadata": {
+        "db": "PostgreSQL 9.6.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 5.3.1-14ubuntu2) 5.3.1 20160413, 64-bit", 
+        "git hash": "205c31b 2017-06-01 12:07:14 -0700", 
+        "os": "Linux", 
+        "os version": "4.4.0-93-generic"
+    }
+}

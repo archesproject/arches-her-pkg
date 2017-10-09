@@ -1,0 +1,337 @@
+{
+    "graph": [
+        {
+            "author": "Phil Carlisle", 
+            "cards": [
+                {
+                    "active": true, 
+                    "cardid": "ea5ed2f1-93af-11e7-b43c-021893e306d8", 
+                    "description": "Describes the date, place of birth and parentage of an actor.\n\nRelates to the Actor resource model E21 via P98.\n", 
+                    "graph_id": "ea5ed2ef-93af-11e7-b43c-021893e306d8", 
+                    "helpenabled": true, 
+                    "helptext": "<p><strong>Date of Birth</strong></p>\n\n<p>Where known give the full date of birth</p>\n\n<p><strong>Birthplace</strong></p>\n\n<p>Use to record the place where the person was, or is believed to have been, born.</p>\n\n<p><strong>Mother</strong></p>\n\n<p>Use to record the name of the biological mother. For step or adoptive parent relationships see HER Parentage.</p>\n\n<p><strong>Father</strong></p>\n\n<p>Use to record the name of the biological father. For step or adoptive parent relaitonship see HER Parentage.</p>\n", 
+                    "helptitle": "Birth Details", 
+                    "instructions": "", 
+                    "name": "HER Birth", 
+                    "nodegroup_id": "ea5ed2ee-93af-11e7-b43c-021893e306d8", 
+                    "sortorder": null, 
+                    "visible": true
+                }
+            ], 
+            "cards_x_nodes_x_widgets": [
+                {
+                    "card_id": "ea5ed2f1-93af-11e7-b43c-021893e306d8", 
+                    "config": {
+                        "label": "Mother's Name", 
+                        "maxLength": null, 
+                        "placeholder": "Enter text", 
+                        "width": "100%"
+                    }, 
+                    "id": "26a6c85c-93b1-11e7-b43c-021893e306d8", 
+                    "label": "Mother's Name", 
+                    "node_id": "fd492fc1-93b0-11e7-b43c-021893e306d8", 
+                    "sortorder": 2, 
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                }, 
+                {
+                    "card_id": "ea5ed2f1-93af-11e7-b43c-021893e306d8", 
+                    "config": {
+                        "label": "Father's Name", 
+                        "maxLength": null, 
+                        "placeholder": "Enter text", 
+                        "width": "100%"
+                    }, 
+                    "id": "26a6c85d-93b1-11e7-b43c-021893e306d8", 
+                    "label": "Father's Name", 
+                    "node_id": "18180039-93b1-11e7-b43c-021893e306d8", 
+                    "sortorder": 3, 
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                }, 
+                {
+                    "card_id": "ea5ed2f1-93af-11e7-b43c-021893e306d8", 
+                    "config": {
+                        "label": "Birthplace", 
+                        "maxLength": null, 
+                        "options": [], 
+                        "placeholder": "Enter text", 
+                        "width": "100%"
+                    }, 
+                    "id": "26a6c85b-93b1-11e7-b43c-021893e306d8", 
+                    "label": "Birthplace", 
+                    "node_id": "d71a359d-93b0-11e7-b43c-021893e306d8", 
+                    "sortorder": 1, 
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                }, 
+                {
+                    "card_id": "ea5ed2f1-93af-11e7-b43c-021893e306d8", 
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD", 
+                        "label": "Date of Birth", 
+                        "maxDate": false, 
+                        "minDate": false, 
+                        "placeholder": "Enter date", 
+                        "viewMode": "days"
+                    }, 
+                    "id": "26a6c85a-93b1-11e7-b43c-021893e306d8", 
+                    "label": "Date of Birth", 
+                    "node_id": "721a6717-93b0-11e7-b43c-021893e306d8", 
+                    "sortorder": 0, 
+                    "widget_id": "10000000-0000-0000-0000-000000000004"
+                }
+            ], 
+            "deploymentdate": null, 
+            "deploymentfile": null, 
+            "description": "Describes the date, place of birth and parentage of an actor.\n\nRelates to the Actor resource model E21 via P98.\n", 
+            "edges": [
+                {
+                    "description": null, 
+                    "domainnode_id": "ea5ed2ee-93af-11e7-b43c-021893e306d8", 
+                    "edgeid": "c8db4252-93b0-11e7-b43c-021893e306d8", 
+                    "graph_id": "ea5ed2ef-93af-11e7-b43c-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at", 
+                    "rangenode_id": "c8db4251-93b0-11e7-b43c-021893e306d8"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "1f230d2f-93b0-11e7-b43c-021893e306d8", 
+                    "edgeid": "721a6718-93b0-11e7-b43c-021893e306d8", 
+                    "graph_id": "ea5ed2ef-93af-11e7-b43c-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P78_is_identified_by", 
+                    "rangenode_id": "721a6717-93b0-11e7-b43c-021893e306d8"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "ea5ed2ee-93af-11e7-b43c-021893e306d8", 
+                    "edgeid": "ef2ab212-93b0-11e7-b43c-021893e306d8", 
+                    "graph_id": "ea5ed2ef-93af-11e7-b43c-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P96_by_mother", 
+                    "rangenode_id": "ef2ab211-93b0-11e7-b43c-021893e306d8"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "c8db4251-93b0-11e7-b43c-021893e306d8", 
+                    "edgeid": "d71a359e-93b0-11e7-b43c-021893e306d8", 
+                    "graph_id": "ea5ed2ef-93af-11e7-b43c-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by", 
+                    "rangenode_id": "d71a359d-93b0-11e7-b43c-021893e306d8"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "ea5ed2ee-93af-11e7-b43c-021893e306d8", 
+                    "edgeid": "1f230d30-93b0-11e7-b43c-021893e306d8", 
+                    "graph_id": "ea5ed2ef-93af-11e7-b43c-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span", 
+                    "rangenode_id": "1f230d2f-93b0-11e7-b43c-021893e306d8"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "ef2ab211-93b0-11e7-b43c-021893e306d8", 
+                    "edgeid": "fd492fc2-93b0-11e7-b43c-021893e306d8", 
+                    "graph_id": "ea5ed2ef-93af-11e7-b43c-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by", 
+                    "rangenode_id": "fd492fc1-93b0-11e7-b43c-021893e306d8"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "0ee0a1fb-93b1-11e7-b43c-021893e306d8", 
+                    "edgeid": "1818003a-93b1-11e7-b43c-021893e306d8", 
+                    "graph_id": "ea5ed2ef-93af-11e7-b43c-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by", 
+                    "rangenode_id": "18180039-93b1-11e7-b43c-021893e306d8"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "ea5ed2ee-93af-11e7-b43c-021893e306d8", 
+                    "edgeid": "0ee0a1fc-93b1-11e7-b43c-021893e306d8", 
+                    "graph_id": "ea5ed2ef-93af-11e7-b43c-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P97_from_father", 
+                    "rangenode_id": "0ee0a1fb-93b1-11e7-b43c-021893e306d8"
+                }
+            ], 
+            "forms": [], 
+            "forms_x_cards": [], 
+            "functions_x_graphs": [], 
+            "graphid": "ea5ed2ef-93af-11e7-b43c-021893e306d8", 
+            "iconclass": "fa fa-birthday-cake", 
+            "is_editable": true, 
+            "isactive": true, 
+            "isresource": false, 
+            "name": "HER Birth", 
+            "nodegroups": [
+                {
+                    "cardinality": "1", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "ea5ed2ee-93af-11e7-b43c-021893e306d8", 
+                    "parentnodegroup_id": null
+                }
+            ], 
+            "nodes": [
+                {
+                    "config": {
+                        "fillColor": "rgba(233,112,111,0.8)"
+                    }, 
+                    "datatype": "semantic", 
+                    "description": "", 
+                    "graph_id": "ea5ed2ef-93af-11e7-b43c-021893e306d8", 
+                    "is_collector": true, 
+                    "issearchable": true, 
+                    "istopnode": true, 
+                    "name": "Birth", 
+                    "nodegroup_id": "ea5ed2ee-93af-11e7-b43c-021893e306d8", 
+                    "nodeid": "ea5ed2ee-93af-11e7-b43c-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E67_Birth", 
+                    "parentproperty": ""
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "date", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "ea5ed2ef-93af-11e7-b43c-021893e306d8", 
+                    "is_collector": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Date of Birth", 
+                    "nodegroup_id": "ea5ed2ee-93af-11e7-b43c-021893e306d8", 
+                    "nodeid": "721a6717-93b0-11e7-b43c-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E49_Time_Appellation", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P78_is_identified_by"
+                }, 
+                {
+                    "config": {
+                        "rdmCollection": null
+                    }, 
+                    "datatype": "concept", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "ea5ed2ef-93af-11e7-b43c-021893e306d8", 
+                    "is_collector": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Birthplace", 
+                    "nodegroup_id": "ea5ed2ee-93af-11e7-b43c-021893e306d8", 
+                    "nodeid": "d71a359d-93b0-11e7-b43c-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E48_Place_Name", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by"
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "string", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "ea5ed2ef-93af-11e7-b43c-021893e306d8", 
+                    "is_collector": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Mother's Name", 
+                    "nodegroup_id": "ea5ed2ee-93af-11e7-b43c-021893e306d8", 
+                    "nodeid": "fd492fc1-93b0-11e7-b43c-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by"
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "semantic", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "ea5ed2ef-93af-11e7-b43c-021893e306d8", 
+                    "is_collector": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Place of Birth", 
+                    "nodegroup_id": "ea5ed2ee-93af-11e7-b43c-021893e306d8", 
+                    "nodeid": "c8db4251-93b0-11e7-b43c-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at"
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "string", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "ea5ed2ef-93af-11e7-b43c-021893e306d8", 
+                    "is_collector": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Father's Name", 
+                    "nodegroup_id": "ea5ed2ee-93af-11e7-b43c-021893e306d8", 
+                    "nodeid": "18180039-93b1-11e7-b43c-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by"
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "semantic", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "ea5ed2ef-93af-11e7-b43c-021893e306d8", 
+                    "is_collector": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Mother", 
+                    "nodegroup_id": "ea5ed2ee-93af-11e7-b43c-021893e306d8", 
+                    "nodeid": "ef2ab211-93b0-11e7-b43c-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E21_Person", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P96_by_mother"
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "semantic", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "ea5ed2ef-93af-11e7-b43c-021893e306d8", 
+                    "is_collector": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Birth Time Span", 
+                    "nodegroup_id": "ea5ed2ee-93af-11e7-b43c-021893e306d8", 
+                    "nodeid": "1f230d2f-93b0-11e7-b43c-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span"
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "semantic", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "ea5ed2ef-93af-11e7-b43c-021893e306d8", 
+                    "is_collector": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Father", 
+                    "nodegroup_id": "ea5ed2ee-93af-11e7-b43c-021893e306d8", 
+                    "nodeid": "0ee0a1fb-93b1-11e7-b43c-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E21_Person", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P97_from_father"
+                }
+            ], 
+            "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd", 
+            "relatable_resource_model_ids": [], 
+            "reports": [], 
+            "resource_2_resource_constraints": [], 
+            "root": {
+                "config": {
+                    "fillColor": "rgba(233,112,111,0.8)"
+                }, 
+                "datatype": "semantic", 
+                "description": "", 
+                "graph_id": "ea5ed2ef-93af-11e7-b43c-021893e306d8", 
+                "is_collector": true, 
+                "issearchable": true, 
+                "istopnode": true, 
+                "name": "Birth", 
+                "nodegroup_id": "ea5ed2ee-93af-11e7-b43c-021893e306d8", 
+                "nodeid": "ea5ed2ee-93af-11e7-b43c-021893e306d8", 
+                "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E67_Birth"
+            }, 
+            "subtitle": "Describes the date, place of birth and parentage of an actor.  ", 
+            "version": ""
+        }
+    ], 
+    "metadata": {
+        "db": "PostgreSQL 9.6.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 5.3.1-14ubuntu2) 5.3.1 20160413, 64-bit", 
+        "git hash": "205c31b 2017-06-01 12:07:14 -0700", 
+        "os": "Linux", 
+        "os version": "4.4.0-93-generic"
+    }
+}

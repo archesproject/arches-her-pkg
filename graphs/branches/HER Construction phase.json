@@ -1,0 +1,1223 @@
+{
+    "graph": [
+        {
+            "author": "Phil Carlisle", 
+            "cards": [
+                {
+                    "active": true, 
+                    "cardid": "9f14c7a3-a42e-11e7-9f72-021893e306d8", 
+                    "description": "Represents a node and node type pairing", 
+                    "graph_id": "43ab34d7-663e-11e7-b43c-021893e306d8", 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "helptitle": null, 
+                    "instructions": "", 
+                    "name": "Builder (Organization)", 
+                    "nodegroup_id": "9f14c7a1-a42e-11e7-9f72-021893e306d8", 
+                    "sortorder": 2, 
+                    "visible": true
+                }, 
+                {
+                    "active": true, 
+                    "cardid": "565ba356-949c-11e7-b43c-021893e306d8", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "43ab34d7-663e-11e7-b43c-021893e306d8", 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "helptitle": null, 
+                    "instructions": null, 
+                    "name": "Builder (Individual)", 
+                    "nodegroup_id": "491a4921-949c-11e7-b43c-021893e306d8", 
+                    "sortorder": 1, 
+                    "visible": true
+                }, 
+                {
+                    "active": true, 
+                    "cardid": "73cab1d4-663e-11e7-b43c-021893e306d8", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "43ab34d7-663e-11e7-b43c-021893e306d8", 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "helptitle": null, 
+                    "instructions": null, 
+                    "name": "Construction date", 
+                    "nodegroup_id": "6303992d-663e-11e7-b43c-021893e306d8", 
+                    "sortorder": 4, 
+                    "visible": true
+                }, 
+                {
+                    "active": true, 
+                    "cardid": "fd6856e6-949a-11e7-b43c-021893e306d8", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "43ab34d7-663e-11e7-b43c-021893e306d8", 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "helptitle": null, 
+                    "instructions": null, 
+                    "name": "Construction Site", 
+                    "nodegroup_id": "ed0e37c9-949a-11e7-b43c-021893e306d8", 
+                    "sortorder": 3, 
+                    "visible": true
+                }, 
+                {
+                    "active": true, 
+                    "cardid": "fad1f9f4-949b-11e7-b43c-021893e306d8", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "43ab34d7-663e-11e7-b43c-021893e306d8", 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "helptitle": null, 
+                    "instructions": null, 
+                    "name": "Construction Procedure", 
+                    "nodegroup_id": "e44d51cd-949b-11e7-b43c-021893e306d8", 
+                    "sortorder": 0, 
+                    "visible": true
+                }, 
+                {
+                    "active": true, 
+                    "cardid": "317369b6-949c-11e7-b43c-021893e306d8", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "43ab34d7-663e-11e7-b43c-021893e306d8", 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "helptitle": null, 
+                    "instructions": null, 
+                    "name": "Period of Construction", 
+                    "nodegroup_id": "14ee2f55-949c-11e7-b43c-021893e306d8", 
+                    "sortorder": 5, 
+                    "visible": true
+                }, 
+                {
+                    "active": true, 
+                    "cardid": "43ab34d9-663e-11e7-b43c-021893e306d8", 
+                    "description": "", 
+                    "graph_id": "43ab34d7-663e-11e7-b43c-021893e306d8", 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "helptitle": null, 
+                    "instructions": null, 
+                    "name": "HER Construction phase", 
+                    "nodegroup_id": "43ab34d6-663e-11e7-b43c-021893e306d8", 
+                    "sortorder": null, 
+                    "visible": true
+                }
+            ], 
+            "cards_x_nodes_x_widgets": [
+                {
+                    "card_id": "9f14c7a3-a42e-11e7-9f72-021893e306d8", 
+                    "config": {
+                        "label": "Builder Type", 
+                        "options": [
+                            {
+                                "children": [
+                                    {
+                                        "children": [], 
+                                        "collector": "", 
+                                        "conceptid": "8277487e-ec29-4641-80ae-098fc1fe1c6e", 
+                                        "id": "d0af5f6e-1ddb-4b9b-bfe7-e7999c7eec97", 
+                                        "sortorder": "", 
+                                        "text": "Charity"
+                                    }, 
+                                    {
+                                        "children": [], 
+                                        "collector": "", 
+                                        "conceptid": "2cc399cd-9af0-4be9-a2d7-2c7663e6d45a", 
+                                        "id": "de4c23d0-fdb1-42c2-a8c7-69cbc4491131", 
+                                        "sortorder": "", 
+                                        "text": "Private company"
+                                    }, 
+                                    {
+                                        "children": [], 
+                                        "collector": "", 
+                                        "conceptid": "92aa31ca-c3c4-4faa-b6f9-b24f501cd69f", 
+                                        "id": "65a03fe3-bfee-41e4-a7d4-6cf3116342d9", 
+                                        "sortorder": "", 
+                                        "text": "Private consortium"
+                                    }, 
+                                    {
+                                        "children": [], 
+                                        "collector": "", 
+                                        "conceptid": "5b260d4d-d9db-4b3b-b65e-2eaea7f788dc", 
+                                        "id": "2a69493b-f997-4d2e-8c0c-bfeeb466d765", 
+                                        "sortorder": "", 
+                                        "text": "Private individual"
+                                    }
+                                ], 
+                                "collector": "", 
+                                "conceptid": "03953c4a-8928-491b-b76a-12359ad08581", 
+                                "id": "278d20f0-0842-4c3c-a084-a38f4224002f", 
+                                "sortorder": "", 
+                                "text": "Private owner"
+                            }, 
+                            {
+                                "children": [
+                                    {
+                                        "children": [], 
+                                        "collector": "", 
+                                        "conceptid": "4e25ad94-8aba-459a-a0e7-cf21f76e8ef9", 
+                                        "id": "88f92144-4c8f-4bf3-af37-0f6b9ffe5d89", 
+                                        "sortorder": "", 
+                                        "text": "Government"
+                                    }, 
+                                    {
+                                        "children": [], 
+                                        "collector": "", 
+                                        "conceptid": "dcff6c57-0949-444f-8dbd-93b6a16f8e88", 
+                                        "id": "e2c18e92-2dc0-429e-af9e-1e636e3ca1ee", 
+                                        "sortorder": "", 
+                                        "text": "Local Government"
+                                    }, 
+                                    {
+                                        "children": [], 
+                                        "collector": "", 
+                                        "conceptid": "39cbb55e-2691-495b-83f1-754f859d8078", 
+                                        "id": "3b35d2d6-d5d2-44a6-80ad-6f471e772172", 
+                                        "sortorder": "", 
+                                        "text": "Public Body"
+                                    }
+                                ], 
+                                "collector": "", 
+                                "conceptid": "7cc3204e-5adb-40be-92af-87a00e44db10", 
+                                "id": "9934da81-b136-49ae-9b67-7dbfa5b4f508", 
+                                "sortorder": "", 
+                                "text": "Public owner"
+                            }
+                        ], 
+                        "placeholder": "Select an option"
+                    }, 
+                    "id": "f35655b0-a42e-11e7-9f72-021893e306d8", 
+                    "label": "Builder Type", 
+                    "node_id": "9f14c7a4-a42e-11e7-9f72-021893e306d8", 
+                    "sortorder": 1, 
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                }, 
+                {
+                    "card_id": "73cab1d4-663e-11e7-b43c-021893e306d8", 
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD", 
+                        "label": "Construction Start Date", 
+                        "maxDate": false, 
+                        "minDate": false, 
+                        "placeholder": "Enter date", 
+                        "viewMode": "days"
+                    }, 
+                    "id": "8ac0f9e8-949c-11e7-b43c-021893e306d8", 
+                    "label": "Construction Start Date", 
+                    "node_id": "af33bbe5-949a-11e7-b43c-021893e306d8", 
+                    "sortorder": 0, 
+                    "widget_id": "10000000-0000-0000-0000-000000000004"
+                }, 
+                {
+                    "card_id": "fd6856e6-949a-11e7-b43c-021893e306d8", 
+                    "config": {
+                        "label": "Construction Site Name", 
+                        "maxLength": null, 
+                        "placeholder": "Enter text", 
+                        "width": "100%"
+                    }, 
+                    "id": "8ac0f9e9-949c-11e7-b43c-021893e306d8", 
+                    "label": "Construction Site Name", 
+                    "node_id": "05e087a7-949b-11e7-b43c-021893e306d8", 
+                    "sortorder": 0, 
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                }, 
+                {
+                    "card_id": "73cab1d4-663e-11e7-b43c-021893e306d8", 
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD", 
+                        "label": "Construction End Date", 
+                        "maxDate": false, 
+                        "minDate": false, 
+                        "placeholder": "Enter date", 
+                        "viewMode": "days"
+                    }, 
+                    "id": "8ac0f9e7-949c-11e7-b43c-021893e306d8", 
+                    "label": "Construction End Date", 
+                    "node_id": "c5cc5e89-949a-11e7-b43c-021893e306d8", 
+                    "sortorder": 1, 
+                    "widget_id": "10000000-0000-0000-0000-000000000004"
+                }, 
+                {
+                    "card_id": "565ba356-949c-11e7-b43c-021893e306d8", 
+                    "config": {
+                        "label": "Builder (Individual)", 
+                        "placeholder": ""
+                    }, 
+                    "id": "f35655ae-a42e-11e7-9f72-021893e306d8", 
+                    "label": "Builder (Individual)", 
+                    "node_id": "491a4921-949c-11e7-b43c-021893e306d8", 
+                    "sortorder": 0, 
+                    "widget_id": "31f3728c-7613-11e7-a139-784f435179ea"
+                }, 
+                {
+                    "card_id": "317369b6-949c-11e7-b43c-021893e306d8", 
+                    "config": {
+                        "label": "Period", 
+                        "options": [
+                            {
+                                "children": [
+                                    {
+                                        "children": [], 
+                                        "collector": "", 
+                                        "conceptid": "c812c32b-7adc-4c37-9c6c-9436fa63eaeb", 
+                                        "id": "324cc692-39f5-41ab-bf05-8a0c4c6373b5", 
+                                        "sortorder": "01.1", 
+                                        "text": "Lower Palaeolithic"
+                                    }, 
+                                    {
+                                        "children": [], 
+                                        "collector": "", 
+                                        "conceptid": "6f9b6a55-da93-45ad-abad-300e452694f7", 
+                                        "id": "ac8bd142-94ec-4191-a921-9bff49eaf983", 
+                                        "sortorder": "01.2", 
+                                        "text": "Middle Palaeolithic"
+                                    }, 
+                                    {
+                                        "children": [], 
+                                        "collector": "", 
+                                        "conceptid": "30946005-ba27-4d96-b6de-cc79434f4023", 
+                                        "id": "27ecb82a-a997-4806-b90b-cec73b51b388", 
+                                        "sortorder": "01.3", 
+                                        "text": "Upper Palaeolithic"
+                                    }
+                                ], 
+                                "collector": "", 
+                                "conceptid": "c5382b46-7049-4e4a-a51b-d79db123012f", 
+                                "id": "7eaff630-76ae-44ea-95e3-d9339e1d1ea4", 
+                                "sortorder": "01", 
+                                "text": "Palaeolithic"
+                            }, 
+                            {
+                                "children": [
+                                    {
+                                        "children": [], 
+                                        "collector": "", 
+                                        "conceptid": "c5e4ae8d-9478-45e6-b934-c1fb3ab33d8f", 
+                                        "id": "70491c79-6722-41f8-8c54-7373dd15ff33", 
+                                        "sortorder": "02.1", 
+                                        "text": "Early Mesolithic"
+                                    }, 
+                                    {
+                                        "children": [], 
+                                        "collector": "", 
+                                        "conceptid": "d81dcf45-dbd4-49b0-ad18-6aa8ac1ed4ab", 
+                                        "id": "20c87335-fe02-4cbd-ba49-201f5f54a0da", 
+                                        "sortorder": "02.2", 
+                                        "text": "Late Mesolithic"
+                                    }
+                                ], 
+                                "collector": "", 
+                                "conceptid": "c43fbe87-3763-47ca-a336-38f2eca94b22", 
+                                "id": "ac4b6148-d460-4080-ad46-2035daa593e1", 
+                                "sortorder": "02", 
+                                "text": "Mesolithic"
+                            }, 
+                            {
+                                "children": [
+                                    {
+                                        "children": [], 
+                                        "collector": "", 
+                                        "conceptid": "5618e704-49fe-48e0-a520-153a6e7c34b3", 
+                                        "id": "3b3a284b-8130-4dc1-96c3-3049de64796f", 
+                                        "sortorder": "03.1", 
+                                        "text": "Early Neolithic"
+                                    }, 
+                                    {
+                                        "children": [], 
+                                        "collector": "", 
+                                        "conceptid": "5c123032-5b7f-45bb-8ef0-6f1fa91ad131", 
+                                        "id": "74b1c46a-0ecf-4f14-9c4f-2eaea6626e78", 
+                                        "sortorder": "03.2", 
+                                        "text": "Middle Neolithic"
+                                    }, 
+                                    {
+                                        "children": [], 
+                                        "collector": "", 
+                                        "conceptid": "2fd234b0-7f87-4bb3-804b-74e414f5fe56", 
+                                        "id": "1bc49365-82dd-4ecc-9a37-d890130abcf8", 
+                                        "sortorder": "3.30", 
+                                        "text": "Late Neolithic"
+                                    }
+                                ], 
+                                "collector": "", 
+                                "conceptid": "8f8d0fc0-6ed0-417e-af46-134e5f6b960a", 
+                                "id": "f421a69f-1eda-4f1f-8bd5-5ee1f63ce0f6", 
+                                "sortorder": "03", 
+                                "text": "Neolithic"
+                            }, 
+                            {
+                                "children": [
+                                    {
+                                        "children": [], 
+                                        "collector": "", 
+                                        "conceptid": "ea1dde12-1557-4411-8ec4-e3fd569f9303", 
+                                        "id": "8c99b579-d9b4-4c40-bb34-de4e47575cbe", 
+                                        "sortorder": "04.1", 
+                                        "text": "Early Bronze Age"
+                                    }, 
+                                    {
+                                        "children": [], 
+                                        "collector": "", 
+                                        "conceptid": "a3985777-43de-47b0-b070-83690a92f22c", 
+                                        "id": "6d7fb623-90b1-4a60-b994-f6d641937d0d", 
+                                        "sortorder": "04.2", 
+                                        "text": "Middle Bronze Age"
+                                    }, 
+                                    {
+                                        "children": [], 
+                                        "collector": "", 
+                                        "conceptid": "26f4a9b1-1785-485b-8ebf-88f3d29f4638", 
+                                        "id": "df58308b-b270-4a4a-ac0b-ca0bf6b16675", 
+                                        "sortorder": "04.3", 
+                                        "text": "Late Bronze Age"
+                                    }
+                                ], 
+                                "collector": "", 
+                                "conceptid": "5a198a88-6ac2-4a73-8111-2e80243b749e", 
+                                "id": "aa558e1d-fff4-4e97-adae-89d8222a27b3", 
+                                "sortorder": "04", 
+                                "text": "Bronze Age"
+                            }, 
+                            {
+                                "children": [
+                                    {
+                                        "children": [], 
+                                        "collector": "", 
+                                        "conceptid": "8764dd25-6d36-4be4-ae24-40088236c0e9", 
+                                        "id": "406c878f-3c7c-4f92-bc65-299bbc77fb92", 
+                                        "sortorder": "05.1", 
+                                        "text": "Early Iron Age"
+                                    }, 
+                                    {
+                                        "children": [], 
+                                        "collector": "", 
+                                        "conceptid": "15a021f9-000e-4fd4-b92d-6872dbbdc56b", 
+                                        "id": "90fbada5-3deb-42a0-934d-cdb7e86ef312", 
+                                        "sortorder": "05.2", 
+                                        "text": "Middle Iron Age"
+                                    }, 
+                                    {
+                                        "children": [], 
+                                        "collector": "", 
+                                        "conceptid": "eedfc939-272d-42b4-b96e-cb681efb6a3e", 
+                                        "id": "898c06a1-5d0b-4410-91e9-af8027fdfbc2", 
+                                        "sortorder": "05.3", 
+                                        "text": "Late Iron Age"
+                                    }
+                                ], 
+                                "collector": "", 
+                                "conceptid": "6ba234ef-5948-43b8-b347-cfe779aeb79c", 
+                                "id": "427ad69a-36dd-4166-87b3-2aaa71ca03cb", 
+                                "sortorder": "05", 
+                                "text": "Iron Age"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "245a684b-2198-48d3-a620-f843f757af4a", 
+                                "id": "596fb053-28bc-4d43-ad1e-b425fc3522f1", 
+                                "sortorder": "07", 
+                                "text": "Early Medieval"
+                            }, 
+                            {
+                                "children": [
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [], 
+                                                "collector": "", 
+                                                "conceptid": "986309dc-1a61-4177-9cdf-e21dfbaeffe8", 
+                                                "id": "a8bfe2c6-0c0c-49e2-a953-d5d9e856b73e", 
+                                                "sortorder": "08.1.1", 
+                                                "text": "Elizabethan"
+                                            }
+                                        ], 
+                                        "collector": "", 
+                                        "conceptid": "6bae40ea-bfa7-414f-8a42-90e8c18f613c", 
+                                        "id": "d4c27261-dd85-4292-a0c1-7f506d5b0203", 
+                                        "sortorder": "08.1", 
+                                        "text": "Tudor"
+                                    }
+                                ], 
+                                "collector": "", 
+                                "conceptid": "fde52573-63e6-457a-90ea-42d8e61d4a7b", 
+                                "id": "e96a7115-09c0-4b76-a33b-60a3a8acbb0c", 
+                                "sortorder": "08", 
+                                "text": "Medieval"
+                            }, 
+                            {
+                                "children": [
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [], 
+                                                "collector": "", 
+                                                "conceptid": "986309dc-1a61-4177-9cdf-e21dfbaeffe8", 
+                                                "id": "a8bfe2c6-0c0c-49e2-a953-d5d9e856b73e", 
+                                                "sortorder": "08.1.1", 
+                                                "text": "Elizabethan"
+                                            }
+                                        ], 
+                                        "collector": "", 
+                                        "conceptid": "6bae40ea-bfa7-414f-8a42-90e8c18f613c", 
+                                        "id": "d4c27261-dd85-4292-a0c1-7f506d5b0203", 
+                                        "sortorder": "08.1", 
+                                        "text": "Tudor"
+                                    }, 
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [], 
+                                                "collector": "", 
+                                                "conceptid": "ef2ae957-72d8-4ceb-922e-2c463ff49aa1", 
+                                                "id": "c9b455ee-81d2-41e5-9f15-e0a23cc89934", 
+                                                "sortorder": "09.1.1", 
+                                                "text": "Jacobean"
+                                            }
+                                        ], 
+                                        "collector": "", 
+                                        "conceptid": "7b4c5c00-8652-4029-910b-1769fa6b7b01", 
+                                        "id": "fcc9d3bf-355d-4664-8eaf-64c0296512b6", 
+                                        "sortorder": "09.1", 
+                                        "text": "Stuart"
+                                    }, 
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [], 
+                                                "collector": "", 
+                                                "conceptid": "990ce1c2-fadb-48d3-a534-256f3b6194bf", 
+                                                "id": "45c22ff1-27fd-4755-9ef2-d852d9d514d5", 
+                                                "sortorder": "09.2.1", 
+                                                "text": "Georgian"
+                                            }, 
+                                            {
+                                                "children": [], 
+                                                "collector": "", 
+                                                "conceptid": "9032ba54-5b96-4dde-9f60-f6dd967e8e4b", 
+                                                "id": "3b7359ca-8b38-44f6-ac7f-bc9a1e73fa0f", 
+                                                "sortorder": "09.2.2", 
+                                                "text": "Victorian"
+                                            }
+                                        ], 
+                                        "collector": "", 
+                                        "conceptid": "e972997b-1ed0-4b3f-af4c-7f083307ed57", 
+                                        "id": "47b465b5-f951-4da0-bf18-4afaa9e0a4b0", 
+                                        "sortorder": "09.2", 
+                                        "text": "Hanoverian"
+                                    }
+                                ], 
+                                "collector": "", 
+                                "conceptid": "5f654c6b-d96a-455e-a9d2-85c113deedaa", 
+                                "id": "c07a7488-4890-4645-a323-4992a2bba7f5", 
+                                "sortorder": "09", 
+                                "text": "Post Medieval"
+                            }, 
+                            {
+                                "children": [
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [], 
+                                                "collector": "", 
+                                                "conceptid": "0ce71a4c-73ea-49d6-ada4-18083b2b086c", 
+                                                "id": "9c691d8d-ecae-438f-8f89-31d6ac98781c", 
+                                                "sortorder": "10.1.1", 
+                                                "text": "Edwardian"
+                                            }, 
+                                            {
+                                                "children": [], 
+                                                "collector": "", 
+                                                "conceptid": "f9f4adc2-48bb-4e9e-89ac-b1712d443a91", 
+                                                "id": "d2fb2be2-99ef-404c-aed7-187cf283d5b9", 
+                                                "sortorder": "10.1.2", 
+                                                "text": "First World War"
+                                            }
+                                        ], 
+                                        "collector": "", 
+                                        "conceptid": "05813b48-b4c3-4b81-a7b4-b27e9cb73d0f", 
+                                        "id": "e58e05b8-12dc-4707-b56d-73f32418eb1f", 
+                                        "sortorder": "10.1", 
+                                        "text": "Early 20th Century"
+                                    }, 
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [], 
+                                                "collector": "", 
+                                                "conceptid": "97c8fad0-d998-4ce8-af07-a0462070c5ad", 
+                                                "id": "b251f4b4-12fe-48bd-b208-99c3e411c3dd", 
+                                                "sortorder": "10.2.1", 
+                                                "text": "Second World War"
+                                            }, 
+                                            {
+                                                "children": [], 
+                                                "collector": "", 
+                                                "conceptid": "ae081732-c2cd-402e-89cb-85415aef8299", 
+                                                "id": "6ec0f0c6-9674-435d-8af8-b7763b2baf1d", 
+                                                "sortorder": "10.2.2", 
+                                                "text": "Cold War"
+                                            }
+                                        ], 
+                                        "collector": "", 
+                                        "conceptid": "b8da8b77-71d3-4f62-bafb-e8e14b5290d5", 
+                                        "id": "7275c772-b232-4f48-9a5c-31e0bb98b9c3", 
+                                        "sortorder": "10.2", 
+                                        "text": "Mid 20th Century"
+                                    }, 
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [], 
+                                                "collector": "", 
+                                                "conceptid": "ae081732-c2cd-402e-89cb-85415aef8299", 
+                                                "id": "6ec0f0c6-9674-435d-8af8-b7763b2baf1d", 
+                                                "sortorder": "10.2.2", 
+                                                "text": "Cold War"
+                                            }
+                                        ], 
+                                        "collector": "", 
+                                        "conceptid": "66203678-3d6b-41cf-857e-b7faf0607c95", 
+                                        "id": "0863427a-be64-4492-93d6-98dba9bac42f", 
+                                        "sortorder": "10.3", 
+                                        "text": "Late 20th Century"
+                                    }
+                                ], 
+                                "collector": "", 
+                                "conceptid": "1ae36cab-b58b-4244-a21d-426dfafefe10", 
+                                "id": "a55ceb8b-e8d4-4eb2-be78-fab2df7e278c", 
+                                "sortorder": "10", 
+                                "text": "20th Century"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "cf5561f8-b02a-46e0-831b-b9d1904a3862", 
+                                "id": "7961fb98-44f1-4942-8e59-4c60a8c555e8", 
+                                "sortorder": "11", 
+                                "text": "21st Century"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "91392ce6-9f10-432c-8947-957829ec9b2b", 
+                                "id": "cf485c43-e5c2-4f63-93d5-860e139126f2", 
+                                "sortorder": "12", 
+                                "text": "Uncertain"
+                            }, 
+                            {
+                                "children": [
+                                    {
+                                        "children": [], 
+                                        "collector": "", 
+                                        "conceptid": "22769b72-19e7-4249-a5a5-c7079b3796d6", 
+                                        "id": "64fe1470-1a60-491c-b462-04068a197b23", 
+                                        "sortorder": "13.1", 
+                                        "text": "Later Prehistoric"
+                                    }
+                                ], 
+                                "collector": "", 
+                                "conceptid": "ddf9bada-c7ef-4c60-aaa7-a49f8b882b0e", 
+                                "id": "38bb1036-4720-48fa-8a5e-9455e83776e0", 
+                                "sortorder": "13", 
+                                "text": "Prehistoric"
+                            }
+                        ], 
+                        "placeholder": "Select an option"
+                    }, 
+                    "id": "8ac0f9ec-949c-11e7-b43c-021893e306d8", 
+                    "label": "Period", 
+                    "node_id": "3481b4c7-949c-11e7-b43c-021893e306d8", 
+                    "sortorder": 0, 
+                    "widget_id": "10000000-0000-0000-0000-000000000012"
+                }, 
+                {
+                    "card_id": "9f14c7a3-a42e-11e7-9f72-021893e306d8", 
+                    "config": {
+                        "label": "Builder (Organization)", 
+                        "placeholder": ""
+                    }, 
+                    "id": "f35655af-a42e-11e7-9f72-021893e306d8", 
+                    "label": "Builder (Organization)", 
+                    "node_id": "9f14c7a1-a42e-11e7-9f72-021893e306d8", 
+                    "sortorder": 0, 
+                    "widget_id": "31f3728c-7613-11e7-a139-784f435179ea"
+                }, 
+                {
+                    "card_id": "fad1f9f4-949b-11e7-b43c-021893e306d8", 
+                    "config": {
+                        "label": "Construction Method", 
+                        "options": [
+                            {
+                                "children": [
+                                    {
+                                        "children": [], 
+                                        "collector": "", 
+                                        "conceptid": "571de9d5-09ee-45a9-bfa0-f3b233c4eb19", 
+                                        "id": "b76086ee-8807-46b3-ae96-4ba1a5b505ae", 
+                                        "sortorder": "", 
+                                        "text": "Brickwork"
+                                    }, 
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [], 
+                                                "collector": "", 
+                                                "conceptid": "e7d9f874-b44c-4fb1-8cfb-8ffe25e1d9a1", 
+                                                "id": "6954712a-b9a5-4763-a6ec-bb88f4b24a2d", 
+                                                "sortorder": "", 
+                                                "text": "Prestressed concrete"
+                                            }, 
+                                            {
+                                                "children": [], 
+                                                "collector": "", 
+                                                "conceptid": "dd3008d2-4bc6-4b8c-b1b3-ae5337788366", 
+                                                "id": "6e9375fd-b21a-49cd-972a-c411e1c9f2a2", 
+                                                "sortorder": "", 
+                                                "text": "Reinforced concrete"
+                                            }
+                                        ], 
+                                        "collector": "", 
+                                        "conceptid": "79d36239-f898-4b29-9127-19d6b0c23670", 
+                                        "id": "a05714b3-17ef-4dc4-9ea7-a2e93fc4b3b0", 
+                                        "sortorder": "", 
+                                        "text": "Concrete"
+                                    }, 
+                                    {
+                                        "children": [], 
+                                        "collector": "", 
+                                        "conceptid": "88084352-2bbf-4e7e-8cd9-aed26c184716", 
+                                        "id": "522f1fdb-51e7-446a-a599-a6a4ff048552", 
+                                        "sortorder": "", 
+                                        "text": "Steel framing"
+                                    }, 
+                                    {
+                                        "children": [], 
+                                        "collector": "", 
+                                        "conceptid": "1c3dfa72-5947-4a1b-9dfd-b7f1317bfa3f", 
+                                        "id": "10ee6142-a678-4759-8fa5-4cdbe2b16d66", 
+                                        "sortorder": "", 
+                                        "text": "Timber framing"
+                                    }
+                                ], 
+                                "collector": "", 
+                                "conceptid": "0ca7b339-8e90-48f2-99bd-6fab39ad654b", 
+                                "id": "ddb53fd4-f75f-4efc-87ee-df814e3a86fe", 
+                                "sortorder": "", 
+                                "text": "Construction Techniques"
+                            }
+                        ], 
+                        "placeholder": "Select an option"
+                    }, 
+                    "id": "8ac0f9e6-949c-11e7-b43c-021893e306d8", 
+                    "label": "Construction Method", 
+                    "node_id": "fe6ac851-949b-11e7-b43c-021893e306d8", 
+                    "sortorder": 0, 
+                    "widget_id": "10000000-0000-0000-0000-000000000012"
+                }, 
+                {
+                    "card_id": "565ba356-949c-11e7-b43c-021893e306d8", 
+                    "config": {
+                        "label": "Builder Type", 
+                        "options": [
+                            {
+                                "children": [
+                                    {
+                                        "children": [], 
+                                        "collector": "", 
+                                        "conceptid": "8277487e-ec29-4641-80ae-098fc1fe1c6e", 
+                                        "id": "d0af5f6e-1ddb-4b9b-bfe7-e7999c7eec97", 
+                                        "sortorder": "", 
+                                        "text": "Charity"
+                                    }, 
+                                    {
+                                        "children": [], 
+                                        "collector": "", 
+                                        "conceptid": "2cc399cd-9af0-4be9-a2d7-2c7663e6d45a", 
+                                        "id": "de4c23d0-fdb1-42c2-a8c7-69cbc4491131", 
+                                        "sortorder": "", 
+                                        "text": "Private company"
+                                    }, 
+                                    {
+                                        "children": [], 
+                                        "collector": "", 
+                                        "conceptid": "92aa31ca-c3c4-4faa-b6f9-b24f501cd69f", 
+                                        "id": "65a03fe3-bfee-41e4-a7d4-6cf3116342d9", 
+                                        "sortorder": "", 
+                                        "text": "Private consortium"
+                                    }, 
+                                    {
+                                        "children": [], 
+                                        "collector": "", 
+                                        "conceptid": "5b260d4d-d9db-4b3b-b65e-2eaea7f788dc", 
+                                        "id": "2a69493b-f997-4d2e-8c0c-bfeeb466d765", 
+                                        "sortorder": "", 
+                                        "text": "Private individual"
+                                    }
+                                ], 
+                                "collector": "", 
+                                "conceptid": "03953c4a-8928-491b-b76a-12359ad08581", 
+                                "id": "278d20f0-0842-4c3c-a084-a38f4224002f", 
+                                "sortorder": "", 
+                                "text": "Private owner"
+                            }, 
+                            {
+                                "children": [
+                                    {
+                                        "children": [], 
+                                        "collector": "", 
+                                        "conceptid": "4e25ad94-8aba-459a-a0e7-cf21f76e8ef9", 
+                                        "id": "88f92144-4c8f-4bf3-af37-0f6b9ffe5d89", 
+                                        "sortorder": "", 
+                                        "text": "Government"
+                                    }, 
+                                    {
+                                        "children": [], 
+                                        "collector": "", 
+                                        "conceptid": "dcff6c57-0949-444f-8dbd-93b6a16f8e88", 
+                                        "id": "e2c18e92-2dc0-429e-af9e-1e636e3ca1ee", 
+                                        "sortorder": "", 
+                                        "text": "Local Government"
+                                    }, 
+                                    {
+                                        "children": [], 
+                                        "collector": "", 
+                                        "conceptid": "39cbb55e-2691-495b-83f1-754f859d8078", 
+                                        "id": "3b35d2d6-d5d2-44a6-80ad-6f471e772172", 
+                                        "sortorder": "", 
+                                        "text": "Public Body"
+                                    }
+                                ], 
+                                "collector": "", 
+                                "conceptid": "7cc3204e-5adb-40be-92af-87a00e44db10", 
+                                "id": "9934da81-b136-49ae-9b67-7dbfa5b4f508", 
+                                "sortorder": "", 
+                                "text": "Public owner"
+                            }
+                        ], 
+                        "placeholder": "Select an option"
+                    }, 
+                    "id": "8ac0f9eb-949c-11e7-b43c-021893e306d8", 
+                    "label": "Builder Type", 
+                    "node_id": "6e6de6d3-949c-11e7-b43c-021893e306d8", 
+                    "sortorder": 1, 
+                    "widget_id": "10000000-0000-0000-0000-000000000012"
+                }
+            ], 
+            "deploymentdate": null, 
+            "deploymentfile": null, 
+            "description": "", 
+            "edges": [
+                {
+                    "description": null, 
+                    "domainnode_id": "491a4921-949c-11e7-b43c-021893e306d8", 
+                    "edgeid": "6e6de6d4-949c-11e7-b43c-021893e306d8", 
+                    "graph_id": "43ab34d7-663e-11e7-b43c-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type", 
+                    "rangenode_id": "6e6de6d3-949c-11e7-b43c-021893e306d8"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "43ab34d6-663e-11e7-b43c-021893e306d8", 
+                    "edgeid": "6303992e-663e-11e7-b43c-021893e306d8", 
+                    "graph_id": "43ab34d7-663e-11e7-b43c-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span", 
+                    "rangenode_id": "6303992d-663e-11e7-b43c-021893e306d8"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "6303992d-663e-11e7-b43c-021893e306d8", 
+                    "edgeid": "af33bbe6-949a-11e7-b43c-021893e306d8", 
+                    "graph_id": "43ab34d7-663e-11e7-b43c-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P78_is_identified_by", 
+                    "rangenode_id": "af33bbe5-949a-11e7-b43c-021893e306d8"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "43ab34d6-663e-11e7-b43c-021893e306d8", 
+                    "edgeid": "e44d51ce-949b-11e7-b43c-021893e306d8", 
+                    "graph_id": "43ab34d7-663e-11e7-b43c-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P33_used_specific_technique", 
+                    "rangenode_id": "e44d51cd-949b-11e7-b43c-021893e306d8"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "43ab34d6-663e-11e7-b43c-021893e306d8", 
+                    "edgeid": "491a4922-949c-11e7-b43c-021893e306d8", 
+                    "graph_id": "43ab34d7-663e-11e7-b43c-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by", 
+                    "rangenode_id": "491a4921-949c-11e7-b43c-021893e306d8"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "43ab34d6-663e-11e7-b43c-021893e306d8", 
+                    "edgeid": "ed0e37ca-949a-11e7-b43c-021893e306d8", 
+                    "graph_id": "43ab34d7-663e-11e7-b43c-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at", 
+                    "rangenode_id": "ed0e37c9-949a-11e7-b43c-021893e306d8"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "e44d51cd-949b-11e7-b43c-021893e306d8", 
+                    "edgeid": "fe6ac852-949b-11e7-b43c-021893e306d8", 
+                    "graph_id": "43ab34d7-663e-11e7-b43c-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type", 
+                    "rangenode_id": "fe6ac851-949b-11e7-b43c-021893e306d8"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "ed0e37c9-949a-11e7-b43c-021893e306d8", 
+                    "edgeid": "05e087a8-949b-11e7-b43c-021893e306d8", 
+                    "graph_id": "43ab34d7-663e-11e7-b43c-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by", 
+                    "rangenode_id": "05e087a7-949b-11e7-b43c-021893e306d8"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "9f14c7a1-a42e-11e7-9f72-021893e306d8", 
+                    "edgeid": "9f14c7a5-a42e-11e7-9f72-021893e306d8", 
+                    "graph_id": "43ab34d7-663e-11e7-b43c-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type", 
+                    "rangenode_id": "9f14c7a4-a42e-11e7-9f72-021893e306d8"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "6303992d-663e-11e7-b43c-021893e306d8", 
+                    "edgeid": "c5cc5e8a-949a-11e7-b43c-021893e306d8", 
+                    "graph_id": "43ab34d7-663e-11e7-b43c-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P78_is_identified_by", 
+                    "rangenode_id": "c5cc5e89-949a-11e7-b43c-021893e306d8"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "14ee2f55-949c-11e7-b43c-021893e306d8", 
+                    "edgeid": "3481b4c8-949c-11e7-b43c-021893e306d8", 
+                    "graph_id": "43ab34d7-663e-11e7-b43c-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type", 
+                    "rangenode_id": "3481b4c7-949c-11e7-b43c-021893e306d8"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "43ab34d6-663e-11e7-b43c-021893e306d8", 
+                    "edgeid": "9f14c7a6-a42e-11e7-9f72-021893e306d8", 
+                    "graph_id": "43ab34d7-663e-11e7-b43c-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by", 
+                    "rangenode_id": "9f14c7a1-a42e-11e7-9f72-021893e306d8"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "43ab34d6-663e-11e7-b43c-021893e306d8", 
+                    "edgeid": "14ee2f56-949c-11e7-b43c-021893e306d8", 
+                    "graph_id": "43ab34d7-663e-11e7-b43c-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P10_falls_within", 
+                    "rangenode_id": "14ee2f55-949c-11e7-b43c-021893e306d8"
+                }
+            ], 
+            "forms": [], 
+            "forms_x_cards": [], 
+            "functions_x_graphs": [], 
+            "graphid": "43ab34d7-663e-11e7-b43c-021893e306d8", 
+            "iconclass": "fa fa-wrench", 
+            "is_editable": true, 
+            "isactive": true, 
+            "isresource": false, 
+            "name": "HER Construction phase", 
+            "nodegroups": [
+                {
+                    "cardinality": "1", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "e44d51cd-949b-11e7-b43c-021893e306d8", 
+                    "parentnodegroup_id": "43ab34d6-663e-11e7-b43c-021893e306d8"
+                }, 
+                {
+                    "cardinality": "n", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "ed0e37c9-949a-11e7-b43c-021893e306d8", 
+                    "parentnodegroup_id": "43ab34d6-663e-11e7-b43c-021893e306d8"
+                }, 
+                {
+                    "cardinality": "n", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "9f14c7a1-a42e-11e7-9f72-021893e306d8", 
+                    "parentnodegroup_id": "43ab34d6-663e-11e7-b43c-021893e306d8"
+                }, 
+                {
+                    "cardinality": "1", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "6303992d-663e-11e7-b43c-021893e306d8", 
+                    "parentnodegroup_id": "43ab34d6-663e-11e7-b43c-021893e306d8"
+                }, 
+                {
+                    "cardinality": "n", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "491a4921-949c-11e7-b43c-021893e306d8", 
+                    "parentnodegroup_id": "43ab34d6-663e-11e7-b43c-021893e306d8"
+                }, 
+                {
+                    "cardinality": "1", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "14ee2f55-949c-11e7-b43c-021893e306d8", 
+                    "parentnodegroup_id": "43ab34d6-663e-11e7-b43c-021893e306d8"
+                }, 
+                {
+                    "cardinality": "n", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "43ab34d6-663e-11e7-b43c-021893e306d8", 
+                    "parentnodegroup_id": null
+                }
+            ], 
+            "nodes": [
+                {
+                    "config": null, 
+                    "datatype": "date", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "43ab34d7-663e-11e7-b43c-021893e306d8", 
+                    "is_collector": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Construction Start Date", 
+                    "nodegroup_id": "6303992d-663e-11e7-b43c-021893e306d8", 
+                    "nodeid": "af33bbe5-949a-11e7-b43c-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E49_Time_Appellation", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P78_is_identified_by"
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "semantic", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "43ab34d7-663e-11e7-b43c-021893e306d8", 
+                    "is_collector": true, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Construction Procedure", 
+                    "nodegroup_id": "e44d51cd-949b-11e7-b43c-021893e306d8", 
+                    "nodeid": "e44d51cd-949b-11e7-b43c-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E29_Design_or_Procedure", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P33_used_specific_technique"
+                }, 
+                {
+                    "config": {
+                        "rdmCollection": "5f8adb93-e61b-45d9-b9da-4907424dac74"
+                    }, 
+                    "datatype": "concept-list", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "43ab34d7-663e-11e7-b43c-021893e306d8", 
+                    "is_collector": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Builder Type", 
+                    "nodegroup_id": "491a4921-949c-11e7-b43c-021893e306d8", 
+                    "nodeid": "6e6de6d3-949c-11e7-b43c-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type"
+                }, 
+                {
+                    "config": {
+                        "rdmCollection": "6cb34486-da8c-45f5-93f4-ec3c5874dd97"
+                    }, 
+                    "datatype": "concept-list", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "43ab34d7-663e-11e7-b43c-021893e306d8", 
+                    "is_collector": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Construction Method", 
+                    "nodegroup_id": "e44d51cd-949b-11e7-b43c-021893e306d8", 
+                    "nodeid": "fe6ac851-949b-11e7-b43c-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type"
+                }, 
+                {
+                    "config": {
+                        "graphid": "bceb9f1d-9c84-11e7-9f72-021893e306d8"
+                    }, 
+                    "datatype": "resource-instance", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "43ab34d7-663e-11e7-b43c-021893e306d8", 
+                    "is_collector": true, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Builder (Individual)", 
+                    "nodegroup_id": "491a4921-949c-11e7-b43c-021893e306d8", 
+                    "nodeid": "491a4921-949c-11e7-b43c-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E21_Person", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by"
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "string", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "43ab34d7-663e-11e7-b43c-021893e306d8", 
+                    "is_collector": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Construction Site Name", 
+                    "nodegroup_id": "ed0e37c9-949a-11e7-b43c-021893e306d8", 
+                    "nodeid": "05e087a7-949b-11e7-b43c-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by"
+                }, 
+                {
+                    "config": {
+                        "rdmCollection": "5f8adb93-e61b-45d9-b9da-4907424dac74"
+                    }, 
+                    "datatype": "concept", 
+                    "description": "", 
+                    "graph_id": "43ab34d7-663e-11e7-b43c-021893e306d8", 
+                    "is_collector": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Builder Type", 
+                    "nodegroup_id": "9f14c7a1-a42e-11e7-9f72-021893e306d8", 
+                    "nodeid": "9f14c7a4-a42e-11e7-9f72-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type"
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "semantic", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "43ab34d7-663e-11e7-b43c-021893e306d8", 
+                    "is_collector": true, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Construction Site", 
+                    "nodegroup_id": "ed0e37c9-949a-11e7-b43c-021893e306d8", 
+                    "nodeid": "ed0e37c9-949a-11e7-b43c-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at"
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "date", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "43ab34d7-663e-11e7-b43c-021893e306d8", 
+                    "is_collector": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Construction End Date", 
+                    "nodegroup_id": "6303992d-663e-11e7-b43c-021893e306d8", 
+                    "nodeid": "c5cc5e89-949a-11e7-b43c-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E49_Time_Appellation", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P78_is_identified_by"
+                }, 
+                {
+                    "config": {
+                        "fillColor": "rgba(233,112,111,0.8)"
+                    }, 
+                    "datatype": "semantic", 
+                    "description": "", 
+                    "graph_id": "43ab34d7-663e-11e7-b43c-021893e306d8", 
+                    "is_collector": true, 
+                    "issearchable": true, 
+                    "istopnode": true, 
+                    "name": "Construction phase", 
+                    "nodegroup_id": "43ab34d6-663e-11e7-b43c-021893e306d8", 
+                    "nodeid": "43ab34d6-663e-11e7-b43c-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E12_Production", 
+                    "parentproperty": ""
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "semantic", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "43ab34d7-663e-11e7-b43c-021893e306d8", 
+                    "is_collector": true, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Construction date", 
+                    "nodegroup_id": "6303992d-663e-11e7-b43c-021893e306d8", 
+                    "nodeid": "6303992d-663e-11e7-b43c-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span"
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "semantic", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "43ab34d7-663e-11e7-b43c-021893e306d8", 
+                    "is_collector": true, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Period of Construction", 
+                    "nodegroup_id": "14ee2f55-949c-11e7-b43c-021893e306d8", 
+                    "nodeid": "14ee2f55-949c-11e7-b43c-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E4_Period", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P10_falls_within"
+                }, 
+                {
+                    "config": {
+                        "graphid": "bceb9f1d-9c84-11e7-9f72-021893e306d8"
+                    }, 
+                    "datatype": "resource-instance", 
+                    "description": "", 
+                    "graph_id": "43ab34d7-663e-11e7-b43c-021893e306d8", 
+                    "is_collector": true, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Builder (Organization)", 
+                    "nodegroup_id": "9f14c7a1-a42e-11e7-9f72-021893e306d8", 
+                    "nodeid": "9f14c7a1-a42e-11e7-9f72-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E74_Group", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by"
+                }, 
+                {
+                    "config": {
+                        "rdmCollection": "aba60a02-99dc-4e50-8ee8-e6f460827db9"
+                    }, 
+                    "datatype": "concept-list", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "43ab34d7-663e-11e7-b43c-021893e306d8", 
+                    "is_collector": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Period", 
+                    "nodegroup_id": "14ee2f55-949c-11e7-b43c-021893e306d8", 
+                    "nodeid": "3481b4c7-949c-11e7-b43c-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type"
+                }
+            ], 
+            "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd", 
+            "relatable_resource_model_ids": [], 
+            "reports": [], 
+            "resource_2_resource_constraints": [], 
+            "root": {
+                "config": {
+                    "fillColor": "rgba(233,112,111,0.8)"
+                }, 
+                "datatype": "semantic", 
+                "description": "", 
+                "graph_id": "43ab34d7-663e-11e7-b43c-021893e306d8", 
+                "is_collector": true, 
+                "issearchable": true, 
+                "istopnode": true, 
+                "name": "Construction phase", 
+                "nodegroup_id": "43ab34d6-663e-11e7-b43c-021893e306d8", 
+                "nodeid": "43ab34d6-663e-11e7-b43c-021893e306d8", 
+                "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E12_Production"
+            }, 
+            "subtitle": "Describes the details relating to the construction of a resource (mainly used for vessels)", 
+            "version": ""
+        }
+    ], 
+    "metadata": {
+        "db": "PostgreSQL 9.6.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 5.3.1-14ubuntu2) 5.3.1 20160413, 64-bit", 
+        "git hash": "205c31b 2017-06-01 12:07:14 -0700", 
+        "os": "Linux", 
+        "os version": "4.4.0-93-generic"
+    }
+}

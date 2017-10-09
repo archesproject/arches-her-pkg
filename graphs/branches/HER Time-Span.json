@@ -1,0 +1,137 @@
+{
+    "graph": [
+        {
+            "author": "Phil Carlisle", 
+            "cards": [
+                {
+                    "active": true, 
+                    "cardid": "647a4e57-94b0-11e7-b43c-021893e306d8", 
+                    "description": "", 
+                    "graph_id": "647a4e55-94b0-11e7-b43c-021893e306d8", 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "helptitle": null, 
+                    "instructions": null, 
+                    "name": "HER Time-Span", 
+                    "nodegroup_id": "647a4e54-94b0-11e7-b43c-021893e306d8", 
+                    "sortorder": null, 
+                    "visible": true
+                }
+            ], 
+            "cards_x_nodes_x_widgets": [], 
+            "deploymentdate": null, 
+            "deploymentfile": null, 
+            "description": "", 
+            "edges": [
+                {
+                    "description": null, 
+                    "domainnode_id": "647a4e54-94b0-11e7-b43c-021893e306d8", 
+                    "edgeid": "93a9276a-94b0-11e7-b43c-021893e306d8", 
+                    "graph_id": "647a4e55-94b0-11e7-b43c-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P78_is_identified_by", 
+                    "rangenode_id": "93a92769-94b0-11e7-b43c-021893e306d8"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "647a4e54-94b0-11e7-b43c-021893e306d8", 
+                    "edgeid": "a66ea956-94b0-11e7-b43c-021893e306d8", 
+                    "graph_id": "647a4e55-94b0-11e7-b43c-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P78_is_identified_by", 
+                    "rangenode_id": "a66ea955-94b0-11e7-b43c-021893e306d8"
+                }
+            ], 
+            "forms": [], 
+            "forms_x_cards": [], 
+            "functions_x_graphs": [], 
+            "graphid": "647a4e55-94b0-11e7-b43c-021893e306d8", 
+            "iconclass": "fa fa-calendar", 
+            "is_editable": true, 
+            "isactive": true, 
+            "isresource": false, 
+            "name": "HER Time-Span", 
+            "nodegroups": [
+                {
+                    "cardinality": "1", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "647a4e54-94b0-11e7-b43c-021893e306d8", 
+                    "parentnodegroup_id": null
+                }
+            ], 
+            "nodes": [
+                {
+                    "config": null, 
+                    "datatype": "date", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "647a4e55-94b0-11e7-b43c-021893e306d8", 
+                    "is_collector": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Start Date", 
+                    "nodegroup_id": "647a4e54-94b0-11e7-b43c-021893e306d8", 
+                    "nodeid": "93a92769-94b0-11e7-b43c-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E49_Time_Appellation", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P78_is_identified_by"
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "date", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "647a4e55-94b0-11e7-b43c-021893e306d8", 
+                    "is_collector": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "End Date", 
+                    "nodegroup_id": "647a4e54-94b0-11e7-b43c-021893e306d8", 
+                    "nodeid": "a66ea955-94b0-11e7-b43c-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E49_Time_Appellation", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P78_is_identified_by"
+                }, 
+                {
+                    "config": {
+                        "fillColor": "rgba(233,112,111,0.8)"
+                    }, 
+                    "datatype": "semantic", 
+                    "description": "", 
+                    "graph_id": "647a4e55-94b0-11e7-b43c-021893e306d8", 
+                    "is_collector": true, 
+                    "issearchable": true, 
+                    "istopnode": true, 
+                    "name": "Time Span", 
+                    "nodegroup_id": "647a4e54-94b0-11e7-b43c-021893e306d8", 
+                    "nodeid": "647a4e54-94b0-11e7-b43c-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span", 
+                    "parentproperty": ""
+                }
+            ], 
+            "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd", 
+            "relatable_resource_model_ids": [], 
+            "reports": [], 
+            "resource_2_resource_constraints": [], 
+            "root": {
+                "config": {
+                    "fillColor": "rgba(233,112,111,0.8)"
+                }, 
+                "datatype": "semantic", 
+                "description": "", 
+                "graph_id": "647a4e55-94b0-11e7-b43c-021893e306d8", 
+                "is_collector": true, 
+                "issearchable": true, 
+                "istopnode": true, 
+                "name": "Time Span", 
+                "nodegroup_id": "647a4e54-94b0-11e7-b43c-021893e306d8", 
+                "nodeid": "647a4e54-94b0-11e7-b43c-021893e306d8", 
+                "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span"
+            }, 
+            "subtitle": "Describes a time-span associated with a resource", 
+            "version": ""
+        }
+    ], 
+    "metadata": {
+        "db": "PostgreSQL 9.6.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 5.3.1-14ubuntu2) 5.3.1 20160413, 64-bit", 
+        "git hash": "205c31b 2017-06-01 12:07:14 -0700", 
+        "os": "Linux", 
+        "os version": "4.4.0-93-generic"
+    }
+}
