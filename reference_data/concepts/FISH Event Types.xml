@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+>
+  <skos:Concept rdf:about="http://www.archesproject.org/40fb630e-30bc-36ce-9fe9-ca612f68f425">
+    <skos:related rdf:resource="http://www.archesproject.org/40fb630e-30bc-36ce-9fe9-ca612f68f425"/>
+    <skos:scopeNote xml:lang="en">{"id": "1279cd79-24f2-4d33-a02d-791885506b29", "value": "The measurement of a surface, either in elevation or plan, determined from measurements derived from two or more photographic images taken from different positions; this allows three dimensional viewing of the surface to be mapped."}</skos:scopeNote>
+    <skos:altLabel xml:lang="en">{"id": "f8050009-42d2-493f-8a68-3736d9d86f8e", "value": "Photogrammetry"}</skos:altLabel>
+    <skos:prefLabel xml:lang="en">{"id": "ae902b39-7122-4945-8b16-43f936785528", "value": "PHOTOGRAMMETRIC SURVEY"}</skos:prefLabel>
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507">
+        <dcterms:description xml:lang="en">{"id": "6fbdbf15-00a1-4b76-abc6-482e33f8b194", "value": "Terminology used for recording archaeological and architectural investigative, data collection exercises; from intrusive interventions to non damaging surveys"}</dcterms:description>
+        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/37f9d056-a4a3-3c43-a357-e35b0e932448"/>
+        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/6d48aff1-80b0-3da9-b36d-905dd659a651"/>
+        <dcterms:title xml:lang="en">{"id": "55d27f6b-e00c-4f06-aeeb-3c4c184630e0", "value": "FISH Event Type"}</dcterms:title>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <skos:related>
+      <skos:Concept rdf:about="http://www.archesproject.org/79929776-710d-3612-8f78-5a10de3613cf">
+        <skos:scopeNote xml:lang="en">{"id": "b0bc54b7-4762-4718-8f23-ff4878933279", "value": "Systematic recording of building facades that produces a seamless mosaic of digital images by identifying control points and defining limits to each image. The rectified mosaic can then be introduced into a CAD environment."}</skos:scopeNote>
+        <skos:related rdf:resource="http://www.archesproject.org/79929776-710d-3612-8f78-5a10de3613cf"/>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+        <skos:prefLabel xml:lang="en">{"id": "0b007ec2-a571-4f98-8a98-14fff0c0bb1c", "value": "RECTIFIED PHOTOGRAPHIC SURVEY"}</skos:prefLabel>
+        <skos:related rdf:resource="http://www.archesproject.org/40fb630e-30bc-36ce-9fe9-ca612f68f425"/>
+      </skos:Concept>
+    </skos:related>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/5aa69b64-14f5-38fe-8d21-0749727619ca">
+    <skos:altLabel xml:lang="en">{"id": "6425f696-2b20-4e30-a9c1-27ab559cd4cb", "value": "Airborne Laser Scanning"}</skos:altLabel>
+    <skos:related>
+      <skos:Concept rdf:about="http://www.archesproject.org/ffd288c8-b708-31dc-ad17-6c0139788aa8">
+        <skos:scopeNote xml:lang="en">{"id": "e3ab2b35-af72-4e1a-9ae8-df413e8fdf30", "value": "The recording of a surface, or surfaces, using scanning technologies, to create a 3D model of the target structure/object."}</skos:scopeNote>
+        <skos:related rdf:resource="http://www.archesproject.org/5aa69b64-14f5-38fe-8d21-0749727619ca"/>
+        <skos:prefLabel xml:lang="en">{"id": "c1ae3180-fc6a-4d1b-940e-db87caf6ce78", "value": "LASER SCANNING SURVEY"}</skos:prefLabel>
+        <skos:related rdf:resource="http://www.archesproject.org/ffd288c8-b708-31dc-ad17-6c0139788aa8"/>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+      </skos:Concept>
+    </skos:related>
+    <skos:altLabel xml:lang="en">{"id": "8fc20132-cf12-4f95-8c6d-d5ae22bf4ec1", "value": "Airborne Lidar Survey"}</skos:altLabel>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+    <skos:scopeNote xml:lang="en">{"id": "5e8d08ca-bbd7-4eb5-939d-047d0285d38a", "value": "Light detection and ranging is a type of aircraft based remote sensing which records reflected laser pulses. The data can be used to produce very accurate digital elevation models. For ground-based work use LASER SCANNING SURVEY."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "7ef79383-1d9e-4850-94df-94b382db4571", "value": "LIDAR SURVEY"}</skos:prefLabel>
+    <skos:related rdf:resource="http://www.archesproject.org/5aa69b64-14f5-38fe-8d21-0749727619ca"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/b48c8252-9e9a-3a1e-80ea-402991dc8c0a">
+    <skos:prefLabel xml:lang="en">{"id": "71257a9a-d771-4a46-85a9-fdfcf3aa6c30", "value": "HISTORIC SEASCAPE CHARACTERISATION"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+    <skos:scopeNote xml:lang="en">{"id": "d8445ed0-db4a-4a0d-a9ad-a77eef017a67", "value": "A map-based understanding of coastal and marine historic character; its GIS and linked texts extend Historic Landscape Characterisation principles to give a common framework of baseline information for the sustainable management of change from land to sea"}</skos:scopeNote>
+    <skos:related rdf:resource="http://www.archesproject.org/b48c8252-9e9a-3a1e-80ea-402991dc8c0a"/>
+    <skos:related>
+      <skos:Concept rdf:about="http://www.archesproject.org/ca3c2fda-3f58-311f-a793-1890481e9af0">
+        <skos:related rdf:resource="http://www.archesproject.org/b48c8252-9e9a-3a1e-80ea-402991dc8c0a"/>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+        <skos:related rdf:resource="http://www.archesproject.org/ca3c2fda-3f58-311f-a793-1890481e9af0"/>
+        <skos:prefLabel xml:lang="en">{"id": "a5611d4a-79b5-418e-8f5e-338301165f7a", "value": "HISTORIC LANDSCAPE CHARACTERISATION"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "f0424fbe-2964-424a-8cf8-bb3a5aea28c0", "value": "An holistic approach to landscape, using GIS, which maps diversity of landscape character as a means to managing future change in ways that are appropriate and sustainable."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:related>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/658c777b-3646-3032-b3b3-20b9b0e50528">
+    <skos:related rdf:resource="http://www.archesproject.org/658c777b-3646-3032-b3b3-20b9b0e50528"/>
+    <skos:scopeNote xml:lang="en">{"id": "38b1912c-21a6-4b50-8a1b-96ea69453b7c", "value": "A planned programme of investigation conducted within a defined area aimed at identifying and surveying previously unrecorded sites and checking the condition of known sites."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+    <skos:prefLabel xml:lang="en">{"id": "d92a2fd4-2f87-4d6c-90d7-c2786dca954b", "value": "WALKOVER SURVEY"}</skos:prefLabel>
+    <skos:related>
+      <skos:Concept rdf:about="http://www.archesproject.org/6b8d1f66-9bcb-38a2-8dd2-9e69b8fe6632">
+        <skos:related rdf:resource="http://www.archesproject.org/6b8d1f66-9bcb-38a2-8dd2-9e69b8fe6632"/>
+        <skos:related rdf:resource="http://www.archesproject.org/08cb6734-621a-36d9-98f8-4c4b2f609b64"/>
+        <skos:related rdf:resource="http://www.archesproject.org/658c777b-3646-3032-b3b3-20b9b0e50528"/>
+        <skos:prefLabel xml:lang="en">{"id": "97912ed3-e234-43de-9eeb-6c8055c89f4a", "value": "FIELD OBSERVATION (VISUAL ASSESSMENT)"}</skos:prefLabel>
+        <skos:altLabel xml:lang="en">{"id": "62ef0f24-7de9-4c9c-9c60-8e2440bcd44a", "value": "Visual Inspection"}</skos:altLabel>
+        <skos:scopeNote xml:lang="en">{"id": "9b04af52-95d0-4c0b-b5d8-c789d44cb1ca", "value": "A site visit to ascertain the nature and extent of the site and its surrounding environs by means of a visual inspection from which a written and/or photographic record is made."}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+      </skos:Concept>
+    </skos:related>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/15df6a2f-086b-3e4f-9471-99855b743d3f">
+    <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+    <skos:related rdf:resource="http://www.archesproject.org/15df6a2f-086b-3e4f-9471-99855b743d3f"/>
+    <skos:scopeNote xml:lang="en">{"id": "e6127abc-098e-419b-adf4-e64d95036cfd", "value": "A maritime technique similar in theory to sub bottom profilers, however for 3D seismic surveys the receiver array is more complex involving multiple receivers so that a volume of sediment is studied rather than a single 2D line."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "fac61497-3e43-4e98-8ccd-9a09cb7e635d", "value": "3D SEISMIC SURVEY"}</skos:prefLabel>
+    <skos:related>
+      <skos:Concept rdf:about="http://www.archesproject.org/721a2db1-37ed-35ac-b3d3-716b3d65804b">
+        <skos:related rdf:resource="http://www.archesproject.org/721a2db1-37ed-35ac-b3d3-716b3d65804b"/>
+        <skos:prefLabel xml:lang="en">{"id": "e4396039-c4fe-4a14-a166-2f49ee0a7ddf", "value": "SUB BOTTOM PROFILING SURVEY"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "e5d1b275-09d2-49b3-ab4e-02334ae24841", "value": "Used to identify and measure various sediment layers that exist below the seabed. A sound source emits a signal vertically downwards and a receiver monitors the return signal that has been reflected off the seafloor and sub seabed sediment layers."}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+        <skos:related rdf:resource="http://www.archesproject.org/15df6a2f-086b-3e4f-9471-99855b743d3f"/>
+      </skos:Concept>
+    </skos:related>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/1f909607-b1c8-32ff-9394-69f070a3aff3">
+    <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+    <skos:related>
+      <skos:Concept rdf:about="http://www.archesproject.org/44fd8aec-7a8d-316e-85af-7ba154ef1f15">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+        <skos:scopeNote xml:lang="en">{"id": "6ad5b4c8-2544-4fd3-a236-ef141aefe28f", "value": "A descriptive survey involving the systematic measurement and recording of the dimensions or features of a building. Where the survey is accompanied by systematic investigation and analysis, use Architectural Survey."}</skos:scopeNote>
+        <skos:related rdf:resource="http://www.archesproject.org/44fd8aec-7a8d-316e-85af-7ba154ef1f15"/>
+        <skos:altLabel xml:lang="en">{"id": "d02a4aca-e4fb-463e-ad9b-beb32f51a4c1", "value": "Building Plan Survey"}</skos:altLabel>
+        <skos:altLabel xml:lang="en">{"id": "d60cf8a0-9533-43ba-9dc9-10023c0e6ea4", "value": "Building Elevation Survey"}</skos:altLabel>
+        <skos:related rdf:resource="http://www.archesproject.org/1f909607-b1c8-32ff-9394-69f070a3aff3"/>
+        <skos:related rdf:resource="http://www.archesproject.org/b0bda9ef-b521-3010-8f17-6796ea3c3ac5"/>
+        <skos:prefLabel xml:lang="en">{"id": "c51dade9-1474-40de-8b7e-359e71b9f84e", "value": "BUILDING SURVEY"}</skos:prefLabel>
+        <skos:altLabel xml:lang="en">{"id": "f40ab016-a21a-401c-9ca4-c3ef337c23f9", "value": "Building Recording"}</skos:altLabel>
+        <skos:altLabel xml:lang="en">{"id": "57bff4d0-0c67-4a57-b5dc-f8328a89cf68", "value": "Cross Sectional Building Survey"}</skos:altLabel>
+      </skos:Concept>
+    </skos:related>
+    <skos:scopeNote xml:lang="en">{"id": "8a57fa54-de70-49ee-b2b0-c0663c414127", "value": "Recording and analysis of built structures utilising close observation as well as manual or electronic survey equipment such as GPS and REDM (Reflectorless Electromagnetic Distance Measurement). Includes research, fieldwork and a report."}</skos:scopeNote>
+    <skos:related rdf:resource="http://www.archesproject.org/1f909607-b1c8-32ff-9394-69f070a3aff3"/>
+    <skos:related>
+      <skos:Concept rdf:about="http://www.archesproject.org/b0bda9ef-b521-3010-8f17-6796ea3c3ac5">
+        <skos:related rdf:resource="http://www.archesproject.org/1f909607-b1c8-32ff-9394-69f070a3aff3"/>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+        <skos:related rdf:resource="http://www.archesproject.org/b0bda9ef-b521-3010-8f17-6796ea3c3ac5"/>
+        <skos:prefLabel xml:lang="en">{"id": "914140cd-2a31-44e9-855b-5e1dd6cbf616", "value": "MEASURED SURVEY"}</skos:prefLabel>
+        <skos:related rdf:resource="http://www.archesproject.org/44fd8aec-7a8d-316e-85af-7ba154ef1f15"/>
+        <skos:scopeNote xml:lang="en">{"id": "d54a1748-dd52-4276-b252-1f6180f8dbfd", "value": "A dimensional check on a building or site giving detailed measurements."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:related>
+    <skos:prefLabel xml:lang="en">{"id": "6fbf286b-7ba2-43b8-b896-b8efabaa8739", "value": "ARCHITECTURAL SURVEY"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/27af3d88-2d5c-3d26-9ba4-f378d7509267">
+    <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+    <skos:altLabel xml:lang="en">{"id": "a1a11ebe-ce2a-436a-96a2-4cedbc25fd2b", "value": "Topsoil Artefact Survey"}</skos:altLabel>
+    <skos:scopeNote xml:lang="en">{"id": "27cc38ed-8979-40a7-8deb-5afe9fe0a540", "value": "The unsystematic study of ground surfaces and collection of visible archaeological material."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "540b1d63-312c-48d5-a87a-8031e8e388c8", "value": "UNSYSTEMATIC FIELDWALKING SURVEY"}</skos:prefLabel>
+    <skos:altLabel xml:lang="en">{"id": "10802bf1-aa34-4d60-9fb4-393c8f5942dd", "value": "Fieldwalking"}</skos:altLabel>
+    <skos:related>
+      <skos:Concept rdf:about="http://www.archesproject.org/103f4828-70f7-3356-aa42-a046e36ddd06">
+        <skos:scopeNote xml:lang="en">{"id": "89f84062-aba8-44d6-8814-9a4527a06196", "value": "The systematic study of ground surfaces and collection of visible archaeological material. Fieldwalking can be carried out as line-walking, grid collection and transect or quadrant sampling. Any material recovered is logged and stored by sample unit."}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+        <skos:prefLabel xml:lang="en">{"id": "771cfdd5-abca-4e83-911d-748aeffc05bc", "value": "SYSTEMATIC FIELDWALKING SURVEY"}</skos:prefLabel>
+        <skos:related rdf:resource="http://www.archesproject.org/27af3d88-2d5c-3d26-9ba4-f378d7509267"/>
+        <skos:related rdf:resource="http://www.archesproject.org/103f4828-70f7-3356-aa42-a046e36ddd06"/>
+        <skos:altLabel xml:lang="en">{"id": "723eb566-eb3f-48c2-a773-8315cea43e6d", "value": "Fieldwalking"}</skos:altLabel>
+        <skos:altLabel xml:lang="en">{"id": "7131b860-e271-4783-a5af-249a4f019c7b", "value": "Surface Collection"}</skos:altLabel>
+        <skos:altLabel xml:lang="en">{"id": "e3d6a4e4-44a4-4b75-a785-53e3c33a9f7c", "value": "Topsoil Artefact Survey"}</skos:altLabel>
+      </skos:Concept>
+    </skos:related>
+    <skos:altLabel xml:lang="en">{"id": "3d633ba1-3386-408e-811d-d6e238680911", "value": "Surface Collection"}</skos:altLabel>
+    <skos:related rdf:resource="http://www.archesproject.org/27af3d88-2d5c-3d26-9ba4-f378d7509267"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/5ba6982f-54ea-3407-b7ea-b3d0669d8da4">
+    <skos:related rdf:resource="http://www.archesproject.org/5ba6982f-54ea-3407-b7ea-b3d0669d8da4"/>
+    <skos:related>
+      <skos:Concept rdf:about="http://www.archesproject.org/7a71700d-3ce9-3a56-8053-1095f45c70d5">
+        <skos:scopeNote xml:lang="en">{"id": "7f38e7f8-a2b4-4834-b8b7-103fce01aedf", "value": "Technique using electromagnetic fields to map subsurface electrical conductivity anomalies. Can be used as a high-sensitivity metal detector."}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+        <skos:prefLabel xml:lang="en">{"id": "0f8dbffe-4998-44b3-b8d2-697d09d30f2c", "value": "ELECTROMAGNETIC SURVEY"}</skos:prefLabel>
+        <skos:related rdf:resource="http://www.archesproject.org/7a71700d-3ce9-3a56-8053-1095f45c70d5"/>
+        <skos:related rdf:resource="http://www.archesproject.org/5ba6982f-54ea-3407-b7ea-b3d0669d8da4"/>
+      </skos:Concept>
+    </skos:related>
+    <skos:altLabel xml:lang="en">{"id": "0d1e52b1-0dbf-478e-bd6b-abc99defb7be", "value": "Geophysical Resistivity"}</skos:altLabel>
+    <skos:altLabel xml:lang="en">{"id": "2d6cc15a-4d69-4b8c-b474-be3fcd5d47b0", "value": "Electrical Survey"}</skos:altLabel>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+    <skos:altLabel xml:lang="en">{"id": "6ca1cd1a-db08-4b24-a484-55068eec4f7c", "value": "Earth Resistance Survey"}</skos:altLabel>
+    <skos:related>
+      <skos:Concept rdf:about="http://www.archesproject.org/5769cc38-02d9-32e3-8998-05630441f40f">
+        <skos:prefLabel xml:lang="en">{"id": "e263521f-c24b-40f0-9564-802f9efd6af5", "value": "ELECTRICAL RESISTIVITY TOMOGRAPHY"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+        <skos:altLabel xml:lang="en">{"id": "3c0d4a37-7bf7-4e08-9b70-088f6310e18e", "value": "Resistivity Profile"}</skos:altLabel>
+        <skos:related rdf:resource="http://www.archesproject.org/5ba6982f-54ea-3407-b7ea-b3d0669d8da4"/>
+        <skos:related rdf:resource="http://www.archesproject.org/5769cc38-02d9-32e3-8998-05630441f40f"/>
+        <skos:scopeNote xml:lang="en">{"id": "c5dd5cff-4491-4000-884a-0d7070c5c563", "value": "A geophysical technique for imaging subsurface structures in cross section from electrical measurements made at the surface, or by electrodes in one or more boreholes."}</skos:scopeNote>
+        <skos:altLabel xml:lang="en">{"id": "9ca4a0d1-ae74-45f5-9913-5873af54497c", "value": "Electrical Resistivity Imaging Survey"}</skos:altLabel>
+      </skos:Concept>
+    </skos:related>
+    <skos:altLabel xml:lang="en">{"id": "f40824ed-1ec0-49e4-b37a-a6b4167d3fb8", "value": "Resistivity Survey"}</skos:altLabel>
+    <skos:scopeNote xml:lang="en">{"id": "dc8042ff-6a43-4434-b1f8-8016d05dbffb", "value": "Examination, recording and plotting of variations in the electrical resistivity of soils in order to locate and define buried features."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "c20e2967-ce29-4082-8983-951da9f3df80", "value": "EARTH RESISTANCE (RESISTIVITY) SURVEY"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/e2f49d27-dfd6-30e3-8a33-4f134aaeb69a">
+    <skos:related rdf:resource="http://www.archesproject.org/e2f49d27-dfd6-30e3-8a33-4f134aaeb69a"/>
+    <skos:related>
+      <skos:Concept rdf:about="http://www.archesproject.org/f49f8f07-fb2f-3507-ae40-f3a5a85d0fa8">
+        <skos:related rdf:resource="http://www.archesproject.org/f49f8f07-fb2f-3507-ae40-f3a5a85d0fa8"/>
+        <skos:related rdf:resource="http://www.archesproject.org/e2f49d27-dfd6-30e3-8a33-4f134aaeb69a"/>
+        <skos:prefLabel xml:lang="en">{"id": "8fdae9fb-a18d-4b1a-96fc-28c1e3a2d3e5", "value": "TIMBER SAMPLING"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+        <skos:scopeNote xml:lang="en">{"id": "2bca405f-4eb1-44a8-9287-6bb7ca77e1be", "value": "The extraction of a limited quantity of wood for scientific analysis."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:related>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+    <skos:scopeNote xml:lang="en">{"id": "8a298002-aa85-45dd-bc26-00bf2bc16546", "value": "The extraction of wood samples for dating analysis. Tree ring dating is the science of dating cultural and environmental events in the past by comparative study of the growth rings in trees and aged wood."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "74b71b4d-a83f-41f8-9441-4f9b76f57625", "value": "DENDROCHRONOLOGICAL SURVEY"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/08cb6734-621a-36d9-98f8-4c4b2f609b64">
+    <skos:related rdf:resource="http://www.archesproject.org/08cb6734-621a-36d9-98f8-4c4b2f609b64"/>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+    <skos:scopeNote xml:lang="en">{"id": "a0978712-3ca2-4cf2-9c97-77ef5a0bfeef", "value": "Observations made by an archaeologist or architectural historian as the result of a field visit to a site or monument."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "52e50e50-716c-455d-992d-743d61da2bb2", "value": "FIELD VISIT"}</skos:prefLabel>
+    <skos:related rdf:resource="http://www.archesproject.org/6b8d1f66-9bcb-38a2-8dd2-9e69b8fe6632"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/95e5d626-488a-3725-a78b-7bbdcdc638e6">
+    <skos:related>
+      <skos:Concept rdf:about="http://www.archesproject.org/a9160edb-fe10-3fea-b42a-75ea743a80b7">
+        <skos:prefLabel xml:lang="en">{"id": "0462d402-90fd-44e4-aba5-b902d4d86430", "value": "AUGER SURVEY"}</skos:prefLabel>
+        <skos:related rdf:resource="http://www.archesproject.org/a9160edb-fe10-3fea-b42a-75ea743a80b7"/>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+        <skos:related rdf:resource="http://www.archesproject.org/95e5d626-488a-3725-a78b-7bbdcdc638e6"/>
+        <skos:scopeNote xml:lang="en">{"id": "c89dd8a8-065e-42d8-a2d8-74a665570c81", "value": "Transect or area-based arrangements of drilled auger-holes used to describe deposits and collect samples."}</skos:scopeNote>
+        <skos:related rdf:resource="http://www.archesproject.org/a6063168-13b5-34e1-8a40-a7e73b37777f"/>
+      </skos:Concept>
+    </skos:related>
+    <skos:related>
+      <skos:Concept rdf:about="http://www.archesproject.org/a6063168-13b5-34e1-8a40-a7e73b37777f">
+        <skos:related rdf:resource="http://www.archesproject.org/a6063168-13b5-34e1-8a40-a7e73b37777f"/>
+        <skos:related rdf:resource="http://www.archesproject.org/95e5d626-488a-3725-a78b-7bbdcdc638e6"/>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+        <skos:scopeNote xml:lang="en">{"id": "89927d7f-387d-4eea-bb31-e15facf5db5e", "value": "Type of survey involving the drilling of deep and narrow shafts in the ground used to describe deposits, understand stratigraphy and collect cores amples."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "d319115d-3d95-4dd0-8910-e51fb8dfd357", "value": "BOREHOLE SURVEY"}</skos:prefLabel>
+        <skos:related rdf:resource="http://www.archesproject.org/a9160edb-fe10-3fea-b42a-75ea743a80b7"/>
+      </skos:Concept>
+    </skos:related>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/caa985c5-0883-3cd2-81be-10586474109d">
+        <skos:scopeNote xml:lang="en">{"id": "b7e7f33c-05d7-4225-9500-dafdf6990d5c", "value": "A maritime coring technique which penetrates the ground due to the force of gravity. Since the speed of penetration is the same as the sampling speed, it barely disrupts the sedimentary layers. A cable attached to the ship is used to recover the core."}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+        <skos:prefLabel xml:lang="en">{"id": "a92413b1-eef9-4959-8fb2-e7d871fa3036", "value": "GRAVITY CORE"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:scopeNote xml:lang="en">{"id": "6b617c2e-3766-40d5-badb-2e676829df0d", "value": "The retrieval of samples for laboratory analysis from buried features that have been sampled using boring equipment."}</skos:scopeNote>
+    <skos:related rdf:resource="http://www.archesproject.org/95e5d626-488a-3725-a78b-7bbdcdc638e6"/>
+    <skos:prefLabel xml:lang="en">{"id": "6e889eb4-751f-4f5e-a0ba-061ca479be6c", "value": "CORE SAMPLING"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/6c1722f4-a372-3cce-bdbc-bbe274fc1757">
+        <skos:prefLabel xml:lang="en">{"id": "03cb76f2-2ce8-42be-9a0d-b3c7405d905c", "value": "VIBRO CORE"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "cc5b6b7b-459c-44ac-b5e3-cbffd97cdf70", "value": "A maritime coring technique which uses vibration to facilitate ground penetration. With the force of gravity, and sometimes a piston, it can penetrate much deeper layers although the vibration provokes a slight mixing of the sediments."}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/c127d9f6-1a80-344c-8a21-8b76c7dda9bc">
+    <skos:scopeNote xml:lang="en">{"id": "633e2d55-19bd-4030-8128-1d96485df46a", "value": "The controlled measurement of natural and artificial landscape features to produce a measured plan or a 3D data set reading as a plan. Features are depicted by either hachures, symbols or contour lines."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+    <skos:related>
+      <skos:Concept rdf:about="http://www.archesproject.org/2aa14fe1-78e7-33b0-babc-740e33362a9d">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+        <skos:related rdf:resource="http://www.archesproject.org/2aa14fe1-78e7-33b0-babc-740e33362a9d"/>
+        <skos:prefLabel xml:lang="en">{"id": "40ed8f16-c240-4d43-a39e-508dc1519791", "value": "ANALYTICAL EARTHWORK SURVEY"}</skos:prefLabel>
+        <skos:related rdf:resource="http://www.archesproject.org/c127d9f6-1a80-344c-8a21-8b76c7dda9bc"/>
+        <skos:scopeNote xml:lang="en">{"id": "ea83d9c6-f36f-4fa3-b183-ffc96b2c991f", "value": "The accurate survey and analytical depiction of earthworks and their relative chronological relationships by means of hachures and related symbols."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:related>
+    <skos:prefLabel xml:lang="en">{"id": "bd208567-4171-486a-bc14-4cc2fe3b41e2", "value": "TOPOGRAPHIC SURVEY"}</skos:prefLabel>
+    <skos:related rdf:resource="http://www.archesproject.org/c127d9f6-1a80-344c-8a21-8b76c7dda9bc"/>
+    <skos:altLabel xml:lang="en">{"id": "ef9b1544-60f4-4d10-b1d9-03e9d9e3f59d", "value": "Contour Survey"}</skos:altLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/fdb3888f-aa06-3d83-89c4-1d634c9bce3d">
+    <skos:related rdf:resource="http://www.archesproject.org/fdb3888f-aa06-3d83-89c4-1d634c9bce3d"/>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+    <skos:prefLabel xml:lang="en">{"id": "92309807-00bf-4043-91a1-b62752ca3d95", "value": "METAL DETECTING USE"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "3370e964-455f-4d8b-902c-be41d97a1e29", "value": "The hobby of using a metal detector to hunt for buried coins or artefacts; alternatively the use of a metal detector to locate metal artefacts on an archaeological excavation that otherwise would go unnoticed."}</skos:scopeNote>
+    <skos:related>
+      <skos:Concept rdf:about="http://www.archesproject.org/6501f843-fa81-3ae0-b8b2-3f7ba46d9187">
+        <skos:related rdf:resource="http://www.archesproject.org/6501f843-fa81-3ae0-b8b2-3f7ba46d9187"/>
+        <skos:prefLabel xml:lang="en">{"id": "c428dfcc-9929-4a65-80b7-3cf6db62da9b", "value": "METAL DETECTING SURVEY"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+        <skos:related rdf:resource="http://www.archesproject.org/fdb3888f-aa06-3d83-89c4-1d634c9bce3d"/>
+        <skos:scopeNote xml:lang="en">{"id": "67f8493e-0add-4686-ace8-37f491f4ba6c", "value": "Structured and carefully executed scanning of the ground surface with a metal detecting device in order to recover surface scatters of metal objects and plot them spatially within the study area; a technique useful in battlefield archaeology."}</skos:scopeNote>
+        <skos:altLabel xml:lang="en">{"id": "28a41797-8a63-44cd-af10-e398a0c919ee", "value": "Metal Detectors"}</skos:altLabel>
+        <skos:altLabel xml:lang="en">{"id": "53a4d62a-cb3b-42f9-accd-4b13d85dbf5c", "value": "Systematic Metal Detector Survey"}</skos:altLabel>
+      </skos:Concept>
+    </skos:related>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/cadc8000-49e3-3c6d-a4dc-323fcfed61e4">
+    <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+    <skos:prefLabel xml:lang="en">{"id": "f1fbce86-f515-48b2-9e45-616c7e63d037", "value": "AERIAL PHOTOGRAPH INTERPRETATION"}</skos:prefLabel>
+    <skos:related rdf:resource="http://www.archesproject.org/cadc8000-49e3-3c6d-a4dc-323fcfed61e4"/>
+    <skos:related>
+      <skos:Concept rdf:about="http://www.archesproject.org/b8a7399d-0314-3a81-92a6-0626477ee126">
+        <skos:narrower rdf:resource="http://www.archesproject.org/b2e875b9-7b39-32bc-915e-06b450d50800"/>
+        <skos:related rdf:resource="http://www.archesproject.org/cadc8000-49e3-3c6d-a4dc-323fcfed61e4"/>
+        <skos:narrower rdf:resource="http://www.archesproject.org/c9331775-2b64-3d36-8b8b-35f8018bcafd"/>
+        <skos:scopeNote xml:lang="en">{"id": "a88b3c38-f4b1-41b1-b50b-24a5cc349c2c", "value": "The taking of photographs from above using photographic equipment mounted on, or used from an aircraft or other airborne vehicle."}</skos:scopeNote>
+        <skos:related rdf:resource="http://www.archesproject.org/b8a7399d-0314-3a81-92a6-0626477ee126"/>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+        <skos:prefLabel xml:lang="en">{"id": "51cd3b45-94d3-472a-a562-45222d1ae12e", "value": "AERIAL PHOTOGRAPHY"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:related>
+    <skos:scopeNote xml:lang="en">{"id": "2e6a67f2-4998-4745-8baa-b85114d5e39b", "value": "The interpretation of information on aerial photographs usually resulting in the production of maps and records of archaeological sites and landscapes. Many aerial photographs may be consulted for a single analytical survey."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/d5866e21-0fa8-3347-9638-3cf805e4abc5">
+    <skos:related rdf:resource="http://www.archesproject.org/d5866e21-0fa8-3347-9638-3cf805e4abc5"/>
+    <skos:scopeNote xml:lang="en">{"id": "1407f32e-930f-4ff4-9ccb-1343f6da0964", "value": "A formal programme of observation and investigation conducted during any operation carried out for non-archaeological reasons that may damage archaeological deposits. This will be within a specified area or site on land, inter-tidal zone or underwater."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+    <skos:related>
+      <skos:Concept rdf:about="http://www.archesproject.org/a3aeee6f-4a4b-30fe-9030-a488e5ec4801">
+        <skos:prefLabel xml:lang="en">{"id": "7a8fa579-db10-453a-9f45-1c30a0b3bc97", "value": "SALVAGE RECORDING"}</skos:prefLabel>
+        <skos:related rdf:resource="http://www.archesproject.org/a3aeee6f-4a4b-30fe-9030-a488e5ec4801"/>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+        <skos:scopeNote xml:lang="en">{"id": "c8c748ea-4bd3-4e26-89b3-fc92e2746ccb", "value": "The monitoring of the excavation of a hole made by a non-archaeologically trained person. Any archaeological evidence that comes to light is recorded by the archaeologist during the course of the work although he/she cannot suspend the groundwork."}</skos:scopeNote>
+        <skos:related rdf:resource="http://www.archesproject.org/d5866e21-0fa8-3347-9638-3cf805e4abc5"/>
+      </skos:Concept>
+    </skos:related>
+    <skos:prefLabel xml:lang="en">{"id": "f216f0c2-7761-4f7e-bd6b-c19ca7cc1810", "value": "WATCHING BRIEF"}</skos:prefLabel>
+    <skos:related>
+      <skos:Concept rdf:about="http://www.archesproject.org/7e1bd801-b42f-34f4-841b-8c3e5191ddaf">
+        <skos:related rdf:resource="http://www.archesproject.org/7e1bd801-b42f-34f4-841b-8c3e5191ddaf"/>
+        <skos:scopeNote xml:lang="en">{"id": "30bad927-bfae-445d-9d8e-426570807760", "value": "Periodic visits being made to a site by an archaeologist to record archaeological deposits and recover finds that have come to light since the previous visit. An archaeological presence is not maintained during groundwork as it is with a watching brief."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "e943df5b-241c-4c05-b0cc-93914db550ea", "value": "FIELD OBSERVATION (MONITORING)"}</skos:prefLabel>
+        <skos:related rdf:resource="http://www.archesproject.org/d5866e21-0fa8-3347-9638-3cf805e4abc5"/>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+      </skos:Concept>
+    </skos:related>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/ffd48131-2c70-3e26-bfc4-3ebd7fd96715">
+    <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/397e9364-9835-39a7-9627-8e4926f19500">
+        <skos:prefLabel xml:lang="en">{"id": "239e0d1c-673e-4ca2-b5c1-4a751eeca56c", "value": "OPEN AREA EXCAVATION"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+        <skos:scopeNote xml:lang="en">{"id": "74a77395-76c7-4415-9a57-26d65ff3877f", "value": "Controlled investigation, recording and removal of archaeological deposits according to the principles of strategraphic excavation. The size of an open area can range from holes to examine pile foundations to extensive trenches of 100 square meters."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/bd2a0a7a-b278-32bf-aa82-bec408aa3059">
+        <skos:prefLabel xml:lang="en">{"id": "71c169db-1cc4-429c-beb6-64258d1036e8", "value": "RESEARCH EXCAVATION"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "e4d5450b-ff98-44ac-b479-d671bf577134", "value": "Controlled investigation, recording and removal of archaeological deposits in targeted areas in order to answer specific questions relating to a particular archaeological site or landscape. Usually undertaken by university departments or amateur groups."}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/26aa5d4c-3c87-3325-8a9c-85f0b027bc42">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+        <skos:prefLabel xml:lang="en">{"id": "34653daa-3b2d-4470-b03b-ba4e981b8fda", "value": "BOX TRENCHING"}</skos:prefLabel>
+        <skos:altLabel xml:lang="en">{"id": "8df16156-42a9-40f5-81ad-a44206bdf16d", "value": "Grid Excavation"}</skos:altLabel>
+        <skos:scopeNote xml:lang="en">{"id": "873a4dce-aee1-419b-87a5-b098c84b881b", "value": "A system of excavation, developed by Mortimer Wheeler, whereby a site was uncovered by means of a grid of square trenches with baulks between them to aid the recording of the stratification of all four sides of each trench."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/d509ed5e-970c-395b-ad91-e91cd6c32b9f">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+        <skos:scopeNote xml:lang="en">{"id": "7ed6b67f-2f5d-4673-83bc-de308db67584", "value": "An excavation technique that involves the machine stripping the topsoil/subsoil from the area to be excavated, plotting observed features onto a site plan and then partially or fully excavating those features."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "9ae0e99a-1e62-43ce-bc11-7e3b441894c8", "value": "STRIP MAP AND SAMPLE"}</skos:prefLabel>
+        <skos:altLabel xml:lang="en">{"id": "18a84dc6-40a3-4978-8be6-b8c0a6a76c47", "value": "Strip And Record"}</skos:altLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:scopeNote xml:lang="en">{"id": "3fbf6402-a867-4bb3-b46a-9e5b7a3a7eab", "value": "Controlled intrusive fieldwork which examines, records and interprets archaeological deposits, features and structures and, as appropriate, retrieves artefacts and ecofact remains within a specified area or site on land or within the inter-tidal zone."}</skos:scopeNote>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/35363105-a82a-3259-80a0-7ed59a6f463d">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+        <skos:scopeNote xml:lang="en">{"id": "0fb94988-29ef-4419-a85c-b21f58bd758f", "value": "Controlled investigation, recording and removal of archaeological deposits under threat of destruction from building development. A pre PPG 16 activity, usually under strict time constraints."}</skos:scopeNote>
+        <skos:altLabel xml:lang="en">{"id": "d1032ae2-41b2-44ff-8a0b-029f807f013e", "value": "Salvage Excavation"}</skos:altLabel>
+        <skos:prefLabel xml:lang="en">{"id": "bed3a861-2ce3-4e6a-935b-2c9c884c8048", "value": "RESCUE EXCAVATION"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/fc279b3c-7251-31c9-8d96-c9f1807e7bcf">
+        <skos:prefLabel xml:lang="en">{"id": "d91ae491-b1d6-4519-af3f-9711d1f2d25b", "value": "UNDERWATER EXCAVATION"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "cedbefc6-7677-4f30-974c-3bfbaf60b6c0", "value": "Controlled intrusive fieldwork which examines, records and interprets archaeological deposits, features and structures and, as appropriate, retrieves artefacts and ecofact remains within a specified underwater area."}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="en">{"id": "704d6644-7f2e-480d-a7c7-c7cfbcc39201", "value": "EXCAVATION"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/ebccadb1-2e37-3715-895d-50108d713fc5">
+    <skos:prefLabel xml:lang="en">{"id": "abddb3e8-6105-4efe-a9b5-c9dd1c775564", "value": "BATHYMETRIC SURVEY"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+    <skos:scopeNote xml:lang="en">{"id": "8e2d0527-a5bb-4553-87ab-38c60a0217e2", "value": "A maritime investigation that records depth data which can be used to map submerged topography utilising echo sounders which emit a short acoustic pulse. Depth is calculated by measuring the time taken for the pulse to be reflected back to the transducer."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/e4cbcec5-1e0b-3535-bea2-28e9c60e3498">
+    <skos:prefLabel xml:lang="en">{"id": "486a7032-7dd1-4e08-8c45-685d12a2897b", "value": "ACOUSTIC GROUND DISCRIMINATING RADAR"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+    <skos:scopeNote xml:lang="en">{"id": "e322c9fc-7458-496a-ae69-8977bf0e4024", "value": "An extra processing unit which can be used in conjunction with single beam echo sounders to determine the roughness and hardness of the seafloor. Mainly used for marine biology, but has been used in archaeology."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/ce6d20d9-a7d8-3f58-9e1d-fbbf11435b5a">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/296baab3-4bd0-33b2-8a99-aade6c259020">
+        <skos:prefLabel xml:lang="en">{"id": "3481448b-1092-4cec-81a6-3dfcf24bd716", "value": "SINGLE BEAM ECHO SOUNDER SURVEY"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "08801d33-fb74-482e-aa30-492b4900cc5b", "value": "An underwater technique that records bathymetric (depth) data by generating point depths in a line directly beneath the transducer mounted on a vessel as it progresses along the acquisition line."}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="en">{"id": "34256720-ef9f-4aa0-85e9-c316114f12bf", "value": "SONAR SURVEY"}</skos:prefLabel>
+    <skos:narrower rdf:resource="http://www.archesproject.org/ebccadb1-2e37-3715-895d-50108d713fc5"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/492754fe-f1fd-314f-9047-5d5848323091">
+        <skos:altLabel xml:lang="en">{"id": "e9b05c7f-37c5-4c06-b79c-01fe5e1e3e1c", "value": "Bottom Classification Sonar"}</skos:altLabel>
+        <skos:prefLabel xml:lang="en">{"id": "0a17efd2-4311-466a-a724-be7e3a8577b8", "value": "SIDE SCAN SONAR SURVEY"}</skos:prefLabel>
+        <skos:altLabel xml:lang="en">{"id": "98ca1f89-d0ac-40d2-b645-23cea2e4282c", "value": "Side Looking Sonar Survey"}</skos:altLabel>
+        <skos:scopeNote xml:lang="en">{"id": "1fab550f-b44c-4cb6-a644-22219f4f07d7", "value": "Underwater investigation of the seabed, using side-looking sonar device that emits fan shaped acoustic pulses down toward the seafloor. The intensity of the acoustic reflections from the sea floor are recorded as an image of the seabed."}</skos:scopeNote>
+        <skos:altLabel xml:lang="en">{"id": "12729df6-be3b-4904-990f-851d87b47e7c", "value": "Side Scanning Sonar Survey"}</skos:altLabel>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:scopeNote xml:lang="en">{"id": "5e8c077a-2c89-4d6d-8d9c-94bb8c6721b6", "value": "Active sonar systems are based on the behaviour of sound waves in water; acoustic energy is transmitted and the time for the returning echo is measured to allow submerged seabed features to be mapped. Use specific type where known."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+    <skos:narrower rdf:resource="http://www.archesproject.org/721a2db1-37ed-35ac-b3d3-716b3d65804b"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/983e1ce7-84f3-3b16-b328-9d6d89c3814d">
+        <skos:scopeNote xml:lang="en">{"id": "a7417c38-8ff3-458c-9965-8cd4b576463a", "value": "An underwater technique used to create 3D terrain models and to record objects on the seabed through the comparative analysis of reflections from high frequency sound waves emitted in multiple beams allowing large swathes of the seabed to be surveyed."}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+        <skos:prefLabel xml:lang="en">{"id": "96a6744d-b65c-4375-b328-b2040a5c8e2e", "value": "MULTI BEAM ECHO SOUNDER SURVEY"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/0c69ed3e-c1d1-37b2-8092-8f318fdb4541">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/5999616b-a713-3a32-bf58-1e61059ec971">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+        <skos:scopeNote xml:lang="en">{"id": "13f63cf9-c592-44d9-b6f2-29097c9cc079", "value": "A limited programme of intrusive fieldwork which determines the presence or absence of archaeological features, structures, deposits, artefacts or ecofacts within a specified underwater area."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "67ff518a-f5c3-4d57-bb66-c2e222b90f24", "value": "UNDERWATER EVALUATION"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/c288f036-4dee-361b-b5dd-e814a6acb8b5">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+        <skos:altLabel xml:lang="en">{"id": "69a07180-7526-4265-ac48-ef3be63c910a", "value": "Test Pit Survey"}</skos:altLabel>
+        <skos:altLabel xml:lang="en">{"id": "b2a7a11c-6854-420c-ba36-d40db99f61de", "value": "Test Pits"}</skos:altLabel>
+        <skos:scopeNote xml:lang="en">{"id": "b3637e5c-f4ff-4c60-b7bc-05238dc2de5a", "value": "Systematically positioned hole, or holes, utilised in all studies that aim to sample the nature of the topsoil and subsurface deposits."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "a55ebfb5-7b74-4dea-9c6e-a4fa66746b49", "value": "TEST PIT"}</skos:prefLabel>
+        <skos:altLabel xml:lang="en">{"id": "6720eab5-2e88-4bb6-9d71-168aa2dde113", "value": "Sondage"}</skos:altLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/925d492b-dc14-3086-a099-d6a1537ef5d7">
+        <skos:altLabel xml:lang="en">{"id": "433da9f3-9ad1-475e-9bbb-3bf13cd90dc1", "value": "Sample Trenches"}</skos:altLabel>
+        <skos:altLabel xml:lang="en">{"id": "16c5cffd-9cb7-48d8-a8a5-0cf951c6d470", "value": "Targeted Trenches"}</skos:altLabel>
+        <skos:prefLabel xml:lang="en">{"id": "839e2f8f-ed8c-4b50-bf1d-82930b17f1e7", "value": "TRIAL TRENCH"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+        <skos:scopeNote xml:lang="en">{"id": "bb00a5bf-86a6-4517-933c-7997f2288cfb", "value": "Archaeologically excavated trench, either hand of machine dug, as part of a sampling programme to evaluate the presence/absence, nature, preservation, age and extent of any buried archaeological features."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+    <skos:scopeNote xml:lang="en">{"id": "9475877d-1d17-4769-9e1a-04deb1a9343a", "value": "A limited programme of intrusive fieldwork which determines the presence or absence of archaeological features, structures, deposits, artefacts or ecofacts within a specified area or site on land or within the inter-tidal zone."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "6194684a-fc96-4b5b-9edb-f9bf837582a0", "value": "EVALUATION"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/5f6b66ca-e43a-3868-a760-f9df31593aa9">
+    <skos:narrower rdf:resource="http://www.archesproject.org/103f4828-70f7-3356-aa42-a046e36ddd06"/>
+    <skos:prefLabel xml:lang="en">{"id": "332c073a-c3bd-4a8e-bd4a-1948a84975f3", "value": "FIELDWALKING SURVEY"}</skos:prefLabel>
+    <skos:narrower rdf:resource="http://www.archesproject.org/27af3d88-2d5c-3d26-9ba4-f378d7509267"/>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/5fb8ed79-04d6-3ca8-8483-7bfc9377cd21">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/8e1c2309-e1b0-322e-92cc-23edf4bf4fe1">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+        <skos:prefLabel xml:lang="en">{"id": "88097916-1a9e-469c-a511-7d450d9e67ca", "value": "HEDGEROW SURVEY"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "12e9b8ac-c929-4bea-a618-bdf7b5488d41", "value": "The assessment of the age of a hedge based on its nature, condition and the number and type of woody plant species present. Most surveys make use of Hooper's hypothesis which states that for every 27m a new woody species invades a hedge every 100 years."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:scopeNote xml:lang="en">{"id": "16b5c1cd-6913-4319-82bf-9d74454c3023", "value": "The non intrusive processes by which information is collected about the location, distribution and organisation of past human activities. The approaches can be either extensive or intensive depending the objectivies that need to be addressed."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/39ef905a-b3b8-3978-b608-8d39f417a168">
+        <skos:prefLabel xml:lang="en">{"id": "c69eb135-5e46-4f12-aaec-f033fe83137e", "value": "DOWSING SURVEY"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+        <skos:scopeNote xml:lang="en">{"id": "2160e094-0f91-4408-8983-5391e5a03b78", "value": "The supposed detection of subsurface features by employing a twig, copper rod, pendulum, or other instrument. Discontinuous movements in these instruments are believed by some to record the existence of buried features."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://www.archesproject.org/658c777b-3646-3032-b3b3-20b9b0e50528"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/74279a06-92dd-3a1f-82f1-f94ca6e0b1d9">
+        <skos:narrower rdf:resource="http://www.archesproject.org/5ba6982f-54ea-3407-b7ea-b3d0669d8da4"/>
+        <skos:scopeNote xml:lang="en">{"id": "1dd94407-ee9f-4727-a79c-0358270482f0", "value": "Ground-based or marine subsurface mapping of archaeological features using different sensing technologies. Most commonly applied are magnetometers, electrical resistance meters, ground penetrating radar, side scan sonar, and electromagnetic conductivity."}</skos:scopeNote>
+        <skos:narrower rdf:resource="http://www.archesproject.org/5769cc38-02d9-32e3-8998-05630441f40f"/>
+        <skos:narrower rdf:resource="http://www.archesproject.org/10170c30-82ad-30e0-8072-1a4330d30b0d"/>
+        <skos:narrower rdf:resource="http://www.archesproject.org/f6ff8f96-a4ff-3156-8cc0-869b64a27351"/>
+        <skos:narrower rdf:resource="http://www.archesproject.org/ce6d20d9-a7d8-3f58-9e1d-fbbf11435b5a"/>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+        <skos:narrower rdf:resource="http://www.archesproject.org/15df6a2f-086b-3e4f-9471-99855b743d3f"/>
+        <skos:prefLabel xml:lang="en">{"id": "e0bc71c1-9c3e-4568-aacf-bb02f490e0a0", "value": "GEOPHYSICAL SURVEY"}</skos:prefLabel>
+        <skos:narrower rdf:resource="http://www.archesproject.org/e4cbcec5-1e0b-3535-bea2-28e9c60e3498"/>
+        <skos:narrower rdf:resource="http://www.archesproject.org/b4c8de2b-1a27-32f3-b489-2c45ef58f4c6"/>
+        <skos:narrower rdf:resource="http://www.archesproject.org/43ce08fe-fd6d-3068-b268-926e9dba7c2c"/>
+        <skos:narrower rdf:resource="http://www.archesproject.org/7a71700d-3ce9-3a56-8053-1095f45c70d5"/>
+        <skos:narrower rdf:resource="http://www.archesproject.org/97bb9a2e-bcb6-344c-96a9-e3e0a0a5d2fe"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/40f1b4fb-27b9-3803-a172-8377d242ed0f">
+        <skos:prefLabel xml:lang="en">{"id": "84944111-cd21-49f6-b663-3dc0a0e48fe9", "value": "BOSING SURVEY"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+        <skos:scopeNote xml:lang="en">{"id": "e41d4bfb-5649-4a89-ab8e-d2a582dc449d", "value": "A subsurface detection method performed by striking the ground with a heavy wooden mallet or a lead-filled container on a long handle."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://www.archesproject.org/6b8d1f66-9bcb-38a2-8dd2-9e69b8fe6632"/>
+    <skos:prefLabel xml:lang="en">{"id": "08b27b48-bcbb-4635-8725-bd8dc28a0ddb", "value": "FIELD SURVEY"}</skos:prefLabel>
+    <skos:narrower rdf:resource="http://www.archesproject.org/5f6b66ca-e43a-3868-a760-f9df31593aa9"/>
+    <skos:narrower rdf:resource="http://www.archesproject.org/08cb6734-621a-36d9-98f8-4c4b2f609b64"/>
+    <skos:narrower rdf:resource="http://www.archesproject.org/b0bda9ef-b521-3010-8f17-6796ea3c3ac5"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/3b414c17-e0fc-302c-bc21-af4526abb005">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+        <skos:scopeNote xml:lang="en">{"id": "99626ca1-7d70-45be-9561-9484c06611b3", "value": "The investigation of heritage assets along thematic lines, usually to inform the production of a thematic study. Such studies bring specialist insights to bear on the particular area of study, but may not address other aspects of the site's significance."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "354c928d-2cfd-4d04-ad1a-5a8d4a04abae", "value": "THEMATIC SURVEY"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/323a9eea-75a5-3aa5-afcd-9512435684f9">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+        <skos:prefLabel xml:lang="en">{"id": "caac418b-67de-4cde-92d5-5cf32c5eb931", "value": "GEOMORPHOLOGICAL SURVEY"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "62d2235a-a362-4901-b225-54441936cac6", "value": "Field survey undertaken to investigate land formation processes often carried out in association with, or in the vicinity of, an archaeological site, or as part of a wider landscape project."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/fe0c03c3-ae3a-3983-aa18-ce4b9ab752e4">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+        <skos:prefLabel xml:lang="en">{"id": "4884cf88-0814-474a-9b8b-79db49344016", "value": "UNDERWATER SURVEY"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "83d079f7-783f-4cd7-88b1-52f195616b1a", "value": "The non intrusive processes by which information is collected about the location, distribution and organisation of past human activities that are now submerged by water. The approaches can be either extensive or intensive depending on the objectives."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://www.archesproject.org/2aa14fe1-78e7-33b0-babc-740e33362a9d"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/025203d8-29a6-3cd5-8128-75d899463130">
+        <skos:narrower rdf:resource="http://www.archesproject.org/40fb630e-30bc-36ce-9fe9-ca612f68f425"/>
+        <skos:prefLabel xml:lang="en">{"id": "24ed895e-00d9-4498-9138-cd6ecd40e15c", "value": "PHOTOGRAPHIC SURVEY"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+        <skos:scopeNote xml:lang="en">{"id": "46bbca1e-3b5b-4c26-a426-96acaf785a1b", "value": "Detailed survey using photographic images to record archaeological and architectural sites or features of interest. Record photography is an important aspect of recording such features before they are destroyed."}</skos:scopeNote>
+        <skos:narrower rdf:resource="http://www.archesproject.org/79929776-710d-3612-8f78-5a10de3613cf"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/bd62ceef-efc4-3f6c-bbc4-7ad7e1fd2549">
+        <skos:prefLabel xml:lang="en">{"id": "93544330-3194-416c-a0bb-e871e4f8b738", "value": "HISTORIC AREA ASSESSMENT"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "ad458512-7c54-4f20-adf5-2f044b8a6f5b", "value": "An overview of the historical and architectural development, character and heritage assets of a settlement or area.  An HAA may result in the creation, at varying levels of intensity, of individual site-based records informed by area context."}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://www.archesproject.org/6501f843-fa81-3ae0-b8b2-3f7ba46d9187"/>
+    <skos:narrower rdf:resource="http://www.archesproject.org/1f909607-b1c8-32ff-9394-69f070a3aff3"/>
+    <skos:narrower rdf:resource="http://www.archesproject.org/44fd8aec-7a8d-316e-85af-7ba154ef1f15"/>
+    <skos:narrower rdf:resource="http://www.archesproject.org/c127d9f6-1a80-344c-8a21-8b76c7dda9bc"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/ee88e923-0a5a-3812-8ed0-eff1f844d3d3">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+        <skos:prefLabel xml:lang="en">{"id": "a66ac72e-46ea-4b1f-9a28-7389bd74242e", "value": "PHOTOGRAPHIC RECORDING"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "985270d3-4204-4204-9d25-cc9dcaa14e0c", "value": "The taking of photographs during informal site visits, which may be undertaken by amateur archaeologists or architectural students. More formal, detailed surveys should be termed Photographic Survey."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://www.archesproject.org/ffd288c8-b708-31dc-ad17-6c0139788aa8"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/9e5c5410-b111-3371-bce4-1eb3365fa771">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/af4ce6df-5be4-3cc1-ae41-88694394a741">
+        <skos:prefLabel xml:lang="en">{"id": "ffc95a5e-b82b-4f37-82d4-173d74688146", "value": "ENVIRONMENTAL SAMPLING"}</skos:prefLabel>
+        <skos:narrower rdf:resource="http://www.archesproject.org/7ff5156c-47f3-35e7-a410-26c71e770d18"/>
+        <skos:narrower rdf:resource="http://www.archesproject.org/95e5d626-488a-3725-a78b-7bbdcdc638e6"/>
+        <skos:scopeNote xml:lang="en">{"id": "4e7a81fe-60a9-4870-afb4-755c312749eb", "value": "Removal of samples from deposits, including archaeological contexts to recover information about past environments and economies, retrieve material for scientific dating and for the investigation of the deposits themselves e.g. formation processes."}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://www.archesproject.org/f49f8f07-fb2f-3507-ae40-f3a5a85d0fa8"/>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+    <skos:narrower rdf:resource="http://www.archesproject.org/a9160edb-fe10-3fea-b42a-75ea743a80b7"/>
+    <skos:narrower rdf:resource="http://www.archesproject.org/a6063168-13b5-34e1-8a40-a7e73b37777f"/>
+    <skos:prefLabel xml:lang="en">{"id": "c0bd2ee6-02c7-4717-965a-24a6db12a6d7", "value": "ENVIRONMENTAL INTERVENTION"}</skos:prefLabel>
+    <skos:narrower rdf:resource="http://www.archesproject.org/e2f49d27-dfd6-30e3-8a33-4f134aaeb69a"/>
+    <skos:scopeNote xml:lang="en">{"id": "de869753-60f6-4e4f-a588-4f5cf66a1bf7", "value": "Intervention into the archaeological resource intended to gather information about past ecologies and economies, formation processes, and to retrieve material for scientific dating purposes."}</skos:scopeNote>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/e156de38-552e-39e4-a120-d0a28dda9883">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+        <skos:narrower rdf:resource="http://www.archesproject.org/00dd5e07-73cd-39db-a6f3-e42f26ec368c"/>
+        <skos:prefLabel xml:lang="en">{"id": "7feafc1d-aa76-46d7-a185-0239be94bb65", "value": "GEOCHEMICAL SURVEY"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "279e2594-ac45-4f27-b083-713ab987911f", "value": "The taking of samples at regular intervals from the surface of a study area in order to retrieve information on the different chemical elements present."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/0b647dbf-6c95-3422-b861-3d4d9230d8f5">
+    <skos:narrower rdf:resource="http://www.archesproject.org/b8a7399d-0314-3a81-92a6-0626477ee126"/>
+    <skos:narrower rdf:resource="http://www.archesproject.org/5aa69b64-14f5-38fe-8d21-0749727619ca"/>
+    <skos:scopeNote xml:lang="en">{"id": "6ed9a43a-3220-466f-9e47-32debd1c435d", "value": "Airborne survey to discover, record and monitor archaeological sites and other heritage assets. Sites will usually be recorded by aerial photography."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+    <skos:prefLabel xml:lang="en">{"id": "3407b1b1-ff82-4b77-8045-7ec8d73a2bf8", "value": "AERIAL RECONNAISSANCE"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/e97617a5-dd31-3e7c-b1ae-12b1f5c7bb47">
+    <skos:scopeNote xml:lang="en">{"id": "f4a58692-2b78-41f0-a2cd-a593f86e7f86", "value": "Test pits dug by geotechnical engineers or engineering geologists to obtain information on the physical properties of soil, sediments and bedrock around a site to design earthworks and foundations for proposed structures."}</skos:scopeNote>
+    <skos:altLabel xml:lang="en">{"id": "757a83c5-8146-4558-a6e4-7dff95f35ed7", "value": "Subsoil Test Pit"}</skos:altLabel>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+    <skos:prefLabel xml:lang="en">{"id": "0eecaafd-ee43-4011-84e8-2974a8476e84", "value": "GEOTECHNICAL TEST PIT"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/00dd5e07-73cd-39db-a6f3-e42f26ec368c">
+    <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+    <skos:prefLabel xml:lang="en">{"id": "018f6afc-e95f-40c1-93a1-2ac1c350c4c2", "value": "PHOSPHATE SURVEY"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "122916f2-8b76-47e0-a61b-623d65529228", "value": "The systematic collection of samples from a defined study area analysed for phosphate content. Elevated concentrations of phosphate are a generalised signature of human activity."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/896d5acf-ddb6-340d-95a8-51dd66496ce0">
+    <skos:narrower rdf:resource="http://www.archesproject.org/ffd48131-2c70-3e26-bfc4-3ebd7fd96715"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/4155a548-a251-36a3-af75-05bb17157e70">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+        <skos:prefLabel xml:lang="en">{"id": "ea9319c7-c7d7-448b-aac4-e4bd2774a7b8", "value": "GRAB SAMPLING"}</skos:prefLabel>
+        <skos:altLabel xml:lang="en">{"id": "84a5fb0e-007e-450f-8d99-ed1fbfcd123a", "value": "Grab Survey"}</skos:altLabel>
+        <skos:scopeNote xml:lang="en">{"id": "d49f0b39-1f12-4a93-9740-1f222d681b14", "value": "A maritime technique which involves the simple process of bringing up surface sediments from the seafloor for analysis usually using mechanical apparatus. As the process recovers a mixture of sediments it cannot be used to characterise stratigraphy."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://www.archesproject.org/a6063168-13b5-34e1-8a40-a7e73b37777f"/>
+    <skos:narrower rdf:resource="http://www.archesproject.org/d5866e21-0fa8-3347-9638-3cf805e4abc5"/>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+    <skos:narrower rdf:resource="http://www.archesproject.org/7e1bd801-b42f-34f4-841b-8c3e5191ddaf"/>
+    <skos:narrower rdf:resource="http://www.archesproject.org/a3aeee6f-4a4b-30fe-9030-a488e5ec4801"/>
+    <skos:narrower rdf:resource="http://www.archesproject.org/0c69ed3e-c1d1-37b2-8092-8f318fdb4541"/>
+    <skos:prefLabel xml:lang="en">{"id": "6959cf41-a8af-4fdf-be5e-423ecf277ec9", "value": "ARCHAEOLOGICAL INTERVENTION"}</skos:prefLabel>
+    <skos:narrower rdf:resource="http://www.archesproject.org/a9160edb-fe10-3fea-b42a-75ea743a80b7"/>
+    <skos:scopeNote xml:lang="en">{"id": "164f9fcd-b8ac-4273-8fe5-8722142a45d1", "value": "Any activity, undertaken by professional archaeologists or experienced amateurs, that has a physical impact, actual or potential, upon the archaeological resource, substituting the physical resource with recorded information."}</skos:scopeNote>
+    <skos:narrower rdf:resource="http://www.archesproject.org/fdb3888f-aa06-3d83-89c4-1d634c9bce3d"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/b4c8de2b-1a27-32f3-b489-2c45ef58f4c6">
+    <skos:altLabel xml:lang="en">{"id": "6313a610-6162-4efc-a1bc-0780b389a32f", "value": "Ground Penetrating Radar"}</skos:altLabel>
+    <skos:prefLabel xml:lang="en">{"id": "ae3ddfdb-d7c6-4d2a-b093-a0d73a3ec7b0", "value": "GROUND PENETRATING RADAR SURVEY"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "b2145675-ad2f-4fd5-be34-ddeb74978277", "value": "A technique that measures the amount of time it takes pulses of  electromagnetic energy sent into the ground, from a transmitter, to reflect back from the interfaces between layers and other subsurface features in order to produce a subsurface profile."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/485ebb3b-6cf1-3905-bc8a-9f6f788cbf43">
+    <skos:narrower rdf:resource="http://www.archesproject.org/fdb3888f-aa06-3d83-89c4-1d634c9bce3d"/>
+    <skos:prefLabel xml:lang="en">{"id": "91461942-ceb0-410f-b332-d1141431d05e", "value": "NON ARCHAEOLOGICAL INTERVENTION"}</skos:prefLabel>
+    <skos:narrower rdf:resource="http://www.archesproject.org/a9160edb-fe10-3fea-b42a-75ea743a80b7"/>
+    <skos:narrower rdf:resource="http://www.archesproject.org/a6063168-13b5-34e1-8a40-a7e73b37777f"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/750f3c88-a95e-3e4c-93b6-050937aa7ea5">
+        <skos:prefLabel xml:lang="en">{"id": "5bbfcaa4-7d6e-473a-90ae-ec8968d79029", "value": "CASUAL OBSERVATION"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+        <skos:scopeNote xml:lang="en">{"id": "80722bf0-e1e2-4cb8-87c0-f10a99785980", "value": "The unplanned observation of archaeological features or the recovery of artefacts of interest, for example either random finds by members of the public or the unplanned observation of archaeological features during the course of unmonitored developments."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:scopeNote xml:lang="en">{"id": "d2130c91-2a9b-4b42-b6ae-26a48be2da83", "value": "Any activities, that have a physical impact upon the archaeological resource where the purpose is not primarily archaeological research."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/5dce0e85-485c-3c89-9251-87bc1a2b8ef2">
+        <skos:prefLabel xml:lang="en">{"id": "8cdf129e-0419-438c-8776-697f3c92d780", "value": "GEOTECHNICAL SURVEY"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+        <skos:narrower rdf:resource="http://www.archesproject.org/e97617a5-dd31-3e7c-b1ae-12b1f5c7bb47"/>
+        <skos:scopeNote xml:lang="en">{"id": "e2d2fdf3-119b-446f-9453-42907805f738", "value": "Any subsurface investigation conducted to assist with the technical rather than archaeological aspects of a proposed development or extraction scheme."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/7ff5156c-47f3-35e7-a410-26c71e770d18">
+    <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+    <skos:prefLabel xml:lang="en">{"id": "ff4b91df-1ec9-4db8-8776-4e7bd8d04751", "value": "MONOLITH SAMPLING"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "30a9fd7b-9158-4044-94fb-765d18edce76", "value": "Removal of a sample from a vertical section generally using a U sectioned tin to extract an intact column of the observed stratigraphy. Used in the study of pollen, diatoms etc."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/ae1fd1cb-a020-3bb1-b41b-7db301cf682d">
+    <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+    <skos:prefLabel xml:lang="en">{"id": "914ba9ac-934b-4c5e-97d5-9a34406dfcba", "value": "CONSERVATION AREA APPRAILSAL"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/6297f794-e9ba-3c5f-b6a4-c3007aa45a70">
+    <skos:scopeNote xml:lang="en">{"id": "30bf79fb-c0de-41d0-984a-d9d7783c9bd0", "value": "Survey using photographic or other recording equipment mounted on or used from either an aircraft or other airborne vehicle or a maritime vessel/submersible craft."}</skos:scopeNote>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/728bf185-d0fa-3c35-9502-abc731080ea3">
+        <skos:prefLabel xml:lang="en">{"id": "07c684b1-d39e-4b6c-8714-6555137e15db", "value": "REMOTE OPERATED VEHICLE SURVEY"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+        <skos:scopeNote xml:lang="en">{"id": "5b705c14-e9f8-42be-8859-eb2a49ea1bba", "value": "A technique utilised in maritime recording; a remote operated vehicle (ROV) is a tethered underwater robot. ROVs have been used to locate and inspect a number of historic shipwrecks in depths beyond the reach of human divers."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+    <skos:narrower rdf:resource="http://www.archesproject.org/0b647dbf-6c95-3422-b861-3d4d9230d8f5"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/ed255dbd-c615-3311-b525-e348c65e348f">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+        <skos:prefLabel xml:lang="en">{"id": "e3c9281e-a222-4629-9fe5-d249ea8e0111", "value": "SATELLITE IMAGING"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "fef238b9-08cb-46be-b33b-fb74d1b7aa58", "value": "The capture of imagery using an orbiting satellite. The type of imagery is very varied including visible light photography, infrared and multi spectral photography as well as imagery derived from radar and lidar data."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="en">{"id": "9a3e3a09-9520-497e-ad41-368f133d20ac", "value": "REMOTE SENSING"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/a39cd5b0-76ee-3fb9-bc79-1eac8af1753b">
+    <skos:narrower rdf:resource="http://www.archesproject.org/08cb6734-621a-36d9-98f8-4c4b2f609b64"/>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+    <skos:narrower rdf:resource="http://www.archesproject.org/b48c8252-9e9a-3a1e-80ea-402991dc8c0a"/>
+    <skos:prefLabel xml:lang="en">{"id": "e64a3f6a-c9a9-4468-8b92-74a5482bab63", "value": "HERITAGE ASSESSMENT"}</skos:prefLabel>
+    <skos:narrower rdf:resource="http://www.archesproject.org/6b8d1f66-9bcb-38a2-8dd2-9e69b8fe6632"/>
+    <skos:narrower rdf:resource="http://www.archesproject.org/cadc8000-49e3-3c6d-a4dc-323fcfed61e4"/>
+    <skos:narrower rdf:resource="http://www.archesproject.org/ae1fd1cb-a020-3bb1-b41b-7db301cf682d"/>
+    <skos:narrower rdf:resource="http://www.archesproject.org/bd62ceef-efc4-3f6c-bbc4-7ad7e1fd2549"/>
+    <skos:narrower rdf:resource="http://www.archesproject.org/ca3c2fda-3f58-311f-a793-1890481e9af0"/>
+    <skos:scopeNote xml:lang="en">{"id": "8dd1c210-8e6f-4509-a8e5-6c03a5a3a11e", "value": "Programmes of research that seek to identify the archaeological and/or architectural significance of a site or landscape."}</skos:scopeNote>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/4987dcb0-e15b-3fdc-acd1-a1f4210c3758">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+        <skos:scopeNote xml:lang="en">{"id": "26d475cb-af5a-45d3-bef5-238f57b690eb", "value": "A programme of assessment of the known or potential archaeological resource within a specified area or site on land, inter-tidal zone or underwater by the consultation and collation of existing written, graphic, photographic and electronic data."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "c67be175-df46-45c2-b017-390832cf94ce", "value": "DESK BASED ASSESSMENT"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/f6596407-675f-3066-b5ad-e04a31a60b60">
+        <skos:scopeNote xml:lang="en">{"id": "b1951361-ad9a-42ec-899f-32eaeffe2a69", "value": "Observations made by antiquarians (Those who studied sites and landscapes prior to archaeology and architectural history becoming established disciplines in the 19th century) and reported through publication or from unpublished manuscripts."}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+        <skos:prefLabel xml:lang="en">{"id": "79724209-6e45-48bd-b600-3fbcfff8e650", "value": "ANTIQUARIAN OBSERVATION"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/7f8b9c61-917d-3bc0-a756-4dec2154ebf4">
+        <skos:prefLabel xml:lang="en">{"id": "ffd71c80-f716-472b-9858-dcc103f13470", "value": "MANAGEMENT SURVEY"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "831d3d72-6bce-4eb4-a4a4-37465da182b5", "value": "A field and desk based assessment of heritage asset condition and vulnerability so that informed decisions can be made regarding how best to manage the resource."}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/79492fba-2ecc-3c4a-aaaa-eb31e176c5e6">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+        <skos:prefLabel xml:lang="en">{"id": "54afab97-e408-4414-beb8-372042c43188", "value": "ENVIRONMENTAL IMPACT ASSESSMENT"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "25dab5ac-47c6-476b-87b4-4511cfc785a0", "value": "An information gathering exercise to facilitate an understanding of the potential environmental impact of a development proposal; includes the collation of specialist reports from a variety of disciplines."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/43855e38-84a8-3a79-8480-58971f27f1b1">
+    <skos:prefLabel xml:lang="en">{"id": "e063e694-c127-47f1-9773-cd1c2838867e", "value": "INFRARED THERMOGRAPHY SURVEY"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+    <skos:scopeNote xml:lang="en">{"id": "b2124535-c803-4688-b383-f6ab75a3b4ab", "value": "An investigative method using an infrared camera to detect temperature differences in the ground. The thermal camera does not record the actual temperature of the object in question. Instead the camera records the infrared radiation emitted by the object."}</skos:scopeNote>
+    <skos:altLabel xml:lang="en">{"id": "9650b8dc-5ec4-4138-8e78-3d138162720d", "value": "Infra Red Thermography Survey"}</skos:altLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/37f9d056-a4a3-3c43-a357-e35b0e932448">
+    <skos:narrower rdf:resource="http://www.archesproject.org/896d5acf-ddb6-340d-95a8-51dd66496ce0"/>
+    <skos:narrower rdf:resource="http://www.archesproject.org/9e5c5410-b111-3371-bce4-1eb3365fa771"/>
+    <skos:narrower rdf:resource="http://www.archesproject.org/485ebb3b-6cf1-3905-bc8a-9f6f788cbf43"/>
+    <skos:prefLabel xml:lang="en">{"id": "96a049ee-fe61-47ff-adbb-878a4a629809", "value": "Intrusive Event"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/6d48aff1-80b0-3da9-b36d-905dd659a651">
+    <skos:narrower rdf:resource="http://www.archesproject.org/a39cd5b0-76ee-3fb9-bc79-1eac8af1753b"/>
+    <skos:prefLabel xml:lang="en">{"id": "60c36d4c-5fdd-4905-b339-1445436f0365", "value": "Non Intrusive Event"}</skos:prefLabel>
+    <skos:narrower rdf:resource="http://www.archesproject.org/6297f794-e9ba-3c5f-b6a4-c3007aa45a70"/>
+    <skos:narrower rdf:resource="http://www.archesproject.org/5fb8ed79-04d6-3ca8-8483-7bfc9377cd21"/>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/451bdaaf-42ab-3066-9c09-b724cd7ffb17">
+    <skos:prefLabel xml:lang="en">{"id": "6251af5c-763d-4be4-b0c2-640efa966071", "value": "INFRARED LINE SCAN AERIAL PHOTOGRAPHY"}</skos:prefLabel>
+    <skos:altLabel xml:lang="en">{"id": "5c34fb70-3b88-401a-a393-4c394357f631", "value": "Infra Red Line Scan Aerial Photography"}</skos:altLabel>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+    <skos:scopeNote xml:lang="en">{"id": "8d3e67ed-e588-4752-89f1-34fe855cc038", "value": "A specific type of Infrared photography that uses an airborne scanning infrared sensor to record differential spectrums of features both extant and buried."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/c9331775-2b64-3d36-8b8b-35f8018bcafd">
+    <skos:prefLabel xml:lang="en">{"id": "758d1297-fd85-4d99-ace2-6b36387a5f43", "value": "CONVENTIONAL AERIAL PHOTOGRAPHY"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+    <skos:scopeNote xml:lang="en">{"id": "60156e96-8ecb-40ce-8540-4ef0a265bcae", "value": "Capturing visible spectrum photographs or images of monument features or character using still or motion cameras from an aircraft or other airborne vehicle or apparatus. Covers both digital and film-based cameras."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/10170c30-82ad-30e0-8072-1a4330d30b0d">
+    <skos:prefLabel xml:lang="en">{"id": "abe447a7-f0c8-4843-9ab3-954c96e24c35", "value": "MAGNETIC SUSCEPTIBILITY SURVEY"}</skos:prefLabel>
+    <skos:altLabel xml:lang="en">{"id": "cdeef027-6a9c-45e2-b87a-4e50516c7e2d", "value": "Geophysical Magnetic Susceptibility"}</skos:altLabel>
+    <skos:scopeNote xml:lang="en">{"id": "8041a9c2-9db0-4c9f-ac8a-934b2d972595", "value": "The extraction of samples from selected features on a site to identify a characteristic magnetic response from sediments derived from the features in order to predict the response that similar features would produce. Also used to prospect for sites."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/43ce08fe-fd6d-3068-b268-926e9dba7c2c">
+    <skos:scopeNote xml:lang="en">{"id": "13f41feb-3619-4b9f-ac12-c44af742df67", "value": "A sensing technique that consists of measuring minute variations in the gravitational pull of the Earth in order to detect gravity anomalies arising from voids and cavities within the earth."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+    <skos:prefLabel xml:lang="en">{"id": "006da010-26b9-404d-9b97-87ac766b9395", "value": "MICROGRAVITY SURVEY"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/f6ff8f96-a4ff-3156-8cc0-869b64a27351">
+    <skos:altLabel xml:lang="en">{"id": "7ac69551-f841-46b1-87b5-fba9e863e977", "value": "Geophysical Magnetometer"}</skos:altLabel>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+    <skos:scopeNote xml:lang="en">{"id": "cab0eb52-6eba-412e-afd0-2e18d58f2b55", "value": "Survey using a magnetometer, a device capable of detecting variations in magnetic susceptibility between topsoils, subsoils and rocks, can also be used in a maritime context to detect variations in the magnetic field of seabed sediments."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "da2777b2-9f28-4c4f-ae91-578ca3cfa044", "value": "MAGNETOMETRY SURVEY"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/97bb9a2e-bcb6-344c-96a9-e3e0a0a5d2fe">
+    <skos:altLabel xml:lang="en">{"id": "899e5d53-2aae-430c-aa5e-301449842e64", "value": "Seismograph Survey"}</skos:altLabel>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+    <skos:prefLabel xml:lang="en">{"id": "46ca43c0-8561-4d8f-9cc3-61b3d89bcacf", "value": "SEISMIC SURVEY"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "1d9ba640-5598-4a3b-bff7-cd8e7f7607e0", "value": "An acoustic method which involves the creation of a shock wave through the ground. By recording the time interval between the initial shock and the reflected or refracted shock waves it is possible to define subsurface deposits."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/3db70b1c-0c21-3229-9f3b-6155cdb9da8c">
+    <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+    <skos:prefLabel xml:lang="en">{"id": "0cdde0e5-a3b3-4794-93df-2b8627b247af", "value": "INFRARED AERIAL PHOTOGRAPHY"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "9b584ed0-3c71-4eef-a789-56545a7d49f6", "value": "Aerial photography using infrared sensitive film or sensors to reveal soil and vegetation characteristics not apparent in photographs derived from conventional aerial photography."}</skos:scopeNote>
+    <skos:altLabel xml:lang="en">{"id": "5bbb2a9f-0157-4d87-be6b-f017677a9ce8", "value": "Infra Red Aerial Photography"}</skos:altLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/b2e875b9-7b39-32bc-915e-06b450d50800">
+    <skos:narrower rdf:resource="http://www.archesproject.org/451bdaaf-42ab-3066-9c09-b724cd7ffb17"/>
+    <skos:narrower rdf:resource="http://www.archesproject.org/43855e38-84a8-3a79-8480-58971f27f1b1"/>
+    <skos:narrower rdf:resource="http://www.archesproject.org/3db70b1c-0c21-3229-9f3b-6155cdb9da8c"/>
+    <skos:scopeNote xml:lang="en">{"id": "218ba4ec-876e-4281-89d3-00aed8ed9454", "value": "Recording using specialist equipment that allows discrete wavelengths in the visible spectrum and beyond to be recorded. The combination of different spectral bands allows features to be identified that would not be visible to the naked eye."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/5e64cebc-eaf9-3c08-91f1-1f5b7e573507"/>
+    <skos:prefLabel xml:lang="en">{"id": "cf8e1e94-7ec4-401e-b288-06deb423b504", "value": "MULTI SPECTRAL AERIAL PHOTOGRAPHY"}</skos:prefLabel>
+  </skos:Concept>
+</rdf:RDF>
