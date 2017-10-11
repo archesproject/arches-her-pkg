@@ -253,7 +253,7 @@
             "export": false
         }, 
         {
-            "arches_nodeid": "9417a8f0-ae12-11e7-a5da-b8f6b115d7dd", 
+            "arches_nodeid": "27028c7b-a2bb-11e7-9f72-021893e306d8", 
             "arches_node_name": "Number in Road or Street", 
             "file_field_name": "",
             "data_type": "string", 
@@ -267,7 +267,7 @@
             "export": false
         }, 
         {
-            "arches_nodeid": "9417ace3-ae12-11e7-ae7d-b8f6b115d7dd", 
+            "arches_nodeid": "27028c7e-a2bb-11e7-9f72-021893e306d8", 
             "arches_node_name": "Postal Code", 
             "file_field_name": "",
             "data_type": "string", 
@@ -327,10 +327,11 @@
             "export": false
         }, 
         {
-            "arches_nodeid": "9417b32e-ae12-11e7-ad7e-b8f6b115d7dd", 
+            "arches_nodeid": "27028c80-a2bb-11e7-9f72-021893e306d8", 
             "arches_node_name": "Repository Name", 
             "file_field_name": "",
-            "data_type": "string", 
+            "data_type": "concept", 
+            "concept_export_value": "label", 
             "export": false
         }, 
         {
@@ -356,7 +357,7 @@
             "export": false
         }, 
         {
-            "arches_nodeid": "9417a6f5-ae12-11e7-8b79-b8f6b115d7dd", 
+            "arches_nodeid": "27028c7a-a2bb-11e7-9f72-021893e306d8", 
             "arches_node_name": "Road or Street Name", 
             "file_field_name": "",
             "data_type": "string", 
@@ -386,16 +387,9 @@
             "export": false
         }, 
         {
-            "arches_nodeid": "9417ae2e-ae12-11e7-93fa-b8f6b115d7dd", 
+            "arches_nodeid": "27028c82-a2bb-11e7-9f72-021893e306d8", 
             "arches_node_name": "Storage Area Name", 
             "file_field_name": "Storage Location",
-            "data_type": "string", 
-            "export": false
-        }, 
-        {
-            "arches_nodeid": "9417b0b8-ae12-11e7-a1ff-b8f6b115d7dd", 
-            "arches_node_name": "Storage Reference Number", 
-            "file_field_name": "Storage Reference Number",
             "data_type": "string", 
             "export": false
         }, 
