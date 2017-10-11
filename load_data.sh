@@ -55,6 +55,7 @@ arches4py manage.py packages -o import_reference_data -s $HERPATH/reference_data
 arches4py manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/"MIDAS Protection Grade.xml" -ow overwrite -st keep
 arches4py manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/"MIDAS Protection Type.xml" -ow overwrite -st keep
 arches4py manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/"MIDAS Repositories.xml" -ow overwrite -st keep
+arches4py manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/"MIDAS Resource Description.xml" -ow overwrite -st keep
 arches4py manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/"MIDAS Right Type.xml" -ow overwrite -st keep
 arches4py manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/"MIDAS Role Type.xml" -ow overwrite -st keep
 arches4py manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/"MIDAS Scripts.xml" -ow overwrite -st keep
