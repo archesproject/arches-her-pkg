@@ -171,7 +171,7 @@
         {
             "arches_nodeid": "d5f81bf3-adfa-11e7-b74e-685b3597724b", 
             "arches_node_name": "Geometry", 
-            "file_field_name": "WKT",
+            "file_field_name": "wkt_point",
             "data_type": "geojson-feature-collection", 
             "export": false
         }, 
