@@ -4,13 +4,13 @@
   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
   xmlns:dcterms="http://purl.org/dc/terms/"
 >
-  <skos:Concept rdf:about="http://www.archesproject.org/3a3238e4-771a-4865-a97b-299d5025cdc5">
-    <skos:prefLabel xml:lang="en">{"id": "c9071273-0f4a-40f9-9711-54e6dcd94d67", "value": "Copyright"}</skos:prefLabel>
-    <skos:inScheme>
-      <skos:ConceptScheme rdf:about="http://www.archesproject.org/4510ae5d-2bfb-45fa-a94b-a3421091709a">
-        <dcterms:title xml:lang="en">{"id": "f629ca65-f96a-443b-adfc-0034ccc6a874", "value": "MIDAS Right Types"}</dcterms:title>
-        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/3a3238e4-771a-4865-a97b-299d5025cdc5"/>
-      </skos:ConceptScheme>
-    </skos:inScheme>
-  </skos:Concept>
+  <skos:ConceptScheme rdf:about="http://www.archesproject.org/4510ae5d-2bfb-45fa-a94b-a3421091709a">
+    <dcterms:title xml:lang="en">{"id": "f629ca65-f96a-443b-adfc-0034ccc6a874", "value": "MIDAS Right Types"}</dcterms:title>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://www.archesproject.org/3a3238e4-771a-4865-a97b-299d5025cdc5">
+        <skos:prefLabel xml:lang="en">{"id": "c9071273-0f4a-40f9-9711-54e6dcd94d67", "value": "Copyright"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/4510ae5d-2bfb-45fa-a94b-a3421091709a"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+  </skos:ConceptScheme>
 </rdf:RDF>

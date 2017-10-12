@@ -6,21 +6,21 @@
 >
   <skos:ConceptScheme rdf:about="http://www.archesproject.org/033e6b0c-bdb6-4170-a3f3-066617c8eb6d">
     <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://www.archesproject.org/ea7a794e-7a9b-4884-adaa-0e20a8b4415c">
+      <skos:Concept rdf:about="http://www.archesproject.org/d2dc24fb-afd2-47c8-9696-fcb369033faa">
+        <skos:prefLabel xml:lang="en">{"id": "262111b9-10ed-4c3e-8353-d91690253790", "value": "Final voyage"}</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.archesproject.org/033e6b0c-bdb6-4170-a3f3-066617c8eb6d"/>
-        <skos:prefLabel xml:lang="en">{"id": "271f67c9-db1a-43fb-b1f7-09f3dac43a97", "value": "Maiden voyage"}</skos:prefLabel>
       </skos:Concept>
     </skos:hasTopConcept>
     <skos:hasTopConcept>
       <skos:Concept rdf:about="http://www.archesproject.org/2565bc95-2532-4b04-bd2a-d370151687fe">
-        <skos:inScheme rdf:resource="http://www.archesproject.org/033e6b0c-bdb6-4170-a3f3-066617c8eb6d"/>
         <skos:prefLabel xml:lang="en">{"id": "e3398ca5-4a56-4303-b12f-01b94fd84ac2", "value": "Cruise"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/033e6b0c-bdb6-4170-a3f3-066617c8eb6d"/>
       </skos:Concept>
     </skos:hasTopConcept>
     <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://www.archesproject.org/d2dc24fb-afd2-47c8-9696-fcb369033faa">
+      <skos:Concept rdf:about="http://www.archesproject.org/ea7a794e-7a9b-4884-adaa-0e20a8b4415c">
+        <skos:prefLabel xml:lang="en">{"id": "271f67c9-db1a-43fb-b1f7-09f3dac43a97", "value": "Maiden voyage"}</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.archesproject.org/033e6b0c-bdb6-4170-a3f3-066617c8eb6d"/>
-        <skos:prefLabel xml:lang="en">{"id": "262111b9-10ed-4c3e-8353-d91690253790", "value": "Final voyage"}</skos:prefLabel>
       </skos:Concept>
     </skos:hasTopConcept>
     <dcterms:title xml:lang="en">{"id": "10ffe73c-6b30-4736-8551-dba848187d78", "value": "MIDAS Voyage Type"}</dcterms:title>

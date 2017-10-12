@@ -5,7 +5,6 @@
   xmlns:dcterms="http://purl.org/dc/terms/"
 >
   <skos:Concept rdf:about="http://www.archesproject.org/e9ebc174-a1f3-4017-8e5a-0205086af131">
-    <skos:prefLabel xml:lang="en">{"id": "c5d54514-cbea-4bbe-862e-3dba56599b37", "value": "Organization"}</skos:prefLabel>
     <skos:inScheme>
       <skos:ConceptScheme rdf:about="http://www.archesproject.org/9a23e6c1-f30c-415b-8440-6ab01dfd73b9">
         <skos:hasTopConcept rdf:resource="http://www.archesproject.org/3b5287c8-03b8-4e2f-8724-6cbb9da89d58"/>
@@ -13,12 +12,19 @@
         <skos:hasTopConcept rdf:resource="http://www.archesproject.org/ceec68b6-d499-4593-aaa6-3b6f77ed9a5f"/>
       </skos:ConceptScheme>
     </skos:inScheme>
+    <skos:prefLabel xml:lang="en">{"id": "c5d54514-cbea-4bbe-862e-3dba56599b37", "value": "Organization"}</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="http://www.archesproject.org/ceec68b6-d499-4593-aaa6-3b6f77ed9a5f">
     <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/3e384e56-123a-4ac0-b911-649048ae9423">
-        <skos:prefLabel xml:lang="en">{"id": "04564d35-8865-4c63-b3d6-c8aeee6a2e14", "value": "HER Officer"}</skos:prefLabel>
+      <skos:Concept rdf:about="http://www.archesproject.org/31fdee76-c42a-425c-865c-30ff8fc4d6f0">
         <skos:inScheme rdf:resource="http://www.archesproject.org/9a23e6c1-f30c-415b-8440-6ab01dfd73b9"/>
+        <skos:prefLabel xml:lang="en">{"id": "094db0bf-1e71-4f1a-be1a-5484604a45cc", "value": "Administrator"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/3e384e56-123a-4ac0-b911-649048ae9423">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/9a23e6c1-f30c-415b-8440-6ab01dfd73b9"/>
+        <skos:prefLabel xml:lang="en">{"id": "04564d35-8865-4c63-b3d6-c8aeee6a2e14", "value": "HER Officer"}</skos:prefLabel>
       </skos:Concept>
     </skos:narrower>
     <skos:narrower>
@@ -27,18 +33,12 @@
         <skos:inScheme rdf:resource="http://www.archesproject.org/9a23e6c1-f30c-415b-8440-6ab01dfd73b9"/>
       </skos:Concept>
     </skos:narrower>
-    <skos:inScheme rdf:resource="http://www.archesproject.org/9a23e6c1-f30c-415b-8440-6ab01dfd73b9"/>
     <skos:prefLabel xml:lang="en">{"id": "13178379-7f24-4cec-8263-8b7c2fefb234", "value": "Individual"}</skos:prefLabel>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/31fdee76-c42a-425c-865c-30ff8fc4d6f0">
-        <skos:inScheme rdf:resource="http://www.archesproject.org/9a23e6c1-f30c-415b-8440-6ab01dfd73b9"/>
-        <skos:prefLabel xml:lang="en">{"id": "094db0bf-1e71-4f1a-be1a-5484604a45cc", "value": "Administrator"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:narrower>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/9a23e6c1-f30c-415b-8440-6ab01dfd73b9"/>
   </skos:Concept>
   <skos:Concept rdf:about="http://www.archesproject.org/3b5287c8-03b8-4e2f-8724-6cbb9da89d58">
-    <skos:inScheme rdf:resource="http://www.archesproject.org/9a23e6c1-f30c-415b-8440-6ab01dfd73b9"/>
     <skos:narrower rdf:resource="http://www.archesproject.org/e9ebc174-a1f3-4017-8e5a-0205086af131"/>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/9a23e6c1-f30c-415b-8440-6ab01dfd73b9"/>
     <skos:prefLabel xml:lang="en">{"id": "895217db-9b2a-4938-9446-7a89dc8ac0af", "value": "Group"}</skos:prefLabel>
   </skos:Concept>
 </rdf:RDF>

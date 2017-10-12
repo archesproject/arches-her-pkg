@@ -4,60 +4,58 @@
   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
   xmlns:dcterms="http://purl.org/dc/terms/"
 >
-  <skos:Concept rdf:about="http://www.archesproject.org/03953c4a-8928-491b-b76a-12359ad08581">
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/2cc399cd-9af0-4be9-a2d7-2c7663e6d45a">
-        <skos:prefLabel xml:lang="en">{"id": "de4c23d0-fdb1-42c2-a8c7-69cbc4491131", "value": "Private company"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/ac1429fe-a642-4a0c-9493-d2b6b4c5a530"/>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:prefLabel xml:lang="en">{"id": "278d20f0-0842-4c3c-a084-a38f4224002f", "value": "Private owner"}</skos:prefLabel>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/92aa31ca-c3c4-4faa-b6f9-b24f501cd69f">
-        <skos:prefLabel xml:lang="en">{"id": "65a03fe3-bfee-41e4-a7d4-6cf3116342d9", "value": "Private consortium"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/ac1429fe-a642-4a0c-9493-d2b6b4c5a530"/>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/5b260d4d-d9db-4b3b-b65e-2eaea7f788dc">
-        <skos:prefLabel xml:lang="en">{"id": "2a69493b-f997-4d2e-8c0c-bfeeb466d765", "value": "Private individual"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/ac1429fe-a642-4a0c-9493-d2b6b4c5a530"/>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/8277487e-ec29-4641-80ae-098fc1fe1c6e">
-        <skos:inScheme rdf:resource="http://www.archesproject.org/ac1429fe-a642-4a0c-9493-d2b6b4c5a530"/>
-        <skos:prefLabel xml:lang="en">{"id": "d0af5f6e-1ddb-4b9b-bfe7-e7999c7eec97", "value": "Charity"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:narrower>
+  <skos:Concept rdf:about="http://www.archesproject.org/92aa31ca-c3c4-4faa-b6f9-b24f501cd69f">
     <skos:inScheme>
       <skos:ConceptScheme rdf:about="http://www.archesproject.org/ac1429fe-a642-4a0c-9493-d2b6b4c5a530">
-        <dcterms:title xml:lang="en">{"id": "6468cff8-c188-4766-8ad0-0b4d421b5b87", "value": "MIDAS Owner"}</dcterms:title>
         <skos:hasTopConcept rdf:resource="http://www.archesproject.org/7cc3204e-5adb-40be-92af-87a00e44db10"/>
         <skos:hasTopConcept rdf:resource="http://www.archesproject.org/03953c4a-8928-491b-b76a-12359ad08581"/>
+        <dcterms:title xml:lang="en">{"id": "6468cff8-c188-4766-8ad0-0b4d421b5b87", "value": "MIDAS Owner"}</dcterms:title>
       </skos:ConceptScheme>
     </skos:inScheme>
+    <skos:prefLabel xml:lang="en">{"id": "65a03fe3-bfee-41e4-a7d4-6cf3116342d9", "value": "Private consortium"}</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/7cc3204e-5adb-40be-92af-87a00e44db10">
+  <skos:Concept rdf:about="http://www.archesproject.org/03953c4a-8928-491b-b76a-12359ad08581">
     <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/4e25ad94-8aba-459a-a0e7-cf21f76e8ef9">
-        <skos:prefLabel xml:lang="en">{"id": "88f92144-4c8f-4bf3-af37-0f6b9ffe5d89", "value": "Government"}</skos:prefLabel>
+      <skos:Concept rdf:about="http://www.archesproject.org/8277487e-ec29-4641-80ae-098fc1fe1c6e">
+        <skos:prefLabel xml:lang="en">{"id": "d0af5f6e-1ddb-4b9b-bfe7-e7999c7eec97", "value": "Charity"}</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.archesproject.org/ac1429fe-a642-4a0c-9493-d2b6b4c5a530"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/2cc399cd-9af0-4be9-a2d7-2c7663e6d45a">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/ac1429fe-a642-4a0c-9493-d2b6b4c5a530"/>
+        <skos:prefLabel xml:lang="en">{"id": "de4c23d0-fdb1-42c2-a8c7-69cbc4491131", "value": "Private company"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://www.archesproject.org/92aa31ca-c3c4-4faa-b6f9-b24f501cd69f"/>
+    <skos:prefLabel xml:lang="en">{"id": "278d20f0-0842-4c3c-a084-a38f4224002f", "value": "Private owner"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/5b260d4d-d9db-4b3b-b65e-2eaea7f788dc">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/ac1429fe-a642-4a0c-9493-d2b6b4c5a530"/>
+        <skos:prefLabel xml:lang="en">{"id": "2a69493b-f997-4d2e-8c0c-bfeeb466d765", "value": "Private individual"}</skos:prefLabel>
       </skos:Concept>
     </skos:narrower>
     <skos:inScheme rdf:resource="http://www.archesproject.org/ac1429fe-a642-4a0c-9493-d2b6b4c5a530"/>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/dcff6c57-0949-444f-8dbd-93b6a16f8e88">
-        <skos:prefLabel xml:lang="en">{"id": "e2c18e92-2dc0-429e-af9e-1e636e3ca1ee", "value": "Local Government"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/ac1429fe-a642-4a0c-9493-d2b6b4c5a530"/>
-      </skos:Concept>
-    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/4e25ad94-8aba-459a-a0e7-cf21f76e8ef9">
+    <skos:prefLabel xml:lang="en">{"id": "88f92144-4c8f-4bf3-af37-0f6b9ffe5d89", "value": "Government"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/ac1429fe-a642-4a0c-9493-d2b6b4c5a530"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/7cc3204e-5adb-40be-92af-87a00e44db10">
     <skos:prefLabel xml:lang="en">{"id": "9934da81-b136-49ae-9b67-7dbfa5b4f508", "value": "Public owner"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/ac1429fe-a642-4a0c-9493-d2b6b4c5a530"/>
     <skos:narrower>
       <skos:Concept rdf:about="http://www.archesproject.org/39cbb55e-2691-495b-83f1-754f859d8078">
-        <skos:prefLabel xml:lang="en">{"id": "3b35d2d6-d5d2-44a6-80ad-6f471e772172", "value": "Public Body"}</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.archesproject.org/ac1429fe-a642-4a0c-9493-d2b6b4c5a530"/>
+        <skos:prefLabel xml:lang="en">{"id": "3b35d2d6-d5d2-44a6-80ad-6f471e772172", "value": "Public Body"}</skos:prefLabel>
       </skos:Concept>
     </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/dcff6c57-0949-444f-8dbd-93b6a16f8e88">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/ac1429fe-a642-4a0c-9493-d2b6b4c5a530"/>
+        <skos:prefLabel xml:lang="en">{"id": "e2c18e92-2dc0-429e-af9e-1e636e3ca1ee", "value": "Local Government"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://www.archesproject.org/4e25ad94-8aba-459a-a0e7-cf21f76e8ef9"/>
   </skos:Concept>
 </rdf:RDF>

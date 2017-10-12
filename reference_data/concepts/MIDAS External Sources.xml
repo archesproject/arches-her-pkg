@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+>
+  <skos:Concept rdf:about="http://www.archesproject.org/69db6542-2742-4d7f-85a0-af2fad288ab6">
+    <skos:prefLabel xml:lang="en">{"id": "abfe1210-12a9-4e4c-98f8-b96202e051f8", "value": "Greater London HER"}</skos:prefLabel>
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://www.archesproject.org/0232e507-7b1b-46ad-bfe0-84f14e154668">
+        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/011157fd-1161-4ed5-903f-42e2a67d98e7"/>
+        <dcterms:title xml:lang="en">{"id": "2cde1a0b-601f-4fbd-9f39-a4ffa295a09b", "value": "MIDAS External Sources"}</dcterms:title>
+        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/11b3facc-0bab-4077-b04e-77dcafdb2d6b"/>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/6137dfa2-2e2f-4c2a-928e-aae1afe8b833">
+    <skos:inScheme rdf:resource="http://www.archesproject.org/0232e507-7b1b-46ad-bfe0-84f14e154668"/>
+    <skos:prefLabel xml:lang="en">{"id": "9b03ac9b-cd2e-4d12-8bf4-67c20b0f8ece", "value": "Lincoln Heritage Database Event No"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/011157fd-1161-4ed5-903f-42e2a67d98e7">
+    <skos:inScheme rdf:resource="http://www.archesproject.org/0232e507-7b1b-46ad-bfe0-84f14e154668"/>
+    <skos:prefLabel xml:lang="en">{"id": "e803509c-4520-48f0-bbce-9c94f7d101dc", "value": "National Datasets"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/3e5df82e-ee05-4793-91b5-654935e26fad">
+        <skos:prefLabel xml:lang="en">{"id": "25f3f670-d4ac-467b-8468-dfe267fe0acc", "value": "National Heritage List for England"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/0232e507-7b1b-46ad-bfe0-84f14e154668"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/604c2cf0-5c09-48b1-ac1e-6df05cee763c">
+        <skos:prefLabel xml:lang="en">{"id": "1336136d-8e56-4713-a245-923c4c3ee2cc", "value": "National Record of the Historic Environment"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/0232e507-7b1b-46ad-bfe0-84f14e154668"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/be5d3ffe-7869-4efb-be25-de03a9efc333">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/0232e507-7b1b-46ad-bfe0-84f14e154668"/>
+        <skos:prefLabel xml:lang="en">{"id": "10e28f5c-d592-4e8a-9f03-b8370e8d7ca3", "value": "BrItish Museum"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/5715389c-fceb-4c26-8c7c-7b9541cce3ea">
+    <skos:inScheme rdf:resource="http://www.archesproject.org/0232e507-7b1b-46ad-bfe0-84f14e154668"/>
+    <skos:prefLabel xml:lang="en">{"id": "6d44ff0c-70b9-4a9a-9b55-cce2f5f9c76c", "value": "Lincoln Heritage Database"}</skos:prefLabel>
+    <skos:narrower rdf:resource="http://www.archesproject.org/6137dfa2-2e2f-4c2a-928e-aae1afe8b833"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/11b3facc-0bab-4077-b04e-77dcafdb2d6b">
+    <skos:narrower rdf:resource="http://www.archesproject.org/69db6542-2742-4d7f-85a0-af2fad288ab6"/>
+    <skos:narrower rdf:resource="http://www.archesproject.org/5715389c-fceb-4c26-8c7c-7b9541cce3ea"/>
+    <skos:prefLabel xml:lang="en">{"id": "898ae05b-82ad-41ab-95fc-3ed279989c59", "value": "Local Datasets"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/0232e507-7b1b-46ad-bfe0-84f14e154668"/>
+  </skos:Concept>
+</rdf:RDF>

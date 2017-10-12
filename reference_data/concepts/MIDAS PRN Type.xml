@@ -6,17 +6,18 @@
 >
   <skos:ConceptScheme rdf:about="http://www.archesproject.org/bb854687-6778-4feb-a89e-2ee60b8c36fd">
     <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://www.archesproject.org/ceb6f02a-6948-4c37-88cd-717312ff0799">
-        <skos:inScheme rdf:resource="http://www.archesproject.org/bb854687-6778-4feb-a89e-2ee60b8c36fd"/>
-        <skos:prefLabel xml:lang="en">{"id": "5af6856d-2b28-4ab8-bc07-6c10ff3a2120", "value": "Activity"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <skos:hasTopConcept>
       <skos:Concept rdf:about="http://www.archesproject.org/df721853-de64-45b9-87df-5d107c250dad">
         <skos:inScheme rdf:resource="http://www.archesproject.org/bb854687-6778-4feb-a89e-2ee60b8c36fd"/>
         <skos:prefLabel xml:lang="en">{"id": "9e2ab981-38a4-4d1a-a78e-9ee9857dd199", "value": "Heritage Asset - Artefact or Ecofact"}</skos:prefLabel>
       </skos:Concept>
     </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://www.archesproject.org/ceb6f02a-6948-4c37-88cd-717312ff0799">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/bb854687-6778-4feb-a89e-2ee60b8c36fd"/>
+        <skos:prefLabel xml:lang="en">{"id": "5af6856d-2b28-4ab8-bc07-6c10ff3a2120", "value": "Activity"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <dcterms:description xml:lang="en">{"id": "590f5e40-f691-4432-a2e6-e680030191a8", "value": "Used with exported data to distinguish primary reference numbers that identify different things within MIDAS. It is not necessary to report Primary Reference Number Type against every entry in a dataset in normal use. However default values should be included with the data at the point that they are exported."}</dcterms:description>
     <skos:hasTopConcept>
       <skos:Concept rdf:about="http://www.archesproject.org/22ae316a-6155-4afd-aa09-a91122d236fd">
         <skos:prefLabel xml:lang="el">{"id": "710814d3-1918-4495-955e-9b33cc3773b9", "value": "Heritage Asset - Area"}</skos:prefLabel>
@@ -24,7 +25,6 @@
       </skos:Concept>
     </skos:hasTopConcept>
     <dcterms:title xml:lang="en">{"id": "9fcb8798-8b90-49ec-98af-c511665a6312", "value": "MIDAS PRN Type"}</dcterms:title>
-    <dcterms:description xml:lang="en">{"id": "590f5e40-f691-4432-a2e6-e680030191a8", "value": "Used with exported data to distinguish primary reference numbers that identify different things within MIDAS. It is not necessary to report Primary Reference Number Type against every entry in a dataset in normal use. However default values should be included with the data at the point that they are exported."}</dcterms:description>
     <skos:hasTopConcept>
       <skos:Concept rdf:about="http://www.archesproject.org/f37d9aba-9704-48d5-9bba-7f0573b98517">
         <skos:prefLabel xml:lang="en">{"id": "f19acb55-ee9a-4358-8563-31510b49215f", "value": "Heritage Asset - Monument"}</skos:prefLabel>

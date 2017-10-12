@@ -4,41 +4,40 @@
   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
   xmlns:dcterms="http://purl.org/dc/terms/"
 >
-  <skos:Concept rdf:about="http://www.archesproject.org/eebf5171-6c4f-4c99-a7bf-ed7cd2b24a5f">
-    <skos:prefLabel xml:lang="en">{"id": "b83643b3-e3b5-424f-83dd-b8c8d8e4ab3a", "value": "Ware Types"}</skos:prefLabel>
+  <skos:Concept rdf:about="http://www.archesproject.org/93f229a8-f270-44d6-8395-b6c75fb094d2">
+    <skos:prefLabel xml:lang="en">{"id": "c3547611-d618-4dd1-aa45-adb2d47250e7", "value": "Teflon"}</skos:prefLabel>
     <skos:inScheme>
       <skos:ConceptScheme rdf:about="http://www.archesproject.org/8a60c643-182d-4332-bc1e-2c06a35fb954">
+        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/bf253608-fd12-4b58-9ef4-320f8670c472"/>
         <skos:hasTopConcept rdf:resource="http://www.archesproject.org/eebf5171-6c4f-4c99-a7bf-ed7cd2b24a5f"/>
         <dcterms:title xml:lang="en">{"id": "df70a072-2548-45ca-a9aa-2fa01b8878ac", "value": "MIDAS Material Names"}</dcterms:title>
-        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/bf253608-fd12-4b58-9ef4-320f8670c472"/>
         <skos:hasTopConcept rdf:resource="http://www.archesproject.org/fa6ad4f0-06f1-461c-926e-cc7e52430de4"/>
       </skos:ConceptScheme>
     </skos:inScheme>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/7462e6bb-98b5-44da-aef0-3d597f2f91ac">
-        <skos:inScheme rdf:resource="http://www.archesproject.org/8a60c643-182d-4332-bc1e-2c06a35fb954"/>
-        <skos:prefLabel xml:lang="en">{"id": "fcab09bc-fc89-4160-aa09-2b5b08936152", "value": "Samian ware"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/fa6ad4f0-06f1-461c-926e-cc7e52430de4">
+    <skos:prefLabel xml:lang="en">{"id": "8f6320e4-00bd-413e-8c6b-73ae15d57350", "value": "Proprietary Names"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/8a60c643-182d-4332-bc1e-2c06a35fb954"/>
+    <skos:narrower rdf:resource="http://www.archesproject.org/93f229a8-f270-44d6-8395-b6c75fb094d2"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/eebf5171-6c4f-4c99-a7bf-ed7cd2b24a5f">
+    <skos:inScheme rdf:resource="http://www.archesproject.org/8a60c643-182d-4332-bc1e-2c06a35fb954"/>
     <skos:narrower>
       <skos:Concept rdf:about="http://www.archesproject.org/23b5ce7e-fb79-4f54-a721-2af55b3c5d19">
         <skos:inScheme rdf:resource="http://www.archesproject.org/8a60c643-182d-4332-bc1e-2c06a35fb954"/>
         <skos:prefLabel xml:lang="en">{"id": "fd10881e-e05e-4a3a-b1ea-1e1bd8cefae3", "value": "Ipswich ware"}</skos:prefLabel>
       </skos:Concept>
     </skos:narrower>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/bf253608-fd12-4b58-9ef4-320f8670c472">
-    <skos:inScheme rdf:resource="http://www.archesproject.org/8a60c643-182d-4332-bc1e-2c06a35fb954"/>
-    <skos:prefLabel xml:lang="en">{"id": "6e4929fe-d91a-4ce5-8a9c-10c3886d5953", "value": "Scientific Names"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/fa6ad4f0-06f1-461c-926e-cc7e52430de4">
     <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/93f229a8-f270-44d6-8395-b6c75fb094d2">
+      <skos:Concept rdf:about="http://www.archesproject.org/7462e6bb-98b5-44da-aef0-3d597f2f91ac">
         <skos:inScheme rdf:resource="http://www.archesproject.org/8a60c643-182d-4332-bc1e-2c06a35fb954"/>
-        <skos:prefLabel xml:lang="en">{"id": "c3547611-d618-4dd1-aa45-adb2d47250e7", "value": "Teflon"}</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">{"id": "fcab09bc-fc89-4160-aa09-2b5b08936152", "value": "Samian ware"}</skos:prefLabel>
       </skos:Concept>
     </skos:narrower>
+    <skos:prefLabel xml:lang="en">{"id": "b83643b3-e3b5-424f-83dd-b8c8d8e4ab3a", "value": "Ware Types"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/bf253608-fd12-4b58-9ef4-320f8670c472">
+    <skos:prefLabel xml:lang="en">{"id": "6e4929fe-d91a-4ce5-8a9c-10c3886d5953", "value": "Scientific Names"}</skos:prefLabel>
     <skos:inScheme rdf:resource="http://www.archesproject.org/8a60c643-182d-4332-bc1e-2c06a35fb954"/>
-    <skos:prefLabel xml:lang="en">{"id": "8f6320e4-00bd-413e-8c6b-73ae15d57350", "value": "Proprietary Names"}</skos:prefLabel>
   </skos:Concept>
 </rdf:RDF>

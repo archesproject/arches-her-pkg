@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
 >
   <skos:Concept rdf:about="http://www.archesproject.org/28c3b483-9204-4baa-bdb9-252e0647054e">
     <skos:prefLabel xml:lang="en">{"id": "9b404dbe-ad61-44d1-b276-cbbd6ccd91d1", "value": "Statutory"}</skos:prefLabel>
     <skos:inScheme>
       <skos:ConceptScheme rdf:about="http://www.archesproject.org/99658c4d-08ec-4b64-86cf-bdb8c53f2c99">
-        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/f7ee7ebb-e764-4142-864c-6e697467464b"/>
         <skos:hasTopConcept rdf:resource="http://www.archesproject.org/445e3f51-be88-4c19-ac1d-6a871f5b9c18"/>
         <skos:hasTopConcept rdf:resource="http://www.archesproject.org/9a3241c4-b376-40ce-ba70-281fa3baf996"/>
         <dcterms:title xml:lang="en">{"id": "6515fc58-1568-467a-91cf-cc3be632b8ab", "value": "MIDAS Description Type"}</dcterms:title>
+        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/f7ee7ebb-e764-4142-864c-6e697467464b"/>
         <skos:hasTopConcept rdf:resource="http://www.archesproject.org/28c3b483-9204-4baa-bdb9-252e0647054e"/>
       </skos:ConceptScheme>
     </skos:inScheme>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/f7ee7ebb-e764-4142-864c-6e697467464b">
+    <skos:prefLabel xml:lang="en">{"id": "39a21ebf-7dd6-4a7f-a211-9453202f60aa", "value": "Full"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/99658c4d-08ec-4b64-86cf-bdb8c53f2c99"/>
   </skos:Concept>
   <skos:Concept rdf:about="http://www.archesproject.org/445e3f51-be88-4c19-ac1d-6a871f5b9c18">
     <skos:inScheme rdf:resource="http://www.archesproject.org/99658c4d-08ec-4b64-86cf-bdb8c53f2c99"/>
     <skos:prefLabel xml:lang="en">{"id": "35508b82-062a-469f-830a-6040c5e5eb8c", "value": "Summary"}</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="http://www.archesproject.org/9a3241c4-b376-40ce-ba70-281fa3baf996">
-    <skos:inScheme rdf:resource="http://www.archesproject.org/99658c4d-08ec-4b64-86cf-bdb8c53f2c99"/>
     <skos:prefLabel xml:lang="en">{"id": "a3918aa3-5c82-486b-9480-3dd092fa87fa", "value": "Abstract"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/f7ee7ebb-e764-4142-864c-6e697467464b">
-    <skos:prefLabel xml:lang="en">{"id": "39a21ebf-7dd6-4a7f-a211-9453202f60aa", "value": "Full"}</skos:prefLabel>
     <skos:inScheme rdf:resource="http://www.archesproject.org/99658c4d-08ec-4b64-86cf-bdb8c53f2c99"/>
   </skos:Concept>
 </rdf:RDF>

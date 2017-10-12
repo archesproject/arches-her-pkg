@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+>
+  <skos:Concept rdf:about="http://www.archesproject.org/a722f43f-21c1-4b96-846a-4dceae76321e">
+    <skos:altLabel xml:lang="en">{"id": "17e4ed44-d84f-44f8-969d-b5d5805193e4", "value": "A"}</skos:altLabel>
+    <skos:prefLabel xml:lang="en">{"id": "d4590a6c-1fbb-4e8a-a26e-c41a22d079dd", "value": "Adjacent"}</skos:prefLabel>
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://www.archesproject.org/029e40c6-56be-424b-8564-065d25c49935">
+        <dcterms:description xml:lang="en">{"id": "da2e3a7a-1255-4fdb-adc1-14d8b394864a", "value": "Used to record the number order for former Listed Buildings System records"}</dcterms:description>
+        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/0786e9bd-a77a-4d5f-9a84-615441bbd2d2"/>
+        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/bd26ce43-e845-467a-9971-446ba0703826"/>
+        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/c0463cda-325f-4c68-9862-36826e01b8df"/>
+        <dcterms:title xml:lang="en">{"id": "d0f2c4f2-e4ef-4380-8726-56740d84f0b9", "value": "GLHER_LBSt_qualifier"}</dcterms:title>
+        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/f0190117-3663-499c-ac6a-d638a246dda2"/>
+        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/a722f43f-21c1-4b96-846a-4dceae76321e"/>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/0786e9bd-a77a-4d5f-9a84-615441bbd2d2">
+    <skos:altLabel xml:lang="en">{"id": "559840ef-f346-4492-ad5d-19cbb9c6ed6b", "value": "E"}</skos:altLabel>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/029e40c6-56be-424b-8564-065d25c49935"/>
+    <skos:prefLabel xml:lang="en">{"id": "55763dcd-7845-4094-be86-f8dcf00d9a36", "value": "Even"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/bd26ce43-e845-467a-9971-446ba0703826">
+    <skos:inScheme rdf:resource="http://www.archesproject.org/029e40c6-56be-424b-8564-065d25c49935"/>
+    <skos:altLabel xml:lang="en">{"id": "d9f1b6d5-47d3-4153-9fe3-8de680e7634e", "value": "O"}</skos:altLabel>
+    <skos:prefLabel xml:lang="en">{"id": "67336b4c-012e-40ec-b997-6470dcce6af9", "value": "Odd"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/c0463cda-325f-4c68-9862-36826e01b8df">
+    <skos:altLabel xml:lang="en">{"id": "13be83b2-62e1-4b97-9f8e-19d5c0bca63f", "value": "P"}</skos:altLabel>
+    <skos:prefLabel xml:lang="en">{"id": "948b491f-0a28-4c16-af66-b8339460b094", "value": "Part of"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/029e40c6-56be-424b-8564-065d25c49935"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/f0190117-3663-499c-ac6a-d638a246dda2">
+    <skos:inScheme rdf:resource="http://www.archesproject.org/029e40c6-56be-424b-8564-065d25c49935"/>
+    <skos:prefLabel xml:lang="en">{"id": "6f24ac99-6604-4001-a9cf-a28095a28699", "value": "Consecutive"}</skos:prefLabel>
+    <skos:altLabel xml:lang="en">{"id": "3ba73afa-5468-444f-b944-daf16575f6dc", "value": "C"}</skos:altLabel>
+  </skos:Concept>
+</rdf:RDF>

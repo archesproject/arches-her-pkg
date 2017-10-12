@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
   xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 >
-  <skos:Concept rdf:about="http://www.archesproject.org/2a25bc6f-982b-4161-950a-d64955afaee7">
+  <skos:Concept rdf:about="http://www.archesproject.org/b89223b3-0227-45d4-94d7-74a9f1a28cb5">
     <skos:inScheme>
       <skos:ConceptScheme rdf:about="http://www.archesproject.org/037f0867-dd2f-4b0e-9cf8-03362a38c177">
-        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/2a25bc6f-982b-4161-950a-d64955afaee7"/>
-        <dcterms:title xml:lang="en">{"id": "5b91c31b-d340-464e-b7b4-e88664b3e837", "value": "MIDAS Scripts"}</dcterms:title>
         <skos:hasTopConcept rdf:resource="http://www.archesproject.org/36ff8ffe-9314-40f4-9d38-17d33c565101"/>
+        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/2a25bc6f-982b-4161-950a-d64955afaee7"/>
         <skos:hasTopConcept rdf:resource="http://www.archesproject.org/b89223b3-0227-45d4-94d7-74a9f1a28cb5"/>
+        <dcterms:title xml:lang="en">{"id": "5b91c31b-d340-464e-b7b4-e88664b3e837", "value": "MIDAS Scripts"}</dcterms:title>
       </skos:ConceptScheme>
     </skos:inScheme>
-    <skos:prefLabel xml:lang="en">{"id": "670f81c2-1107-425c-9f39-76779f5e89e9", "value": "Greek"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/b89223b3-0227-45d4-94d7-74a9f1a28cb5">
-    <skos:inScheme rdf:resource="http://www.archesproject.org/037f0867-dd2f-4b0e-9cf8-03362a38c177"/>
     <skos:prefLabel xml:lang="en">{"id": "34252297-641a-4934-aea0-6f965832d258", "value": "Roman"}</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/36ff8ffe-9314-40f4-9d38-17d33c565101">
+  <skos:Concept rdf:about="http://www.archesproject.org/2a25bc6f-982b-4161-950a-d64955afaee7">
+    <skos:prefLabel xml:lang="en">{"id": "670f81c2-1107-425c-9f39-76779f5e89e9", "value": "Greek"}</skos:prefLabel>
     <skos:inScheme rdf:resource="http://www.archesproject.org/037f0867-dd2f-4b0e-9cf8-03362a38c177"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/36ff8ffe-9314-40f4-9d38-17d33c565101">
     <skos:prefLabel xml:lang="en">{"id": "dd711e8f-6d89-4b03-b68f-d70e3dea3daa", "value": "Runic"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/037f0867-dd2f-4b0e-9cf8-03362a38c177"/>
   </skos:Concept>
 </rdf:RDF>

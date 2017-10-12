@@ -4,112 +4,415 @@
   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
   xmlns:dcterms="http://purl.org/dc/terms/"
 >
-  <skos:Concept rdf:about="http://www.archesproject.org/20b0085e-4112-3591-a3ce-1bdbaebe8e19">
-    <skos:scopeNote xml:lang="en">{"id": "04832485-e5cc-43aa-9508-85ee315e4a6c", "value": "Animal skin that has been tanned or tawed."}</skos:scopeNote>
-    <skos:prefLabel xml:lang="en">{"id": "090326ae-1070-4a02-8d1b-959a600581a8", "value": "LEATHER"}</skos:prefLabel>
-    <skos:related rdf:resource="http://www.archesproject.org/20b0085e-4112-3591-a3ce-1bdbaebe8e19"/>
+  <skos:Concept rdf:about="http://www.archesproject.org/34fa6111-c977-3535-9f8f-65ee9881b1c8">
+    <skos:related>
+      <skos:Concept rdf:about="http://www.archesproject.org/20b0085e-4112-3591-a3ce-1bdbaebe8e19">
+        <skos:related rdf:resource="http://www.archesproject.org/34fa6111-c977-3535-9f8f-65ee9881b1c8"/>
+        <skos:scopeNote xml:lang="en">{"id": "04832485-e5cc-43aa-9508-85ee315e4a6c", "value": "Animal skin that has been tanned or tawed."}</skos:scopeNote>
+        <skos:related rdf:resource="http://www.archesproject.org/20b0085e-4112-3591-a3ce-1bdbaebe8e19"/>
+        <skos:prefLabel xml:lang="en">{"id": "090326ae-1070-4a02-8d1b-959a600581a8", "value": "LEATHER"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+      </skos:Concept>
+    </skos:related>
+    <skos:related rdf:resource="http://www.archesproject.org/34fa6111-c977-3535-9f8f-65ee9881b1c8"/>
     <skos:inScheme>
       <skos:ConceptScheme rdf:about="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9">
-        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/fc24367f-5f32-39f9-9533-fc5047ff37de"/>
-        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/9a7a035d-a1d3-32ce-88fb-fab60b814014"/>
-        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/cefd187f-2f94-37bd-a561-856d152366cd"/>
         <skos:hasTopConcept rdf:resource="http://www.archesproject.org/75d9122d-b7c5-3ca2-a249-bb01563dc36c"/>
-        <dcterms:description xml:lang="en">{"id": "b6f51173-1ec4-48a0-8ab2-cb56a8c0a411", "value": "Used for recording the techniques, recovery methods and materials associated with archaeological sciences."}</dcterms:description>
-        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/34fb000d-0241-3821-a862-9a99692b6292"/>
         <dcterms:title xml:lang="en">{"id": "7668b976-6656-4604-979e-a896019179e3", "value": "FISH Archaeological Sciences"}</dcterms:title>
+        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/cefd187f-2f94-37bd-a561-856d152366cd"/>
+        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/fc24367f-5f32-39f9-9533-fc5047ff37de"/>
+        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/34fb000d-0241-3821-a862-9a99692b6292"/>
+        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/9a7a035d-a1d3-32ce-88fb-fab60b814014"/>
+        <dcterms:description xml:lang="en">{"id": "b6f51173-1ec4-48a0-8ab2-cb56a8c0a411", "value": "Used for recording the techniques, recovery methods and materials associated with archaeological sciences."}</dcterms:description>
       </skos:ConceptScheme>
     </skos:inScheme>
-    <skos:related>
-      <skos:Concept rdf:about="http://www.archesproject.org/34fa6111-c977-3535-9f8f-65ee9881b1c8">
-        <skos:related rdf:resource="http://www.archesproject.org/34fa6111-c977-3535-9f8f-65ee9881b1c8"/>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-        <skos:prefLabel xml:lang="en">{"id": "7b6243c5-4237-4f44-a60b-55c04aebb7cb", "value": "SKIN"}</skos:prefLabel>
-        <skos:scopeNote xml:lang="en">{"id": "b9d39a07-2fa6-4447-894a-d8122290f74f", "value": "Use for the remains of epidermis or outermost layer. Relates to both animals and plants. If describing the actual object use PLANT REMAINS, ANIMAL REMAINS or HUMAN REMAINS."}</skos:scopeNote>
-        <skos:related rdf:resource="http://www.archesproject.org/20b0085e-4112-3591-a3ce-1bdbaebe8e19"/>
-      </skos:Concept>
-    </skos:related>
+    <skos:scopeNote xml:lang="en">{"id": "b9d39a07-2fa6-4447-894a-d8122290f74f", "value": "Use for the remains of epidermis or outermost layer. Relates to both animals and plants. If describing the actual object use PLANT REMAINS, ANIMAL REMAINS or HUMAN REMAINS."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "7b6243c5-4237-4f44-a60b-55c04aebb7cb", "value": "SKIN"}</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/d4e5f3fd-5269-3b0a-930f-15bbd6c5f811">
+  <skos:Concept rdf:about="http://www.archesproject.org/3983cf5c-6689-3d7d-92fc-25792c18cb25">
+    <skos:related rdf:resource="http://www.archesproject.org/3983cf5c-6689-3d7d-92fc-25792c18cb25"/>
+    <skos:prefLabel xml:lang="en">{"id": "47cf2e02-bee6-416c-add4-4c01091aefb2", "value": "CHARRED"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "db6a3086-f869-4b4d-861a-a21cf19caee3", "value": "Material that has been burnt and at least in part reduced to carbon as a result of burning in a reducing atmosphere below 500 degrees Celsius."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
     <skos:related>
-      <skos:Concept rdf:about="http://www.archesproject.org/3983cf5c-6689-3d7d-92fc-25792c18cb25">
-        <skos:scopeNote xml:lang="en">{"id": "db6a3086-f869-4b4d-861a-a21cf19caee3", "value": "Material that has been burnt and at least in part reduced to carbon as a result of burning in a reducing atmosphere below 500 degrees Celsius."}</skos:scopeNote>
-        <skos:related rdf:resource="http://www.archesproject.org/3983cf5c-6689-3d7d-92fc-25792c18cb25"/>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-        <skos:altLabel xml:lang="en">{"id": "e02f9b67-3a50-4248-9083-26cad72d188e", "value": "Carbonised"}</skos:altLabel>
-        <skos:prefLabel xml:lang="en">{"id": "47cf2e02-bee6-416c-add4-4c01091aefb2", "value": "CHARRED"}</skos:prefLabel>
+      <skos:Concept rdf:about="http://www.archesproject.org/d4e5f3fd-5269-3b0a-930f-15bbd6c5f811">
+        <skos:narrower rdf:resource="http://www.archesproject.org/2c9dc4f9-a9f5-3676-82f5-3360e132ab5e"/>
         <skos:related rdf:resource="http://www.archesproject.org/d4e5f3fd-5269-3b0a-930f-15bbd6c5f811"/>
+        <skos:scopeNote xml:lang="en">{"id": "3c45889f-dc36-44c5-81b3-869e1db6d184", "value": "Wood that has been burnt and largely reduced to carbon as a result of burning in a reducing atmosphere below 500 degress C (Celsius)."}</skos:scopeNote>
+        <skos:related rdf:resource="http://www.archesproject.org/3983cf5c-6689-3d7d-92fc-25792c18cb25"/>
+        <skos:prefLabel xml:lang="en">{"id": "61444d55-a221-48aa-839f-f4f41d9d4ea7", "value": "CHARCOAL"}</skos:prefLabel>
+        <skos:narrower rdf:resource="http://www.archesproject.org/7cab65a2-41f5-34a9-a31f-0f8a85eb72b2"/>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+        <skos:narrower rdf:resource="http://www.archesproject.org/ea6ad7c8-1747-3644-851f-75d4987de142"/>
       </skos:Concept>
     </skos:related>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/2c9dc4f9-a9f5-3676-82f5-3360e132ab5e">
-        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-        <skos:scopeNote xml:lang="en">{"id": "a9e9c934-7fd5-4dcd-966f-3c439859265a", "value": "Microscopic charcoal fragments that are concentrated and counted as part of standard pollen preparation techniques."}</skos:scopeNote>
-        <skos:prefLabel xml:lang="en">{"id": "af94ce18-5be2-4c06-bf57-c137ba499783", "value": "MICRO-CHARCOAL"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/7cab65a2-41f5-34a9-a31f-0f8a85eb72b2">
-        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-        <skos:prefLabel xml:lang="en">{"id": "4b647f65-d4dc-4849-a596-d77db3f27821", "value": "TWIG"}</skos:prefLabel>
-        <skos:scopeNote xml:lang="en">{"id": "feb89c85-9c1b-4b69-91a9-56161aaf3825", "value": "Small (&lt;2cm diameter) roundwood often complete with buds or leaf scars."}</skos:scopeNote>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:scopeNote xml:lang="en">{"id": "3c45889f-dc36-44c5-81b3-869e1db6d184", "value": "Wood that has been burnt and largely reduced to carbon as a result of burning in a reducing atmosphere below 500 degress C (Celsius)."}</skos:scopeNote>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/ea6ad7c8-1747-3644-851f-75d4987de142">
-        <skos:prefLabel xml:lang="en">{"id": "a0533dc5-5f55-456a-9571-4a5c6581191b", "value": "ROUNDWOOD"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-        <skos:scopeNote xml:lang="en">{"id": "c051a961-b727-4b43-b0c4-0ec50e7354ab", "value": "Material comprising entrie or partial transverse sections of stems. Bark may be present or not. Can include complete sections of tree trunk but generally comprises smaller (&lt;20cm diameter) material."}</skos:scopeNote>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-    <skos:prefLabel xml:lang="en">{"id": "61444d55-a221-48aa-839f-f4f41d9d4ea7", "value": "CHARCOAL"}</skos:prefLabel>
-    <skos:related rdf:resource="http://www.archesproject.org/d4e5f3fd-5269-3b0a-930f-15bbd6c5f811"/>
+    <skos:altLabel xml:lang="en">{"id": "e02f9b67-3a50-4248-9083-26cad72d188e", "value": "Carbonised"}</skos:altLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/262e3cc0-851b-395d-9262-89c3aad6b996">
-    <skos:scopeNote xml:lang="en">{"id": "201e5fce-5fe8-40ad-9b8a-b7dccd97c830", "value": "The measuring of annual tree-ring growth shown by most tree species in temperated regions. Regional chronoliges are required to date any particular piece of wood, the longest of which, for Germany, works for the present to approximately 14,000 yrs ago."}</skos:scopeNote>
+  <skos:Concept rdf:about="http://www.archesproject.org/5a41d981-4d28-3ca9-b1c1-4ac2c3364c49">
+    <skos:altLabel xml:lang="en">{"id": "27ee25cb-5c32-40c4-9a77-bec816d9abbe", "value": "Tree-Ring Studies"}</skos:altLabel>
+    <skos:related rdf:resource="http://www.archesproject.org/5a41d981-4d28-3ca9-b1c1-4ac2c3364c49"/>
     <skos:related>
-      <skos:Concept rdf:about="http://www.archesproject.org/5a41d981-4d28-3ca9-b1c1-4ac2c3364c49">
-        <skos:scopeNote xml:lang="en">{"id": "b89cd296-fac4-4741-bd15-be81684d7040", "value": "The use of annual incremental growth in temperate trees to investigate environmental, especially local, parameters and the history of individual trees."}</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-        <skos:related rdf:resource="http://www.archesproject.org/262e3cc0-851b-395d-9262-89c3aad6b996"/>
+      <skos:Concept rdf:about="http://www.archesproject.org/262e3cc0-851b-395d-9262-89c3aad6b996">
         <skos:related rdf:resource="http://www.archesproject.org/5a41d981-4d28-3ca9-b1c1-4ac2c3364c49"/>
-        <skos:altLabel xml:lang="en">{"id": "27ee25cb-5c32-40c4-9a77-bec816d9abbe", "value": "Tree-Ring Studies"}</skos:altLabel>
-        <skos:prefLabel xml:lang="en">{"id": "ffaba1f8-d307-41dd-9476-decf096c9e26", "value": "TREE-RING ANALYSIS"}</skos:prefLabel>
+        <skos:related rdf:resource="http://www.archesproject.org/262e3cc0-851b-395d-9262-89c3aad6b996"/>
+        <skos:prefLabel xml:lang="en">{"id": "44529855-9120-4da1-bc40-0f2072323710", "value": "DENDROCHRONOLOGY"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+        <skos:scopeNote xml:lang="en">{"id": "201e5fce-5fe8-40ad-9b8a-b7dccd97c830", "value": "The measuring of annual tree-ring growth shown by most tree species in temperated regions. Regional chronoliges are required to date any particular piece of wood, the longest of which, for Germany, works for the present to approximately 14,000 yrs ago."}</skos:scopeNote>
       </skos:Concept>
     </skos:related>
-    <skos:prefLabel xml:lang="en">{"id": "44529855-9120-4da1-bc40-0f2072323710", "value": "DENDROCHRONOLOGY"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "b89cd296-fac4-4741-bd15-be81684d7040", "value": "The use of annual incremental growth in temperate trees to investigate environmental, especially local, parameters and the history of individual trees."}</skos:scopeNote>
     <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-    <skos:related rdf:resource="http://www.archesproject.org/262e3cc0-851b-395d-9262-89c3aad6b996"/>
+    <skos:prefLabel xml:lang="en">{"id": "ffaba1f8-d307-41dd-9476-decf096c9e26", "value": "TREE-RING ANALYSIS"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/1dd69349-6fa1-3d11-8e73-733bb7695ded">
+    <skos:scopeNote xml:lang="en">{"id": "3d6b07af-20be-4d79-afdc-1b4d95d30fca", "value": "The degree to which a material will become magnetised when placed in a magnetic field."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+    <skos:prefLabel xml:lang="en">{"id": "58aa8075-33c3-44c3-bec0-c0dc3ad53831", "value": "MAGNETIC SUSCEPTIBILITY"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/7cdc1e9f-3c96-3fe7-bcde-6dd52886f35a">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/3a4bf6f8-6f0b-39a6-80db-82b5ffc50f59">
+        <skos:prefLabel xml:lang="en">{"id": "f1013663-14d4-46f9-97a9-c79284919f87", "value": "POTASSIUM ARGON DATING"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+        <skos:scopeNote xml:lang="en">{"id": "f63b97d8-4077-4c32-8115-cdbc69c58395", "value": "The measurement of the ratio of a radioactive potassium (K) isotope and the argon (Ar) gas produced as a by-product of its decay. Useful for dating volcanic material older than 1,000 years."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/1b9ff79b-6433-36ab-b540-1c67970c9355">
+        <skos:scopeNote xml:lang="en">{"id": "d50fb922-4684-4d22-a7dd-551dbc369a70", "value": "The use of oxygen (O) isotope ratios in ice or ocean sediment cores to date global environmental change."}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+        <skos:prefLabel xml:lang="en">{"id": "e903c368-d948-42b8-b41f-96e0fd9305fb", "value": "OXYGEN ISOTOPE ANALYSIS"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/b85fc25d-634c-321b-b03b-a53892d1ed4e">
+        <skos:prefLabel xml:lang="en">{"id": "4fbeac46-1d8e-4a56-af0f-4727e04838f3", "value": "FISSION TRACK ANALYSIS"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+        <skos:scopeNote xml:lang="en">{"id": "3ac9e5c5-a9ab-4870-9947-863e53380c75", "value": "A technique for the dating of damage tracks in volcanic materials caused by the fissioning of decaying radioactive uranium (U) isotopes. Useful in samples more than 50,000 years old."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/90b14c71-e1fa-3330-8f61-3d2689de6389">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+        <skos:scopeNote xml:lang="en">{"id": "242d0190-6160-4c39-a107-0acbe7eb9005", "value": "A technique used to date obsidian (volcanic glass) of all ages and is thus not commonly used in the UK."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "c3cc0af4-7077-42d8-8c71-79bbcd4f17ba", "value": "OBSIDIAN HYDRATION"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/6e396a5c-a9f8-3a1d-aa1a-04bfa0ddbda8">
+        <skos:prefLabel xml:lang="en">{"id": "669183e9-2d0f-4138-89b1-3ea4b28af772", "value": "AMINO ACID RACEMISATION"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+        <skos:scopeNote xml:lang="en">{"id": "887b778c-9854-4ec1-bf78-0f05a0298695", "value": "The measurement of chemical alterations in the amino acids in protein molecules from bones, shells and teeth. Date range can be between 1,000 and several million years."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/04a92ba8-4a40-3e7d-9126-9ab519f6e8df">
+        <skos:prefLabel xml:lang="en">{"id": "ced6a636-8de6-4540-a557-77f1d24b6ec6", "value": "URANIUM SERIES DATING"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "e1b0737b-a255-4fbb-b358-515869e85477", "value": "The measurement of the decay of radioactive uranium (U) isotopes. Particularly useful for dating calcite and sometimes bone, tooth and shell up to 70,000 years old."}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://www.archesproject.org/262e3cc0-851b-395d-9262-89c3aad6b996"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/fe41555f-ef11-3705-9f38-fb6b3179f427">
+        <skos:scopeNote xml:lang="en">{"id": "8d10327b-ca66-4d95-bbe5-6b40d9bc9b83", "value": "A range of techniques that use the build up of charge stored within a crystalline material to estimate its age"}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "d8e34a16-ae7e-4d9f-854b-0030d84d11b0", "value": "LUMINESCENCE DATING"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+        <skos:narrower rdf:resource="http://www.archesproject.org/62c4772e-b023-39d5-9421-ef7c6c1713fb"/>
+        <skos:narrower rdf:resource="http://www.archesproject.org/ad998daa-3854-3a72-8c6c-7650f963a095"/>
+        <skos:narrower rdf:resource="http://www.archesproject.org/accd90c0-01fc-3bbd-abeb-dc02e9bee1a3"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:scopeNote xml:lang="en">{"id": "08f51327-2c83-4bdd-95c1-54357ced2bec", "value": "Techniques applied to a material in order to date it or material associated with it. Use more specific terms."}</skos:scopeNote>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/fd258556-4a37-3a49-abe9-2ea245f20a2b">
+        <skos:scopeNote xml:lang="en">{"id": "9598a884-1a09-4315-9c1f-9a048df2a42a", "value": "The measurement of trapped electrons by exposure to high-frequency electromagnetic radiation. A useful technique for dating tooth enamel, shells, coral and calcite form 5,000-1,000,000 years old."}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+        <skos:prefLabel xml:lang="en">{"id": "356b626b-e0fa-46a5-abd5-33bb99a4adc0", "value": "ELECTRON SPIN RESONANCE"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/730cd574-a4ef-3bae-986c-05a614fa509c">
+        <skos:prefLabel xml:lang="en">{"id": "533ffba5-1b32-4233-ac0c-0829bf1059ee", "value": "ARCHAEOMAGNETISM"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "142ecba9-f552-4f38-bdf1-436499e60844", "value": "Measures the remanent magnetisation direction of magnetic minerals. Useful for dating fired structures, in-situ since their last firing, and for sediments settling from non turbulent water bodies. In the UK, calibration data extends back to 1000BC."}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/36b7507b-4217-355c-8ed2-2115338ccda7">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+        <skos:scopeNote xml:lang="en">{"id": "c5521832-e04b-48fd-b99a-a2ce57c418d1", "value": "A technique which uses the measurement of decay in radioactive lead (Pb) isotopes to determine a date. Useful for sediments and lead-based paints between 1 and 400 years old."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "d15086e8-888e-4497-9e62-b13025f98a94", "value": "LEAD ISOTOPE DATING"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/84801bc2-5ba3-34d0-a789-a61b53ac9ef2">
+        <skos:prefLabel xml:lang="en">{"id": "1eb7c596-232b-4cd2-982e-25f9ef2c3950", "value": "TEPHROCHRONOLOGY"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+        <skos:scopeNote xml:lang="en">{"id": "25763b73-a022-43f1-b791-7475e8aef792", "value": "The use of ash and tephra deposits characteristic of single known-date volcanic eruptions to date stratigraphic sequences."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/91ff81c2-bfb5-3c60-9ff9-b5896b185cb3">
+        <skos:scopeNote xml:lang="en">{"id": "e5589475-58a0-4c49-9718-85ceb2be4d99", "value": "A dating technique for the founding of individual populations based on the assumption of steady rates of mutation in mitochondrial DNA. Sometimes used to produce dates for stratigraphic layers containing fossil specimens of populations."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "e971fd15-d46a-4036-830c-506e613800b7", "value": "MITOCHONDRIAL DNA"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/f537e31d-14c7-3662-8584-1e04d2eaa210">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+        <skos:prefLabel xml:lang="en">{"id": "2477ad75-0d41-4d7a-a05f-adde3b5629a5", "value": "RADIOCARBON DATING"}</skos:prefLabel>
+        <skos:altLabel xml:lang="en">{"id": "14afcd4c-0b92-485b-9b7a-720d054aaf7d", "value": "Carbon 14 Dating"}</skos:altLabel>
+        <skos:altLabel xml:lang="en">{"id": "b743e087-46c8-4fba-a8d3-d46c34e24cc2", "value": "C14 Dating"}</skos:altLabel>
+        <skos:scopeNote xml:lang="en">{"id": "f855efa2-645a-4eb9-bc8e-891e37713887", "value": "The measurement of the ratio of the radioactive Carbon 14 (C-14) isotope and non-radioactive carbon isotopes. Useful for dating organic materials such as wood and bone between 500 and 45,000 years old."}</skos:scopeNote>
+        <skos:altLabel xml:lang="en">{"id": "0ec3a334-2116-484e-a0f0-ffb8af370333", "value": "Carbon Dating"}</skos:altLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/e463bbbd-add7-3868-97c0-d2316bdf3a5c">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+        <skos:prefLabel xml:lang="en">{"id": "bd8449c5-fe98-491f-93cd-fb4795c24935", "value": "BIOSTRATIGRAPHY"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "354209df-d0dd-4dce-931f-9dac0c125d27", "value": "A technique in which the date is deduced from the presence of fauna and/or flora considered to be characteristic of a given peirod of time or that gives and indication of a probable date."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/b4b46e43-b156-3432-a71a-31e695d8973c">
+        <skos:scopeNote xml:lang="en">{"id": "ab98aac1-492e-45a1-8f7e-7f91f55524e8", "value": "A relative dating technique for assessing bones from the same deposit. Often used to check for contemporaneity of bones selected for radiocarbon dating or to check for hoaxes such as the Piltdown Man."}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+        <skos:prefLabel xml:lang="en">{"id": "9d3fbfcf-2f9b-4531-9b76-77ecfc6e320e", "value": "FLUORINE, URANIUM AND NITROGEN TESTS"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="en">{"id": "4b8d9ff0-8378-4e26-b345-f63be1078eeb", "value": "DATING TECHNIQUES"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/c986e428-a40d-31bc-9756-d2caff11fd63">
+    <skos:scopeNote xml:lang="en">{"id": "7186bf97-0572-4718-b688-171ca340ffaa", "value": "A surface technique that uses the diffraction of X-rays to examine the mineral composition of a sample. Useful for identifying corrosion products, pigments etc. but of little use with organic compounds which consist largely of carbon, oxygen and hydrogen."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "398ddefb-a990-40ae-aaa8-db1d035cfebb", "value": "X-RAY DIFFRACTION"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+    <skos:altLabel xml:lang="en">{"id": "d35a8b35-715b-4ef5-bdbc-03f6a360d1e2", "value": "Xrd"}</skos:altLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/467c86a1-3b38-3689-b0f7-b510392022d2">
+    <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+    <skos:prefLabel xml:lang="en">{"id": "4db72358-85f2-47d5-9417-1be708644ddf", "value": "SHELL"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "fa2ba0a4-ce4f-4f68-944b-7791f6385758", "value": "Use for any shell of an animal, principally, molluscs, crabs etc."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/22672da5-97b8-3a1e-98c9-22e57c09d5ea">
+    <skos:prefLabel xml:lang="en">{"id": "40f4874d-e1e9-411b-bc87-27aeb0641476", "value": "HUMAN ASPECTS"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/6f1fedb0-bdfc-3307-9416-86b836ff2bd2">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+        <skos:scopeNote xml:lang="en">{"id": "a27ff678-85f0-4937-8eb6-69e4ad9b3465", "value": "Use where the material presents debris or waste from manufacturing."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "2529881d-62fd-4a27-a644-27d067a2386b", "value": "MANUFACTURING DEBRIS"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/488d0539-8187-383c-a17f-1b684fab123d">
+        <skos:narrower rdf:resource="http://www.archesproject.org/2666fca0-cc8e-339c-b021-fc34a9794347"/>
+        <skos:scopeNote xml:lang="en">{"id": "7fad9f3b-76b0-49c7-a4a6-23cee32277e0", "value": "Use for any material that shows evidence of modification by humans."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "7610f09a-28cd-4787-94cf-12ef9344a13c", "value": "WORKED"}</skos:prefLabel>
+        <skos:narrower rdf:resource="http://www.archesproject.org/a984107d-4c69-3ef3-9daa-7aa4e5dd6064"/>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+        <skos:narrower rdf:resource="http://www.archesproject.org/5f41e2d4-df80-3130-97ba-1f44f147aadb"/>
+        <skos:narrower rdf:resource="http://www.archesproject.org/4cffc07a-334c-3e24-86ac-9fcf544846e9"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:scopeNote xml:lang="en">{"id": "1a285883-a92b-48f3-ad21-f8ce26fcd6e9", "value": "Aspects of a material which result from the modification or use of the material by humans."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/ad998daa-3854-3a72-8c6c-7650f963a095">
+    <skos:altLabel xml:lang="en">{"id": "68888225-9725-4920-8e4b-465c7e9101db", "value": "Osl Dating"}</skos:altLabel>
+    <skos:altLabel xml:lang="en">{"id": "33ffe91f-9583-4986-8950-b7bd24171f1e", "value": "Osl"}</skos:altLabel>
+    <skos:prefLabel xml:lang="en">{"id": "02f5e515-4eac-47d5-802b-418e48e729a4", "value": "OPTICALLY STIMULATED LUMINESCENCE"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+    <skos:scopeNote xml:lang="en">{"id": "41cd5059-7386-4250-88fe-4586e32f5b7c", "value": "The light emitted from sedimentary minerals or mineral inclusions in bricks when stimulated in the laboratory by light of a different wavelength. Used to date samples up to 250,000 years old; especially appropriate for geological sediments."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/7ed88c97-9cfc-39fb-af0c-53ab4341f64a">
+    <skos:scopeNote xml:lang="en">{"id": "7b91f019-501e-431b-af19-77cb65f6365a", "value": "The chemical breakdown of a material by water."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+    <skos:prefLabel xml:lang="en">{"id": "43512b78-c4c4-44b7-8c71-9f23b77699c5", "value": "HYDROLYSIS"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/62cbc8d4-73f9-32fc-ab1f-6066413dc459">
+    <skos:prefLabel xml:lang="en">{"id": "5558bbdc-a119-4d14-90d1-8c7ba73738e5", "value": "HAIR"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+    <skos:scopeNote xml:lang="en">{"id": "4e11b494-d104-4870-ab38-6a3e4d0ad589", "value": "Use for hair, fur etc: filaments growing out of the outermost layer of mammalian skin."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/447f45c8-eca8-3f9d-9719-2c5d303cae62">
+    <skos:scopeNote xml:lang="en">{"id": "19c8cc68-6e53-4c68-a55a-0910f26a4849", "value": "A precious metal characterised by its yellow colour and resistance to tarnishing."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "a174465f-873f-4caa-9dec-c7cd4e63dd0d", "value": "GOLD"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/58b2847c-fc98-384b-b847-1136ec6d097b">
+    <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+    <skos:scopeNote xml:lang="en">{"id": "12bc4938-ec9d-48ca-be7c-7872a2c15771", "value": "A naturally occurring deposit formed by the decomposition and partial carbonisation of vegetable matter in waterlogged conditions."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "bbfdb63e-59bc-4304-852b-86afeb774ff9", "value": "PEAT DEPOSIT"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/50840b83-4092-319d-bc7c-46959ae2b669">
+    <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+    <skos:altLabel xml:lang="en">{"id": "679027ba-2ebf-40cd-bcd8-230b09f703ca", "value": "Bulk Sampling"}</skos:altLabel>
+    <skos:prefLabel xml:lang="en">{"id": "d4fb5917-7a4b-4811-bd01-76bb15c85672", "value": "COARSE SIEVING"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "4c53516b-c5b8-43be-a4d4-c39869102009", "value": "The method of retrieving animal remains, artefacts and other remains by dry or wet-sieving whole earth samples, typically over 100 litres, sieved through a 2mm or larger mesh."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/102207ba-f2c2-3671-aec5-8928c6fe2e6a">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/b57096e4-bdce-3cd7-aac0-33abbfe9f3f4">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+        <skos:scopeNote xml:lang="en">{"id": "aba14fb0-e4a0-40ff-bd82-b6e0ffaf231a", "value": "A technique that uses the emission of gamma rays of specific energies to identify the presence and concentration of certain radioactive isotopes in a sample"}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "c7edf9f6-a631-469b-bf5a-b4894f2b54c1", "value": "GAMMA SPECTROMETRY"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="en">{"id": "bfadf365-01af-4a36-939e-3b43735b723b", "value": "CHEMICAL TECHNIQUES"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/9412fa7f-77c9-3d52-be1d-6042b382e9c7">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+        <skos:prefLabel xml:lang="en">{"id": "9ffaaef3-bf49-40a9-88f0-7a9b972fcaee", "value": "PH DETERMINATION"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "41d2f865-e573-4848-869a-d6e28aa7009a", "value": "The degree of acidity or alkalinity of a material."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/e0fd8163-1ff3-35fc-b3c4-6be7e9d21850">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+        <skos:prefLabel xml:lang="en">{"id": "e5c80973-40e2-4c12-861c-9a1eab42fab5", "value": "SPOT TEST"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "dd85db1f-488c-4854-842a-eec5b9b6ff84", "value": "The application of a chemical test to a material, usually as a rapid approximation."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/5f45fab2-eeaf-3b94-9b34-8c9e008e67cc">
+        <skos:scopeNote xml:lang="en">{"id": "559b55c5-5275-4659-bfed-0db71eab50d0", "value": "Characterisation of organic molecules extracted from fossil or sub-fossil materials, including lipids, DNA etc."}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+        <skos:prefLabel xml:lang="en">{"id": "79988884-2007-40b5-96de-970caf709d16", "value": "ANCIENT BIOMOLECULAR ANALYSIS"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/3b1c8fe3-1380-38c7-b5b3-4ed5a23db1db">
+        <skos:prefLabel xml:lang="en">{"id": "4c35d2e1-f9b8-4189-b620-c6fcfb554404", "value": "STABLE ISOTOPE ANALYSIS"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+        <skos:scopeNote xml:lang="en">{"id": "2aaec67d-aeb1-4957-85f3-d6ae9d09e7f8", "value": "Comparison of different proportions of natural occurring isotopes of lead (Pb), strontium (Sr), oxygen (O), carbon (C) and nitrogen (N)."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/94f048f4-26c3-3b55-9e9f-878e2898add2">
+        <skos:prefLabel xml:lang="en">{"id": "05c61d1b-e350-4854-8c69-017a185f2e38", "value": "ALPHA SPECTROMETRY"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+        <skos:scopeNote xml:lang="en">{"id": "73c441ab-0e07-4729-9771-ff873f27049c", "value": "A technique that uses the emission of alpha particles of specific energies to identify the presence and concentration of certain radioactive isotopes in a sample"}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/f7c1eb29-f44e-38ae-93da-a8758cfbcc91">
+        <skos:narrower rdf:resource="http://www.archesproject.org/c986e428-a40d-31bc-9756-d2caff11fd63"/>
+        <skos:scopeNote xml:lang="en">{"id": "dc77aa1d-df0f-4aef-9280-e2b37f2a5499", "value": "Techniques investigating more than one element at a time."}</skos:scopeNote>
+        <skos:narrower rdf:resource="http://www.archesproject.org/ae9813d3-8c33-3548-92c0-0e67ae55c70f"/>
+        <skos:prefLabel xml:lang="en">{"id": "cb3849eb-d3fd-4e02-b016-a0debf919456", "value": "MULTI-ELEMENT ANALYSIS"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/4bbb353c-d2f1-34bd-8408-c2c9e1ed5b65">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+        <skos:prefLabel xml:lang="en">{"id": "d1df310f-44b3-4823-9928-3af22bad3473", "value": "PEAT HUMIFICATION"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "50b8ef74-808e-425a-969f-3cee9e48b838", "value": "A method of determining peat degradation; quantified as the percentage light transmission value of the extracted humic acids, measured at a specific wavelength."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/75ab3a77-21f7-32d2-ad6d-3ee345448b28">
+        <skos:scopeNote xml:lang="en">{"id": "ec8abd59-4c95-46e9-abb6-689c98d68000", "value": "The analysis of the amount of phosphorus (P) present in a soil."}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+        <skos:narrower rdf:resource="http://www.archesproject.org/d9f799eb-83b6-341b-9542-317ae20876b5"/>
+        <skos:narrower rdf:resource="http://www.archesproject.org/0bfff80e-654d-3715-8295-71475a3ffd8e"/>
+        <skos:prefLabel xml:lang="en">{"id": "023bfda1-54ed-4f79-8a18-09e13c16446d", "value": "SOIL PHOSPHORUS ANALYSIS"}</skos:prefLabel>
+        <skos:narrower rdf:resource="http://www.archesproject.org/8db46cee-38ac-342d-8a5d-d6f5e58c907f"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:scopeNote xml:lang="en">{"id": "a9adb0ed-bd3c-432d-99a0-3d4e1d7281d6", "value": "Examination of a material using chemical means."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/cec7f76b-9b39-354a-a7bd-6ffd6699dd9e">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/660ce7c2-6c02-31b2-a0a4-9d339e048f2e">
+        <skos:narrower rdf:resource="http://www.archesproject.org/47b6cb24-92f0-32dc-8070-6ee46e871173"/>
+        <skos:narrower rdf:resource="http://www.archesproject.org/7f7ff97d-b8a5-3bde-81a9-8c5224574a9c"/>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+        <skos:scopeNote xml:lang="en">{"id": "0b102d2b-58b0-4a2b-ae7a-57b9a65a5502", "value": "Any metal that does not contain the chemical element Iron (Fe) as a principal component."}</skos:scopeNote>
+        <skos:narrower rdf:resource="http://www.archesproject.org/447f45c8-eca8-3f9d-9719-2c5d303cae62"/>
+        <skos:prefLabel xml:lang="en">{"id": "17eeda51-f877-480b-8817-ede66cc7b3f7", "value": "NON-FERROUS METAL"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="en">{"id": "9fd2e7da-6def-4709-8fac-a6324ef3502f", "value": "METAL"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/f05a9584-21b9-3a8a-872d-85e471069b3f">
+        <skos:prefLabel xml:lang="en">{"id": "145956d1-4879-4977-84f8-7140033fd967", "value": "FERROUS METAL"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+        <skos:scopeNote xml:lang="en">{"id": "e96427b5-6d24-4e92-ad3d-434f025a5e7c", "value": "Any metal prinicipally composed of the chemical element Iron (Fe)."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:scopeNote xml:lang="en">{"id": "9f22b940-7271-4ede-abfb-56f737ca7e90", "value": "Class of elements and alloys that are characteristically lustrous, ductile, fusible and malleable. These are extracted from ore minerals originally existing in nature and processed before becoming a recognisable metal."}</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="http://www.archesproject.org/fc24367f-5f32-39f9-9533-fc5047ff37de">
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/62cbc8d4-73f9-32fc-ab1f-6066413dc459">
-        <skos:scopeNote xml:lang="en">{"id": "4e11b494-d104-4870-ab38-6a3e4d0ad589", "value": "Use for hair, fur etc: filaments growing out of the outermost layer of mammalian skin."}</skos:scopeNote>
-        <skos:prefLabel xml:lang="en">{"id": "5558bbdc-a119-4d14-90d1-8c7ba73738e5", "value": "HAIR"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-      </skos:Concept>
-    </skos:narrower>
+    <skos:narrower rdf:resource="http://www.archesproject.org/62cbc8d4-73f9-32fc-ab1f-6066413dc459"/>
+    <skos:narrower rdf:resource="http://www.archesproject.org/20b0085e-4112-3591-a3ce-1bdbaebe8e19"/>
     <skos:narrower>
       <skos:Concept rdf:about="http://www.archesproject.org/72eea22a-6655-382a-b8c1-6dddbd46c2da">
-        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
         <skos:prefLabel xml:lang="en">{"id": "c233316d-e996-495a-9c9d-f3a211a935c7", "value": "ESTUARINE DEPOSIT"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
         <skos:scopeNote xml:lang="en">{"id": "cbcefc7c-a59a-4bc3-9d8d-1a5157190773", "value": "An alluvial deposit laid down in an estuary."}</skos:scopeNote>
       </skos:Concept>
     </skos:narrower>
     <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/9484b589-62e5-3916-9292-5760aea1411c">
-        <skos:prefLabel xml:lang="en">{"id": "6747e6a4-e50d-466a-a027-852843ab6c25", "value": "RESIDUE"}</skos:prefLabel>
-        <skos:scopeNote xml:lang="en">{"id": "d7e0d84a-bd41-4d28-89c2-34ecede7c659", "value": "The material that does not float during the floatation of samples as a means of recovering charred plant remains from an archaeological context. Also, the material remaining following wet or dry sieving of course sieved samples."}</skos:scopeNote>
-        <skos:altLabel xml:lang="en">{"id": "72f9152f-0336-45f0-a823-b226b3f7acfb", "value": "Heavy Residue"}</skos:altLabel>
+      <skos:Concept rdf:about="http://www.archesproject.org/8ccd8091-da99-3ad6-bd86-4eec8e8854bb">
+        <skos:prefLabel xml:lang="en">{"id": "a46aada8-593e-4592-8389-d1473d478883", "value": "TUFACEOUS DEPOSIT"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "0d8200b3-74d3-4c86-9fe6-b6d09997da90", "value": "A naturally occuring deposit of calcareous tufa ('shell marl') sometimes found in alluvial deposits."}</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
       </skos:Concept>
     </skos:narrower>
     <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/599a17ab-1aaa-39be-b7cf-c37ff8e47b87">
+        <skos:narrower rdf:resource="http://www.archesproject.org/ea6ad7c8-1747-3644-851f-75d4987de142"/>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+        <skos:prefLabel xml:lang="en">{"id": "7b41380a-6c71-40f1-9515-af917b44a540", "value": "WOOD"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "85499cec-99fb-4c95-b65c-3ff1cfb9e224", "value": "Hard, compact, unprocessed, fibrous cellulose substance. The roots, trunks and branches of trees and shrubs consist of this tissue."}</skos:scopeNote>
+        <skos:narrower rdf:resource="http://www.archesproject.org/d4e5f3fd-5269-3b0a-930f-15bbd6c5f811"/>
+        <skos:narrower rdf:resource="http://www.archesproject.org/7cab65a2-41f5-34a9-a31f-0f8a85eb72b2"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/73005c2a-afc4-3cfa-bb01-046eb62939f2">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+        <skos:scopeNote xml:lang="en">{"id": "0b731b57-7aec-469e-8507-d0b8be9580e6", "value": "Any of the pieces of hard tissue consisting largely of calcium phosphate that make up the skeleton of a vertebrate animal."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "4d1c36c1-3fab-439a-9594-e314edab4106", "value": "BONE"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="en">{"id": "6773bd05-bff1-4f70-897e-13de0ab48745", "value": "MATERIAL TYPE"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/9484b589-62e5-3916-9292-5760aea1411c">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+        <skos:scopeNote xml:lang="en">{"id": "d7e0d84a-bd41-4d28-89c2-34ecede7c659", "value": "The material that does not float during the floatation of samples as a means of recovering charred plant remains from an archaeological context. Also, the material remaining following wet or dry sieving of course sieved samples."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "6747e6a4-e50d-466a-a027-852843ab6c25", "value": "RESIDUE"}</skos:prefLabel>
+        <skos:altLabel xml:lang="en">{"id": "72f9152f-0336-45f0-a823-b226b3f7acfb", "value": "Heavy Residue"}</skos:altLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
       <skos:Concept rdf:about="http://www.archesproject.org/219eacbf-de5d-3aca-9553-50d6c18790df">
+        <skos:scopeNote xml:lang="en">{"id": "be66e0e0-5c04-4745-a310-bcee2cdf43df", "value": "Use for pollen and diaspores. Pollen consists of pollen grains which are the male gametes of flowering plants. Diaspores are the dispersive units of mosses, ferns, fern allies and some plants. To describe the actual object use PLANT REMAINS."}</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
         <skos:prefLabel xml:lang="en">{"id": "f36354de-dda6-4645-8f33-99d02e437609", "value": "POLLEN"}</skos:prefLabel>
-        <skos:scopeNote xml:lang="en">{"id": "be66e0e0-5c04-4745-a310-bcee2cdf43df", "value": "Use for pollen and diaspores. Pollen consists of pollen grains which are the male gametes of flowering plants. Diaspores are the dispersive units of mosses, ferns, fern allies and some plants. To describe the actual object use PLANT REMAINS."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://www.archesproject.org/467c86a1-3b38-3689-b0f7-b510392022d2"/>
+    <skos:narrower rdf:resource="http://www.archesproject.org/34fa6111-c977-3535-9f8f-65ee9881b1c8"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/7ec67cb3-28c1-3b03-87e7-c398a0acdb45">
+        <skos:prefLabel xml:lang="en">{"id": "7217c797-418c-4213-b37c-04ceac4d133b", "value": "BIOGENIC CARBONATE"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+        <skos:scopeNote xml:lang="en">{"id": "ed6b6dae-56f4-45d8-b400-55097315f106", "value": "Any carbonate material produced by biological activity, for instance operculae of snails."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/1ab0cb15-5adb-3c8f-abf1-2788acea28c1">
+        <skos:prefLabel xml:lang="en">{"id": "cbfd9ed6-ba6e-4133-9ed8-325e8a22028c", "value": "TOOTH"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+        <skos:narrower rdf:resource="http://www.archesproject.org/deb4f4f9-3eea-3c50-9e01-f089a12a8a4c"/>
+        <skos:scopeNote xml:lang="en">{"id": "f8e5ffdb-566a-4c1a-b8f4-ebad1864e055", "value": "Use for teeth, hard structures found in the jaws of vertebrates used principally for chewing and eating."}</skos:scopeNote>
       </skos:Concept>
     </skos:narrower>
     <skos:narrower>
@@ -119,106 +422,21 @@
         <skos:scopeNote xml:lang="en">{"id": "05341e25-4e48-4484-856b-4f32ad2b9c5a", "value": "Waste material from the digestive tract of animals. The term coprolite comes from the Greek 'kopros' meaning dung and 'lithos' meaning stone, and is used for faecal matter that has been preserved by mineral replacement or dessication."}</skos:scopeNote>
       </skos:Concept>
     </skos:narrower>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/0c29dfa9-92d0-39df-92ae-30520ae8d363">
-        <skos:prefLabel xml:lang="en">{"id": "066d70a2-07d7-45c2-b19e-3f649293ec0e", "value": "BEACH DEPOSIT"}</skos:prefLabel>
-        <skos:scopeNote xml:lang="en">{"id": "67abf75c-46d3-47a4-8e00-d7fa21df671a", "value": "A deposit formed by wave and tidal action on an estuarine or marine beach."}</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/58b2847c-fc98-384b-b847-1136ec6d097b">
-        <skos:prefLabel xml:lang="en">{"id": "bbfdb63e-59bc-4304-852b-86afeb774ff9", "value": "PEAT DEPOSIT"}</skos:prefLabel>
-        <skos:scopeNote xml:lang="en">{"id": "12bc4938-ec9d-48ca-be7c-7872a2c15771", "value": "A naturally occurring deposit formed by the decomposition and partial carbonisation of vegetable matter in waterlogged conditions."}</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/467c86a1-3b38-3689-b0f7-b510392022d2">
-        <skos:prefLabel xml:lang="en">{"id": "4db72358-85f2-47d5-9417-1be708644ddf", "value": "SHELL"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-        <skos:scopeNote xml:lang="en">{"id": "fa2ba0a4-ce4f-4f68-944b-7791f6385758", "value": "Use for any shell of an animal, principally, molluscs, crabs etc."}</skos:scopeNote>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower rdf:resource="http://www.archesproject.org/34fa6111-c977-3535-9f8f-65ee9881b1c8"/>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/07001838-9c6f-3a93-b277-857ca2ee2124">
-        <skos:scopeNote xml:lang="en">{"id": "21b81743-048e-4c7c-8173-08bb378b3277", "value": "Use for feathers, an epidermal growth found in birds consisting of a quill, shaft and two vanes of barbs."}</skos:scopeNote>
-        <skos:prefLabel xml:lang="en">{"id": "6e5f17b7-ed04-4354-852c-3a7d2fae7ce8", "value": "FEATHER"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/ca3443f5-49ff-389d-8fe0-1b7518e9703c">
-        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-        <skos:prefLabel xml:lang="en">{"id": "d148e0c6-e2ae-4db8-be5d-8ccc24af4834", "value": "BRICK"}</skos:prefLabel>
-        <skos:scopeNote xml:lang="en">{"id": "4c3157e9-613d-46bf-a366-311e991abace", "value": "Material used for construction, commonly fired in its manufacture."}</skos:scopeNote>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/3227870d-bc10-3ae8-bfc8-f649e9180999">
-        <skos:narrower rdf:resource="http://www.archesproject.org/da8a6429-5d97-38c1-b3db-aad25a7348f9"/>
-        <skos:prefLabel xml:lang="en">{"id": "15080908-fdaf-4cbf-b8c3-a237821ee347", "value": "GEOLOGICAL SEDIMENT"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-        <skos:narrower rdf:resource="http://www.archesproject.org/bac134b4-4725-3fe1-afc5-c2217072f7b1"/>
-        <skos:scopeNote xml:lang="en">{"id": "4ad5b7ba-61e0-4030-8375-a8809b7ca6ea", "value": "A material composed of mineral grains derived from the breakdown of rocks by environmental processes."}</skos:scopeNote>
-        <skos:narrower rdf:resource="http://www.archesproject.org/e61e3958-92f5-34ca-800d-501310847f08"/>
-        <skos:narrower rdf:resource="http://www.archesproject.org/40e8e227-66e1-3a20-bc03-6a44264fb8f2"/>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/7ec67cb3-28c1-3b03-87e7-c398a0acdb45">
-        <skos:scopeNote xml:lang="en">{"id": "ed6b6dae-56f4-45d8-b400-55097315f106", "value": "Any carbonate material produced by biological activity, for instance operculae of snails."}</skos:scopeNote>
-        <skos:prefLabel xml:lang="en">{"id": "7217c797-418c-4213-b37c-04ceac4d133b", "value": "BIOGENIC CARBONATE"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/bdec7660-3283-3cda-a7d5-c617117eb65e">
-        <skos:prefLabel xml:lang="en">{"id": "629360b8-a681-40aa-92a0-a72ad0cd5629", "value": "POTTERY"}</skos:prefLabel>
-        <skos:scopeNote xml:lang="en">{"id": "94a06894-5266-4442-af0e-b8f91a237946", "value": "Object produced commonly by firing clay, but can include coarser material to temper it."}</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:prefLabel xml:lang="en">{"id": "6773bd05-bff1-4f70-897e-13de0ab48745", "value": "MATERIAL TYPE"}</skos:prefLabel>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/03cc30f8-2e48-32db-a56d-4188246e273f">
-        <skos:prefLabel xml:lang="en">{"id": "a1444047-3dc2-48e8-81a9-b81ee369babb", "value": "ANTLER"}</skos:prefLabel>
-        <skos:scopeNote xml:lang="en">{"id": "38f10bae-7c46-46f8-a872-69c0c9cb566d", "value": "Outgrowths of bone borne by most members of the deer family (Cervidae). They are shed and re-grow each year."}</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/599a17ab-1aaa-39be-b7cf-c37ff8e47b87">
-        <skos:scopeNote xml:lang="en">{"id": "85499cec-99fb-4c95-b65c-3ff1cfb9e224", "value": "Hard, compact, unprocessed, fibrous cellulose substance. The roots, trunks and branches of trees and shrubs consist of this tissue."}</skos:scopeNote>
-        <skos:narrower rdf:resource="http://www.archesproject.org/d4e5f3fd-5269-3b0a-930f-15bbd6c5f811"/>
-        <skos:prefLabel xml:lang="en">{"id": "7b41380a-6c71-40f1-9515-af917b44a540", "value": "WOOD"}</skos:prefLabel>
-        <skos:narrower rdf:resource="http://www.archesproject.org/ea6ad7c8-1747-3644-851f-75d4987de142"/>
-        <skos:narrower rdf:resource="http://www.archesproject.org/7cab65a2-41f5-34a9-a31f-0f8a85eb72b2"/>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower rdf:resource="http://www.archesproject.org/20b0085e-4112-3591-a3ce-1bdbaebe8e19"/>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/1ab0cb15-5adb-3c8f-abf1-2788acea28c1">
-        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-        <skos:scopeNote xml:lang="en">{"id": "f8e5ffdb-566a-4c1a-b8f4-ebad1864e055", "value": "Use for teeth, hard structures found in the jaws of vertebrates used principally for chewing and eating."}</skos:scopeNote>
-        <skos:narrower rdf:resource="http://www.archesproject.org/deb4f4f9-3eea-3c50-9e01-f089a12a8a4c"/>
-        <skos:prefLabel xml:lang="en">{"id": "cbfd9ed6-ba6e-4133-9ed8-325e8a22028c", "value": "TOOTH"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/73005c2a-afc4-3cfa-bb01-046eb62939f2">
-        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-        <skos:prefLabel xml:lang="en">{"id": "4d1c36c1-3fab-439a-9594-e314edab4106", "value": "BONE"}</skos:prefLabel>
-        <skos:scopeNote xml:lang="en">{"id": "0b731b57-7aec-469e-8507-d0b8be9580e6", "value": "Any of the pieces of hard tissue consisting largely of calcium phosphate that make up the skeleton of a vertebrate animal."}</skos:scopeNote>
-      </skos:Concept>
-    </skos:narrower>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+    <skos:narrower rdf:resource="http://www.archesproject.org/cec7f76b-9b39-354a-a7bd-6ffd6699dd9e"/>
     <skos:narrower>
       <skos:Concept rdf:about="http://www.archesproject.org/10a10364-52c6-3f5c-82df-7ee092b19946">
+        <skos:prefLabel xml:lang="en">{"id": "61291f53-b05d-4f68-87e8-fa3f30df3f75", "value": "BURNT FLINT"}</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
         <skos:scopeNote xml:lang="en">{"id": "0aef4e63-74e5-4f15-a39a-c669865164e2", "value": "A form of silica, similar to quartz. Commonly black or white in colour and used for tool manufacture. Flints heated in antiquity may be dated using thermoluminescence."}</skos:scopeNote>
-        <skos:prefLabel xml:lang="en">{"id": "61291f53-b05d-4f68-87e8-fa3f30df3f75", "value": "BURNT FLINT"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://www.archesproject.org/58b2847c-fc98-384b-b847-1136ec6d097b"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/ca3443f5-49ff-389d-8fe0-1b7518e9703c">
+        <skos:prefLabel xml:lang="en">{"id": "d148e0c6-e2ae-4db8-be5d-8ccc24af4834", "value": "BRICK"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "4c3157e9-613d-46bf-a366-311e991abace", "value": "Material used for construction, commonly fired in its manufacture."}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
       </skos:Concept>
     </skos:narrower>
     <skos:narrower>
@@ -229,288 +447,280 @@
       </skos:Concept>
     </skos:narrower>
     <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/d0c4ce3d-8be9-3158-b068-073980174191">
-        <skos:prefLabel xml:lang="en">{"id": "4aab9ace-8915-422e-bf22-c9cdafbae2f0", "value": "PHYTOLITH"}</skos:prefLabel>
-        <skos:altLabel xml:lang="en">{"id": "dd20d9b9-8fcb-480d-b85a-eca6660291ce", "value": "Microfossils"}</skos:altLabel>
+      <skos:Concept rdf:about="http://www.archesproject.org/3227870d-bc10-3ae8-bfc8-f649e9180999">
+        <skos:narrower rdf:resource="http://www.archesproject.org/bac134b4-4725-3fe1-afc5-c2217072f7b1"/>
+        <skos:prefLabel xml:lang="en">{"id": "15080908-fdaf-4cbf-b8c3-a237821ee347", "value": "GEOLOGICAL SEDIMENT"}</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-        <skos:scopeNote xml:lang="en">{"id": "b78e34cf-e070-4be1-a4f9-92b0139b4402", "value": "Microscopic mineral body (usually silica) found in many plants."}</skos:scopeNote>
+        <skos:narrower rdf:resource="http://www.archesproject.org/e61e3958-92f5-34ca-800d-501310847f08"/>
+        <skos:narrower rdf:resource="http://www.archesproject.org/da8a6429-5d97-38c1-b3db-aad25a7348f9"/>
+        <skos:narrower rdf:resource="http://www.archesproject.org/40e8e227-66e1-3a20-bc03-6a44264fb8f2"/>
+        <skos:scopeNote xml:lang="en">{"id": "4ad5b7ba-61e0-4030-8375-a8809b7ca6ea", "value": "A material composed of mineral grains derived from the breakdown of rocks by environmental processes."}</skos:scopeNote>
       </skos:Concept>
     </skos:narrower>
     <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/8ccd8091-da99-3ad6-bd86-4eec8e8854bb">
-        <skos:scopeNote xml:lang="en">{"id": "0d8200b3-74d3-4c86-9fe6-b6d09997da90", "value": "A naturally occuring deposit of calcareous tufa ('shell marl') sometimes found in alluvial deposits."}</skos:scopeNote>
+      <skos:Concept rdf:about="http://www.archesproject.org/0c29dfa9-92d0-39df-92ae-30520ae8d363">
+        <skos:prefLabel xml:lang="en">{"id": "066d70a2-07d7-45c2-b19e-3f649293ec0e", "value": "BEACH DEPOSIT"}</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-        <skos:prefLabel xml:lang="en">{"id": "a46aada8-593e-4592-8389-d1473d478883", "value": "TUFACEOUS DEPOSIT"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "67abf75c-46d3-47a4-8e00-d7fa21df671a", "value": "A deposit formed by wave and tidal action on an estuarine or marine beach."}</skos:scopeNote>
       </skos:Concept>
     </skos:narrower>
-    <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
     <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/cec7f76b-9b39-354a-a7bd-6ffd6699dd9e">
-        <skos:prefLabel xml:lang="en">{"id": "9fd2e7da-6def-4709-8fac-a6324ef3502f", "value": "METAL"}</skos:prefLabel>
-        <skos:narrower rdf:resource="http://www.archesproject.org/660ce7c2-6c02-31b2-a0a4-9d339e048f2e"/>
-        <skos:narrower rdf:resource="http://www.archesproject.org/f05a9584-21b9-3a8a-872d-85e471069b3f"/>
-        <skos:scopeNote xml:lang="en">{"id": "9f22b940-7271-4ede-abfb-56f737ca7e90", "value": "Class of elements and alloys that are characteristically lustrous, ductile, fusible and malleable. These are extracted from ore minerals originally existing in nature and processed before becoming a recognisable metal."}</skos:scopeNote>
+      <skos:Concept rdf:about="http://www.archesproject.org/07001838-9c6f-3a93-b277-857ca2ee2124">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+        <skos:scopeNote xml:lang="en">{"id": "21b81743-048e-4c7c-8173-08bb378b3277", "value": "Use for feathers, an epidermal growth found in birds consisting of a quill, shaft and two vanes of barbs."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "6e5f17b7-ed04-4354-852c-3a7d2fae7ce8", "value": "FEATHER"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/bdec7660-3283-3cda-a7d5-c617117eb65e">
+        <skos:scopeNote xml:lang="en">{"id": "94a06894-5266-4442-af0e-b8f91a237946", "value": "Object produced commonly by firing clay, but can include coarser material to temper it."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "629360b8-a681-40aa-92a0-a72ad0cd5629", "value": "POTTERY"}</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
       </skos:Concept>
     </skos:narrower>
     <skos:narrower>
       <skos:Concept rdf:about="http://www.archesproject.org/2fe974d3-196c-37b4-93c4-91038bed853c">
         <skos:scopeNote xml:lang="en">{"id": "492e7fec-e0a1-4279-bd70-42bdb4ba1d6a", "value": "Use for the remains of an egg whether from a bird, reptile or amphibian."}</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
         <skos:prefLabel xml:lang="en">{"id": "ad921aa9-6f7d-4d6f-b6cc-bb9822a3d54b", "value": "EGG SHELL"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/03cc30f8-2e48-32db-a56d-4188246e273f">
+        <skos:scopeNote xml:lang="en">{"id": "38f10bae-7c46-46f8-a872-69c0c9cb566d", "value": "Outgrowths of bone borne by most members of the deer family (Cervidae). They are shed and re-grow each year."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "a1444047-3dc2-48e8-81a9-b81ee369babb", "value": "ANTLER"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
       </skos:Concept>
     </skos:narrower>
     <skos:narrower>
       <skos:Concept rdf:about="http://www.archesproject.org/ca5f5b89-344b-34d2-9b71-7dc9d9519b63">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
         <skos:scopeNote xml:lang="en">{"id": "468e45cf-6e30-44a8-8c08-1d0d77b87184", "value": "The material which floats during the floatation of samples as a means of recovering charred plant remains from an archaeological context."}</skos:scopeNote>
         <skos:prefLabel xml:lang="en">{"id": "2703c455-3aaf-4b56-8799-ad64a47ba473", "value": "FLOT"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/d0c4ce3d-8be9-3158-b068-073980174191">
+        <skos:altLabel xml:lang="en">{"id": "dd20d9b9-8fcb-480d-b85a-eca6660291ce", "value": "Microfossils"}</skos:altLabel>
+        <skos:scopeNote xml:lang="en">{"id": "b78e34cf-e070-4be1-a4f9-92b0139b4402", "value": "Microscopic mineral body (usually silica) found in many plants."}</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+        <skos:prefLabel xml:lang="en">{"id": "4aab9ace-8915-422e-bf22-c9cdafbae2f0", "value": "PHYTOLITH"}</skos:prefLabel>
       </skos:Concept>
     </skos:narrower>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/d9f799eb-83b6-341b-9542-317ae20876b5">
-    <skos:prefLabel xml:lang="en">{"id": "7cb4bdd7-a456-4de6-b410-080ba84eec70", "value": "INORGANIC PHOSPHORUS ANALYSIS"}</skos:prefLabel>
+  <skos:Concept rdf:about="http://www.archesproject.org/bb3e681c-a3df-372f-896c-842ef2b91cc9">
+    <skos:altLabel xml:lang="en">{"id": "bacef5eb-d198-4714-b93c-fe6217a9363c", "value": "Diseased"}</skos:altLabel>
+    <skos:prefLabel xml:lang="en">{"id": "4fdb152b-7cf9-407d-8647-0c7b4317f556", "value": "PATHOLOGY"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "3037a257-8b30-4bab-bb0a-a6d09409215c", "value": "Use for bone remodelling, new growth, loss or destruction caused by age, activity, disease or trauma during life."}</skos:scopeNote>
     <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-    <skos:scopeNote xml:lang="en">{"id": "50f83cdc-464b-4e84-8b02-a7ea17f02434", "value": "The analysis of inorganic phosphorus (P)."}</skos:scopeNote>
+    <skos:altLabel xml:lang="en">{"id": "9c541de8-f78b-4ce2-a100-dcecb3c4e7df", "value": "Disease"}</skos:altLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/2a975a1b-68e7-3e6d-898e-8f81d41fd715">
-    <skos:scopeNote xml:lang="en">{"id": "002145d1-2840-444e-a92d-c337b5171510", "value": "The identification and grouping of stone types in stratigraphy."}</skos:scopeNote>
-    <skos:prefLabel xml:lang="en">{"id": "31dbc8bb-7c4c-4c02-acbb-3368f3c14d74", "value": "CLAST LITHOLOGICAL ANALYSIS"}</skos:prefLabel>
+  <skos:Concept rdf:about="http://www.archesproject.org/719e66ba-03bb-369c-83bd-fd8ee5146717">
     <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+    <skos:prefLabel xml:lang="en">{"id": "f0a53dd7-2cd5-4a6b-ab59-51ac7463c1c9", "value": "POLARISED LIGHT MICROSCOPY"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "d7d9688e-970d-4a82-9013-7ca8f80562bc", "value": "Light microscopy in which vibration directions of the light are constrained into single planes."}</skos:scopeNote>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/eb5ff4c5-216d-37fa-a82c-febb1c5b8acc">
-    <skos:altLabel xml:lang="en">{"id": "75167cfc-1507-4f1c-8f94-3bb024b3bd0b", "value": "Cremated"}</skos:altLabel>
+  <skos:Concept rdf:about="http://www.archesproject.org/4cffc07a-334c-3e24-86ac-9fcf544846e9">
     <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-    <skos:prefLabel xml:lang="en">{"id": "058c48b5-32ab-40e8-b248-b03dbd497938", "value": "CALCINED"}</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">{"id": "53c054dd-c01d-4068-8dd3-c65dd49aa1fb", "value": "Material burnt at high temperature (above 700 degrees Celsius) leaving only the mineral component."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "562eeee6-3c39-4b0c-9c6a-164eb1db723a", "value": "COLOURED"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "650c5a9a-d705-4ef7-bf96-2f5d8c30aadd", "value": "Material with evidence of the application of a pigment or dye."}</skos:scopeNote>
+    <skos:altLabel xml:lang="en">{"id": "d8134ce5-3181-470c-b264-67a06cc2de88", "value": "Colored"}</skos:altLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/7f7ff97d-b8a5-3bde-81a9-8c5224574a9c">
+  <skos:Concept rdf:about="http://www.archesproject.org/aad98369-707f-3b33-b6c1-fe1c5640b38a">
+    <skos:prefLabel xml:lang="en">{"id": "29c6516d-27b3-4ef9-ad1b-9f918dcd505e", "value": "STRATIGRAPHIC DESCRIPTION"}</skos:prefLabel>
     <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-    <skos:prefLabel xml:lang="en">{"id": "11468f8b-1c6b-4217-baa4-06be02fdb37b", "value": "SILVER"}</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">{"id": "5f5c6d3b-a8bd-4bf3-b770-dd3b95679715", "value": "A precious metal of lustrous, white colour with great malleability and ductility."}</skos:scopeNote>
+    <skos:scopeNote xml:lang="en">{"id": "05347eac-95bb-42c9-975f-cd061f51c871", "value": "The careful observation and written description of the physical characteristics of stratigraphy. It will normally include information on texture, colour and the nature of the different components."}</skos:scopeNote>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/3b1c8fe3-1380-38c7-b5b3-4ed5a23db1db">
-    <skos:scopeNote xml:lang="en">{"id": "2aaec67d-aeb1-4957-85f3-d6ae9d09e7f8", "value": "Comparison of different proportions of natural occurring isotopes of lead (Pb), strontium (Sr), oxygen (O), carbon (C) and nitrogen (N)."}</skos:scopeNote>
+  <skos:Concept rdf:about="http://www.archesproject.org/34fb000d-0241-3821-a862-9a99692b6292">
+    <skos:narrower rdf:resource="http://www.archesproject.org/22672da5-97b8-3a1e-98c9-22e57c09d5ea"/>
+    <skos:prefLabel xml:lang="en">{"id": "2774cbc8-c521-4756-95ed-9c20775b0c3f", "value": "ASPECT"}</skos:prefLabel>
     <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-    <skos:prefLabel xml:lang="en">{"id": "4c35d2e1-f9b8-4189-b620-c6fcfb554404", "value": "STABLE ISOTOPE ANALYSIS"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/f5a5112c-2e17-3ded-84be-c77341e0d5bf">
+        <skos:prefLabel xml:lang="en">{"id": "e8b55389-4ea6-4aec-9c69-33f1515ce1e7", "value": "NATURAL ASPECTS"}</skos:prefLabel>
+        <skos:narrower rdf:resource="http://www.archesproject.org/41bfc26a-9de6-3c65-a0e2-ab2ef47e7d58"/>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+        <skos:scopeNote xml:lang="en">{"id": "87976a0f-bfdd-4f9e-ae67-c58985ea02d6", "value": "Aspects associated with the genetic make up and/or factors that affected the organism from which the material is derived during its life"}</skos:scopeNote>
+        <skos:narrower rdf:resource="http://www.archesproject.org/bb3e681c-a3df-372f-896c-842ef2b91cc9"/>
+      </skos:Concept>
+    </skos:narrower>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/6f1fedb0-bdfc-3307-9416-86b836ff2bd2">
-    <skos:scopeNote xml:lang="en">{"id": "a27ff678-85f0-4937-8eb6-69e4ad9b3465", "value": "Use where the material presents debris or waste from manufacturing."}</skos:scopeNote>
-    <skos:prefLabel xml:lang="en">{"id": "2529881d-62fd-4a27-a644-27d067a2386b", "value": "MANUFACTURING DEBRIS"}</skos:prefLabel>
+  <skos:Concept rdf:about="http://www.archesproject.org/5f41e2d4-df80-3130-97ba-1f44f147aadb">
+    <skos:prefLabel xml:lang="en">{"id": "551eda1c-e396-4239-9b7d-6887362d5682", "value": "DECORATED"}</skos:prefLabel>
     <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+    <skos:scopeNote xml:lang="en">{"id": "0cd94da0-efec-4634-b6cb-72862bafa46c", "value": "Use where decoration is present."}</skos:scopeNote>
+    <skos:altLabel xml:lang="en">{"id": "b3ecb179-ff2e-446f-9c49-7827cf0ecbff", "value": "Decoration"}</skos:altLabel>
   </skos:Concept>
   <skos:Concept rdf:about="http://www.archesproject.org/accd90c0-01fc-3bbd-abeb-dc02e9bee1a3">
-    <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-    <skos:scopeNote xml:lang="en">{"id": "8e7b0fd5-286e-4326-93f2-e9e962c11652", "value": "The measurement of the light emitted from sedimentary minerals, mineral inclusions in bricks, burnt flint or unburnt calcite when they are heated. The signal relates to their prior exposure to radioactivity. Used to date samples up to 500,000 years old."}</skos:scopeNote>
     <skos:altLabel xml:lang="en">{"id": "51b159ea-7c98-4f00-a9db-aaf91744308c", "value": "Tl"}</skos:altLabel>
     <skos:altLabel xml:lang="en">{"id": "6c764038-eba2-4aa9-bd60-a98f34944302", "value": "Tl Dating"}</skos:altLabel>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
     <skos:prefLabel xml:lang="en">{"id": "f19414f2-dac2-475b-811a-f2fd86691f26", "value": "THERMOLUMINESCENCE"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "8e7b0fd5-286e-4326-93f2-e9e962c11652", "value": "The measurement of the light emitted from sedimentary minerals, mineral inclusions in bricks, burnt flint or unburnt calcite when they are heated. The signal relates to their prior exposure to radioactivity. Used to date samples up to 500,000 years old."}</skos:scopeNote>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/f7c1eb29-f44e-38ae-93da-a8758cfbcc91">
+  <skos:Concept rdf:about="http://www.archesproject.org/ae9813d3-8c33-3548-92c0-0e67ae55c70f">
+    <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+    <skos:prefLabel xml:lang="en">{"id": "341398d2-00d8-43e3-a19e-5cb41a3e5f59", "value": "X-RAY FLUORESCENCE SPECTROMETRY"}</skos:prefLabel>
+    <skos:altLabel xml:lang="en">{"id": "5d125333-a8c1-46af-8da1-c85ab1d9a3a0", "value": "Xrf"}</skos:altLabel>
+    <skos:scopeNote xml:lang="en">{"id": "301164fd-a170-41fa-8493-ff8b5f570de8", "value": "A surface technique of spectroscopic analysis which relies on the interaction of primary X-rays with the sample to generate a range of secondary X-rays. These have energies characteristic of the elements present in the sample."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/c8202d92-b882-3145-ba93-01b31059d7e1">
+    <skos:scopeNote xml:lang="en">{"id": "4b22c21a-2fa1-4237-bccb-c1fd764b9a5b", "value": "Preservation of material by toxic effect of corrosion products in the immediate vicinity, or within, the material."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+    <skos:prefLabel xml:lang="en">{"id": "3b33aa2b-42d0-4bb9-9f1b-11a39a59d01b", "value": "MINERAL PRESERVED"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/4d3fcd5d-8fc6-3ae5-ab65-de69c9e08f0e">
+    <skos:scopeNote xml:lang="en">{"id": "25eefdfd-b734-412b-8c78-b40483085a63", "value": "The weight loss from low-temperature burning of material. It correlates well with organic matter (material derived from living things) content."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+    <skos:prefLabel xml:lang="en">{"id": "40e6c39e-8b18-4146-abe5-a73bf7efa0bc", "value": "LOSS ON IGNITION DETERMINATION"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/19dfb367-ec02-34c2-b3bc-cfaf1d888510">
+    <skos:scopeNote xml:lang="en">{"id": "af3e879d-ab6e-43bf-a901-27ef2329752e", "value": "Material that has been altered as a result of chemical action."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+    <skos:prefLabel xml:lang="en">{"id": "d5b0fe36-86c6-4803-8cb9-97c0a030cf2e", "value": "CHEMICALLY ALTERED"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/2a975a1b-68e7-3e6d-898e-8f81d41fd715">
+    <skos:prefLabel xml:lang="en">{"id": "31dbc8bb-7c4c-4c02-acbb-3368f3c14d74", "value": "CLAST LITHOLOGICAL ANALYSIS"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+    <skos:scopeNote xml:lang="en">{"id": "002145d1-2840-444e-a92d-c337b5171510", "value": "The identification and grouping of stone types in stratigraphy."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/064aba70-9153-3e78-9db6-1cfced275cce">
+    <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+    <skos:prefLabel xml:lang="en">{"id": "3ad428ff-dc97-422c-940f-794e9ef9e876", "value": "SPECIALIST SAMPLING"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "9bf81687-7b28-4a4f-9b1d-2f0f2c8cb14c", "value": "The recovery of material from samples collected during field investigations, usually taken by specialists with a particular area of expertise. Normally processed in the laboratory. Also use for the processing of samples subsequent to investigation."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/29488313-7bd2-3de2-9255-ca7befd944cb">
+    <skos:narrower rdf:resource="http://www.archesproject.org/719e66ba-03bb-369c-83bd-fd8ee5146717"/>
     <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/ae9813d3-8c33-3548-92c0-0e67ae55c70f">
-        <skos:prefLabel xml:lang="en">{"id": "341398d2-00d8-43e3-a19e-5cb41a3e5f59", "value": "X-RAY FLUORESCENCE SPECTROMETRY"}</skos:prefLabel>
-        <skos:scopeNote xml:lang="en">{"id": "301164fd-a170-41fa-8493-ff8b5f570de8", "value": "A surface technique of spectroscopic analysis which relies on the interaction of primary X-rays with the sample to generate a range of secondary X-rays. These have energies characteristic of the elements present in the sample."}</skos:scopeNote>
-        <skos:altLabel xml:lang="en">{"id": "5d125333-a8c1-46af-8da1-c85ab1d9a3a0", "value": "Xrf"}</skos:altLabel>
+      <skos:Concept rdf:about="http://www.archesproject.org/39cd05df-0db9-347c-9319-7f88dd5735da">
+        <skos:prefLabel xml:lang="en">{"id": "af8ebd83-bb5e-4b60-90d8-bbba066047ea", "value": "SCANNING ELECTRON MICROSCOPY"}</skos:prefLabel>
+        <skos:altLabel xml:lang="en">{"id": "a932de92-4427-446e-a726-642ee22a3b64", "value": "Sem"}</skos:altLabel>
+        <skos:altLabel xml:lang="en">{"id": "a2e2c0bb-bb70-477e-9bff-9202ff4986ec", "value": "S.E.M."}</skos:altLabel>
         <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+        <skos:scopeNote xml:lang="en">{"id": "4ba91fb2-0183-4a99-a506-3c14fa42917e", "value": "A process using an electron microscope in which the surface of the specimen is scanned by a beam of electrons which are reflected to form an image. Very high magnification is possible."}</skos:scopeNote>
       </skos:Concept>
     </skos:narrower>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/c986e428-a40d-31bc-9756-d2caff11fd63">
-        <skos:altLabel xml:lang="en">{"id": "d35a8b35-715b-4ef5-bdbc-03f6a360d1e2", "value": "Xrd"}</skos:altLabel>
-        <skos:prefLabel xml:lang="en">{"id": "398ddefb-a990-40ae-aaa8-db1d035cfebb", "value": "X-RAY DIFFRACTION"}</skos:prefLabel>
-        <skos:scopeNote xml:lang="en">{"id": "7186bf97-0572-4718-b688-171ca340ffaa", "value": "A surface technique that uses the diffraction of X-rays to examine the mineral composition of a sample. Useful for identifying corrosion products, pigments etc. but of little use with organic compounds which consist largely of carbon, oxygen and hydrogen."}</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:prefLabel xml:lang="en">{"id": "cb3849eb-d3fd-4e02-b016-a0debf919456", "value": "MULTI-ELEMENT ANALYSIS"}</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">{"id": "dc77aa1d-df0f-4aef-9280-e2b37f2a5499", "value": "Techniques investigating more than one element at a time."}</skos:scopeNote>
     <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+    <skos:prefLabel xml:lang="en">{"id": "e62da3b1-10d2-48eb-a5c9-e4432ef78805", "value": "MICROSCOPY"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "b34d6dac-15ff-40af-b89c-d721a8dc1754", "value": "The use of magnifying equipment to examine materials not visible to the naked eye."}</skos:scopeNote>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/91ff81c2-bfb5-3c60-9ff9-b5896b185cb3">
-    <skos:prefLabel xml:lang="en">{"id": "e971fd15-d46a-4036-830c-506e613800b7", "value": "MITOCHONDRIAL DNA"}</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">{"id": "e5589475-58a0-4c49-9718-85ceb2be4d99", "value": "A dating technique for the founding of individual populations based on the assumption of steady rates of mutation in mitochondrial DNA. Sometimes used to produce dates for stratigraphic layers containing fossil specimens of populations."}</skos:scopeNote>
+  <skos:Concept rdf:about="http://www.archesproject.org/a984107d-4c69-3ef3-9daa-7aa4e5dd6064">
     <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+    <skos:altLabel xml:lang="en">{"id": "2e53bf13-c85b-408b-b093-fb702e38f032", "value": "Tool Marks"}</skos:altLabel>
+    <skos:scopeNote xml:lang="en">{"id": "a0300482-5c1e-4f15-b9d2-71531cf08b1e", "value": "Use where evidence of tool marks is present"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "c3bb52bb-6a71-49ca-82a5-62ee387ac0ef", "value": "TOOL MARKED"}</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/36b7507b-4217-355c-8ed2-2115338ccda7">
-    <skos:prefLabel xml:lang="en">{"id": "d15086e8-888e-4497-9e62-b13025f98a94", "value": "LEAD ISOTOPE DATING"}</skos:prefLabel>
+  <skos:Concept rdf:about="http://www.archesproject.org/eb5ff4c5-216d-37fa-a82c-febb1c5b8acc">
+    <skos:prefLabel xml:lang="en">{"id": "058c48b5-32ab-40e8-b248-b03dbd497938", "value": "CALCINED"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "53c054dd-c01d-4068-8dd3-c65dd49aa1fb", "value": "Material burnt at high temperature (above 700 degrees Celsius) leaving only the mineral component."}</skos:scopeNote>
     <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-    <skos:scopeNote xml:lang="en">{"id": "c5521832-e04b-48fd-b99a-a2ce57c418d1", "value": "A technique which uses the measurement of decay in radioactive lead (Pb) isotopes to determine a date. Useful for sediments and lead-based paints between 1 and 400 years old."}</skos:scopeNote>
+    <skos:altLabel xml:lang="en">{"id": "75167cfc-1507-4f1c-8f94-3bb024b3bd0b", "value": "Cremated"}</skos:altLabel>
   </skos:Concept>
   <skos:Concept rdf:about="http://www.archesproject.org/40e8e227-66e1-3a20-bc03-6a44264fb8f2">
     <skos:prefLabel xml:lang="en">{"id": "fb99ee7c-4fed-405d-afb6-3c329c110c14", "value": "QUARTZ"}</skos:prefLabel>
     <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
     <skos:scopeNote xml:lang="en">{"id": "1369a690-3ee9-4f2e-850b-00042bbf9024", "value": "A mineral composed of SiO2. Commonly clear or milky in appearance. A common constituent of rocks and sediments."}</skos:scopeNote>
   </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/c89db4e4-a32c-396c-903c-4afcc5d8f3c2">
+    <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+    <skos:scopeNote xml:lang="en">{"id": "156cedb2-40d0-40a5-b1f0-53de2ca6efe8", "value": "Modified or damaged by an animal."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "8bc6a56f-394b-4333-9f66-408cdae9a14b", "value": "ALTERED BY ANIMALS"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/7cab65a2-41f5-34a9-a31f-0f8a85eb72b2">
+    <skos:scopeNote xml:lang="en">{"id": "feb89c85-9c1b-4b69-91a9-56161aaf3825", "value": "Small (&lt;2cm diameter) roundwood often complete with buds or leaf scars."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+    <skos:prefLabel xml:lang="en">{"id": "4b647f65-d4dc-4849-a596-d77db3f27821", "value": "TWIG"}</skos:prefLabel>
+  </skos:Concept>
   <skos:Concept rdf:about="http://www.archesproject.org/9a7a035d-a1d3-32ce-88fb-fab60b814014">
     <skos:narrower>
       <skos:Concept rdf:about="http://www.archesproject.org/b4cdb2f6-26ce-3cee-a529-1523200fa8b2">
-        <skos:narrower rdf:resource="http://www.archesproject.org/3983cf5c-6689-3d7d-92fc-25792c18cb25"/>
         <skos:narrower rdf:resource="http://www.archesproject.org/9c7dde4d-d7cb-392c-b63e-a408738b234d"/>
         <skos:altLabel xml:lang="en">{"id": "a858c6c3-890c-44ee-987e-3d697de404fd", "value": "Burnt Deposit"}</skos:altLabel>
-        <skos:narrower rdf:resource="http://www.archesproject.org/eb5ff4c5-216d-37fa-a82c-febb1c5b8acc"/>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-        <skos:prefLabel xml:lang="en">{"id": "e2403305-ed45-44e3-bfb7-d668f42d2a56", "value": "BURNT"}</skos:prefLabel>
         <skos:scopeNote xml:lang="en">{"id": "e629a6e4-fb4b-4d73-a711-f52936d93b8c", "value": "Use for material that has been burnt."}</skos:scopeNote>
+        <skos:narrower rdf:resource="http://www.archesproject.org/3983cf5c-6689-3d7d-92fc-25792c18cb25"/>
+        <skos:narrower rdf:resource="http://www.archesproject.org/eb5ff4c5-216d-37fa-a82c-febb1c5b8acc"/>
+        <skos:prefLabel xml:lang="en">{"id": "e2403305-ed45-44e3-bfb7-d668f42d2a56", "value": "BURNT"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://www.archesproject.org/c8202d92-b882-3145-ba93-01b31059d7e1"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/3e51671e-0aad-3dd1-85b1-e8cb685f287c">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+        <skos:scopeNote xml:lang="en">{"id": "d2209d57-9df3-484f-949f-6e7c7831697a", "value": "Material that has been damaged by fungal growth or secretions."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "a065d32c-c36f-428b-8045-b9b0512869d1", "value": "FUNGAL DAMAGE"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+    <skos:narrower rdf:resource="http://www.archesproject.org/7ed88c97-9cfc-39fb-af0c-53ab4341f64a"/>
+    <skos:prefLabel xml:lang="en">{"id": "34cc62e4-9856-4bd8-a26c-7b7f85369e5a", "value": "MODIFICATION STATE"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/34354fde-142f-37fa-b576-d6b4fc9bc983">
+        <skos:prefLabel xml:lang="en">{"id": "1670f74b-e048-4cff-b11f-d49900bc380f", "value": "WATERWORN"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+        <skos:scopeNote xml:lang="en">{"id": "89e80a21-ec88-4e7b-89d4-6529148bef82", "value": "Material, especially rock, worn smooth by the passage of water."}</skos:scopeNote>
       </skos:Concept>
     </skos:narrower>
     <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/7ed88c97-9cfc-39fb-af0c-53ab4341f64a">
-        <skos:prefLabel xml:lang="en">{"id": "43512b78-c4c4-44b7-8c71-9f23b77699c5", "value": "HYDROLYSIS"}</skos:prefLabel>
-        <skos:scopeNote xml:lang="en">{"id": "7b91f019-501e-431b-af19-77cb65f6365a", "value": "The chemical breakdown of a material by water."}</skos:scopeNote>
+      <skos:Concept rdf:about="http://www.archesproject.org/659a05c1-53c7-3ab5-9265-d684619652f7">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+        <skos:prefLabel xml:lang="en">{"id": "5b759d5c-59ef-4671-ad36-68ccbda8bbaa", "value": "DESICCATED"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "b9931fc6-91b1-4ea8-a386-572377c4a476", "value": "Material preserved due to very low humidity which inhibits decay by micro-organisms."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://www.archesproject.org/19dfb367-ec02-34c2-b3bc-cfaf1d888510"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/5355c8f4-be06-35b4-8b9e-5a0ccb7663df">
+        <skos:prefLabel xml:lang="en">{"id": "10b0fdc2-d535-4763-8ec2-cdbfbaaf5145", "value": "IMPRESSION"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "79d069d8-3f58-4eeb-a5cf-3ba9d5fe2cd6", "value": "The negative trace left by an object type or material (eg. animal, plant or textile) on another object type or material, often on ceramics or metal corrosion products."}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/dd11d0dc-9447-38b4-b531-c0f2ca09200d">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+        <skos:prefLabel xml:lang="en">{"id": "481f3bb6-aac0-4861-93a4-2d6f2664a47a", "value": "ANOXIC"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "702d4ede-8af7-41e4-b811-5cf21e442bf7", "value": "Material preserved by the exclusion of oxygen usually due to saturation with water which inhibits decay by micro-organisms."}</skos:scopeNote>
+        <skos:altLabel xml:lang="en">{"id": "49f07e76-2c9a-48fc-9fdf-3305efded2ac", "value": "Waterlogged"}</skos:altLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/5a689b54-b746-3283-b1e4-3df81888dfae">
+        <skos:scopeNote xml:lang="en">{"id": "b956dfe0-05dd-43a6-a897-969766351a88", "value": "Material that has been penetrated or disrupted by the roots or rhizomes of plants."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "145348ab-e1b5-43d0-8120-63fd70812759", "value": "PLANT DAMAGE"}</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
       </skos:Concept>
     </skos:narrower>
     <skos:narrower>
       <skos:Concept rdf:about="http://www.archesproject.org/6a031d73-b39a-3b28-9a09-56ef466991c8">
-        <skos:prefLabel xml:lang="en">{"id": "1a8facc0-bd1a-4b3a-859c-2833af42caa3", "value": "MINERAL REPLACED"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-        <skos:scopeNote xml:lang="en">{"id": "a1c14cd8-cecd-44bc-babd-5a02d048a5cb", "value": "Replacement of organic material by minerals, including calcium carbonate and calcium phosphate."}</skos:scopeNote>
-        <skos:altLabel xml:lang="en">{"id": "d4647332-aa47-423a-9226-a6c0cfea53fd", "value": "Fossilised"}</skos:altLabel>
         <skos:altLabel xml:lang="en">{"id": "13d9bbc8-ca24-4b6d-969b-ee7609db59a6", "value": "Mineralised"}</skos:altLabel>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/5355c8f4-be06-35b4-8b9e-5a0ccb7663df">
-        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-        <skos:prefLabel xml:lang="en">{"id": "10b0fdc2-d535-4763-8ec2-cdbfbaaf5145", "value": "IMPRESSION"}</skos:prefLabel>
-        <skos:scopeNote xml:lang="en">{"id": "79d069d8-3f58-4eeb-a5cf-3ba9d5fe2cd6", "value": "The negative trace left by an object type or material (eg. animal, plant or textile) on another object type or material, often on ceramics or metal corrosion products."}</skos:scopeNote>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/34354fde-142f-37fa-b576-d6b4fc9bc983">
-        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-        <skos:scopeNote xml:lang="en">{"id": "89e80a21-ec88-4e7b-89d4-6529148bef82", "value": "Material, especially rock, worn smooth by the passage of water."}</skos:scopeNote>
-        <skos:prefLabel xml:lang="en">{"id": "1670f74b-e048-4cff-b11f-d49900bc380f", "value": "WATERWORN"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/19dfb367-ec02-34c2-b3bc-cfaf1d888510">
-        <skos:scopeNote xml:lang="en">{"id": "af3e879d-ab6e-43bf-a901-27ef2329752e", "value": "Material that has been altered as a result of chemical action."}</skos:scopeNote>
-        <skos:prefLabel xml:lang="en">{"id": "d5b0fe36-86c6-4803-8cb9-97c0a030cf2e", "value": "CHEMICALLY ALTERED"}</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">{"id": "1a8facc0-bd1a-4b3a-859c-2833af42caa3", "value": "MINERAL REPLACED"}</skos:prefLabel>
+        <skos:altLabel xml:lang="en">{"id": "d4647332-aa47-423a-9226-a6c0cfea53fd", "value": "Fossilised"}</skos:altLabel>
+        <skos:scopeNote xml:lang="en">{"id": "a1c14cd8-cecd-44bc-babd-5a02d048a5cb", "value": "Replacement of organic material by minerals, including calcium carbonate and calcium phosphate."}</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
       </skos:Concept>
     </skos:narrower>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/5a689b54-b746-3283-b1e4-3df81888dfae">
-        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-        <skos:prefLabel xml:lang="en">{"id": "145348ab-e1b5-43d0-8120-63fd70812759", "value": "PLANT DAMAGE"}</skos:prefLabel>
-        <skos:scopeNote xml:lang="en">{"id": "b956dfe0-05dd-43a6-a897-969766351a88", "value": "Material that has been penetrated or disrupted by the roots or rhizomes of plants."}</skos:scopeNote>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/c89db4e4-a32c-396c-903c-4afcc5d8f3c2">
-        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-        <skos:prefLabel xml:lang="en">{"id": "8bc6a56f-394b-4333-9f66-408cdae9a14b", "value": "ALTERED BY ANIMALS"}</skos:prefLabel>
-        <skos:scopeNote xml:lang="en">{"id": "156cedb2-40d0-40a5-b1f0-53de2ca6efe8", "value": "Modified or damaged by an animal."}</skos:scopeNote>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/3e51671e-0aad-3dd1-85b1-e8cb685f287c">
-        <skos:scopeNote xml:lang="en">{"id": "d2209d57-9df3-484f-949f-6e7c7831697a", "value": "Material that has been damaged by fungal growth or secretions."}</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-        <skos:prefLabel xml:lang="en">{"id": "a065d32c-c36f-428b-8045-b9b0512869d1", "value": "FUNGAL DAMAGE"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/c8202d92-b882-3145-ba93-01b31059d7e1">
-        <skos:prefLabel xml:lang="en">{"id": "3b33aa2b-42d0-4bb9-9f1b-11a39a59d01b", "value": "MINERAL PRESERVED"}</skos:prefLabel>
-        <skos:scopeNote xml:lang="en">{"id": "4b22c21a-2fa1-4237-bccb-c1fd764b9a5b", "value": "Preservation of material by toxic effect of corrosion products in the immediate vicinity, or within, the material."}</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:prefLabel xml:lang="en">{"id": "34cc62e4-9856-4bd8-a26c-7b7f85369e5a", "value": "MODIFICATION STATE"}</skos:prefLabel>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/dd11d0dc-9447-38b4-b531-c0f2ca09200d">
-        <skos:scopeNote xml:lang="en">{"id": "702d4ede-8af7-41e4-b811-5cf21e442bf7", "value": "Material preserved by the exclusion of oxygen usually due to saturation with water which inhibits decay by micro-organisms."}</skos:scopeNote>
-        <skos:prefLabel xml:lang="en">{"id": "481f3bb6-aac0-4861-93a4-2d6f2664a47a", "value": "ANOXIC"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-        <skos:altLabel xml:lang="en">{"id": "49f07e76-2c9a-48fc-9fdf-3305efded2ac", "value": "Waterlogged"}</skos:altLabel>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/659a05c1-53c7-3ab5-9265-d684619652f7">
-        <skos:prefLabel xml:lang="en">{"id": "5b759d5c-59ef-4671-ad36-68ccbda8bbaa", "value": "DESICCATED"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-        <skos:scopeNote xml:lang="en">{"id": "b9931fc6-91b1-4ea8-a386-572377c4a476", "value": "Material preserved due to very low humidity which inhibits decay by micro-organisms."}</skos:scopeNote>
-      </skos:Concept>
-    </skos:narrower>
+    <skos:narrower rdf:resource="http://www.archesproject.org/c89db4e4-a32c-396c-903c-4afcc5d8f3c2"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/488d0539-8187-383c-a17f-1b684fab123d">
-    <skos:scopeNote xml:lang="en">{"id": "7fad9f3b-76b0-49c7-a4a6-23cee32277e0", "value": "Use for any material that shows evidence of modification by humans."}</skos:scopeNote>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/4cffc07a-334c-3e24-86ac-9fcf544846e9">
-        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-        <skos:prefLabel xml:lang="en">{"id": "562eeee6-3c39-4b0c-9c6a-164eb1db723a", "value": "COLOURED"}</skos:prefLabel>
-        <skos:altLabel xml:lang="en">{"id": "d8134ce5-3181-470c-b264-67a06cc2de88", "value": "Colored"}</skos:altLabel>
-        <skos:scopeNote xml:lang="en">{"id": "650c5a9a-d705-4ef7-bf96-2f5d8c30aadd", "value": "Material with evidence of the application of a pigment or dye."}</skos:scopeNote>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:prefLabel xml:lang="en">{"id": "7610f09a-28cd-4787-94cf-12ef9344a13c", "value": "WORKED"}</skos:prefLabel>
+  <skos:Concept rdf:about="http://www.archesproject.org/7f7ff97d-b8a5-3bde-81a9-8c5224574a9c">
+    <skos:scopeNote xml:lang="en">{"id": "5f5c6d3b-a8bd-4bf3-b770-dd3b95679715", "value": "A precious metal of lustrous, white colour with great malleability and ductility."}</skos:scopeNote>
     <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/2666fca0-cc8e-339c-b021-fc34a9794347">
-        <skos:prefLabel xml:lang="en">{"id": "6089ed01-5d73-4535-9000-c5088be3399d", "value": "CARVED"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/a984107d-4c69-3ef3-9daa-7aa4e5dd6064">
-        <skos:altLabel xml:lang="en">{"id": "2e53bf13-c85b-408b-b093-fb702e38f032", "value": "Tool Marks"}</skos:altLabel>
-        <skos:scopeNote xml:lang="en">{"id": "a0300482-5c1e-4f15-b9d2-71531cf08b1e", "value": "Use where evidence of tool marks is present"}</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-        <skos:prefLabel xml:lang="en">{"id": "c3bb52bb-6a71-49ca-82a5-62ee387ac0ef", "value": "TOOL MARKED"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/5f41e2d4-df80-3130-97ba-1f44f147aadb">
-        <skos:prefLabel xml:lang="en">{"id": "551eda1c-e396-4239-9b7d-6887362d5682", "value": "DECORATED"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-        <skos:altLabel xml:lang="en">{"id": "b3ecb179-ff2e-446f-9c49-7827cf0ecbff", "value": "Decoration"}</skos:altLabel>
-        <skos:scopeNote xml:lang="en">{"id": "0cd94da0-efec-4634-b6cb-72862bafa46c", "value": "Use where decoration is present."}</skos:scopeNote>
-      </skos:Concept>
-    </skos:narrower>
+    <skos:prefLabel xml:lang="en">{"id": "11468f8b-1c6b-4217-baa4-06be02fdb37b", "value": "SILVER"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/47b6cb24-92f0-32dc-8070-6ee46e871173">
+    <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+    <skos:prefLabel xml:lang="en">{"id": "2c2833da-d66b-4f2a-b768-999073ebe342", "value": "COPPER ALLOY"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "788feeb5-877b-4c61-b727-9e008cface3a", "value": "Use for a combination (alloy) of two or more different metals where copper (Cu) is the principal component."}</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="http://www.archesproject.org/3affbf1e-398e-30b9-8ac5-497664f660ae">
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/1dd69349-6fa1-3d11-8e73-733bb7695ded">
-        <skos:scopeNote xml:lang="en">{"id": "3d6b07af-20be-4d79-afdc-1b4d95d30fca", "value": "The degree to which a material will become magnetised when placed in a magnetic field."}</skos:scopeNote>
-        <skos:prefLabel xml:lang="en">{"id": "58aa8075-33c3-44c3-bec0-c0dc3ad53831", "value": "MAGNETIC SUSCEPTIBILITY"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/29488313-7bd2-3de2-9255-ca7befd944cb">
-        <skos:narrower rdf:resource="http://www.archesproject.org/39cd05df-0db9-347c-9319-7f88dd5735da"/>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-        <skos:narrower rdf:resource="http://www.archesproject.org/719e66ba-03bb-369c-83bd-fd8ee5146717"/>
-        <skos:scopeNote xml:lang="en">{"id": "b34d6dac-15ff-40af-b89c-d721a8dc1754", "value": "The use of magnifying equipment to examine materials not visible to the naked eye."}</skos:scopeNote>
-        <skos:prefLabel xml:lang="en">{"id": "e62da3b1-10d2-48eb-a5c9-e4432ef78805", "value": "MICROSCOPY"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/00443ec3-e65d-3aaa-a274-83f6990e7bf1">
-        <skos:prefLabel xml:lang="en">{"id": "bdd950c3-4a63-46cf-9f2c-bdc313855d4a", "value": "MICROMORPHOLOGY"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-        <skos:scopeNote xml:lang="en">{"id": "e81af374-e58f-47f6-9e86-17a0e2f64725", "value": "The microscopic analysis of thin sections of resin impregnated stratigraphy."}</skos:scopeNote>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:scopeNote xml:lang="en">{"id": "031ebf40-a27c-4864-ae8d-c8169a2275de", "value": "The examination of material by physical means, including detailed observation."}</skos:scopeNote>
     <skos:narrower rdf:resource="http://www.archesproject.org/2a975a1b-68e7-3e6d-898e-8f81d41fd715"/>
-    <skos:prefLabel xml:lang="en">{"id": "37c06532-5853-4758-bc4e-ea4527a339da", "value": "PHYSICAL TECHNIQUES"}</skos:prefLabel>
+    <skos:narrower rdf:resource="http://www.archesproject.org/4d3fcd5d-8fc6-3ae5-ab65-de69c9e08f0e"/>
+    <skos:narrower rdf:resource="http://www.archesproject.org/1dd69349-6fa1-3d11-8e73-733bb7695ded"/>
     <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/75c97e8e-0281-39a9-ad7f-aaae5906704f">
-        <skos:scopeNote xml:lang="en">{"id": "de06779b-3385-400d-b66d-bd6fd38adac0", "value": "The study of minerals."}</skos:scopeNote>
-        <skos:prefLabel xml:lang="en">{"id": "cfd5d4a9-9342-4c60-8311-63842a76adc5", "value": "MINERALOGY"}</skos:prefLabel>
+      <skos:Concept rdf:about="http://www.archesproject.org/271a66b4-6f4b-3896-b545-b98a9042471b">
         <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/4d3fcd5d-8fc6-3ae5-ab65-de69c9e08f0e">
-        <skos:prefLabel xml:lang="en">{"id": "40e6c39e-8b18-4146-abe5-a73bf7efa0bc", "value": "LOSS ON IGNITION DETERMINATION"}</skos:prefLabel>
-        <skos:scopeNote xml:lang="en">{"id": "25eefdfd-b734-412b-8c78-b40483085a63", "value": "The weight loss from low-temperature burning of material. It correlates well with organic matter (material derived from living things) content."}</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+        <skos:prefLabel xml:lang="en">{"id": "68c29db1-f81f-40d0-8ccd-cc06d3d905f2", "value": "MOISTURE CONTENT"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "39865e1d-816d-4178-b515-048a4556dcc8", "value": "A measure of the proportion of water within a sample."}</skos:scopeNote>
       </skos:Concept>
     </skos:narrower>
     <skos:narrower>
@@ -520,351 +730,131 @@
         <skos:scopeNote xml:lang="en">{"id": "a655f6af-beee-410e-b44c-e185c3cd2ac0", "value": "The analysis of the distribution and proportion of sand, silt and clay in a deposit."}</skos:scopeNote>
       </skos:Concept>
     </skos:narrower>
+    <skos:narrower rdf:resource="http://www.archesproject.org/5a41d981-4d28-3ca9-b1c1-4ac2c3364c49"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/00443ec3-e65d-3aaa-a274-83f6990e7bf1">
+        <skos:scopeNote xml:lang="en">{"id": "e81af374-e58f-47f6-9e86-17a0e2f64725", "value": "The microscopic analysis of thin sections of resin impregnated stratigraphy."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "bdd950c3-4a63-46cf-9f2c-bdc313855d4a", "value": "MICROMORPHOLOGY"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="en">{"id": "37c06532-5853-4758-bc4e-ea4527a339da", "value": "PHYSICAL TECHNIQUES"}</skos:prefLabel>
+    <skos:narrower rdf:resource="http://www.archesproject.org/aad98369-707f-3b33-b6c1-fe1c5640b38a"/>
+    <skos:narrower rdf:resource="http://www.archesproject.org/29488313-7bd2-3de2-9255-ca7befd944cb"/>
     <skos:narrower>
       <skos:Concept rdf:about="http://www.archesproject.org/365e0da6-1f4e-3c65-8d05-c806db89ffe1">
-        <skos:prefLabel xml:lang="en">{"id": "8f865116-f37f-45c2-bc9e-ea8bcee4f3e6", "value": "X-RADIOGRAPHY"}</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+        <skos:prefLabel xml:lang="en">{"id": "8f865116-f37f-45c2-bc9e-ea8bcee4f3e6", "value": "X-RADIOGRAPHY"}</skos:prefLabel>
         <skos:scopeNote xml:lang="en">{"id": "72f003ab-ea42-4c52-8cd1-fd38a80812a2", "value": "The production of an image on a photographic plate as a result of X-rays (very short wavelength electromagnetic radiation) being passed through an object."}</skos:scopeNote>
       </skos:Concept>
     </skos:narrower>
     <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/271a66b4-6f4b-3896-b545-b98a9042471b">
+      <skos:Concept rdf:about="http://www.archesproject.org/75c97e8e-0281-39a9-ad7f-aaae5906704f">
+        <skos:scopeNote xml:lang="en">{"id": "de06779b-3385-400d-b66d-bd6fd38adac0", "value": "The study of minerals."}</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-        <skos:prefLabel xml:lang="en">{"id": "68c29db1-f81f-40d0-8ccd-cc06d3d905f2", "value": "MOISTURE CONTENT"}</skos:prefLabel>
-        <skos:scopeNote xml:lang="en">{"id": "39865e1d-816d-4178-b515-048a4556dcc8", "value": "A measure of the proportion of water within a sample."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "cfd5d4a9-9342-4c60-8311-63842a76adc5", "value": "MINERALOGY"}</skos:prefLabel>
       </skos:Concept>
     </skos:narrower>
     <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-    <skos:narrower rdf:resource="http://www.archesproject.org/5a41d981-4d28-3ca9-b1c1-4ac2c3364c49"/>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/aad98369-707f-3b33-b6c1-fe1c5640b38a">
-        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-        <skos:prefLabel xml:lang="en">{"id": "29c6516d-27b3-4ef9-ad1b-9f918dcd505e", "value": "STRATIGRAPHIC DESCRIPTION"}</skos:prefLabel>
-        <skos:scopeNote xml:lang="en">{"id": "05347eac-95bb-42c9-975f-cd061f51c871", "value": "The careful observation and written description of the physical characteristics of stratigraphy. It will normally include information on texture, colour and the nature of the different components."}</skos:scopeNote>
-      </skos:Concept>
-    </skos:narrower>
+    <skos:scopeNote xml:lang="en">{"id": "031ebf40-a27c-4864-ae8d-c8169a2275de", "value": "The examination of material by physical means, including detailed observation."}</skos:scopeNote>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/5f45fab2-eeaf-3b94-9b34-8c9e008e67cc">
-    <skos:prefLabel xml:lang="en">{"id": "79988884-2007-40b5-96de-970caf709d16", "value": "ANCIENT BIOMOLECULAR ANALYSIS"}</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">{"id": "559b55c5-5275-4659-bfed-0db71eab50d0", "value": "Characterisation of organic molecules extracted from fossil or sub-fossil materials, including lipids, DNA etc."}</skos:scopeNote>
+  <skos:Concept rdf:about="http://www.archesproject.org/75d9122d-b7c5-3ca2-a249-bb01563dc36c">
+    <skos:narrower rdf:resource="http://www.archesproject.org/7cdc1e9f-3c96-3fe7-bcde-6dd52886f35a"/>
+    <skos:prefLabel xml:lang="en">{"id": "03b49213-ab9f-4716-8e0d-e7765657fa4a", "value": "INVESTIGATIVE TECHNIQUES"}</skos:prefLabel>
+    <skos:narrower rdf:resource="http://www.archesproject.org/3affbf1e-398e-30b9-8ac5-497664f660ae"/>
+    <skos:narrower rdf:resource="http://www.archesproject.org/102207ba-f2c2-3671-aec5-8928c6fe2e6a"/>
     <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/102207ba-f2c2-3671-aec5-8928c6fe2e6a">
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/75ab3a77-21f7-32d2-ad6d-3ee345448b28">
-        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-        <skos:narrower rdf:resource="http://www.archesproject.org/d9f799eb-83b6-341b-9542-317ae20876b5"/>
-        <skos:narrower rdf:resource="http://www.archesproject.org/0bfff80e-654d-3715-8295-71475a3ffd8e"/>
-        <skos:prefLabel xml:lang="en">{"id": "023bfda1-54ed-4f79-8a18-09e13c16446d", "value": "SOIL PHOSPHORUS ANALYSIS"}</skos:prefLabel>
-        <skos:narrower rdf:resource="http://www.archesproject.org/8db46cee-38ac-342d-8a5d-d6f5e58c907f"/>
-        <skos:scopeNote xml:lang="en">{"id": "ec8abd59-4c95-46e9-abb6-689c98d68000", "value": "The analysis of the amount of phosphorus (P) present in a soil."}</skos:scopeNote>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/94f048f4-26c3-3b55-9e9f-878e2898add2">
-        <skos:prefLabel xml:lang="en">{"id": "05c61d1b-e350-4854-8c69-017a185f2e38", "value": "ALPHA SPECTROMETRY"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-        <skos:scopeNote xml:lang="en">{"id": "73c441ab-0e07-4729-9771-ff873f27049c", "value": "A technique that uses the emission of alpha particles of specific energies to identify the presence and concentration of certain radioactive isotopes in a sample"}</skos:scopeNote>
-      </skos:Concept>
-    </skos:narrower>
+  <skos:Concept rdf:about="http://www.archesproject.org/38ea4fba-5c7d-3900-939e-0c653e704f4f">
+    <skos:prefLabel xml:lang="en">{"id": "aac93e0a-1db4-4642-815e-8f2b89d02d2c", "value": "HAND RETRIEVAL"}</skos:prefLabel>
     <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-    <skos:scopeNote xml:lang="en">{"id": "a9adb0ed-bd3c-432d-99a0-3d4e1d7281d6", "value": "Examination of a material using chemical means."}</skos:scopeNote>
-    <skos:prefLabel xml:lang="en">{"id": "bfadf365-01af-4a36-939e-3b43735b723b", "value": "CHEMICAL TECHNIQUES"}</skos:prefLabel>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/9412fa7f-77c9-3d52-be1d-6042b382e9c7">
-        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-        <skos:prefLabel xml:lang="en">{"id": "9ffaaef3-bf49-40a9-88f0-7a9b972fcaee", "value": "PH DETERMINATION"}</skos:prefLabel>
-        <skos:scopeNote xml:lang="en">{"id": "41d2f865-e573-4848-869a-d6e28aa7009a", "value": "The degree of acidity or alkalinity of a material."}</skos:scopeNote>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower rdf:resource="http://www.archesproject.org/3b1c8fe3-1380-38c7-b5b3-4ed5a23db1db"/>
-    <skos:narrower rdf:resource="http://www.archesproject.org/5f45fab2-eeaf-3b94-9b34-8c9e008e67cc"/>
-    <skos:narrower rdf:resource="http://www.archesproject.org/f7c1eb29-f44e-38ae-93da-a8758cfbcc91"/>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/4bbb353c-d2f1-34bd-8408-c2c9e1ed5b65">
-        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-        <skos:prefLabel xml:lang="en">{"id": "d1df310f-44b3-4823-9928-3af22bad3473", "value": "PEAT HUMIFICATION"}</skos:prefLabel>
-        <skos:scopeNote xml:lang="en">{"id": "50b8ef74-808e-425a-969f-3cee9e48b838", "value": "A method of determining peat degradation; quantified as the percentage light transmission value of the extracted humic acids, measured at a specific wavelength."}</skos:scopeNote>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/e0fd8163-1ff3-35fc-b3c4-6be7e9d21850">
-        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-        <skos:scopeNote xml:lang="en">{"id": "dd85db1f-488c-4854-842a-eec5b9b6ff84", "value": "The application of a chemical test to a material, usually as a rapid approximation."}</skos:scopeNote>
-        <skos:prefLabel xml:lang="en">{"id": "e5c80973-40e2-4c12-861c-9a1eab42fab5", "value": "SPOT TEST"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/b57096e4-bdce-3cd7-aac0-33abbfe9f3f4">
-        <skos:prefLabel xml:lang="en">{"id": "c7edf9f6-a631-469b-bf5a-b4894f2b54c1", "value": "GAMMA SPECTROMETRY"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-        <skos:scopeNote xml:lang="en">{"id": "aba14fb0-e4a0-40ff-bd82-b6e0ffaf231a", "value": "A technique that uses the emission of gamma rays of specific energies to identify the presence and concentration of certain radioactive isotopes in a sample"}</skos:scopeNote>
-      </skos:Concept>
-    </skos:narrower>
+    <skos:scopeNote xml:lang="en">{"id": "0603b676-614c-4324-9b25-e4d1620878a0", "value": "The retrieval of material from deposits by hand, normally large objects visible with the naked eye, eg. Mammal remains and marine molluscs."}</skos:scopeNote>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/b85fc25d-634c-321b-b03b-a53892d1ed4e">
+  <skos:Concept rdf:about="http://www.archesproject.org/d9f799eb-83b6-341b-9542-317ae20876b5">
+    <skos:scopeNote xml:lang="en">{"id": "50f83cdc-464b-4e84-8b02-a7ea17f02434", "value": "The analysis of inorganic phosphorus (P)."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "7cb4bdd7-a456-4de6-b410-080ba84eec70", "value": "INORGANIC PHOSPHORUS ANALYSIS"}</skos:prefLabel>
     <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-    <skos:scopeNote xml:lang="en">{"id": "3ac9e5c5-a9ab-4870-9947-863e53380c75", "value": "A technique for the dating of damage tracks in volcanic materials caused by the fissioning of decaying radioactive uranium (U) isotopes. Useful in samples more than 50,000 years old."}</skos:scopeNote>
-    <skos:prefLabel xml:lang="en">{"id": "4fbeac46-1d8e-4a56-af0f-4727e04838f3", "value": "FISSION TRACK ANALYSIS"}</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/04a92ba8-4a40-3e7d-9126-9ab519f6e8df">
+  <skos:Concept rdf:about="http://www.archesproject.org/cefd187f-2f94-37bd-a561-856d152366cd">
+    <skos:narrower rdf:resource="http://www.archesproject.org/38ea4fba-5c7d-3900-939e-0c653e704f4f"/>
+    <skos:prefLabel xml:lang="en">{"id": "3a481bf9-3491-4b75-a4a9-2f8272bccdbf", "value": "METHOD OF RECOVERY"}</skos:prefLabel>
+    <skos:narrower rdf:resource="http://www.archesproject.org/064aba70-9153-3e78-9db6-1cfced275cce"/>
     <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-    <skos:scopeNote xml:lang="en">{"id": "e1b0737b-a255-4fbb-b358-515869e85477", "value": "The measurement of the decay of radioactive uranium (U) isotopes. Particularly useful for dating calcite and sometimes bone, tooth and shell up to 70,000 years old."}</skos:scopeNote>
-    <skos:prefLabel xml:lang="en">{"id": "ced6a636-8de6-4540-a557-77f1d24b6ec6", "value": "URANIUM SERIES DATING"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/fe41555f-ef11-3705-9f38-fb6b3179f427">
+    <skos:narrower rdf:resource="http://www.archesproject.org/50840b83-4092-319d-bc7c-46959ae2b669"/>
     <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/ad998daa-3854-3a72-8c6c-7650f963a095">
-        <skos:altLabel xml:lang="en">{"id": "68888225-9725-4920-8e4b-465c7e9101db", "value": "Osl Dating"}</skos:altLabel>
-        <skos:prefLabel xml:lang="en">{"id": "02f5e515-4eac-47d5-802b-418e48e729a4", "value": "OPTICALLY STIMULATED LUMINESCENCE"}</skos:prefLabel>
-        <skos:scopeNote xml:lang="en">{"id": "41cd5059-7386-4250-88fe-4586e32f5b7c", "value": "The light emitted from sedimentary minerals or mineral inclusions in bricks when stimulated in the laboratory by light of a different wavelength. Used to date samples up to 250,000 years old; especially appropriate for geological sediments."}</skos:scopeNote>
-        <skos:altLabel xml:lang="en">{"id": "33ffe91f-9583-4986-8950-b7bd24171f1e", "value": "Osl"}</skos:altLabel>
+      <skos:Concept rdf:about="http://www.archesproject.org/75412c69-9b70-34aa-9ced-56d1dc9df97b">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+        <skos:prefLabel xml:lang="en">{"id": "e62c46d8-24aa-4831-921a-0b25de7e23c7", "value": "FLOTATION"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "b5efbddf-d40f-4df7-9e2b-80d66eaa3e69", "value": "Method used for the recovering of material by floating large whole earth samples, usually between 40-60 litres per context (or 100% if context contains less than this)."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/72930691-9249-3cb1-bd83-a8037b3f3680">
+        <skos:scopeNote xml:lang="en">{"id": "851b601c-8e74-4a03-b33f-b36a9aa6fa38", "value": "The removal of fragile or complex remains from an investigation as a block of earth for excavation under laboratory conditions. Typical examples are grave goods and cremation burials."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "e4e125e7-73bc-4a1a-8127-de86d0ccfc60", "value": "BLOCK LIFTING"}</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
       </skos:Concept>
     </skos:narrower>
-    <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/62c4772e-b023-39d5-9421-ef7c6c1713fb">
-        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-        <skos:scopeNote xml:lang="en">{"id": "9803a443-d5c3-4107-9466-f53236d72ec5", "value": "The light emitted from sedimentary minerals or mineral inclusions in bricks when stimulated in the laboratory by infrared light. Used to date samples up to 250,000 years old; especially appropriate for geological sediments containing feldspars"}</skos:scopeNote>
-        <skos:prefLabel xml:lang="en">{"id": "167e49ae-aaa1-4d0f-9c0a-239203507c1b", "value": "INFRA-RED STIMULATED LUMINESCENCE"}</skos:prefLabel>
-        <skos:altLabel xml:lang="en">{"id": "98aa146c-f6b5-4e4e-b460-4fb1b2e3e5a2", "value": "Irsl Dating"}</skos:altLabel>
-        <skos:altLabel xml:lang="en">{"id": "c6fc054e-425f-475e-b8d4-f429c3748cd1", "value": "Irsl"}</skos:altLabel>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:prefLabel xml:lang="en">{"id": "d8e34a16-ae7e-4d9f-854b-0030d84d11b0", "value": "LUMINESCENCE DATING"}</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.archesproject.org/accd90c0-01fc-3bbd-abeb-dc02e9bee1a3"/>
-    <skos:scopeNote xml:lang="en">{"id": "8d10327b-ca66-4d95-bbe5-6b40d9bc9b83", "value": "A range of techniques that use the build up of charge stored within a crystalline material to estimate its age"}</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="http://www.archesproject.org/8db46cee-38ac-342d-8a5d-d6f5e58c907f">
+    <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
     <skos:prefLabel xml:lang="en">{"id": "205d7d2e-96e7-47d1-9128-790a1bb2c35e", "value": "AVAILABLE PHOSPHORUS ANALYSIS"}</skos:prefLabel>
     <skos:scopeNote xml:lang="en">{"id": "3ca28604-ed5d-4ba7-8bec-de96dd91521d", "value": "The analysis of the amount of phosphorus (P) (liable fraction) available to plants."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/ea6ad7c8-1747-3644-851f-75d4987de142">
+    <skos:scopeNote xml:lang="en">{"id": "c051a961-b727-4b43-b0c4-0ec50e7354ab", "value": "Material comprising entrie or partial transverse sections of stems. Bark may be present or not. Can include complete sections of tree trunk but generally comprises smaller (&lt;20cm diameter) material."}</skos:scopeNote>
     <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+    <skos:prefLabel xml:lang="en">{"id": "a0533dc5-5f55-456a-9571-4a5c6581191b", "value": "ROUNDWOOD"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/9c7dde4d-d7cb-392c-b63e-a408738b234d">
+    <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+    <skos:scopeNote xml:lang="en">{"id": "d8da5670-0a8d-4b16-8b0f-5884be381613", "value": "Use for material that has been burnt at high temperature in a good air supply such that only the silica component remains."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "99348b41-4e19-40d1-b1cf-9facdcbf3bbd", "value": "SILICIFIED"}</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="http://www.archesproject.org/deb4f4f9-3eea-3c50-9e01-f089a12a8a4c">
     <skos:prefLabel xml:lang="en">{"id": "f447700c-f95e-4864-b9cf-ba783cbea2be", "value": "IVORY"}</skos:prefLabel>
     <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
     <skos:scopeNote xml:lang="en">{"id": "5434e35a-93b9-48a2-b0d3-d5b4abf46db7", "value": "Use for a tusk or tooth of a mammal large enough to be carved or used to make objects such as those of mammoths, elephants, walruses and whales."}</skos:scopeNote>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/6e396a5c-a9f8-3a1d-aa1a-04bfa0ddbda8">
-    <skos:scopeNote xml:lang="en">{"id": "887b778c-9854-4ec1-bf78-0f05a0298695", "value": "The measurement of chemical alterations in the amino acids in protein molecules from bones, shells and teeth. Date range can be between 1,000 and several million years."}</skos:scopeNote>
+  <skos:Concept rdf:about="http://www.archesproject.org/62c4772e-b023-39d5-9421-ef7c6c1713fb">
+    <skos:scopeNote xml:lang="en">{"id": "9803a443-d5c3-4107-9466-f53236d72ec5", "value": "The light emitted from sedimentary minerals or mineral inclusions in bricks when stimulated in the laboratory by infrared light. Used to date samples up to 250,000 years old; especially appropriate for geological sediments containing feldspars"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "167e49ae-aaa1-4d0f-9c0a-239203507c1b", "value": "INFRA-RED STIMULATED LUMINESCENCE"}</skos:prefLabel>
     <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-    <skos:prefLabel xml:lang="en">{"id": "669183e9-2d0f-4138-89b1-3ea4b28af772", "value": "AMINO ACID RACEMISATION"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/84801bc2-5ba3-34d0-a789-a61b53ac9ef2">
-    <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-    <skos:scopeNote xml:lang="en">{"id": "25763b73-a022-43f1-b791-7475e8aef792", "value": "The use of ash and tephra deposits characteristic of single known-date volcanic eruptions to date stratigraphic sequences."}</skos:scopeNote>
-    <skos:prefLabel xml:lang="en">{"id": "1eb7c596-232b-4cd2-982e-25f9ef2c3950", "value": "TEPHROCHRONOLOGY"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/da8a6429-5d97-38c1-b3db-aad25a7348f9">
-    <skos:prefLabel xml:lang="en">{"id": "60505a5c-64a4-4abf-8955-c1690bfe2cdd", "value": "FELDSPAR"}</skos:prefLabel>
-    <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-    <skos:scopeNote xml:lang="en">{"id": "2393aacd-5415-4a52-99d0-5c69d1cc6961", "value": "A group of aluminosilicate minerals with varying compositions. The most common mineral in igneous rocks, and common in other rocks and sediments."}</skos:scopeNote>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/7cdc1e9f-3c96-3fe7-bcde-6dd52886f35a">
-    <skos:prefLabel xml:lang="en">{"id": "4b8d9ff0-8378-4e26-b345-f63be1078eeb", "value": "DATING TECHNIQUES"}</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.archesproject.org/04a92ba8-4a40-3e7d-9126-9ab519f6e8df"/>
-    <skos:narrower rdf:resource="http://www.archesproject.org/91ff81c2-bfb5-3c60-9ff9-b5896b185cb3"/>
-    <skos:narrower rdf:resource="http://www.archesproject.org/36b7507b-4217-355c-8ed2-2115338ccda7"/>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/90b14c71-e1fa-3330-8f61-3d2689de6389">
-        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-        <skos:scopeNote xml:lang="en">{"id": "242d0190-6160-4c39-a107-0acbe7eb9005", "value": "A technique used to date obsidian (volcanic glass) of all ages and is thus not commonly used in the UK."}</skos:scopeNote>
-        <skos:prefLabel xml:lang="en">{"id": "c3cc0af4-7077-42d8-8c71-79bbcd4f17ba", "value": "OBSIDIAN HYDRATION"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower rdf:resource="http://www.archesproject.org/84801bc2-5ba3-34d0-a789-a61b53ac9ef2"/>
-    <skos:narrower rdf:resource="http://www.archesproject.org/b85fc25d-634c-321b-b03b-a53892d1ed4e"/>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/b4b46e43-b156-3432-a71a-31e695d8973c">
-        <skos:prefLabel xml:lang="en">{"id": "9d3fbfcf-2f9b-4531-9b76-77ecfc6e320e", "value": "FLUORINE, URANIUM AND NITROGEN TESTS"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-        <skos:scopeNote xml:lang="en">{"id": "ab98aac1-492e-45a1-8f7e-7f91f55524e8", "value": "A relative dating technique for assessing bones from the same deposit. Often used to check for contemporaneity of bones selected for radiocarbon dating or to check for hoaxes such as the Piltdown Man."}</skos:scopeNote>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/1b9ff79b-6433-36ab-b540-1c67970c9355">
-        <skos:prefLabel xml:lang="en">{"id": "e903c368-d948-42b8-b41f-96e0fd9305fb", "value": "OXYGEN ISOTOPE ANALYSIS"}</skos:prefLabel>
-        <skos:scopeNote xml:lang="en">{"id": "d50fb922-4684-4d22-a7dd-551dbc369a70", "value": "The use of oxygen (O) isotope ratios in ice or ocean sediment cores to date global environmental change."}</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:scopeNote xml:lang="en">{"id": "08f51327-2c83-4bdd-95c1-54357ced2bec", "value": "Techniques applied to a material in order to date it or material associated with it. Use more specific terms."}</skos:scopeNote>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/fd258556-4a37-3a49-abe9-2ea245f20a2b">
-        <skos:prefLabel xml:lang="en">{"id": "356b626b-e0fa-46a5-abd5-33bb99a4adc0", "value": "ELECTRON SPIN RESONANCE"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-        <skos:scopeNote xml:lang="en">{"id": "9598a884-1a09-4315-9c1f-9a048df2a42a", "value": "The measurement of trapped electrons by exposure to high-frequency electromagnetic radiation. A useful technique for dating tooth enamel, shells, coral and calcite form 5,000-1,000,000 years old."}</skos:scopeNote>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower rdf:resource="http://www.archesproject.org/fe41555f-ef11-3705-9f38-fb6b3179f427"/>
-    <skos:narrower rdf:resource="http://www.archesproject.org/262e3cc0-851b-395d-9262-89c3aad6b996"/>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/730cd574-a4ef-3bae-986c-05a614fa509c">
-        <skos:scopeNote xml:lang="en">{"id": "142ecba9-f552-4f38-bdf1-436499e60844", "value": "Measures the remanent magnetisation direction of magnetic minerals. Useful for dating fired structures, in-situ since their last firing, and for sediments settling from non turbulent water bodies. In the UK, calibration data extends back to 1000BC."}</skos:scopeNote>
-        <skos:prefLabel xml:lang="en">{"id": "533ffba5-1b32-4233-ac0c-0829bf1059ee", "value": "ARCHAEOMAGNETISM"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/e463bbbd-add7-3868-97c0-d2316bdf3a5c">
-        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-        <skos:prefLabel xml:lang="en">{"id": "bd8449c5-fe98-491f-93cd-fb4795c24935", "value": "BIOSTRATIGRAPHY"}</skos:prefLabel>
-        <skos:scopeNote xml:lang="en">{"id": "354209df-d0dd-4dce-931f-9dac0c125d27", "value": "A technique in which the date is deduced from the presence of fauna and/or flora considered to be characteristic of a given peirod of time or that gives and indication of a probable date."}</skos:scopeNote>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/f537e31d-14c7-3662-8584-1e04d2eaa210">
-        <skos:prefLabel xml:lang="en">{"id": "2477ad75-0d41-4d7a-a05f-adde3b5629a5", "value": "RADIOCARBON DATING"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-        <skos:scopeNote xml:lang="en">{"id": "f855efa2-645a-4eb9-bc8e-891e37713887", "value": "The measurement of the ratio of the radioactive Carbon 14 (C-14) isotope and non-radioactive carbon isotopes. Useful for dating organic materials such as wood and bone between 500 and 45,000 years old."}</skos:scopeNote>
-        <skos:altLabel xml:lang="en">{"id": "14afcd4c-0b92-485b-9b7a-720d054aaf7d", "value": "Carbon 14 Dating"}</skos:altLabel>
-        <skos:altLabel xml:lang="en">{"id": "b743e087-46c8-4fba-a8d3-d46c34e24cc2", "value": "C14 Dating"}</skos:altLabel>
-        <skos:altLabel xml:lang="en">{"id": "0ec3a334-2116-484e-a0f0-ffb8af370333", "value": "Carbon Dating"}</skos:altLabel>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/3a4bf6f8-6f0b-39a6-80db-82b5ffc50f59">
-        <skos:scopeNote xml:lang="en">{"id": "f63b97d8-4077-4c32-8115-cdbc69c58395", "value": "The measurement of the ratio of a radioactive potassium (K) isotope and the argon (Ar) gas produced as a by-product of its decay. Useful for dating volcanic material older than 1,000 years."}</skos:scopeNote>
-        <skos:prefLabel xml:lang="en">{"id": "f1013663-14d4-46f9-97a9-c79284919f87", "value": "POTASSIUM ARGON DATING"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower rdf:resource="http://www.archesproject.org/6e396a5c-a9f8-3a1d-aa1a-04bfa0ddbda8"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/75412c69-9b70-34aa-9ced-56d1dc9df97b">
-    <skos:prefLabel xml:lang="en">{"id": "e62c46d8-24aa-4831-921a-0b25de7e23c7", "value": "FLOTATION"}</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">{"id": "b5efbddf-d40f-4df7-9e2b-80d66eaa3e69", "value": "Method used for the recovering of material by floating large whole earth samples, usually between 40-60 litres per context (or 100% if context contains less than this)."}</skos:scopeNote>
-    <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/9c7dde4d-d7cb-392c-b63e-a408738b234d">
-    <skos:scopeNote xml:lang="en">{"id": "d8da5670-0a8d-4b16-8b0f-5884be381613", "value": "Use for material that has been burnt at high temperature in a good air supply such that only the silica component remains."}</skos:scopeNote>
-    <skos:prefLabel xml:lang="en">{"id": "99348b41-4e19-40d1-b1cf-9facdcbf3bbd", "value": "SILICIFIED"}</skos:prefLabel>
-    <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/0bfff80e-654d-3715-8295-71475a3ffd8e">
-    <skos:scopeNote xml:lang="en">{"id": "50342491-7269-47a8-b7b4-7cbed019ce46", "value": "The analysis of organic plus inorganic phosphorus (P)."}</skos:scopeNote>
-    <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-    <skos:prefLabel xml:lang="en">{"id": "a092f1e3-1eac-407d-8ad7-809403deb3ff", "value": "TOTAL PHOSPHORUS ANALYSIS"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/34fb000d-0241-3821-a862-9a99692b6292">
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/22672da5-97b8-3a1e-98c9-22e57c09d5ea">
-        <skos:scopeNote xml:lang="en">{"id": "1a285883-a92b-48f3-ad21-f8ce26fcd6e9", "value": "Aspects of a material which result from the modification or use of the material by humans."}</skos:scopeNote>
-        <skos:narrower rdf:resource="http://www.archesproject.org/488d0539-8187-383c-a17f-1b684fab123d"/>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-        <skos:narrower rdf:resource="http://www.archesproject.org/6f1fedb0-bdfc-3307-9416-86b836ff2bd2"/>
-        <skos:prefLabel xml:lang="en">{"id": "40f4874d-e1e9-411b-bc87-27aeb0641476", "value": "HUMAN ASPECTS"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/f5a5112c-2e17-3ded-84be-c77341e0d5bf">
-        <skos:narrower rdf:resource="http://www.archesproject.org/41bfc26a-9de6-3c65-a0e2-ab2ef47e7d58"/>
-        <skos:narrower rdf:resource="http://www.archesproject.org/bb3e681c-a3df-372f-896c-842ef2b91cc9"/>
-        <skos:prefLabel xml:lang="en">{"id": "e8b55389-4ea6-4aec-9c69-33f1515ce1e7", "value": "NATURAL ASPECTS"}</skos:prefLabel>
-        <skos:scopeNote xml:lang="en">{"id": "87976a0f-bfdd-4f9e-ae67-c58985ea02d6", "value": "Aspects associated with the genetic make up and/or factors that affected the organism from which the material is derived during its life"}</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:prefLabel xml:lang="en">{"id": "2774cbc8-c521-4756-95ed-9c20775b0c3f", "value": "ASPECT"}</skos:prefLabel>
-    <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/bb3e681c-a3df-372f-896c-842ef2b91cc9">
-    <skos:altLabel xml:lang="en">{"id": "bacef5eb-d198-4714-b93c-fe6217a9363c", "value": "Diseased"}</skos:altLabel>
-    <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-    <skos:altLabel xml:lang="en">{"id": "9c541de8-f78b-4ce2-a100-dcecb3c4e7df", "value": "Disease"}</skos:altLabel>
-    <skos:scopeNote xml:lang="en">{"id": "3037a257-8b30-4bab-bb0a-a6d09409215c", "value": "Use for bone remodelling, new growth, loss or destruction caused by age, activity, disease or trauma during life."}</skos:scopeNote>
-    <skos:prefLabel xml:lang="en">{"id": "4fdb152b-7cf9-407d-8647-0c7b4317f556", "value": "PATHOLOGY"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/064aba70-9153-3e78-9db6-1cfced275cce">
-    <skos:scopeNote xml:lang="en">{"id": "9bf81687-7b28-4a4f-9b1d-2f0f2c8cb14c", "value": "The recovery of material from samples collected during field investigations, usually taken by specialists with a particular area of expertise. Normally processed in the laboratory. Also use for the processing of samples subsequent to investigation."}</skos:scopeNote>
-    <skos:prefLabel xml:lang="en">{"id": "3ad428ff-dc97-422c-940f-794e9ef9e876", "value": "SPECIALIST SAMPLING"}</skos:prefLabel>
-    <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/39cd05df-0db9-347c-9319-7f88dd5735da">
-    <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-    <skos:scopeNote xml:lang="en">{"id": "4ba91fb2-0183-4a99-a506-3c14fa42917e", "value": "A process using an electron microscope in which the surface of the specimen is scanned by a beam of electrons which are reflected to form an image. Very high magnification is possible."}</skos:scopeNote>
-    <skos:altLabel xml:lang="en">{"id": "a932de92-4427-446e-a726-642ee22a3b64", "value": "Sem"}</skos:altLabel>
-    <skos:prefLabel xml:lang="en">{"id": "af8ebd83-bb5e-4b60-90d8-bbba066047ea", "value": "SCANNING ELECTRON MICROSCOPY"}</skos:prefLabel>
-    <skos:altLabel xml:lang="en">{"id": "a2e2c0bb-bb70-477e-9bff-9202ff4986ec", "value": "S.E.M."}</skos:altLabel>
+    <skos:altLabel xml:lang="en">{"id": "98aa146c-f6b5-4e4e-b460-4fb1b2e3e5a2", "value": "Irsl Dating"}</skos:altLabel>
+    <skos:altLabel xml:lang="en">{"id": "c6fc054e-425f-475e-b8d4-f429c3748cd1", "value": "Irsl"}</skos:altLabel>
   </skos:Concept>
   <skos:Concept rdf:about="http://www.archesproject.org/bac134b4-4725-3fe1-afc5-c2217072f7b1">
-    <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-    <skos:prefLabel xml:lang="en">{"id": "5f7fe8bb-6a04-4ce6-8a16-da4827476273", "value": "POLYMINERAL"}</skos:prefLabel>
     <skos:scopeNote xml:lang="en">{"id": "e60b39fc-bf00-4d72-ac9b-4c41f9c6c566", "value": "A general term to describe a sediment or sample that contains a variety of different minerals."}</skos:scopeNote>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/cefd187f-2f94-37bd-a561-856d152366cd">
-    <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-    <skos:narrower rdf:resource="http://www.archesproject.org/75412c69-9b70-34aa-9ced-56d1dc9df97b"/>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/38ea4fba-5c7d-3900-939e-0c653e704f4f">
-        <skos:scopeNote xml:lang="en">{"id": "0603b676-614c-4324-9b25-e4d1620878a0", "value": "The retrieval of material from deposits by hand, normally large objects visible with the naked eye, eg. Mammal remains and marine molluscs."}</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-        <skos:prefLabel xml:lang="en">{"id": "aac93e0a-1db4-4642-815e-8f2b89d02d2c", "value": "HAND RETRIEVAL"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower rdf:resource="http://www.archesproject.org/064aba70-9153-3e78-9db6-1cfced275cce"/>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/72930691-9249-3cb1-bd83-a8037b3f3680">
-        <skos:scopeNote xml:lang="en">{"id": "851b601c-8e74-4a03-b33f-b36a9aa6fa38", "value": "The removal of fragile or complex remains from an investigation as a block of earth for excavation under laboratory conditions. Typical examples are grave goods and cremation burials."}</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-        <skos:prefLabel xml:lang="en">{"id": "e4e125e7-73bc-4a1a-8127-de86d0ccfc60", "value": "BLOCK LIFTING"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:prefLabel xml:lang="en">{"id": "3a481bf9-3491-4b75-a4a9-2f8272bccdbf", "value": "METHOD OF RECOVERY"}</skos:prefLabel>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/50840b83-4092-319d-bc7c-46959ae2b669">
-        <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-        <skos:prefLabel xml:lang="en">{"id": "d4fb5917-7a4b-4811-bd01-76bb15c85672", "value": "COARSE SIEVING"}</skos:prefLabel>
-        <skos:altLabel xml:lang="en">{"id": "679027ba-2ebf-40cd-bcd8-230b09f703ca", "value": "Bulk Sampling"}</skos:altLabel>
-        <skos:scopeNote xml:lang="en">{"id": "4c53516b-c5b8-43be-a4d4-c39869102009", "value": "The method of retrieving animal remains, artefacts and other remains by dry or wet-sieving whole earth samples, typically over 100 litres, sieved through a 2mm or larger mesh."}</skos:scopeNote>
-      </skos:Concept>
-    </skos:narrower>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/47b6cb24-92f0-32dc-8070-6ee46e871173">
-    <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-    <skos:scopeNote xml:lang="en">{"id": "788feeb5-877b-4c61-b727-9e008cface3a", "value": "Use for a combination (alloy) of two or more different metals where copper (Cu) is the principal component."}</skos:scopeNote>
-    <skos:prefLabel xml:lang="en">{"id": "2c2833da-d66b-4f2a-b768-999073ebe342", "value": "COPPER ALLOY"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/447f45c8-eca8-3f9d-9719-2c5d303cae62">
-    <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-    <skos:prefLabel xml:lang="en">{"id": "a174465f-873f-4caa-9dec-c7cd4e63dd0d", "value": "GOLD"}</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">{"id": "19c8cc68-6e53-4c68-a55a-0910f26a4849", "value": "A precious metal characterised by its yellow colour and resistance to tarnishing."}</skos:scopeNote>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/719e66ba-03bb-369c-83bd-fd8ee5146717">
-    <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-    <skos:prefLabel xml:lang="en">{"id": "f0a53dd7-2cd5-4a6b-ab59-51ac7463c1c9", "value": "POLARISED LIGHT MICROSCOPY"}</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">{"id": "d7d9688e-970d-4a82-9013-7ca8f80562bc", "value": "Light microscopy in which vibration directions of the light are constrained into single planes."}</skos:scopeNote>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/41bfc26a-9de6-3c65-a0e2-ab2ef47e7d58">
-    <skos:scopeNote xml:lang="en">{"id": "0d87cba8-fdd7-4aed-b3d8-70ab47a1bbe9", "value": "Use for congenital (present at birth) abnormalities (absent/extra or morphologically unusual features) present in an individual or population."}</skos:scopeNote>
-    <skos:prefLabel xml:lang="en">{"id": "75a2108e-75d9-42dc-a6d9-33adbc4dcf3f", "value": "NON-METRIC TRAITS"}</skos:prefLabel>
-    <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/f05a9584-21b9-3a8a-872d-85e471069b3f">
-    <skos:scopeNote xml:lang="en">{"id": "e96427b5-6d24-4e92-ad3d-434f025a5e7c", "value": "Any metal prinicipally composed of the chemical element Iron (Fe)."}</skos:scopeNote>
-    <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-    <skos:prefLabel xml:lang="en">{"id": "145956d1-4879-4977-84f8-7140033fd967", "value": "FERROUS METAL"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/75d9122d-b7c5-3ca2-a249-bb01563dc36c">
-    <skos:narrower rdf:resource="http://www.archesproject.org/7cdc1e9f-3c96-3fe7-bcde-6dd52886f35a"/>
-    <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
-    <skos:narrower rdf:resource="http://www.archesproject.org/3affbf1e-398e-30b9-8ac5-497664f660ae"/>
-    <skos:narrower rdf:resource="http://www.archesproject.org/102207ba-f2c2-3671-aec5-8928c6fe2e6a"/>
-    <skos:prefLabel xml:lang="en">{"id": "03b49213-ab9f-4716-8e0d-e7765657fa4a", "value": "INVESTIGATIVE TECHNIQUES"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/660ce7c2-6c02-31b2-a0a4-9d339e048f2e">
-    <skos:narrower rdf:resource="http://www.archesproject.org/7f7ff97d-b8a5-3bde-81a9-8c5224574a9c"/>
-    <skos:narrower rdf:resource="http://www.archesproject.org/47b6cb24-92f0-32dc-8070-6ee46e871173"/>
-    <skos:narrower rdf:resource="http://www.archesproject.org/447f45c8-eca8-3f9d-9719-2c5d303cae62"/>
-    <skos:prefLabel xml:lang="en">{"id": "17eeda51-f877-480b-8817-ede66cc7b3f7", "value": "NON-FERROUS METAL"}</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">{"id": "0b102d2b-58b0-4a2b-ae7a-57b9a65a5502", "value": "Any metal that does not contain the chemical element Iron (Fe) as a principal component."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "5f7fe8bb-6a04-4ce6-8a16-da4827476273", "value": "POLYMINERAL"}</skos:prefLabel>
     <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
   </skos:Concept>
   <skos:Concept rdf:about="http://www.archesproject.org/e61e3958-92f5-34ca-800d-501310847f08">
     <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
     <skos:prefLabel xml:lang="en">{"id": "fbee133e-4524-4ec0-9e65-cf5e6aaa4a88", "value": "ZIRCON"}</skos:prefLabel>
     <skos:scopeNote xml:lang="en">{"id": "f3b9b8ce-9621-4e33-9e15-531b22999c2a", "value": "A mineral of the composition Zr[SiO4]. Commonly brown or yellow in colour. May contain high levels of uranium and thorium. Can be used for dating using luminescence or fission track methods."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/41bfc26a-9de6-3c65-a0e2-ab2ef47e7d58">
+    <skos:prefLabel xml:lang="en">{"id": "75a2108e-75d9-42dc-a6d9-33adbc4dcf3f", "value": "NON-METRIC TRAITS"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "0d87cba8-fdd7-4aed-b3d8-70ab47a1bbe9", "value": "Use for congenital (present at birth) abnormalities (absent/extra or morphologically unusual features) present in an individual or population."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/da8a6429-5d97-38c1-b3db-aad25a7348f9">
+    <skos:prefLabel xml:lang="en">{"id": "60505a5c-64a4-4abf-8955-c1690bfe2cdd", "value": "FELDSPAR"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+    <skos:scopeNote xml:lang="en">{"id": "2393aacd-5415-4a52-99d0-5c69d1cc6961", "value": "A group of aluminosilicate minerals with varying compositions. The most common mineral in igneous rocks, and common in other rocks and sediments."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/2666fca0-cc8e-339c-b021-fc34a9794347">
+    <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+    <skos:prefLabel xml:lang="en">{"id": "6089ed01-5d73-4535-9000-c5088be3399d", "value": "CARVED"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/2c9dc4f9-a9f5-3676-82f5-3360e132ab5e">
+    <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
+    <skos:scopeNote xml:lang="en">{"id": "a9e9c934-7fd5-4dcd-966f-3c439859265a", "value": "Microscopic charcoal fragments that are concentrated and counted as part of standard pollen preparation techniques."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "af94ce18-5be2-4c06-bf57-c137ba499783", "value": "MICRO-CHARCOAL"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/0bfff80e-654d-3715-8295-71475a3ffd8e">
+    <skos:prefLabel xml:lang="en">{"id": "a092f1e3-1eac-407d-8ad7-809403deb3ff", "value": "TOTAL PHOSPHORUS ANALYSIS"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "50342491-7269-47a8-b7b4-7cbed019ce46", "value": "The analysis of organic plus inorganic phosphorus (P)."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/e097b83e-1874-39ae-9e51-a510becb09f9"/>
   </skos:Concept>
 </rdf:RDF>

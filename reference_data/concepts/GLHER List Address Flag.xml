@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+>
+  <skos:Concept rdf:about="http://www.archesproject.org/a15fdda4-416c-4bba-87f7-79d8d04256a8">
+    <skos:prefLabel xml:lang="en">{"id": "48d7fa76-fbff-420a-bb9c-63c1b0ae29dd", "value": "Alternative"}</skos:prefLabel>
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://www.archesproject.org/ec1fb49a-2d6c-4831-a0bb-c6374618a574">
+        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/a15fdda4-416c-4bba-87f7-79d8d04256a8"/>
+        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/7c5566c1-9df7-4bbd-826c-d0945ce390d8"/>
+        <dcterms:title xml:lang="en">{"id": "ae58a371-f4f4-49a5-a73b-fafba203fad5", "value": "GLHER_List_Address_Flag"}</dcterms:title>
+        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/d6fb2cc0-103f-4dde-baf4-63d0a6c6cdec"/>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/7c5566c1-9df7-4bbd-826c-d0945ce390d8">
+    <skos:prefLabel xml:lang="en">{"id": "50081d71-763c-4903-bfc6-7bc3489d0379", "value": "Former Statutory"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/ec1fb49a-2d6c-4831-a0bb-c6374618a574"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/d6fb2cc0-103f-4dde-baf4-63d0a6c6cdec">
+    <skos:inScheme rdf:resource="http://www.archesproject.org/ec1fb49a-2d6c-4831-a0bb-c6374618a574"/>
+    <skos:prefLabel xml:lang="en">{"id": "33d0708a-b10c-4e1c-bfeb-b9b394589b98", "value": "Statutory"}</skos:prefLabel>
+  </skos:Concept>
+</rdf:RDF>
