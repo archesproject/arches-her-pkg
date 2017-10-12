@@ -147,10 +147,17 @@
         {
             "arches_nodeid": "6ba6dd5b-94a5-11e7-b43c-021893e306d8", 
             "arches_node_name": "Geometry", 
-            "file_field_name": "WKT",
+            "file_field_name": "wkt_point",
             "data_type": "geojson-feature-collection", 
             "export": false
-        }, 
+        },
+        {
+            "arches_nodeid": "6ba6dd5b-94a5-11e7-b43c-021893e306d8", 
+            "arches_node_name": "Geometry", 
+            "file_field_name": "wkt_poly",
+            "data_type": "geojson-feature-collection", 
+            "export": false
+        },
         {
             "arches_nodeid": "6ba6dd56-94a5-11e7-b43c-021893e306d8", 
             "arches_node_name": "Geometry Source", 

@@ -1,0 +1,187 @@
+{
+    "resource_model_id": "46b6b496-aeb1-11e7-9f72-021893e306d8", 
+    "resource_model_name": "MIDAS Bibliographic Source", 
+    "nodes": [
+        {
+            "arches_nodeid": "71c26d2a-aed7-11e7-9f72-021893e306d8", 
+            "arches_node_name": "Author", 
+            "file_field_name": "",
+            "data_type": "resource-instance", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "46b6b49d-aeb1-11e7-9f72-021893e306d8", 
+            "arches_node_name": "Bibliographic Source Title", 
+            "file_field_name": "Information Source Title",
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "9aa9b439-aed2-11e7-9f72-021893e306d8", 
+            "arches_node_name": "Bibliographic Source Type", 
+            "file_field_name": "Bibliographic Source Type",
+            "data_type": "concept", 
+            "concept_export_value": "label", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "71c26d2b-aed7-11e7-9f72-021893e306d8", 
+            "arches_node_name": "Contributor", 
+            "file_field_name": "",
+            "data_type": "resource-instance", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "46b6b4af-aeb1-11e7-9f72-021893e306d8", 
+            "arches_node_name": "Copyright Description", 
+            "file_field_name": "Right Note",
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "46b6b4f2-aeb1-11e7-9f72-021893e306d8", 
+            "arches_node_name": "Copyright Type", 
+            "file_field_name": "Right Type",
+            "data_type": "concept-list", 
+            "concept_export_value": "label", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "6c9e0e77-aed8-11e7-9f72-021893e306d8", 
+            "arches_node_name": "Coverage", 
+            "file_field_name": "",
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "64e1e195-aed7-11e7-9f72-021893e306d8", 
+            "arches_node_name": "Date of Publication", 
+            "file_field_name": "Date of Origination",
+            "data_type": "date", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "46b6b4dc-aeb1-11e7-9f72-021893e306d8", 
+            "arches_node_name": "Description", 
+            "file_field_name": "Description",
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "46b6b4d6-aeb1-11e7-9f72-021893e306d8", 
+            "arches_node_name": "Description Type", 
+            "file_field_name": "Description Type",
+            "data_type": "concept", 
+            "concept_export_value": "label", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "71c26d2c-aed7-11e7-9f72-021893e306d8", 
+            "arches_node_name": "Editor", 
+            "file_field_name": "",
+            "data_type": "resource-instance", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "46b6b4e3-aeb1-11e7-9f72-021893e306d8", 
+            "arches_node_name": "External Cross Reference Notes", 
+            "file_field_name": "External Cross Reference Notes",
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "46b6b49a-aeb1-11e7-9f72-021893e306d8", 
+            "arches_node_name": "External Cross Reference Number", 
+            "file_field_name": "External Cross Reference Number",
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "46b6b4d7-aeb1-11e7-9f72-021893e306d8", 
+            "arches_node_name": "External Cross Reference Source", 
+            "file_field_name": "External Cross Reference Source",
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "53ea2cc5-aed4-11e7-9f72-021893e306d8", 
+            "arches_node_name": "Journal or Serial", 
+            "file_field_name": "",
+            "data_type": "resource-instance", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "53ea2cc9-aed4-11e7-9f72-021893e306d8", 
+            "arches_node_name": "Journal or Serial Volume Number", 
+            "file_field_name": "",
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "53ea2ccb-aed4-11e7-9f72-021893e306d8", 
+            "arches_node_name": "Journal or Serial pages", 
+            "file_field_name": "",
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "46b6b4d2-aeb1-11e7-9f72-021893e306d8", 
+            "arches_node_name": "Language", 
+            "file_field_name": "Language",
+            "data_type": "concept-list", 
+            "concept_export_value": "label", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "49bc9ec5-aedb-11e7-9f72-021893e306d8", 
+            "arches_node_name": "Notes", 
+            "file_field_name": "Notes",
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "46b6b4b8-aeb1-11e7-9f72-021893e306d8", 
+            "arches_node_name": "Primary Reference Number", 
+            "file_field_name": "",
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "64e1e199-aed7-11e7-9f72-021893e306d8", 
+            "arches_node_name": "Publication Location Name", 
+            "file_field_name": "",
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "64e1e196-aed7-11e7-9f72-021893e306d8", 
+            "arches_node_name": "Publisher", 
+            "file_field_name": "Publisher",
+            "data_type": "resource-instance", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "46b6b4b2-aeb1-11e7-9f72-021893e306d8", 
+            "arches_node_name": "Statement of responsibility", 
+            "file_field_name": "Statement of Responsibility",
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "46b6b4be-aeb1-11e7-9f72-021893e306d8", 
+            "arches_node_name": "Subject", 
+            "file_field_name": "Subject",
+            "data_type": "concept-list", 
+            "concept_export_value": "label", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "46b6b4ed-aeb1-11e7-9f72-021893e306d8", 
+            "arches_node_name": "Title Type", 
+            "file_field_name": "",
+            "data_type": "concept", 
+            "concept_export_value": "label", 
+            "export": false
+        }
+    ]
+}
