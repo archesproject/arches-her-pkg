@@ -1,0 +1,224 @@
+{
+    "resource_model_id": "bceb9f1d-9c84-11e7-9f72-021893e306d8", 
+    "resource_model_name": "MIDAS Actor - Person (Done)", 
+    "nodes": [
+        {
+            "arches_nodeid": "3eff8add-9c85-11e7-9f72-021893e306d8", 
+            "arches_node_name": "Birthplace", 
+            "file_field_name": "",
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "50e1f62f-9c87-11e7-9f72-021893e306d8", 
+            "arches_node_name": "Compiler Name", 
+            "file_field_name": "",
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "877834e3-9c85-11e7-9f72-021893e306d8", 
+            "arches_node_name": "Contact Point Type", 
+            "file_field_name": "",
+            "data_type": "domain-value", 
+            "concept_export_value": "label", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "877834e2-9c85-11e7-9f72-021893e306d8", 
+            "arches_node_name": "Contact point", 
+            "file_field_name": "",
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "50e1f631-9c87-11e7-9f72-021893e306d8", 
+            "arches_node_name": "Date Type", 
+            "file_field_name": "",
+            "data_type": "domain-value", 
+            "concept_export_value": "label", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "3eff8ada-9c85-11e7-9f72-021893e306d8", 
+            "arches_node_name": "Date of Birth", 
+            "file_field_name": "",
+            "data_type": "date", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "50e1f62e-9c87-11e7-9f72-021893e306d8", 
+            "arches_node_name": "Date of Compilation", 
+            "file_field_name": "",
+            "data_type": "date", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "495cf9d8-9c85-11e7-9f72-021893e306d8", 
+            "arches_node_name": "Date of Death", 
+            "file_field_name": "",
+            "data_type": "date", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "495cf9d6-9c85-11e7-9f72-021893e306d8", 
+            "arches_node_name": "Deathplace", 
+            "file_field_name": "",
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "66b7a682-9c87-11e7-9f72-021893e306d8", 
+            "arches_node_name": "Description", 
+            "file_field_name": "",
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "66b7a683-9c87-11e7-9f72-021893e306d8", 
+            "arches_node_name": "Description Type", 
+            "file_field_name": "",
+            "data_type": "concept", 
+            "concept_export_value": "label", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "26857db0-9c85-11e7-9f72-021893e306d8", 
+            "arches_node_name": "Epithet", 
+            "file_field_name": "",
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "35eda0c4-9c87-11e7-9f72-021893e306d8", 
+            "arches_node_name": "External Cross Reference Notes", 
+            "file_field_name": "External Cross Reference Notes",
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "35eda0c1-9c87-11e7-9f72-021893e306d8", 
+            "arches_node_name": "External Cross Reference Number", 
+            "file_field_name": "External Cross Reference Number",
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "35eda0c5-9c87-11e7-9f72-021893e306d8", 
+            "arches_node_name": "External Cross Reference Source", 
+            "file_field_name": "External Cross Reference Source",
+            "data_type": "domain-value", 
+            "concept_export_value": "label", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "3eff8ae1-9c85-11e7-9f72-021893e306d8", 
+            "arches_node_name": "Father's Name", 
+            "file_field_name": "",
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "26857dac-9c85-11e7-9f72-021893e306d8", 
+            "arches_node_name": "Forename", 
+            "file_field_name": "Person Forename",
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "26857db1-9c85-11e7-9f72-021893e306d8", 
+            "arches_node_name": "Initials", 
+            "file_field_name": "Person initial",
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "3c9f3caf-9de5-11e7-9f72-021893e306d8", 
+            "arches_node_name": "Locality", 
+            "file_field_name": "",
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "26857db2-9c85-11e7-9f72-021893e306d8", 
+            "arches_node_name": "Middle Name(s)", 
+            "file_field_name": "",
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "3eff8adc-9c85-11e7-9f72-021893e306d8", 
+            "arches_node_name": "Mother's Name", 
+            "file_field_name": "",
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "26857dad-9c85-11e7-9f72-021893e306d8", 
+            "arches_node_name": "Name Type", 
+            "file_field_name": "",
+            "data_type": "concept-list", 
+            "concept_export_value": "label", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "3c9f3cb0-9de5-11e7-9f72-021893e306d8", 
+            "arches_node_name": "Number in Road or Street", 
+            "file_field_name": "",
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "50e1f62d-9c87-11e7-9f72-021893e306d8", 
+            "arches_node_name": "Organization Name", 
+            "file_field_name": "",
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "3c9f3cb2-9de5-11e7-9f72-021893e306d8", 
+            "arches_node_name": "Postal Code", 
+            "file_field_name": "",
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "7acee514-9c86-11e7-9f72-021893e306d8", 
+            "arches_node_name": "Primary Reference Number Type", 
+            "file_field_name": "",
+            "data_type": "concept-list", 
+            "concept_export_value": "label", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "3c9f3cb1-9de5-11e7-9f72-021893e306d8", 
+            "arches_node_name": "Road or Street Name", 
+            "file_field_name": "",
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "50e1f632-9c87-11e7-9f72-021893e306d8", 
+            "arches_node_name": "Role", 
+            "file_field_name": "",
+            "data_type": "concept-list", 
+            "concept_export_value": "label", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "26857daf-9c85-11e7-9f72-021893e306d8", 
+            "arches_node_name": "Surname", 
+            "file_field_name": "Person Last Name",
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "26857dae-9c85-11e7-9f72-021893e306d8", 
+            "arches_node_name": "Title", 
+            "file_field_name": "",
+            "data_type": "domain-value", 
+            "concept_export_value": "label", 
+            "export": false
+        }
+    ]
+}
