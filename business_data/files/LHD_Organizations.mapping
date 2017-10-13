@@ -1,0 +1,114 @@
+{
+    "resource_model_id": "c4b9a746-aece-11e7-9f72-021893e306d8", 
+    "resource_model_name": "MIDAS Actor - Organization", 
+    "nodes": [
+        {
+            "arches_nodeid": "a55db693-aecf-11e7-9f72-021893e306d8", 
+            "arches_node_name": "Contact Point Types", 
+            "file_field_name": "Contact Point Type",
+            "data_type": "concept", 
+            "concept_export_value": "label", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "a55db692-aecf-11e7-9f72-021893e306d8", 
+            "arches_node_name": "Contact point", 
+            "file_field_name": "Contact Point",
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "4330635c-aecf-11e7-9f72-021893e306d8", 
+            "arches_node_name": "Description", 
+            "file_field_name": "Description",
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "4330635d-aecf-11e7-9f72-021893e306d8", 
+            "arches_node_name": "Description Type", 
+            "file_field_name": "",
+            "data_type": "concept", 
+            "concept_export_value": "label", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "e2fec05a-b03b-11e7-84a1-021893e306d8", 
+            "arches_node_name": "External Cross Reference Notes", 
+            "file_field_name": "External Cross Reference Notes",
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "e2fec057-b03b-11e7-84a1-021893e306d8", 
+            "arches_node_name": "External Cross Reference Number", 
+            "file_field_name": "External Cross Reference Number",
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "e2fec05b-b03b-11e7-84a1-021893e306d8", 
+            "arches_node_name": "External Cross Reference Source", 
+            "file_field_name": "External Cross Reference Source",
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "95eed027-aecf-11e7-9f72-021893e306d8", 
+            "arches_node_name": "Locality", 
+            "file_field_name": "",
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "7b777796-aecf-11e7-9f72-021893e306d8", 
+            "arches_node_name": "Name Type", 
+            "file_field_name": "",
+            "data_type": "concept-list", 
+            "concept_export_value": "label", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "95eed028-aecf-11e7-9f72-021893e306d8", 
+            "arches_node_name": "Number in Road or Street", 
+            "file_field_name": "",
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "7b777793-aecf-11e7-9f72-021893e306d8", 
+            "arches_node_name": "Organization Name", 
+            "file_field_name": "Organisation Name",
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "95eed026-aecf-11e7-9f72-021893e306d8", 
+            "arches_node_name": "Postal Code", 
+            "file_field_name": "",
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "4ac7d8e5-aecf-11e7-9f72-021893e306d8", 
+            "arches_node_name": "Primary Reference Number", 
+            "file_field_name": "ResourceID",
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "95eed024-aecf-11e7-9f72-021893e306d8", 
+            "arches_node_name": "Road or Street Name", 
+            "file_field_name": "",
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "95eed025-aecf-11e7-9f72-021893e306d8", 
+            "arches_node_name": "Town or City", 
+            "file_field_name": "",
+            "data_type": "string", 
+            "export": false
+        }
+    ]
+}
