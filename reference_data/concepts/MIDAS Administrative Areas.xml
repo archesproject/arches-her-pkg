@@ -4,67 +4,80 @@
   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
   xmlns:dcterms="http://purl.org/dc/terms/"
 >
+  <skos:Concept rdf:about="http://www.archesproject.org/07c01c57-c1e2-4e6b-986e-db7255571048">
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://www.archesproject.org/5a75a0e1-ccc3-4a53-91a1-d59c2842b4db">
+        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/3863d005-4037-4fc8-be32-949b6e900e9f"/>
+        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/5d98f4bf-be7e-419f-af75-8b915bcb595b"/>
+        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/07c01c57-c1e2-4e6b-986e-db7255571048"/>
+        <dcterms:identifier xml:lang="en-US">{"id": "ee4e1bf8-bfff-4513-9347-bb5b5ef2bdac", "value": "http://www.archesproject.org/5a75a0e1-ccc3-4a53-91a1-d59c2842b4db"}</dcterms:identifier>
+        <dcterms:title xml:lang="en">{"id": "123dec45-93a0-4154-840a-b0cdb27134d5", "value": "MIDAS Administrative Areas"}</dcterms:title>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <dcterms:identifier xml:lang="en-US">{"id": "a2113501-ffc3-4a13-9546-315294398358", "value": "http://www.archesproject.org/07c01c57-c1e2-4e6b-986e-db7255571048"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "70b22194-6298-4357-8346-a2a5b23096e5", "value": "Wiltshire"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/0eeb88b6-a867-4a41-8f92-1e6b8d27b55a">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/131a1bd5-b6ae-4ce1-a91d-d1581147171b">
+        <skos:prefLabel xml:lang="en">{"id": "007117c0-b80c-4bc6-a1df-a785c8a1e479", "value": "Bestwood St. Albans"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en-US">{"id": "6ff45274-a08a-4d8f-a0c6-b9dfea99df80", "value": "http://www.archesproject.org/131a1bd5-b6ae-4ce1-a91d-d1581147171b"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/5a75a0e1-ccc3-4a53-91a1-d59c2842b4db"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/5a75a0e1-ccc3-4a53-91a1-d59c2842b4db"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/34b6a3ac-d504-4175-b559-db0556baaab7">
+        <skos:prefLabel xml:lang="el">{"id": "4733070f-8245-4f13-831b-2bee130f07ec", "value": "Colwick"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en-US">{"id": "f3c047c3-b044-4d7e-a97c-bd41ba14a3e8", "value": "http://www.archesproject.org/34b6a3ac-d504-4175-b559-db0556baaab7"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/5a75a0e1-ccc3-4a53-91a1-d59c2842b4db"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="en">{"id": "4ceee4da-5b19-4419-811b-674364288fa3", "value": "Gedling"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en-US">{"id": "dce8f0d6-ff81-4184-ad03-9699b7aedf66", "value": "http://www.archesproject.org/0eeb88b6-a867-4a41-8f92-1e6b8d27b55a"}</dcterms:identifier>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/31ef8465-84d6-4839-b9b7-83ef2bc63917">
+        <skos:prefLabel xml:lang="en">{"id": "0fb942ef-77b1-4bc4-9f94-8cd04b56fd30", "value": "Burton Joyce"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en-US">{"id": "060f6e76-5479-4e7c-9af6-50f097d76dc0", "value": "http://www.archesproject.org/31ef8465-84d6-4839-b9b7-83ef2bc63917"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/5a75a0e1-ccc3-4a53-91a1-d59c2842b4db"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/9dc5fd5b-530c-4795-9fce-b3959ed964d2">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/5a75a0e1-ccc3-4a53-91a1-d59c2842b4db"/>
+        <dcterms:identifier xml:lang="en-US">{"id": "b678754a-fd95-4172-8ac4-99ee7450c621", "value": "http://www.archesproject.org/9dc5fd5b-530c-4795-9fce-b3959ed964d2"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "7442e0af-638e-4309-aaa3-1a415f00db38", "value": "Calverton"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/6920d32d-328e-4502-9319-6d204a408b92">
+    <skos:prefLabel xml:lang="en">{"id": "de626a84-14a9-4581-8168-734885540f90", "value": "Ashfield"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/5a75a0e1-ccc3-4a53-91a1-d59c2842b4db"/>
+    <dcterms:identifier xml:lang="en-US">{"id": "59760042-40d4-4832-9af1-082d05265a3f", "value": "http://www.archesproject.org/6920d32d-328e-4502-9319-6d204a408b92"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/5f11fe36-f96b-487e-b0b0-770ce03df990">
+    <skos:prefLabel xml:lang="en">{"id": "ed822eab-4d32-4ecb-bdc9-5d7c31125425", "value": "Broxtowe"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en-US">{"id": "5ad85164-e980-41d6-afe0-66c65ee3b483", "value": "http://www.archesproject.org/5f11fe36-f96b-487e-b0b0-770ce03df990"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/5a75a0e1-ccc3-4a53-91a1-d59c2842b4db"/>
+  </skos:Concept>
   <skos:Concept rdf:about="http://www.archesproject.org/5d98f4bf-be7e-419f-af75-8b915bcb595b">
+    <skos:narrower rdf:resource="http://www.archesproject.org/6920d32d-328e-4502-9319-6d204a408b92"/>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/5a75a0e1-ccc3-4a53-91a1-d59c2842b4db"/>
     <skos:prefLabel xml:lang="en">{"id": "c47319a5-a4c4-4ac0-b47e-357f78e63778", "value": "Nottinghamshire"}</skos:prefLabel>
     <skos:narrower>
       <skos:Concept rdf:about="http://www.archesproject.org/93c7eb44-94bb-4e1d-b9ef-950cddb54f85">
         <skos:prefLabel xml:lang="en">{"id": "0b1b1e56-6b7a-4a9a-a474-759e66280df4", "value": "Bassetlaw"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en-US">{"id": "761e143b-a394-40db-a4cd-2e47327656c0", "value": "http://www.archesproject.org/93c7eb44-94bb-4e1d-b9ef-950cddb54f85"}</dcterms:identifier>
         <skos:inScheme rdf:resource="http://www.archesproject.org/5a75a0e1-ccc3-4a53-91a1-d59c2842b4db"/>
       </skos:Concept>
     </skos:narrower>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/0eeb88b6-a867-4a41-8f92-1e6b8d27b55a">
-        <skos:narrower rdf:resource="http://www.archesproject.org/131a1bd5-b6ae-4ce1-a91d-d1581147171b"/>
-        <skos:narrower rdf:resource="http://www.archesproject.org/31ef8465-84d6-4839-b9b7-83ef2bc63917"/>
-        <skos:narrower rdf:resource="http://www.archesproject.org/34b6a3ac-d504-4175-b559-db0556baaab7"/>
-        <skos:prefLabel xml:lang="en">{"id": "4ceee4da-5b19-4419-811b-674364288fa3", "value": "Gedling"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/5a75a0e1-ccc3-4a53-91a1-d59c2842b4db"/>
-        <skos:narrower rdf:resource="http://www.archesproject.org/9dc5fd5b-530c-4795-9fce-b3959ed964d2"/>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/5f11fe36-f96b-487e-b0b0-770ce03df990">
-        <skos:prefLabel xml:lang="en">{"id": "ed822eab-4d32-4ecb-bdc9-5d7c31125425", "value": "Broxtowe"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/5a75a0e1-ccc3-4a53-91a1-d59c2842b4db"/>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:inScheme>
-      <skos:ConceptScheme rdf:about="http://www.archesproject.org/5a75a0e1-ccc3-4a53-91a1-d59c2842b4db">
-        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/3863d005-4037-4fc8-be32-949b6e900e9f"/>
-        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/07c01c57-c1e2-4e6b-986e-db7255571048"/>
-        <dcterms:title xml:lang="en">{"id": "123dec45-93a0-4154-840a-b0cdb27134d5", "value": "MIDAS Administrative Areas"}</dcterms:title>
-        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/5d98f4bf-be7e-419f-af75-8b915bcb595b"/>
-      </skos:ConceptScheme>
-    </skos:inScheme>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/6920d32d-328e-4502-9319-6d204a408b92">
-        <skos:inScheme rdf:resource="http://www.archesproject.org/5a75a0e1-ccc3-4a53-91a1-d59c2842b4db"/>
-        <skos:prefLabel xml:lang="en">{"id": "de626a84-14a9-4581-8168-734885540f90", "value": "Ashfield"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:narrower>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/34b6a3ac-d504-4175-b559-db0556baaab7">
-    <skos:prefLabel xml:lang="el">{"id": "4733070f-8245-4f13-831b-2bee130f07ec", "value": "Colwick"}</skos:prefLabel>
-    <skos:inScheme rdf:resource="http://www.archesproject.org/5a75a0e1-ccc3-4a53-91a1-d59c2842b4db"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/131a1bd5-b6ae-4ce1-a91d-d1581147171b">
-    <skos:prefLabel xml:lang="en">{"id": "007117c0-b80c-4bc6-a1df-a785c8a1e479", "value": "Bestwood St. Albans"}</skos:prefLabel>
-    <skos:inScheme rdf:resource="http://www.archesproject.org/5a75a0e1-ccc3-4a53-91a1-d59c2842b4db"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/31ef8465-84d6-4839-b9b7-83ef2bc63917">
-    <skos:inScheme rdf:resource="http://www.archesproject.org/5a75a0e1-ccc3-4a53-91a1-d59c2842b4db"/>
-    <skos:prefLabel xml:lang="en">{"id": "0fb942ef-77b1-4bc4-9f94-8cd04b56fd30", "value": "Burton Joyce"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/9dc5fd5b-530c-4795-9fce-b3959ed964d2">
-    <skos:prefLabel xml:lang="en">{"id": "7442e0af-638e-4309-aaa3-1a415f00db38", "value": "Calverton"}</skos:prefLabel>
-    <skos:inScheme rdf:resource="http://www.archesproject.org/5a75a0e1-ccc3-4a53-91a1-d59c2842b4db"/>
+    <skos:narrower rdf:resource="http://www.archesproject.org/5f11fe36-f96b-487e-b0b0-770ce03df990"/>
+    <skos:narrower rdf:resource="http://www.archesproject.org/0eeb88b6-a867-4a41-8f92-1e6b8d27b55a"/>
+    <dcterms:identifier xml:lang="en-US">{"id": "e87d5079-9408-4dac-b0d3-27bb51ee3764", "value": "http://www.archesproject.org/5d98f4bf-be7e-419f-af75-8b915bcb595b"}</dcterms:identifier>
   </skos:Concept>
   <skos:Concept rdf:about="http://www.archesproject.org/3863d005-4037-4fc8-be32-949b6e900e9f">
     <skos:prefLabel xml:lang="en">{"id": "2fc9503e-892d-464c-98f4-e6bc45f510a7", "value": "Derbyshire"}</skos:prefLabel>
     <skos:inScheme rdf:resource="http://www.archesproject.org/5a75a0e1-ccc3-4a53-91a1-d59c2842b4db"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/07c01c57-c1e2-4e6b-986e-db7255571048">
-    <skos:prefLabel xml:lang="en">{"id": "70b22194-6298-4357-8346-a2a5b23096e5", "value": "Wiltshire"}</skos:prefLabel>
-    <skos:inScheme rdf:resource="http://www.archesproject.org/5a75a0e1-ccc3-4a53-91a1-d59c2842b4db"/>
+    <dcterms:identifier xml:lang="en-US">{"id": "a4bd74c1-c2e9-4297-87d8-842fc0acf6e0", "value": "http://www.archesproject.org/3863d005-4037-4fc8-be32-949b6e900e9f"}</dcterms:identifier>
   </skos:Concept>
 </rdf:RDF>

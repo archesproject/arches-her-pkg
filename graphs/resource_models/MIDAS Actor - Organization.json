@@ -98,20 +98,6 @@
                 {
                     "card_id": "95eed023-aecf-11e7-9f72-021893e306d8", 
                     "config": {
-                        "label": "Road or Street Name", 
-                        "maxLength": null, 
-                        "placeholder": "Enter text", 
-                        "width": "100%"
-                    }, 
-                    "id": "95eed02a-aecf-11e7-9f72-021893e306d8", 
-                    "label": "Road or Street Name", 
-                    "node_id": "95eed024-aecf-11e7-9f72-021893e306d8", 
-                    "sortorder": 1, 
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                }, 
-                {
-                    "card_id": "95eed023-aecf-11e7-9f72-021893e306d8", 
-                    "config": {
                         "label": "Town or City", 
                         "maxLength": null, 
                         "placeholder": "Enter text", 
@@ -135,6 +121,20 @@
                     "label": "Number in Road or Street", 
                     "node_id": "95eed028-aecf-11e7-9f72-021893e306d8", 
                     "sortorder": 0, 
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                }, 
+                {
+                    "card_id": "95eed023-aecf-11e7-9f72-021893e306d8", 
+                    "config": {
+                        "label": "Road or Street Name", 
+                        "maxLength": null, 
+                        "placeholder": "Enter text", 
+                        "width": "100%"
+                    }, 
+                    "id": "95eed02a-aecf-11e7-9f72-021893e306d8", 
+                    "label": "Road or Street Name", 
+                    "node_id": "95eed024-aecf-11e7-9f72-021893e306d8", 
+                    "sortorder": 1, 
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 }, 
                 {
@@ -166,20 +166,6 @@
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 }, 
                 {
-                    "card_id": "95eed023-aecf-11e7-9f72-021893e306d8", 
-                    "config": {
-                        "label": "Postal Code", 
-                        "maxLength": null, 
-                        "placeholder": "Enter text", 
-                        "width": "100%"
-                    }, 
-                    "id": "95eed02d-aecf-11e7-9f72-021893e306d8", 
-                    "label": "Postal Code", 
-                    "node_id": "95eed026-aecf-11e7-9f72-021893e306d8", 
-                    "sortorder": 4, 
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                }, 
-                {
                     "card_id": "e2fec059-b03b-11e7-84a1-021893e306d8", 
                     "config": {
                         "label": "Source", 
@@ -197,6 +183,20 @@
                 {
                     "card_id": "95eed023-aecf-11e7-9f72-021893e306d8", 
                     "config": {
+                        "label": "Postal Code", 
+                        "maxLength": null, 
+                        "placeholder": "Enter text", 
+                        "width": "100%"
+                    }, 
+                    "id": "95eed02d-aecf-11e7-9f72-021893e306d8", 
+                    "label": "Postal Code", 
+                    "node_id": "95eed026-aecf-11e7-9f72-021893e306d8", 
+                    "sortorder": 4, 
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                }, 
+                {
+                    "card_id": "95eed023-aecf-11e7-9f72-021893e306d8", 
+                    "config": {
                         "label": "Locality", 
                         "maxLength": null, 
                         "placeholder": "Enter text", 
@@ -206,6 +206,20 @@
                     "label": "Locality", 
                     "node_id": "95eed027-aecf-11e7-9f72-021893e306d8", 
                     "sortorder": 3, 
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                }, 
+                {
+                    "card_id": "e2fec059-b03b-11e7-84a1-021893e306d8", 
+                    "config": {
+                        "label": "External Cross Reference", 
+                        "maxLength": null, 
+                        "placeholder": "Enter indentifier", 
+                        "width": "100%"
+                    }, 
+                    "id": "e2fec05e-b03b-11e7-84a1-021893e306d8", 
+                    "label": "External Cross Reference", 
+                    "node_id": "e2fec057-b03b-11e7-84a1-021893e306d8", 
+                    "sortorder": 0, 
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 }, 
                 {
@@ -277,20 +291,6 @@
                     "node_id": "7b777796-aecf-11e7-9f72-021893e306d8", 
                     "sortorder": 1, 
                     "widget_id": "10000000-0000-0000-0000-000000000012"
-                }, 
-                {
-                    "card_id": "e2fec059-b03b-11e7-84a1-021893e306d8", 
-                    "config": {
-                        "label": "External Cross Reference", 
-                        "maxLength": null, 
-                        "placeholder": "Enter indentifier", 
-                        "width": "100%"
-                    }, 
-                    "id": "e2fec05e-b03b-11e7-84a1-021893e306d8", 
-                    "label": "External Cross Reference", 
-                    "node_id": "e2fec057-b03b-11e7-84a1-021893e306d8", 
-                    "sortorder": 0, 
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
                 }, 
                 {
                     "card_id": "e2fec059-b03b-11e7-84a1-021893e306d8", 
@@ -470,7 +470,7 @@
                     "edgeid": "4ac7d8ea-aecf-11e7-9f72-021893e306d8", 
                     "graph_id": "c4b9a746-aece-11e7-9f72-021893e306d8", 
                     "name": null, 
-                    "ontologyproperty": "http://www.ics.forth.gr/isl/CRMdig/L33i_is_maker_of", 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P48_has_preferred_identifier", 
                     "rangenode_id": "4ac7d8e5-aecf-11e7-9f72-021893e306d8"
                 }, 
                 {
@@ -551,7 +551,7 @@
                     "edgeid": "e2fec061-b03b-11e7-84a1-021893e306d8", 
                     "graph_id": "c4b9a746-aece-11e7-9f72-021893e306d8", 
                     "name": null, 
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P48_has_preferred_identifier", 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by", 
                     "rangenode_id": "e2fec057-b03b-11e7-84a1-021893e306d8"
                 }, 
                 {
@@ -689,7 +689,7 @@
                     "nodegroup_id": "4ac7d8e5-aecf-11e7-9f72-021893e306d8", 
                     "nodeid": "4ac7d8e5-aecf-11e7-9f72-021893e306d8", 
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier", 
-                    "parentproperty": "http://www.ics.forth.gr/isl/CRMdig/L33i_is_maker_of"
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P48_has_preferred_identifier"
                 }, 
                 {
                     "config": null, 
@@ -890,7 +890,7 @@
                     "nodegroup_id": "e2fec057-b03b-11e7-84a1-021893e306d8", 
                     "nodeid": "e2fec057-b03b-11e7-84a1-021893e306d8", 
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier", 
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P48_has_preferred_identifier"
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by"
                 }, 
                 {
                     "config": {

@@ -10,8 +10,9 @@
                     "graph_id": "d3bca8e3-9213-11e7-b43c-021893e306d8", 
                     "helpenabled": true, 
                     "helptext": "<p>The following guidelines are based on the National Council of Archives <em>Rules for the Construction of Personal, Place and Corporate Names.&nbsp;</em></p>\n\n<p><strong>Title</strong></p>\n\n<p>In English only the titles Lord, Lady, Sir, Dame and Hon (Honourable) may precede the forename. However common practice allows for other titles, such as Mr, Mrs etc, to be used. Select the most appropriate.</p>\n\n<p><strong>Initials</strong></p>\n\n<p>These should only be used where the full name is not known&nbsp;or the individual is more usually known by their initials, eg. T.S. Eliot.&nbsp;</p>\n\n<p><strong>Forename</strong></p>\n\n<p>A forename is the component of the name which a person is given in addition to his/her surname. All forenames should be listed to assist disambiguation between individuals.</p>\n\n<p><strong>Middle name(s)</strong></p>\n\n<p>Record middle names where given.</p>\n\n<p><strong>Surname</strong></p>\n\n<p>The component of a name which a person usually shares with other members of their family<strong>.</strong></p>\n\n<p><strong>Epithet</strong></p>\n\n<p>This is a word or phrase describing a person&#39;s status, position, occupation, nationality, place of birth etc. An epithet should be included as a qualifier where any confusion between persons may arise.</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n", 
-                    "helptitle": "Naming Individuals", 
+                    "helptitle": "<p>The following guidelines are based on the National Council of Archives <em>Rules for the Construction of Personal, Place and Corporate Names.&nbsp;</em></p>\n\n<p><strong>Title</strong></p>\n\n<p>In English only the titles Lord, Lady, Sir, Dame and Hon (Honourable) may precede the forename. However common practice allows for other titles, such as Mr, Mrs etc, to be used. Select the most appropriate.</p>\n\n<p><strong>Initials</strong></p>\n\n<p>These should only be used where the full name is not known&nbsp;or the individual is more usually known by their initials, eg. T.S. Eliot.&nbsp;</p>\n\n<p><strong>Forename</strong></p>\n\n<p>A forename is the component of the name which a person is given in addition to his/her surname. All forenames should be listed to assist disambiguation between individuals.</p>\n\n<p><strong>Middle name(s)</strong></p>\n\n<p>Record middle names where given.</p>\n\n<p><strong>Surname</strong></p>\n\n<p>The component of a name which a person usually shares with other members of their family<strong>.</strong></p>\n\n<p><strong>Epithet</strong></p>\n\n<p>This is a word or phrase describing a person&#39;s status, position, occupation, nationality, place of birth etc. An epithet should be included as a qualifier where any confusion between persons may arise.</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n", 
                     "instructions": null, 
+                    "is_editable": true, 
                     "name": "HER Actor Name (Person)", 
                     "nodegroup_id": "d3bca8e2-9213-11e7-b43c-021893e306d8", 
                     "sortorder": null, 
@@ -19,32 +20,6 @@
                 }
             ], 
             "cards_x_nodes_x_widgets": [
-                {
-                    "card_id": "d3bca8e5-9213-11e7-b43c-021893e306d8", 
-                    "config": {
-                        "label": "Title", 
-                        "placeholder": "Select an option"
-                    }, 
-                    "id": "0a3d384a-9217-11e7-b43c-021893e306d8", 
-                    "label": "Title", 
-                    "node_id": "cee903e1-9215-11e7-b43c-021893e306d8", 
-                    "sortorder": 0, 
-                    "widget_id": "10000000-0000-0000-0000-000000000015"
-                }, 
-                {
-                    "card_id": "d3bca8e5-9213-11e7-b43c-021893e306d8", 
-                    "config": {
-                        "label": "Initials", 
-                        "maxLength": null, 
-                        "placeholder": "e.g. J.R.R., ", 
-                        "width": "100%"
-                    }, 
-                    "id": "0a3d384c-9217-11e7-b43c-021893e306d8", 
-                    "label": "Initials", 
-                    "node_id": "141432f1-9216-11e7-b43c-021893e306d8", 
-                    "sortorder": 1, 
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                }, 
                 {
                     "card_id": "d3bca8e5-9213-11e7-b43c-021893e306d8", 
                     "config": {
@@ -85,6 +60,32 @@
                     "label": "Surname", 
                     "node_id": "943f6235-9215-11e7-b43c-021893e306d8", 
                     "sortorder": 4, 
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                }, 
+                {
+                    "card_id": "d3bca8e5-9213-11e7-b43c-021893e306d8", 
+                    "config": {
+                        "label": "Title", 
+                        "placeholder": "Select an option"
+                    }, 
+                    "id": "0a3d384a-9217-11e7-b43c-021893e306d8", 
+                    "label": "Title", 
+                    "node_id": "cee903e1-9215-11e7-b43c-021893e306d8", 
+                    "sortorder": 0, 
+                    "widget_id": "10000000-0000-0000-0000-000000000015"
+                }, 
+                {
+                    "card_id": "d3bca8e5-9213-11e7-b43c-021893e306d8", 
+                    "config": {
+                        "label": "Initials", 
+                        "maxLength": null, 
+                        "placeholder": "e.g. J.R.R., ", 
+                        "width": "100%"
+                    }, 
+                    "id": "0a3d384c-9217-11e7-b43c-021893e306d8", 
+                    "label": "Initials", 
+                    "node_id": "141432f1-9216-11e7-b43c-021893e306d8", 
+                    "sortorder": 1, 
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 }, 
                 {
@@ -266,6 +267,7 @@
                     "description": "", 
                     "graph_id": "d3bca8e3-9213-11e7-b43c-021893e306d8", 
                     "is_collector": true, 
+                    "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": true, 
                     "name": "Person Name", 
@@ -280,6 +282,7 @@
                     "description": "Represents a single node in a graph", 
                     "graph_id": "d3bca8e3-9213-11e7-b43c-021893e306d8", 
                     "is_collector": false, 
+                    "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": false, 
                     "name": "Forename", 
@@ -296,6 +299,7 @@
                     "description": "Represents a single node in a graph", 
                     "graph_id": "d3bca8e3-9213-11e7-b43c-021893e306d8", 
                     "is_collector": false, 
+                    "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": false, 
                     "name": "Name Type", 
@@ -312,6 +316,7 @@
                     "description": "Represents a single node in a graph", 
                     "graph_id": "d3bca8e3-9213-11e7-b43c-021893e306d8", 
                     "is_collector": false, 
+                    "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": false, 
                     "name": "Title", 
@@ -326,6 +331,7 @@
                     "description": "Represents a single node in a graph", 
                     "graph_id": "d3bca8e3-9213-11e7-b43c-021893e306d8", 
                     "is_collector": false, 
+                    "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": false, 
                     "name": "Surname", 
@@ -340,6 +346,7 @@
                     "description": "Represents a single node in a graph", 
                     "graph_id": "d3bca8e3-9213-11e7-b43c-021893e306d8", 
                     "is_collector": false, 
+                    "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": false, 
                     "name": "Epithet", 
@@ -354,6 +361,7 @@
                     "description": "Represents a single node in a graph", 
                     "graph_id": "d3bca8e3-9213-11e7-b43c-021893e306d8", 
                     "is_collector": false, 
+                    "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": false, 
                     "name": "Initials", 
@@ -368,6 +376,7 @@
                     "description": "Represents a single node in a graph", 
                     "graph_id": "d3bca8e3-9213-11e7-b43c-021893e306d8", 
                     "is_collector": false, 
+                    "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": false, 
                     "name": "Middle Name(s)", 
@@ -389,6 +398,7 @@
                 "description": "", 
                 "graph_id": "d3bca8e3-9213-11e7-b43c-021893e306d8", 
                 "is_collector": true, 
+                "isrequired": false, 
                 "issearchable": true, 
                 "istopnode": true, 
                 "name": "Person Name", 
@@ -402,8 +412,8 @@
     ], 
     "metadata": {
         "db": "PostgreSQL 9.6.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 5.3.1-14ubuntu2) 5.3.1 20160413, 64-bit", 
-        "git hash": "205c31b 2017-06-01 12:07:14 -0700", 
+        "git hash": "411ce7d 2017-10-12 13:02:46 -0700", 
         "os": "Linux", 
-        "os version": "4.4.0-93-generic"
+        "os version": "4.4.0-97-generic"
     }
 }

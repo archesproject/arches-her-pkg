@@ -6,411 +6,469 @@
 >
   <skos:Concept rdf:about="http://www.archesproject.org/67aed86b-7b87-3e65-859c-1505eee3bb81">
     <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/04ec3033-602c-33a2-b358-2197ba7a9377">
-        <skos:scopeNote xml:lang="en">{"id": "70423566-2bf0-4380-95ed-97c4b602af9b", "value": "A marine survey in which a multi-element transducer provides many (30-150) individual soundings of the water depth and echo strength for each ping."}</skos:scopeNote>
-        <skos:prefLabel xml:lang="en">{"id": "fec70d84-1675-4a11-8281-e4b8fe99db0b", "value": "Multibeam Survey"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower>
       <skos:Concept rdf:about="http://www.archesproject.org/4c03c45a-6424-38ce-8413-5fcacfd4d166">
+        <skos:scopeNote xml:lang="en">{"id": "08b13a3b-1f92-4f92-bbee-b441e5c9443e", "value": "Maritime monument identified as a ferrous object lying on the sea bed detected using marine surveying equipment that detects localised anomalies in the Earth's magnetic field."}</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
         <skos:prefLabel xml:lang="en">{"id": "c66833d8-26e8-44fc-84ad-d384fe36c9cb", "value": "Marine Magnetometer Reading"}</skos:prefLabel>
-        <skos:scopeNote xml:lang="en">{"id": "08b13a3b-1f92-4f92-bbee-b441e5c9443e", "value": "Maritime monument identified as a ferrous object lying on the sea bed detected using marine surveying equipment that detects localised anomalies in the Earth's magnetic field."}</skos:scopeNote>
+        <dcterms:identifier xml:lang="en-US">{"id": "62756386-63a5-4e83-8a10-e20b9f0c2128", "value": "http://www.archesproject.org/4c03c45a-6424-38ce-8413-5fcacfd4d166"}</dcterms:identifier>
       </skos:Concept>
     </skos:narrower>
-    <skos:inScheme>
-      <skos:ConceptScheme rdf:about="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075">
-        <dcterms:description xml:lang="en">{"id": "3e4b74a9-55a4-4902-bbcc-785b9bf83c6f", "value": "Terminology covering the existing physical remains of a monument, or the means by which a monument has been identified where no physical remains exist"}</dcterms:description>
-        <dcterms:title xml:lang="en">{"id": "9df2a440-fdfc-4cda-a07d-b529350d3fd4", "value": "FISH Evidence"}</dcterms:title>
-        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/8df44a9b-e44e-30f9-9119-64ee01676afe"/>
-      </skos:ConceptScheme>
-    </skos:inScheme>
-    <skos:related>
-      <skos:Concept rdf:about="http://www.archesproject.org/42e337c3-cd07-306b-b2b9-3f4f6ad414c7">
-        <skos:related rdf:resource="http://www.archesproject.org/42e337c3-cd07-306b-b2b9-3f4f6ad414c7"/>
-        <skos:altLabel xml:lang="en">{"id": "cb0b5961-deb9-4268-a6d0-d03988ae1a5f", "value": "Submerged"}</skos:altLabel>
-        <skos:scopeNote xml:lang="en">{"id": "5c9f1a58-872f-4ea4-a619-f0919a213964", "value": "Monument visible on the sea, lake or river bed, either totally submerged at all times, or exposed at low tide, low water conditions etc."}</skos:scopeNote>
-        <skos:prefLabel xml:lang="en">{"id": "a0644201-371b-4789-ab8e-6eedec4a4894", "value": "Submerged Monument"}</skos:prefLabel>
-        <skos:related rdf:resource="http://www.archesproject.org/67aed86b-7b87-3e65-859c-1505eee3bb81"/>
-        <skos:narrower rdf:resource="http://www.archesproject.org/d8b5a17f-81ca-3879-ae96-bf49f8b30f73"/>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
-      </skos:Concept>
-    </skos:related>
     <skos:scopeNote xml:lang="en">{"id": "adcdbe67-9c65-4304-87c8-9073446ab5c3", "value": "A monument visible as a trace on marine survey equipment"}</skos:scopeNote>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/04ec3033-602c-33a2-b358-2197ba7a9377">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
+        <skos:scopeNote xml:lang="en">{"id": "70423566-2bf0-4380-95ed-97c4b602af9b", "value": "A marine survey in which a multi-element transducer provides many (30-150) individual soundings of the water depth and echo strength for each ping."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "fec70d84-1675-4a11-8281-e4b8fe99db0b", "value": "Multibeam Survey"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en-US">{"id": "0bf778f0-9fdd-45bc-b1e6-2a91f27f73da", "value": "http://www.archesproject.org/04ec3033-602c-33a2-b358-2197ba7a9377"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="en">{"id": "b3a9cab7-d027-4079-a24e-3a646406fed3", "value": "Marine Geophysical Evidence"}</skos:prefLabel>
+    <skos:related rdf:resource="http://www.archesproject.org/67aed86b-7b87-3e65-859c-1505eee3bb81"/>
     <skos:narrower>
       <skos:Concept rdf:about="http://www.archesproject.org/8b4b036d-d93e-397e-bed7-4f6d9420631a">
         <skos:scopeNote xml:lang="en">{"id": "e834e8e0-ba47-4627-9583-5e7ea345ccb6", "value": "An object in the sea bed detected by marine survey equipment that shows the contours of the sea bed beneath a vessel."}</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
         <skos:prefLabel xml:lang="en">{"id": "6ffdfd01-3ab0-42b7-a216-aa7c067966bc", "value": "Echosounder Trace"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en-US">{"id": "affcdf2d-92f3-48f5-9724-ae4da4203771", "value": "http://www.archesproject.org/8b4b036d-d93e-397e-bed7-4f6d9420631a"}</dcterms:identifier>
       </skos:Concept>
     </skos:narrower>
+    <skos:related>
+      <skos:Concept rdf:about="http://www.archesproject.org/42e337c3-cd07-306b-b2b9-3f4f6ad414c7">
+        <skos:related rdf:resource="http://www.archesproject.org/67aed86b-7b87-3e65-859c-1505eee3bb81"/>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
+        <dcterms:identifier xml:lang="en-US">{"id": "20210eb5-1e68-4d16-b7d8-2d1ed5e9eb61", "value": "http://www.archesproject.org/42e337c3-cd07-306b-b2b9-3f4f6ad414c7"}</dcterms:identifier>
+        <skos:altLabel xml:lang="en">{"id": "cb0b5961-deb9-4268-a6d0-d03988ae1a5f", "value": "Submerged"}</skos:altLabel>
+        <skos:narrower rdf:resource="http://www.archesproject.org/d8b5a17f-81ca-3879-ae96-bf49f8b30f73"/>
+        <skos:scopeNote xml:lang="en">{"id": "5c9f1a58-872f-4ea4-a619-f0919a213964", "value": "Monument visible on the sea, lake or river bed, either totally submerged at all times, or exposed at low tide, low water conditions etc."}</skos:scopeNote>
+        <skos:related rdf:resource="http://www.archesproject.org/42e337c3-cd07-306b-b2b9-3f4f6ad414c7"/>
+        <skos:prefLabel xml:lang="en">{"id": "a0644201-371b-4789-ab8e-6eedec4a4894", "value": "Submerged Monument"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:related>
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075">
+        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/8df44a9b-e44e-30f9-9119-64ee01676afe"/>
+        <dcterms:identifier xml:lang="en-US">{"id": "e44e4d1e-b27b-4bbe-a1f1-92f4e3d1126d", "value": "http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"}</dcterms:identifier>
+        <dcterms:title xml:lang="en">{"id": "9df2a440-fdfc-4cda-a07d-b529350d3fd4", "value": "FISH Evidence"}</dcterms:title>
+        <dcterms:description xml:lang="en">{"id": "3e4b74a9-55a4-4902-bbcc-785b9bf83c6f", "value": "Terminology covering the existing physical remains of a monument, or the means by which a monument has been identified where no physical remains exist"}</dcterms:description>
+      </skos:ConceptScheme>
+    </skos:inScheme>
     <skos:narrower>
       <skos:Concept rdf:about="http://www.archesproject.org/d2f87eef-5543-3bb5-920d-da198fe451a4">
-        <skos:prefLabel xml:lang="en">{"id": "83f28427-e730-4802-81f8-8db27ab30ec9", "value": "Sonar Contact"}</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
-        <skos:narrower rdf:resource="http://www.archesproject.org/cd7bc306-4fd2-34b9-aa97-5f7c2003c892"/>
+        <dcterms:identifier xml:lang="en-US">{"id": "286cf702-712a-4dd9-8965-6a9f2e23f798", "value": "http://www.archesproject.org/d2f87eef-5543-3bb5-920d-da198fe451a4"}</dcterms:identifier>
         <skos:scopeNote xml:lang="en">{"id": "1644d766-7ac5-4851-aaa0-0984a11dfab5", "value": "An object lying on the sea bed detected by marine survey equipment that emits and receives high frequency sound waves."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "83f28427-e730-4802-81f8-8db27ab30ec9", "value": "Sonar Contact"}</skos:prefLabel>
+        <skos:narrower rdf:resource="http://www.archesproject.org/cd7bc306-4fd2-34b9-aa97-5f7c2003c892"/>
       </skos:Concept>
     </skos:narrower>
-    <skos:related rdf:resource="http://www.archesproject.org/67aed86b-7b87-3e65-859c-1505eee3bb81"/>
-    <skos:prefLabel xml:lang="en">{"id": "b3a9cab7-d027-4079-a24e-3a646406fed3", "value": "Marine Geophysical Evidence"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en-US">{"id": "22df11fa-28c5-4969-b6a6-3305922ee5d6", "value": "http://www.archesproject.org/67aed86b-7b87-3e65-859c-1505eee3bb81"}</dcterms:identifier>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/5d9b5747-d2d5-39c5-b016-fe002f2e4c15">
+  <skos:Concept rdf:about="http://www.archesproject.org/262b7623-cb9f-3097-99b1-ce8c7471b9a3">
     <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
     <skos:related>
       <skos:Concept rdf:about="http://www.archesproject.org/33aaa4f4-730d-37b9-9fcd-b2ce89dffd82">
-        <skos:altLabel xml:lang="en">{"id": "151e0f9c-0197-4a46-9d88-37c51a9ce16c", "value": "Geophysical Evidence"}</skos:altLabel>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
-        <skos:related rdf:resource="http://www.archesproject.org/fcd7bc38-2dea-3106-8157-f0af2c6fd4e2"/>
-        <skos:scopeNote xml:lang="en">{"id": "edf34b71-b8d9-42c9-b5a8-c1c58b344835", "value": "Monument either never or no longer visible above ground surface, but whose presence is indicated by proven below ground stratigraphy revealed by deliberate investigation, including geophysical survey, or other surface disturbance."}</skos:scopeNote>
-        <skos:altLabel xml:lang="en">{"id": "932b5702-6d38-452b-b15d-75e233e2a4a5", "value": "Flat - Accumulated"}</skos:altLabel>
-        <skos:altLabel xml:lang="en">{"id": "37f49205-892f-4246-95f1-d9f2ce1af501", "value": "Flat - Unaccumulated"}</skos:altLabel>
         <skos:prefLabel xml:lang="en">{"id": "0391c39e-3d4c-41d9-bd4d-7a8e1f30fc8f", "value": "Sub Surface Deposit"}</skos:prefLabel>
-        <skos:related rdf:resource="http://www.archesproject.org/33aaa4f4-730d-37b9-9fcd-b2ce89dffd82"/>
+        <skos:altLabel xml:lang="en">{"id": "37f49205-892f-4246-95f1-d9f2ce1af501", "value": "Flat - Unaccumulated"}</skos:altLabel>
         <skos:related rdf:resource="http://www.archesproject.org/262b7623-cb9f-3097-99b1-ce8c7471b9a3"/>
-        <skos:related rdf:resource="http://www.archesproject.org/5d9b5747-d2d5-39c5-b016-fe002f2e4c15"/>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
+        <skos:altLabel xml:lang="en">{"id": "151e0f9c-0197-4a46-9d88-37c51a9ce16c", "value": "Geophysical Evidence"}</skos:altLabel>
+        <skos:related rdf:resource="http://www.archesproject.org/33aaa4f4-730d-37b9-9fcd-b2ce89dffd82"/>
+        <skos:scopeNote xml:lang="en">{"id": "edf34b71-b8d9-42c9-b5a8-c1c58b344835", "value": "Monument either never or no longer visible above ground surface, but whose presence is indicated by proven below ground stratigraphy revealed by deliberate investigation, including geophysical survey, or other surface disturbance."}</skos:scopeNote>
         <skos:related rdf:resource="http://www.archesproject.org/2ac58858-359e-3376-9903-c012bbfba32d"/>
+        <dcterms:identifier xml:lang="en-US">{"id": "55f2628f-0c2f-4cbc-9789-71dcfb43e186", "value": "http://www.archesproject.org/33aaa4f4-730d-37b9-9fcd-b2ce89dffd82"}</dcterms:identifier>
+        <skos:related rdf:resource="http://www.archesproject.org/fcd7bc38-2dea-3106-8157-f0af2c6fd4e2"/>
+        <skos:altLabel xml:lang="en">{"id": "932b5702-6d38-452b-b15d-75e233e2a4a5", "value": "Flat - Accumulated"}</skos:altLabel>
+        <skos:related rdf:resource="http://www.archesproject.org/5d9b5747-d2d5-39c5-b016-fe002f2e4c15"/>
       </skos:Concept>
     </skos:related>
-    <skos:scopeNote xml:lang="en">{"id": "779d6c75-4bb2-4bfc-8d28-e772642a28ba", "value": "The deliberate deposit of a body in the ground, usually located in a special area set aside for the purpose of burial, such as a graveyard or cemetery."}</skos:scopeNote>
-    <skos:prefLabel xml:lang="en">{"id": "d106b30a-58b9-496f-8e2a-a037b356b58f", "value": "Burial"}</skos:prefLabel>
-    <skos:related rdf:resource="http://www.archesproject.org/5d9b5747-d2d5-39c5-b016-fe002f2e4c15"/>
+    <skos:prefLabel xml:lang="en">{"id": "20a67529-934b-4376-850e-013da54e7d3e", "value": "Stratified Find"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "670e61d5-2705-472f-b5c0-65b00cc3226f", "value": "A Monument whose presence is inferred from artefacts found in stratified below ground deposits, as distinct from surface collection or chance find."}</skos:scopeNote>
+    <skos:related rdf:resource="http://www.archesproject.org/262b7623-cb9f-3097-99b1-ce8c7471b9a3"/>
+    <dcterms:identifier xml:lang="en-US">{"id": "03d72e37-8e36-483e-a55e-f58691470a5f", "value": "http://www.archesproject.org/262b7623-cb9f-3097-99b1-ce8c7471b9a3"}</dcterms:identifier>
   </skos:Concept>
   <skos:Concept rdf:about="http://www.archesproject.org/2ac58858-359e-3376-9903-c012bbfba32d">
-    <skos:scopeNote xml:lang="en">{"id": "5667ebcc-7938-48db-924e-7bc4d0938669", "value": "A monument previously consisting of a built structure, but which has been demolished, such that only a ground plan and foundations or similar are thought to remain. Where all below ground traces have also been removed use Destroyed Monument."}</skos:scopeNote>
     <skos:related rdf:resource="http://www.archesproject.org/2ac58858-359e-3376-9903-c012bbfba32d"/>
-    <skos:prefLabel xml:lang="en">{"id": "8a111824-7fab-4bba-ae0d-eec64b1200c6", "value": "Demolished Building"}</skos:prefLabel>
-    <skos:related rdf:resource="http://www.archesproject.org/33aaa4f4-730d-37b9-9fcd-b2ce89dffd82"/>
-    <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
-    <skos:altLabel xml:lang="en">{"id": "bf7a915d-0728-4023-8fe8-2b742832dfe3", "value": "Building Foundation"}</skos:altLabel>
     <skos:altLabel xml:lang="en">{"id": "24a72e87-f933-400a-a733-4c24e0f8a70a", "value": "Partially Demolished Building"}</skos:altLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/262b7623-cb9f-3097-99b1-ce8c7471b9a3">
-    <skos:related rdf:resource="http://www.archesproject.org/262b7623-cb9f-3097-99b1-ce8c7471b9a3"/>
     <skos:related rdf:resource="http://www.archesproject.org/33aaa4f4-730d-37b9-9fcd-b2ce89dffd82"/>
-    <skos:scopeNote xml:lang="en">{"id": "670e61d5-2705-472f-b5c0-65b00cc3226f", "value": "A Monument whose presence is inferred from artefacts found in stratified below ground deposits, as distinct from surface collection or chance find."}</skos:scopeNote>
-    <skos:prefLabel xml:lang="en">{"id": "20a67529-934b-4376-850e-013da54e7d3e", "value": "Stratified Find"}</skos:prefLabel>
+    <skos:altLabel xml:lang="en">{"id": "bf7a915d-0728-4023-8fe8-2b742832dfe3", "value": "Building Foundation"}</skos:altLabel>
+    <dcterms:identifier xml:lang="en-US">{"id": "894e3b7e-81d3-4125-9693-9f872118881d", "value": "http://www.archesproject.org/2ac58858-359e-3376-9903-c012bbfba32d"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "5667ebcc-7938-48db-924e-7bc4d0938669", "value": "A monument previously consisting of a built structure, but which has been demolished, such that only a ground plan and foundations or similar are thought to remain. Where all below ground traces have also been removed use Destroyed Monument."}</skos:scopeNote>
     <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
+    <skos:prefLabel xml:lang="en">{"id": "8a111824-7fab-4bba-ae0d-eec64b1200c6", "value": "Demolished Building"}</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="http://www.archesproject.org/fcd7bc38-2dea-3106-8157-f0af2c6fd4e2">
     <skos:scopeNote xml:lang="en">{"id": "accb022f-6fd6-4e67-a042-ab405e10fd40", "value": "Monument visible as remains of former earthworks."}</skos:scopeNote>
-    <skos:related rdf:resource="http://www.archesproject.org/fcd7bc38-2dea-3106-8157-f0af2c6fd4e2"/>
     <skos:related rdf:resource="http://www.archesproject.org/33aaa4f4-730d-37b9-9fcd-b2ce89dffd82"/>
-    <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
-    <skos:prefLabel xml:lang="en">{"id": "59bffe89-52dc-4cff-87f6-f062c6120975", "value": "Levelled Earthwork"}</skos:prefLabel>
     <skos:altLabel xml:lang="en">{"id": "7cdc6ab2-95b4-4513-8689-28430b5d1a92", "value": "Plough Levelled Earthwork"}</skos:altLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/3cc9212c-6cdd-388c-a7e5-3a7ab1aca8ba">
+    <skos:related rdf:resource="http://www.archesproject.org/fcd7bc38-2dea-3106-8157-f0af2c6fd4e2"/>
+    <skos:prefLabel xml:lang="en">{"id": "59bffe89-52dc-4cff-87f6-f062c6120975", "value": "Levelled Earthwork"}</skos:prefLabel>
     <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
-    <skos:prefLabel xml:lang="en">{"id": "14f7aaca-bf53-458d-8a99-51d3d19dedd9", "value": "Surface Deposit"}</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">{"id": "2062fdad-2a48-4a3c-8514-e0a65c813376", "value": "A deposit that forms the ground surface (when the Evidence is collected), particularly a hard surface such as a floor or road."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en-US">{"id": "8973e43b-a43b-4aea-af81-5f2a4fdd34f2", "value": "http://www.archesproject.org/fcd7bc38-2dea-3106-8157-f0af2c6fd4e2"}</dcterms:identifier>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/895ee32a-7de6-37b1-8684-b0d8bf30e366">
-    <skos:prefLabel xml:lang="en">{"id": "6237c09f-1605-4b32-b0c5-a9ff019f9064", "value": "Coherent Vessel Structure"}</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">{"id": "94cdb45d-7ad6-4ac7-b85e-10c4c24f7a5a", "value": "A maritime monument where the hull structure and fabric of a vessel remain wholly or mainly intact."}</skos:scopeNote>
+  <skos:Concept rdf:about="http://www.archesproject.org/5d9b5747-d2d5-39c5-b016-fe002f2e4c15">
+    <skos:related rdf:resource="http://www.archesproject.org/5d9b5747-d2d5-39c5-b016-fe002f2e4c15"/>
+    <skos:scopeNote xml:lang="en">{"id": "779d6c75-4bb2-4bfc-8d28-e772642a28ba", "value": "The deliberate deposit of a body in the ground, usually located in a special area set aside for the purpose of burial, such as a graveyard or cemetery."}</skos:scopeNote>
     <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
+    <dcterms:identifier xml:lang="en-US">{"id": "53288a4c-fcd3-4cb6-a417-06f8732e47eb", "value": "http://www.archesproject.org/5d9b5747-d2d5-39c5-b016-fe002f2e4c15"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "d106b30a-58b9-496f-8e2a-a037b356b58f", "value": "Burial"}</skos:prefLabel>
+    <skos:related rdf:resource="http://www.archesproject.org/33aaa4f4-730d-37b9-9fcd-b2ce89dffd82"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/eb4957ab-b9a4-3483-8f7b-79e59274b2a9">
+  <skos:Concept rdf:about="http://www.archesproject.org/b56b0ed2-2b75-37f8-9afe-590f534601ea">
+    <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
     <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/7f2e3e1b-7515-3f92-b25b-699632466cad">
-        <skos:scopeNote xml:lang="en">{"id": "df25c6e1-e226-48ce-8b2d-17ee4b5e38a8", "value": "A landscape which has been specifically designed or modified. Often indicated by proven below ground stratigraphy, revealed by deliberate investigation including geophysical survey, or other surface monuments or structures."}</skos:scopeNote>
+      <skos:Concept rdf:about="http://www.archesproject.org/6d6cf4e0-56c9-352e-880e-f2bfa3e9de4f">
+        <skos:scopeNote xml:lang="en">{"id": "bf6c3f64-b473-497a-9513-6696baee5400", "value": "An object in the sea bed recorded on the Hydrographic Office plot of objects snagged by nets during trawling."}</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
-        <skos:prefLabel xml:lang="en">{"id": "02c03ac2-ab05-4c7f-a7f3-37752332dbe5", "value": "Designed Landscape"}</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">{"id": "d4d19ceb-22df-4cb3-9a70-cb76f8e23935", "value": "Marine Trawling Plot"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en-US">{"id": "16f3925f-bad1-4b90-9983-6bf40d81f7e8", "value": "http://www.archesproject.org/6d6cf4e0-56c9-352e-880e-f2bfa3e9de4f"}</dcterms:identifier>
       </skos:Concept>
     </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/269c4235-a4db-3c15-85de-2b15cba0b51b">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
+        <skos:scopeNote xml:lang="en">{"id": "6e8b310c-c4de-49ae-9b42-62cd318841b4", "value": "Monument type/interpretation is inferred, based on informed speculation eg by comparison with similar monuments, proximity to other monuments, topography, site character etc."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "6a0a0e9a-bbd1-43a5-b003-49f6e288a494", "value": "Conjectural Evidence"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en-US">{"id": "1cacc130-e6ed-483a-9062-d48ae192c6aa", "value": "http://www.archesproject.org/269c4235-a4db-3c15-85de-2b15cba0b51b"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/d7eba5da-acb2-30c9-b7e5-927e7a08d5ee">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
+        <skos:prefLabel xml:lang="en">{"id": "3b2a490e-d4d4-467c-823e-c4c9aa54a09c", "value": "Documentary Evidence"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en-US">{"id": "988e4bb7-40ca-43fa-948e-5952b51e922b", "value": "http://www.archesproject.org/d7eba5da-acb2-30c9-b7e5-927e7a08d5ee"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "d8421631-ce85-4975-a4ed-b1f318441e96", "value": "Monument known only from primary documentary sources eg books, maps, legal records, where no physical Evidence exists. Use also where a monument has been planned but never constructed."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:scopeNote xml:lang="en">{"id": "b367572d-dc1c-4328-a99e-4010a186ad13", "value": "Not to be used for indexing. Broad term to assist retreival of all monuments where non-physical Evidence is recorded."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en-US">{"id": "b1cf66d5-3a91-4526-9cd4-7869c51e5478", "value": "http://www.archesproject.org/b56b0ed2-2b75-37f8-9afe-590f534601ea"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "acb38bf9-7091-4cbc-9048-10a52b27b2ef", "value": "Implied Evidence"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/c9ab2ea4-e597-304f-93c1-5ecd0e276033">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
+        <dcterms:identifier xml:lang="en-US">{"id": "b88d5277-2030-4663-bfe8-64ee733a662f", "value": "http://www.archesproject.org/c9ab2ea4-e597-304f-93c1-5ecd0e276033"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "5926c1c2-575a-46c3-9d6a-f24c635acbfe", "value": "A monument whose presence is inferred from verbally delivered information drawn from the speaker's personal knowledge."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "2495e809-1801-48d0-a4f8-6702bf439282", "value": "Oral Evidence"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/2b369629-8a29-3a8f-b477-af7e59ea7736">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
+        <dcterms:identifier xml:lang="en-US">{"id": "078dcf18-5eb4-4b23-8082-bc6d3214a350", "value": "http://www.archesproject.org/2b369629-8a29-3a8f-b477-af7e59ea7736"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "fa745029-5716-4dc9-b1b9-59e66a47e5db", "value": "Use where the presence or nature of a monument is inferred from placenames or placename elements."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "f1866e9d-0ca3-4b3d-8696-e17e95aee1bf", "value": "Placename Evidence"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://www.archesproject.org/67aed86b-7b87-3e65-859c-1505eee3bb81"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/85acc8af-26f2-37f4-8560-c72f4780925a">
+    <skos:altLabel xml:lang="en">{"id": "e3ee02b0-f861-4267-865d-78290f5c86fd", "value": "Soil Mark"}</skos:altLabel>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
+    <skos:scopeNote xml:lang="en">{"id": "567e4795-1d3b-47f8-9db9-f256156697cf", "value": "Monument visible, usually from the air, due to the fill of features being of a different colour than the surrounding subsoil. Soilmarks show up well in ploughed fields or areas where the topsoil has been stripped.  Term derived from AN32 Glossary"}</skos:scopeNote>
+    <skos:altLabel xml:lang="en">{"id": "d8e2b177-3959-4f27-8f0c-7265a00601c7", "value": "Ap Macula"}</skos:altLabel>
+    <skos:altLabel xml:lang="en">{"id": "1b6c4e1a-6e66-44e9-8d51-4de0c3430db0", "value": "Ap Enclosure"}</skos:altLabel>
+    <skos:altLabel xml:lang="en">{"id": "9a4467ce-b746-4cb1-adc8-9368c5856455", "value": "Ap Linear Feature"}</skos:altLabel>
+    <skos:altLabel xml:lang="en">{"id": "7134d2f3-4cfc-4235-b62f-0d91e1cc450b", "value": "Ap Site"}</skos:altLabel>
+    <skos:prefLabel xml:lang="en">{"id": "f6b2f940-2ff2-4aaa-801d-4dd51cf99fb7", "value": "Soilmark"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en-US">{"id": "641c4373-fe1e-49f3-b44c-529c9eb7bb7e", "value": "http://www.archesproject.org/85acc8af-26f2-37f4-8560-c72f4780925a"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/7f2e3e1b-7515-3f92-b25b-699632466cad">
+    <skos:scopeNote xml:lang="en">{"id": "df25c6e1-e226-48ce-8b2d-17ee4b5e38a8", "value": "A landscape which has been specifically designed or modified. Often indicated by proven below ground stratigraphy, revealed by deliberate investigation including geophysical survey, or other surface monuments or structures."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "02c03ac2-ab05-4c7f-a7f3-37752332dbe5", "value": "Designed Landscape"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en-US">{"id": "f1797ad2-b75f-40c6-8d92-bf7f8cdd2cdf", "value": "http://www.archesproject.org/7f2e3e1b-7515-3f92-b25b-699632466cad"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/e211ffd5-6134-3e19-8040-22b634f0c57d">
+    <skos:scopeNote xml:lang="en">{"id": "56ec909d-7b26-4aad-8783-6119d8a2cb34", "value": "A building which has been moved from its original site either through active human intervention or natural processes such as erosion. For structures or objects such as gravestones use MOVED Structure."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en-US">{"id": "d506f1b8-1b68-4570-8e2a-d3d0cbd6fdfa", "value": "http://www.archesproject.org/e211ffd5-6134-3e19-8040-22b634f0c57d"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "9d487075-02a5-45a7-99e8-b06ea271ef63", "value": "Moved Building"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/b728cbad-19fe-31d4-a173-b0158f7f8e30">
+    <skos:scopeNote xml:lang="en">{"id": "6540ee3b-fab1-410e-aa6f-9ef8b46646f3", "value": "Current recorded information does not give the Evidence for a monument, or the information is regarded as unreliable."}</skos:scopeNote>
+    <skos:altLabel xml:lang="en">{"id": "29338154-92a2-4194-914e-1e3bf9678131", "value": "Uncertain"}</skos:altLabel>
+    <skos:prefLabel xml:lang="en">{"id": "a0748745-06ae-45ea-bf42-6a1b9a98b4b1", "value": "Uncertain Evidence"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
+    <dcterms:identifier xml:lang="en-US">{"id": "e4e927d5-1c22-4e6b-a9b5-12901ddd3c15", "value": "http://www.archesproject.org/b728cbad-19fe-31d4-a173-b0158f7f8e30"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/90aa71bf-8ae7-3f50-83d5-9980b5bdd921">
+    <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
+    <skos:altLabel xml:lang="en">{"id": "da7138cb-b296-4bdd-9410-95f696fc9fc0", "value": "Other Structure"}</skos:altLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/bda76257-8b93-3e8f-bee9-37441c0d37fa">
+        <dcterms:identifier xml:lang="en-US">{"id": "b7efb6cc-8826-415d-bd15-72b3313e4267", "value": "http://www.archesproject.org/bda76257-8b93-3e8f-bee9-37441c0d37fa"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
+        <skos:scopeNote xml:lang="en">{"id": "ee218afb-5188-4920-b203-6210f588288e", "value": "A man-made construction or object (such as a gravestone) which has been moved from its original site either through active human intervention or natural processes such as erosion. For buildings which have been moved use MOVED Building."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "a494b11e-c0ad-4214-abce-453c6fde3bbb", "value": "Moved Structure"}</skos:prefLabel>
+        <skos:narrower rdf:resource="http://www.archesproject.org/e211ffd5-6134-3e19-8040-22b634f0c57d"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:altLabel xml:lang="en">{"id": "f41569fa-5aed-4bac-a572-d63d86e3ee95", "value": "Standing  Monument"}</skos:altLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/9472756c-04b6-34c0-8d60-e825f9506f07">
+        <skos:altLabel xml:lang="en">{"id": "ecf5b465-353d-45b1-9a6b-0daa7870c926", "value": "Ruined Structure - Unbonded"}</skos:altLabel>
+        <skos:prefLabel xml:lang="en">{"id": "14db10ff-9523-46dd-919b-4f91d78e64f9", "value": "Ruined Structure"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
+        <dcterms:identifier xml:lang="en-US">{"id": "00acfe74-0517-4614-96e8-858f9377aca0", "value": "http://www.archesproject.org/9472756c-04b6-34c0-8d60-e825f9506f07"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "105aabf9-26f1-406d-978a-5622704b423c", "value": "Man-made, roofless edifice or construction visible as substantial above-ground remains retaining Evidence of architecture and materials, but which has been substantially destroyed."}</skos:scopeNote>
+        <skos:altLabel xml:lang="en">{"id": "35deb97a-f074-486d-88c5-8fa3d331db46", "value": "Ruined Structure - Bonded"}</skos:altLabel>
+        <skos:altLabel xml:lang="en">{"id": "e02617bd-b23a-4463-8b05-3710ca4e4e76", "value": "Partially Destroyed Monument"}</skos:altLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <dcterms:identifier xml:lang="en-US">{"id": "a7f02f8c-2065-4776-91ff-34dbf5a0fc29", "value": "http://www.archesproject.org/90aa71bf-8ae7-3f50-83d5-9980b5bdd921"}</dcterms:identifier>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/2609770b-1409-3c72-933e-4aa52338c412">
+        <skos:prefLabel xml:lang="en">{"id": "44f40dab-c90d-4978-a78a-b41002b31b69", "value": "Extant Structure"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "6a0981b8-26b0-4a2a-af3b-0f2ce5e55c7d", "value": "Man-made roofless edifice or construction which is intact or substantially intant, with significant survival of original features, even if no longer serving original intended funtion."}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
+        <dcterms:identifier xml:lang="en-US">{"id": "cdb9f040-936d-4b35-843e-870e695306be", "value": "http://www.archesproject.org/2609770b-1409-3c72-933e-4aa52338c412"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="en">{"id": "771deaf2-0ec5-4e0f-91a7-8ff624dd3f49", "value": "Structure"}</skos:prefLabel>
+    <skos:altLabel xml:lang="en">{"id": "c777aaba-3419-4e5e-84ac-553f7c39c5e5", "value": "Standing Structure - Unbonded"}</skos:altLabel>
+    <skos:altLabel xml:lang="en">{"id": "3f3459d8-c2b5-4a24-aa32-4667f843f997", "value": "Partially Destroyed Monument"}</skos:altLabel>
+    <skos:scopeNote xml:lang="en">{"id": "3052ca6b-d1fd-456b-89c1-f258a4afa5b0", "value": "Man-made building, edifice or construction of assembled material parts."}</skos:scopeNote>
+    <skos:altLabel xml:lang="en">{"id": "ccdb533c-45ff-4ab3-8925-25f56189973e", "value": "Standing Structure - Bonded"}</skos:altLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/f7171055-0fe6-360d-be5f-2fc0a91310bb">
+        <skos:scopeNote xml:lang="en">{"id": "47738c89-e282-433a-a670-694267a85994", "value": "A monument consisting of a built structure, but which has been demolished so that only a ground plan and foundations, or similar, are thought to remain. Where all below ground traces have also been removed use Destroyed Monument."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "1a4383b0-dbff-4bc1-b810-5fa44aa4b193", "value": "Demolished Structure"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
+        <dcterms:identifier xml:lang="en-US">{"id": "c6540c93-ef2c-405c-9f39-3a05b1615770", "value": "http://www.archesproject.org/f7171055-0fe6-360d-be5f-2fc0a91310bb"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/b6d9c5c7-a0e1-37b4-bd1d-509f87eb636a">
+    <dcterms:identifier xml:lang="en-US">{"id": "63267301-9f12-4b60-85c4-0de4903a1b46", "value": "http://www.archesproject.org/b6d9c5c7-a0e1-37b4-bd1d-509f87eb636a"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
+    <skos:prefLabel xml:lang="en">{"id": "78e1aec4-2250-4969-8e57-3238df88918e", "value": "Cropmark"}</skos:prefLabel>
+    <skos:altLabel xml:lang="en">{"id": "ae6e84e9-f60e-4e1c-953e-b78917ad3d91", "value": "Ap Enclosure"}</skos:altLabel>
+    <skos:altLabel xml:lang="en">{"id": "e987b821-f862-4dd7-99ee-a126fb8f3308", "value": "Ap Linear Feature"}</skos:altLabel>
+    <skos:scopeNote xml:lang="en">{"id": "6e796b8d-2f8d-41be-a978-d8342f681bfa", "value": "Monument visible as a mark in standing crops or parchmarks, but where no subsurface deposits have been proven eg by excavation or other ground disturbance, in which case Sub Surface Deposit should be used."}</skos:scopeNote>
+    <skos:altLabel xml:lang="en">{"id": "8c9ed6c1-b588-4225-8cd7-35de746b03d3", "value": "Crop Mark"}</skos:altLabel>
+    <skos:altLabel xml:lang="en">{"id": "8828e184-4fb3-4980-9166-2d67913a197f", "value": "Ap Site"}</skos:altLabel>
+    <skos:altLabel xml:lang="en">{"id": "4c3372bd-db53-4aba-b8f9-e5ae74062051", "value": "Ap Macula"}</skos:altLabel>
+    <skos:altLabel xml:lang="en">{"id": "ba53d85f-caf6-4319-aebd-741d024d4870", "value": "Parchmark"}</skos:altLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/0be3d684-adf1-3761-9429-37a66aa2b1a9">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/070ab805-d997-3e28-ae66-a0eadf6c785b">
+        <skos:prefLabel xml:lang="en">{"id": "455e0115-7224-4b71-9b59-f791151e6b91", "value": "Artefact Scatter"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "62cb585f-5adc-4913-b090-0a7e4944c9b3", "value": "A distribution of artefacts indicating the presence of former presence of a monument."}</skos:scopeNote>
+        <dcterms:identifier xml:lang="en-US">{"id": "56e9732e-9131-4015-a83d-1eed8be050d2", "value": "http://www.archesproject.org/070ab805-d997-3e28-ae66-a0eadf6c785b"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/b3283173-7377-3890-b7f9-96f553bc0206">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
+        <dcterms:identifier xml:lang="en-US">{"id": "fbbdf150-a403-48e8-b17e-c8c521f7903c", "value": "http://www.archesproject.org/b3283173-7377-3890-b7f9-96f553bc0206"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "1e4b1676-cf45-4799-8691-6bcd161329fc", "value": "Unstratified Find"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "60cc4250-2a65-4dfa-809d-c2b7bf59c58d", "value": "Monument whose presence is inferred by discovery of unstratified artefacts, for instance in plough soil."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:scopeNote xml:lang="en">{"id": "481d0bcb-707d-4c42-8ba7-619a7a4b2b31", "value": "Monument whose existence is indicated by the discovery of isolated artefacts or an artefact scatter. Eg a scatter of roofing tiles indicating the presence of a building. Use narrow terms where circumstances of discovery are known."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en-US">{"id": "7c506e22-0e81-4e79-ac5e-3c63cf8bda09", "value": "http://www.archesproject.org/0be3d684-adf1-3761-9429-37a66aa2b1a9"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
+    <skos:prefLabel xml:lang="en">{"id": "11c982a8-4d71-4f85-9e43-e5c7c5b205f1", "value": "FIND"}</skos:prefLabel>
+    <skos:narrower rdf:resource="http://www.archesproject.org/262b7623-cb9f-3097-99b1-ce8c7471b9a3"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/eb4957ab-b9a4-3483-8f7b-79e59274b2a9">
+    <skos:prefLabel xml:lang="en">{"id": "42b045f1-4340-4a69-a0b8-4be4a7a926ac", "value": "Physical Evidence"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/5da2f500-e98d-352c-8940-d56f889eb335">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
+        <skos:prefLabel xml:lang="en">{"id": "bd7eca26-a30f-47d8-bca0-f6d2e1d95de6", "value": "Subterranean Feature"}</skos:prefLabel>
+        <skos:altLabel xml:lang="en">{"id": "84c24aaa-fc62-4895-ab3c-de9274aa0c25", "value": "Subterranean"}</skos:altLabel>
+        <dcterms:identifier xml:lang="en-US">{"id": "2fe76694-41fb-44be-a408-1170839fea76", "value": "http://www.archesproject.org/5da2f500-e98d-352c-8940-d56f889eb335"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "7031b59d-7b6e-410e-b7b9-fb784ce03280", "value": "Monument visible as a below ground man-made structure. Use for tunnels, mineworking, cellars, shelters."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://www.archesproject.org/0be3d684-adf1-3761-9429-37a66aa2b1a9"/>
+    <skos:narrower rdf:resource="http://www.archesproject.org/85acc8af-26f2-37f4-8560-c72f4780925a"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/999b53b9-8b48-3b9e-b81a-bd75a4362ebe">
+        <skos:scopeNote xml:lang="en">{"id": "c51cf5f4-d477-46a5-958e-5f9249778c39", "value": "Natural feature or area deliberately enhanced to construct a monument, eg rock carving, cave, rock shelter."}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
+        <skos:prefLabel xml:lang="en">{"id": "4a69739e-2871-434e-8de7-82c035f84e6a", "value": "Enhanced Natural Feature"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en-US">{"id": "b15ab4dd-f7fb-4dbe-9f6c-07dfd9363040", "value": "http://www.archesproject.org/999b53b9-8b48-3b9e-b81a-bd75a4362ebe"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/107a8fec-467b-3e36-82e3-bca09792c0da">
+        <dcterms:identifier xml:lang="en-US">{"id": "6b9ccde0-1543-43a6-bee5-53b7d56b71f4", "value": "http://www.archesproject.org/107a8fec-467b-3e36-82e3-bca09792c0da"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
+        <skos:scopeNote xml:lang="en">{"id": "d114d49d-447d-42b8-949e-682cb564e751", "value": "Feature visible following archaeological excavation"}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "3da882bb-3dc1-481f-948c-0cdab0bf837b", "value": "Excavated Feature"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:scopeNote xml:lang="en">{"id": "bbef0276-0790-4ea5-906e-3980d70fe0a2", "value": "Not to be used for indexing. Broad term used to assist retreival of all monuments where physical Evidence is recorded."}</skos:scopeNote>
     <skos:narrower rdf:resource="http://www.archesproject.org/42e337c3-cd07-306b-b2b9-3f4f6ad414c7"/>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
+    <skos:narrower rdf:resource="http://www.archesproject.org/b6d9c5c7-a0e1-37b4-bd1d-509f87eb636a"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/3cc9212c-6cdd-388c-a7e5-3a7ab1aca8ba">
+        <skos:prefLabel xml:lang="en">{"id": "14f7aaca-bf53-458d-8a99-51d3d19dedd9", "value": "Surface Deposit"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
+        <dcterms:identifier xml:lang="en-US">{"id": "1f00eee5-47c7-4747-aade-5b914f164930", "value": "http://www.archesproject.org/3cc9212c-6cdd-388c-a7e5-3a7ab1aca8ba"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "2062fdad-2a48-4a3c-8514-e0a65c813376", "value": "A deposit that forms the ground surface (when the Evidence is collected), particularly a hard surface such as a floor or road."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
     <skos:narrower>
       <skos:Concept rdf:about="http://www.archesproject.org/0320feda-7b27-3fd6-8afa-5283ede958e0">
         <skos:prefLabel xml:lang="en">{"id": "bf309f65-738b-4c6d-8580-d22050bc8dd7", "value": "Natural Feature"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
+        <dcterms:identifier xml:lang="en-US">{"id": "888273df-1ab8-4419-8ee1-3964acb4d71f", "value": "http://www.archesproject.org/0320feda-7b27-3fd6-8afa-5283ede958e0"}</dcterms:identifier>
         <skos:scopeNote xml:lang="en">{"id": "5c18a3d6-0cb5-479d-b8e5-8fea86ca5bd9", "value": "Monument thought to be archaeological or historical but proved to be natural."}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://www.archesproject.org/33aaa4f4-730d-37b9-9fcd-b2ce89dffd82"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/02a3bdce-7c73-33d6-a885-113cd9975208">
+        <skos:narrower rdf:resource="http://www.archesproject.org/8dafa0b9-0503-3781-a9da-f91db6441d8f"/>
+        <skos:prefLabel xml:lang="en">{"id": "5a00add6-651e-43c1-82fa-aaac10e511a3", "value": "Building"}</skos:prefLabel>
+        <skos:narrower rdf:resource="http://www.archesproject.org/8e63ef44-9739-38e2-a192-f1f1bbae3497"/>
+        <skos:narrower rdf:resource="http://www.archesproject.org/2ac58858-359e-3376-9903-c012bbfba32d"/>
+        <skos:narrower rdf:resource="http://www.archesproject.org/e211ffd5-6134-3e19-8040-22b634f0c57d"/>
+        <dcterms:identifier xml:lang="en-US">{"id": "c9ae5636-5d85-4fcc-8634-0d96c78af0e3", "value": "http://www.archesproject.org/02a3bdce-7c73-33d6-a885-113cd9975208"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
+        <skos:scopeNote xml:lang="en">{"id": "56e82404-185f-48a6-8a21-5acf14d17428", "value": "Monument with a roof and walls or Evidence of these."}</skos:scopeNote>
       </skos:Concept>
     </skos:narrower>
     <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/5d6bedbe-5a68-3030-a3a0-49c43611026a">
-        <skos:prefLabel xml:lang="en">{"id": "e724817f-3b03-442c-aa74-f091b251b15c", "value": "Modified Surface"}</skos:prefLabel>
-        <skos:scopeNote xml:lang="en">{"id": "4880abe3-864b-47b0-a10c-e6401bfd53d8", "value": "A monument where the Evidence that defines the type of the monument derives from the nature of surface markings. Examples include graffitti on quarry walls."}</skos:scopeNote>
+      <skos:Concept rdf:about="http://www.archesproject.org/74241082-6d41-3cfc-86e9-018a741d1d72">
+        <skos:narrower rdf:resource="http://www.archesproject.org/fcd7bc38-2dea-3106-8157-f0af2c6fd4e2"/>
+        <skos:prefLabel xml:lang="en">{"id": "ca122da6-ae1d-4d99-b7cc-6d6f905ddd3e", "value": "Earthwork"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "531cbb67-49b9-4078-b4f9-7917ea2c7011", "value": "Monument existing as an upstanding earthwork, ditch or artificial watercourse, or as a low stone built feature not covered by the other categories."}</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
+        <dcterms:identifier xml:lang="en-US">{"id": "c27460f8-aa25-4606-82e6-f25a2b070308", "value": "http://www.archesproject.org/74241082-6d41-3cfc-86e9-018a741d1d72"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <dcterms:identifier xml:lang="en-US">{"id": "63e53e0c-cda6-4d07-b7bd-9b016e22b57d", "value": "http://www.archesproject.org/eb4957ab-b9a4-3483-8f7b-79e59274b2a9"}</dcterms:identifier>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/6fbc280c-e83b-3332-98a8-1ba8923658fb">
+        <skos:prefLabel xml:lang="en">{"id": "dcce23bf-7f32-427f-a386-55c19f79c593", "value": "Wreckage"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en-US">{"id": "a86a992c-bd69-47fa-8d48-9797a10ab204", "value": "http://www.archesproject.org/6fbc280c-e83b-3332-98a8-1ba8923658fb"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
+        <skos:scopeNote xml:lang="en">{"id": "b07d2eae-8e71-4f53-a10b-2ed823a87e87", "value": "The fragmentary or substantial remains of a vehicle or aircraft. Where recovered from excavation double index with Sub Surface Deposit."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://www.archesproject.org/5d9b5747-d2d5-39c5-b016-fe002f2e4c15"/>
+    <skos:narrower rdf:resource="http://www.archesproject.org/7f2e3e1b-7515-3f92-b25b-699632466cad"/>
+    <skos:narrower rdf:resource="http://www.archesproject.org/90aa71bf-8ae7-3f50-83d5-9980b5bdd921"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/e8b0c52f-8cd1-30cc-8571-e3d8d2bafcc0">
+        <skos:scopeNote xml:lang="en">{"id": "4036540d-7a3a-4038-902e-ee2be44dd06f", "value": "Monument whose existence is inferred from the traces of architectural features. Eg include shadow marks on building walls or beams, pillars, floors incorporated into a later structure, suggesting the existence of an earlier building."}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
+        <dcterms:identifier xml:lang="en-US">{"id": "bbd83e69-040d-4748-a798-7b3a7bf45397", "value": "http://www.archesproject.org/e8b0c52f-8cd1-30cc-8571-e3d8d2bafcc0"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "998f3b05-3004-4a3c-9886-a3286ed8423a", "value": "Architectural Component"}</skos:prefLabel>
       </skos:Concept>
     </skos:narrower>
     <skos:narrower>
       <skos:Concept rdf:about="http://www.archesproject.org/075467f0-9d57-3f58-8feb-d3e4dd3fc3ef">
         <skos:scopeNote xml:lang="en">{"id": "c6cc4b0f-5f43-4511-9f8d-f74ed0302fa7", "value": "A monument composed of plants or trees which are still extant. Especially relevant for park and garden features. For example tree avenue, orchard, rose garden and lawn."}</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
         <skos:prefLabel xml:lang="en">{"id": "8ba47eb6-61b4-4c7d-a3e0-d5751ae5ff4b", "value": "Botanical Feature"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:scopeNote xml:lang="en">{"id": "bbef0276-0790-4ea5-906e-3980d70fe0a2", "value": "Not to be used for indexing. Broad term used to assist retreival of all monuments where physical Evidence is recorded."}</skos:scopeNote>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/90aa71bf-8ae7-3f50-83d5-9980b5bdd921">
-        <skos:altLabel xml:lang="en">{"id": "3f3459d8-c2b5-4a24-aa32-4667f843f997", "value": "Partially Destroyed Monument"}</skos:altLabel>
-        <skos:narrower rdf:resource="http://www.archesproject.org/2609770b-1409-3c72-933e-4aa52338c412"/>
-        <skos:prefLabel xml:lang="en">{"id": "771deaf2-0ec5-4e0f-91a7-8ff624dd3f49", "value": "Structure"}</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
-        <skos:narrower rdf:resource="http://www.archesproject.org/f7171055-0fe6-360d-be5f-2fc0a91310bb"/>
-        <skos:altLabel xml:lang="en">{"id": "f41569fa-5aed-4bac-a572-d63d86e3ee95", "value": "Standing  Monument"}</skos:altLabel>
-        <skos:altLabel xml:lang="en">{"id": "da7138cb-b296-4bdd-9410-95f696fc9fc0", "value": "Other Structure"}</skos:altLabel>
-        <skos:narrower rdf:resource="http://www.archesproject.org/bda76257-8b93-3e8f-bee9-37441c0d37fa"/>
-        <skos:altLabel xml:lang="en">{"id": "ccdb533c-45ff-4ab3-8925-25f56189973e", "value": "Standing Structure - Bonded"}</skos:altLabel>
-        <skos:narrower rdf:resource="http://www.archesproject.org/9472756c-04b6-34c0-8d60-e825f9506f07"/>
-        <skos:altLabel xml:lang="en">{"id": "c777aaba-3419-4e5e-84ac-553f7c39c5e5", "value": "Standing Structure - Unbonded"}</skos:altLabel>
-        <skos:scopeNote xml:lang="en">{"id": "3052ca6b-d1fd-456b-89c1-f258a4afa5b0", "value": "Man-made building, edifice or construction of assembled material parts."}</skos:scopeNote>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower rdf:resource="http://www.archesproject.org/5d9b5747-d2d5-39c5-b016-fe002f2e4c15"/>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/e8b0c52f-8cd1-30cc-8571-e3d8d2bafcc0">
-        <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
-        <skos:prefLabel xml:lang="en">{"id": "998f3b05-3004-4a3c-9886-a3286ed8423a", "value": "Architectural Component"}</skos:prefLabel>
-        <skos:scopeNote xml:lang="en">{"id": "4036540d-7a3a-4038-902e-ee2be44dd06f", "value": "Monument whose existence is inferred from the traces of architectural features. Eg include shadow marks on building walls or beams, pillars, floors incorporated into a later structure, suggesting the existence of an earlier building."}</skos:scopeNote>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/02a3bdce-7c73-33d6-a885-113cd9975208">
-        <skos:narrower rdf:resource="http://www.archesproject.org/2ac58858-359e-3376-9903-c012bbfba32d"/>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
-        <skos:prefLabel xml:lang="en">{"id": "5a00add6-651e-43c1-82fa-aaac10e511a3", "value": "Building"}</skos:prefLabel>
-        <skos:narrower rdf:resource="http://www.archesproject.org/e211ffd5-6134-3e19-8040-22b634f0c57d"/>
-        <skos:narrower rdf:resource="http://www.archesproject.org/8dafa0b9-0503-3781-a9da-f91db6441d8f"/>
-        <skos:narrower rdf:resource="http://www.archesproject.org/8e63ef44-9739-38e2-a192-f1f1bbae3497"/>
-        <skos:scopeNote xml:lang="en">{"id": "56e82404-185f-48a6-8a21-5acf14d17428", "value": "Monument with a roof and walls or Evidence of these."}</skos:scopeNote>
+        <dcterms:identifier xml:lang="en-US">{"id": "738955e6-5e58-4790-899e-a0209109da7d", "value": "http://www.archesproject.org/075467f0-9d57-3f58-8feb-d3e4dd3fc3ef"}</dcterms:identifier>
       </skos:Concept>
     </skos:narrower>
     <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/999b53b9-8b48-3b9e-b81a-bd75a4362ebe">
+      <skos:Concept rdf:about="http://www.archesproject.org/5d6bedbe-5a68-3030-a3a0-49c43611026a">
+        <skos:scopeNote xml:lang="en">{"id": "4880abe3-864b-47b0-a10c-e6401bfd53d8", "value": "A monument where the Evidence that defines the type of the monument derives from the nature of surface markings. Examples include graffitti on quarry walls."}</skos:scopeNote>
+        <dcterms:identifier xml:lang="en-US">{"id": "014707b7-78cc-43d1-b248-9f40441ad563", "value": "http://www.archesproject.org/5d6bedbe-5a68-3030-a3a0-49c43611026a"}</dcterms:identifier>
         <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
-        <skos:scopeNote xml:lang="en">{"id": "c51cf5f4-d477-46a5-958e-5f9249778c39", "value": "Natural feature or area deliberately enhanced to construct a monument, eg rock carving, cave, rock shelter."}</skos:scopeNote>
-        <skos:prefLabel xml:lang="en">{"id": "4a69739e-2871-434e-8de7-82c035f84e6a", "value": "Enhanced Natural Feature"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/6fbc280c-e83b-3332-98a8-1ba8923658fb">
-        <skos:scopeNote xml:lang="en">{"id": "b07d2eae-8e71-4f53-a10b-2ed823a87e87", "value": "The fragmentary or substantial remains of a vehicle or aircraft. Where recovered from excavation double index with Sub Surface Deposit."}</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
-        <skos:prefLabel xml:lang="en">{"id": "dcce23bf-7f32-427f-a386-55c19f79c593", "value": "Wreckage"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/5da2f500-e98d-352c-8940-d56f889eb335">
-        <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
-        <skos:altLabel xml:lang="en">{"id": "84c24aaa-fc62-4895-ab3c-de9274aa0c25", "value": "Subterranean"}</skos:altLabel>
-        <skos:scopeNote xml:lang="en">{"id": "7031b59d-7b6e-410e-b7b9-fb784ce03280", "value": "Monument visible as a below ground man-made structure. Use for tunnels, mineworking, cellars, shelters."}</skos:scopeNote>
-        <skos:prefLabel xml:lang="en">{"id": "bd7eca26-a30f-47d8-bca0-f6d2e1d95de6", "value": "Subterranean Feature"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/107a8fec-467b-3e36-82e3-bca09792c0da">
-        <skos:prefLabel xml:lang="en">{"id": "3da882bb-3dc1-481f-948c-0cdab0bf837b", "value": "Excavated Feature"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
-        <skos:scopeNote xml:lang="en">{"id": "d114d49d-447d-42b8-949e-682cb564e751", "value": "Feature visible following archaeological excavation"}</skos:scopeNote>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower rdf:resource="http://www.archesproject.org/33aaa4f4-730d-37b9-9fcd-b2ce89dffd82"/>
-    <skos:narrower rdf:resource="http://www.archesproject.org/3cc9212c-6cdd-388c-a7e5-3a7ab1aca8ba"/>
-    <skos:prefLabel xml:lang="en">{"id": "42b045f1-4340-4a69-a0b8-4be4a7a926ac", "value": "Physical Evidence"}</skos:prefLabel>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/85acc8af-26f2-37f4-8560-c72f4780925a">
-        <skos:prefLabel xml:lang="en">{"id": "f6b2f940-2ff2-4aaa-801d-4dd51cf99fb7", "value": "Soilmark"}</skos:prefLabel>
-        <skos:altLabel xml:lang="en">{"id": "9a4467ce-b746-4cb1-adc8-9368c5856455", "value": "Ap Linear Feature"}</skos:altLabel>
-        <skos:altLabel xml:lang="en">{"id": "d8e2b177-3959-4f27-8f0c-7265a00601c7", "value": "Ap Macula"}</skos:altLabel>
-        <skos:scopeNote xml:lang="en">{"id": "567e4795-1d3b-47f8-9db9-f256156697cf", "value": "Monument visible, usually from the air, due to the fill of features being of a different colour than the surrounding subsoil. Soilmarks show up well in ploughed fields or areas where the topsoil has been stripped.  Term derived from AN32 Glossary"}</skos:scopeNote>
-        <skos:altLabel xml:lang="en">{"id": "e3ee02b0-f861-4267-865d-78290f5c86fd", "value": "Soil Mark"}</skos:altLabel>
-        <skos:altLabel xml:lang="en">{"id": "1b6c4e1a-6e66-44e9-8d51-4de0c3430db0", "value": "Ap Enclosure"}</skos:altLabel>
-        <skos:altLabel xml:lang="en">{"id": "7134d2f3-4cfc-4235-b62f-0d91e1cc450b", "value": "Ap Site"}</skos:altLabel>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/0be3d684-adf1-3761-9429-37a66aa2b1a9">
-        <skos:narrower rdf:resource="http://www.archesproject.org/262b7623-cb9f-3097-99b1-ce8c7471b9a3"/>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
-        <skos:narrower rdf:resource="http://www.archesproject.org/070ab805-d997-3e28-ae66-a0eadf6c785b"/>
-        <skos:scopeNote xml:lang="en">{"id": "481d0bcb-707d-4c42-8ba7-619a7a4b2b31", "value": "Monument whose existence is indicated by the discovery of isolated artefacts or an artefact scatter. Eg a scatter of roofing tiles indicating the presence of a building. Use narrow terms where circumstances of discovery are known."}</skos:scopeNote>
-        <skos:prefLabel xml:lang="en">{"id": "11c982a8-4d71-4f85-9e43-e5c7c5b205f1", "value": "FIND"}</skos:prefLabel>
-        <skos:narrower rdf:resource="http://www.archesproject.org/b3283173-7377-3890-b7f9-96f553bc0206"/>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/74241082-6d41-3cfc-86e9-018a741d1d72">
-        <skos:scopeNote xml:lang="en">{"id": "531cbb67-49b9-4078-b4f9-7917ea2c7011", "value": "Monument existing as an upstanding earthwork, ditch or artificial watercourse, or as a low stone built feature not covered by the other categories."}</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
-        <skos:narrower rdf:resource="http://www.archesproject.org/fcd7bc38-2dea-3106-8157-f0af2c6fd4e2"/>
-        <skos:prefLabel xml:lang="en">{"id": "ca122da6-ae1d-4d99-b7cc-6d6f905ddd3e", "value": "Earthwork"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/b6d9c5c7-a0e1-37b4-bd1d-509f87eb636a">
-        <skos:altLabel xml:lang="en">{"id": "8c9ed6c1-b588-4225-8cd7-35de746b03d3", "value": "Crop Mark"}</skos:altLabel>
-        <skos:altLabel xml:lang="en">{"id": "8828e184-4fb3-4980-9166-2d67913a197f", "value": "Ap Site"}</skos:altLabel>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
-        <skos:altLabel xml:lang="en">{"id": "e987b821-f862-4dd7-99ee-a126fb8f3308", "value": "Ap Linear Feature"}</skos:altLabel>
-        <skos:altLabel xml:lang="en">{"id": "ba53d85f-caf6-4319-aebd-741d024d4870", "value": "Parchmark"}</skos:altLabel>
-        <skos:altLabel xml:lang="en">{"id": "4c3372bd-db53-4aba-b8f9-e5ae74062051", "value": "Ap Macula"}</skos:altLabel>
-        <skos:prefLabel xml:lang="en">{"id": "78e1aec4-2250-4969-8e57-3238df88918e", "value": "Cropmark"}</skos:prefLabel>
-        <skos:scopeNote xml:lang="en">{"id": "6e796b8d-2f8d-41be-a978-d8342f681bfa", "value": "Monument visible as a mark in standing crops or parchmarks, but where no subsurface deposits have been proven eg by excavation or other ground disturbance, in which case Sub Surface Deposit should be used."}</skos:scopeNote>
-        <skos:altLabel xml:lang="en">{"id": "ae6e84e9-f60e-4e1c-953e-b78917ad3d91", "value": "Ap Enclosure"}</skos:altLabel>
-      </skos:Concept>
-    </skos:narrower>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/9472756c-04b6-34c0-8d60-e825f9506f07">
-    <skos:scopeNote xml:lang="en">{"id": "105aabf9-26f1-406d-978a-5622704b423c", "value": "Man-made, roofless edifice or construction visible as substantial above-ground remains retaining Evidence of architecture and materials, but which has been substantially destroyed."}</skos:scopeNote>
-    <skos:prefLabel xml:lang="en">{"id": "14db10ff-9523-46dd-919b-4f91d78e64f9", "value": "Ruined Structure"}</skos:prefLabel>
-    <skos:altLabel xml:lang="en">{"id": "ecf5b465-353d-45b1-9a6b-0daa7870c926", "value": "Ruined Structure - Unbonded"}</skos:altLabel>
-    <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
-    <skos:altLabel xml:lang="en">{"id": "35deb97a-f074-486d-88c5-8fa3d331db46", "value": "Ruined Structure - Bonded"}</skos:altLabel>
-    <skos:altLabel xml:lang="en">{"id": "e02617bd-b23a-4463-8b05-3710ca4e4e76", "value": "Partially Destroyed Monument"}</skos:altLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/8e63ef44-9739-38e2-a192-f1f1bbae3497">
-    <skos:altLabel xml:lang="en">{"id": "5560ebe8-8b58-43c5-9308-c8676de874ca", "value": "Building - Other"}</skos:altLabel>
-    <skos:altLabel xml:lang="en">{"id": "c6cefd87-b06b-4ed7-a17c-48ce33199351", "value": "Roofed Ruin"}</skos:altLabel>
-    <skos:scopeNote xml:lang="en">{"id": "d4f07c6d-ec3d-4401-a3e9-517af938f597", "value": "Monument with roof or walls intact or substantially intact, significant survival of original features, even if building no longer in use for original function."}</skos:scopeNote>
-    <skos:altLabel xml:lang="en">{"id": "be56ddcf-69ea-4bf0-a70b-7f8086017da3", "value": "Partially Demolished Building"}</skos:altLabel>
-    <skos:altLabel xml:lang="en">{"id": "6d1e70f0-023c-4615-a09a-5a7fac37b2f9", "value": "Uninhabited Building"}</skos:altLabel>
-    <skos:altLabel xml:lang="en">{"id": "0afd5afd-6edf-4f48-90ae-0cca936a5596", "value": "Building Complex"}</skos:altLabel>
-    <skos:prefLabel xml:lang="en">{"id": "48d5884d-cbb2-4776-8028-0b9700884614", "value": "Extant Building"}</skos:prefLabel>
-    <skos:altLabel xml:lang="en">{"id": "06b15b24-25e4-455a-856f-695ed3a85b7b", "value": "Roofed Building"}</skos:altLabel>
-    <skos:altLabel xml:lang="en">{"id": "40e10f5d-be49-419f-82ab-f0f484e0250e", "value": "Building - Bonded"}</skos:altLabel>
-    <skos:altLabel xml:lang="en">{"id": "c82124fb-1c92-4845-8b43-4a2b06f93f7f", "value": "Inhabited Building"}</skos:altLabel>
-    <skos:altLabel xml:lang="en">{"id": "00a52d67-b41a-4ecf-a1b3-f7ed70213b0c", "value": "Partially Destroyed Monument"}</skos:altLabel>
-    <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/b3283173-7377-3890-b7f9-96f553bc0206">
-    <skos:prefLabel xml:lang="en">{"id": "1e4b1676-cf45-4799-8691-6bcd161329fc", "value": "Unstratified Find"}</skos:prefLabel>
-    <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
-    <skos:scopeNote xml:lang="en">{"id": "60cc4250-2a65-4dfa-809d-c2b7bf59c58d", "value": "Monument whose presence is inferred by discovery of unstratified artefacts, for instance in plough soil."}</skos:scopeNote>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/cd7bc306-4fd2-34b9-aa97-5f7c2003c892">
-    <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
-    <skos:prefLabel xml:lang="en">{"id": "76f8bff9-a49a-43bc-97a8-d4e85fca9fd6", "value": "Side Scan Sonar Contact"}</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">{"id": "0fac1d12-edef-4e1e-ba12-f98b25607cf7", "value": "An object projecting out of the sea bed detected by marine survey equipment that emits and receives high frequency sound waves projected sideways from a boat or towed array."}</skos:scopeNote>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/b728cbad-19fe-31d4-a173-b0158f7f8e30">
-    <skos:altLabel xml:lang="en">{"id": "29338154-92a2-4194-914e-1e3bf9678131", "value": "Uncertain"}</skos:altLabel>
-    <skos:scopeNote xml:lang="en">{"id": "6540ee3b-fab1-410e-aa6f-9ef8b46646f3", "value": "Current recorded information does not give the Evidence for a monument, or the information is regarded as unreliable."}</skos:scopeNote>
-    <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
-    <skos:prefLabel xml:lang="en">{"id": "a0748745-06ae-45ea-bf42-6a1b9a98b4b1", "value": "Uncertain Evidence"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/269c4235-a4db-3c15-85de-2b15cba0b51b">
-    <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
-    <skos:scopeNote xml:lang="en">{"id": "6e8b310c-c4de-49ae-9b42-62cd318841b4", "value": "Monument type/interpretation is inferred, based on informed speculation eg by comparison with similar monuments, proximity to other monuments, topography, site character etc."}</skos:scopeNote>
-    <skos:prefLabel xml:lang="en">{"id": "6a0a0e9a-bbd1-43a5-b003-49f6e288a494", "value": "Conjectural Evidence"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/bda76257-8b93-3e8f-bee9-37441c0d37fa">
-    <skos:scopeNote xml:lang="en">{"id": "ee218afb-5188-4920-b203-6210f588288e", "value": "A man-made construction or object (such as a gravestone) which has been moved from its original site either through active human intervention or natural processes such as erosion. For buildings which have been moved use MOVED Building."}</skos:scopeNote>
-    <skos:prefLabel xml:lang="en">{"id": "a494b11e-c0ad-4214-abce-453c6fde3bbb", "value": "Moved Structure"}</skos:prefLabel>
-    <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/e211ffd5-6134-3e19-8040-22b634f0c57d">
-        <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
-        <skos:prefLabel xml:lang="en">{"id": "9d487075-02a5-45a7-99e8-b06ea271ef63", "value": "Moved Building"}</skos:prefLabel>
-        <skos:scopeNote xml:lang="en">{"id": "56ec909d-7b26-4aad-8783-6119d8a2cb34", "value": "A building which has been moved from its original site either through active human intervention or natural processes such as erosion. For structures or objects such as gravestones use MOVED Structure."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "e724817f-3b03-442c-aa74-f091b251b15c", "value": "Modified Surface"}</skos:prefLabel>
       </skos:Concept>
     </skos:narrower>
   </skos:Concept>
   <skos:Concept rdf:about="http://www.archesproject.org/456dabdb-9d9d-302a-a549-ea21ebb354a6">
+    <dcterms:identifier xml:lang="en-US">{"id": "965aba0e-d316-4371-aaf6-1d08b8e1b469", "value": "http://www.archesproject.org/456dabdb-9d9d-302a-a549-ea21ebb354a6"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
     <skos:scopeNote xml:lang="en">{"id": "bb7ff09f-ab45-4795-a7c0-9b0e086abd88", "value": "All physical Evidence for a monument has certainly been completely destroyed (allowing no future reinvestigation) by activity implying substantial ground disturbance. Eg quarrying, road cutting, or natural disaster, erosion, acts of God etc."}</skos:scopeNote>
-    <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
-    <skos:prefLabel xml:lang="en">{"id": "75b108c6-c260-442d-8db7-0d292e19aac5", "value": "Destroyed Monument"}</skos:prefLabel>
-    <skos:altLabel xml:lang="en">{"id": "9308485a-bd5a-4583-964a-e0c66aaa9a01", "value": "Partially Destroyed Monument"}</skos:altLabel>
     <skos:altLabel xml:lang="en">{"id": "ab89ebfb-0b42-46b4-b867-c9b56a0d9185", "value": "Destroyed"}</skos:altLabel>
+    <skos:altLabel xml:lang="en">{"id": "9308485a-bd5a-4583-964a-e0c66aaa9a01", "value": "Partially Destroyed Monument"}</skos:altLabel>
+    <skos:prefLabel xml:lang="en">{"id": "75b108c6-c260-442d-8db7-0d292e19aac5", "value": "Destroyed Monument"}</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/e5280b10-0d0f-3b04-89f7-2a0b16665c69">
-    <skos:prefLabel xml:lang="en">{"id": "883d3cca-f4f3-4659-9233-4b4b4c7c1e63", "value": "Collapsed Vessel Structure"}</skos:prefLabel>
+  <skos:Concept rdf:about="http://www.archesproject.org/cd7bc306-4fd2-34b9-aa97-5f7c2003c892">
+    <skos:prefLabel xml:lang="en">{"id": "76f8bff9-a49a-43bc-97a8-d4e85fca9fd6", "value": "Side Scan Sonar Contact"}</skos:prefLabel>
     <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
-    <skos:scopeNote xml:lang="en">{"id": "c992267e-0d2a-4c27-92e5-a154bec58473", "value": "A maritime monument where the fabric of a vessel has collapsed, leaving the hull structure flat on the sea bed but not widely dispersed."}</skos:scopeNote>
+    <skos:scopeNote xml:lang="en">{"id": "0fac1d12-edef-4e1e-ba12-f98b25607cf7", "value": "An object projecting out of the sea bed detected by marine survey equipment that emits and receives high frequency sound waves projected sideways from a boat or towed array."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en-US">{"id": "0957f56f-6cb0-4617-b7d2-d5137fbfab0e", "value": "http://www.archesproject.org/cd7bc306-4fd2-34b9-aa97-5f7c2003c892"}</dcterms:identifier>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/8dafa0b9-0503-3781-a9da-f91db6441d8f">
-    <skos:altLabel xml:lang="en">{"id": "ac6c2736-4eb1-4c65-8104-6fddddd01598", "value": "Partially Demolished Building"}</skos:altLabel>
+  <skos:Concept rdf:about="http://www.archesproject.org/895ee32a-7de6-37b1-8684-b0d8bf30e366">
+    <skos:scopeNote xml:lang="en">{"id": "94cdb45d-7ad6-4ac7-b85e-10c4c24f7a5a", "value": "A maritime monument where the hull structure and fabric of a vessel remain wholly or mainly intact."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "6237c09f-1605-4b32-b0c5-a9ff019f9064", "value": "Coherent Vessel Structure"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en-US">{"id": "1cb44453-2936-496d-841d-b7f8956540f8", "value": "http://www.archesproject.org/895ee32a-7de6-37b1-8684-b0d8bf30e366"}</dcterms:identifier>
     <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
-    <skos:prefLabel xml:lang="en">{"id": "f51f8b12-c214-48f7-8b2d-a76ecd1b904d", "value": "Ruined Building"}</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">{"id": "31c441a4-8970-446e-b6d2-dd5f01442fe2", "value": "Monument visible as substantial above ground remains, retaining Evidence of architecture and materials, with walls partially or completely intact but with roof and interior walls substantially or completely destroyed."}</skos:scopeNote>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/cfc14e0c-10df-3edc-830b-e6e77644e35a">
-    <skos:scopeNote xml:lang="en">{"id": "2cb2daa9-0741-473f-b75c-ddff7d99ef01", "value": "A maritime monument where the vessel remains are buried in the sea bed."}</skos:scopeNote>
-    <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
-    <skos:prefLabel xml:lang="en">{"id": "292da64a-295e-4877-861e-ff65391a0c89", "value": "Buried Vessel Structure"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/b56b0ed2-2b75-37f8-9afe-590f534601ea">
-    <skos:narrower rdf:resource="http://www.archesproject.org/67aed86b-7b87-3e65-859c-1505eee3bb81"/>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/d7eba5da-acb2-30c9-b7e5-927e7a08d5ee">
-        <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
-        <skos:scopeNote xml:lang="en">{"id": "d8421631-ce85-4975-a4ed-b1f318441e96", "value": "Monument known only from primary documentary sources eg books, maps, legal records, where no physical Evidence exists. Use also where a monument has been planned but never constructed."}</skos:scopeNote>
-        <skos:prefLabel xml:lang="en">{"id": "3b2a490e-d4d4-467c-823e-c4c9aa54a09c", "value": "Documentary Evidence"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:scopeNote xml:lang="en">{"id": "b367572d-dc1c-4328-a99e-4010a186ad13", "value": "Not to be used for indexing. Broad term to assist retreival of all monuments where non-physical Evidence is recorded."}</skos:scopeNote>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/2b369629-8a29-3a8f-b477-af7e59ea7736">
-        <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
-        <skos:prefLabel xml:lang="en">{"id": "f1866e9d-0ca3-4b3d-8696-e17e95aee1bf", "value": "Placename Evidence"}</skos:prefLabel>
-        <skos:scopeNote xml:lang="en">{"id": "fa745029-5716-4dc9-b1b9-59e66a47e5db", "value": "Use where the presence or nature of a monument is inferred from placenames or placename elements."}</skos:scopeNote>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/c9ab2ea4-e597-304f-93c1-5ecd0e276033">
-        <skos:scopeNote xml:lang="en">{"id": "5926c1c2-575a-46c3-9d6a-f24c635acbfe", "value": "A monument whose presence is inferred from verbally delivered information drawn from the speaker's personal knowledge."}</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
-        <skos:prefLabel xml:lang="en">{"id": "2495e809-1801-48d0-a4f8-6702bf439282", "value": "Oral Evidence"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/6d6cf4e0-56c9-352e-880e-f2bfa3e9de4f">
-        <skos:prefLabel xml:lang="en">{"id": "d4d19ceb-22df-4cb3-9a70-cb76f8e23935", "value": "Marine Trawling Plot"}</skos:prefLabel>
-        <skos:scopeNote xml:lang="en">{"id": "bf6c3f64-b473-497a-9513-6696baee5400", "value": "An object in the sea bed recorded on the Hydrographic Office plot of objects snagged by nets during trawling."}</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
-    <skos:narrower rdf:resource="http://www.archesproject.org/269c4235-a4db-3c15-85de-2b15cba0b51b"/>
-    <skos:prefLabel xml:lang="en">{"id": "acb38bf9-7091-4cbc-9048-10a52b27b2ef", "value": "Implied Evidence"}</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="http://www.archesproject.org/d8b5a17f-81ca-3879-ae96-bf49f8b30f73">
-    <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
+    <dcterms:identifier xml:lang="en-US">{"id": "48a4f4b6-d14d-4d99-9047-3515e2355bd1", "value": "http://www.archesproject.org/d8b5a17f-81ca-3879-ae96-bf49f8b30f73"}</dcterms:identifier>
     <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/4d86d1f9-a3eb-34ea-b6f6-061a7edad6af">
+      <skos:Concept rdf:about="http://www.archesproject.org/e5280b10-0d0f-3b04-89f7-2a0b16665c69">
+        <skos:prefLabel xml:lang="en">{"id": "883d3cca-f4f3-4659-9233-4b4b4c7c1e63", "value": "Collapsed Vessel Structure"}</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
-        <skos:scopeNote xml:lang="en">{"id": "8e7d2244-f887-43ad-b775-7583520035bc", "value": "A maritime monument where the remains of a vessel are scattered over a wide area."}</skos:scopeNote>
-        <skos:prefLabel xml:lang="en">{"id": "81b4fde6-924e-458a-a85b-2f7e34ed83a9", "value": "Scattered Vessel Structure"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "c992267e-0d2a-4c27-92e5-a154bec58473", "value": "A maritime monument where the fabric of a vessel has collapsed, leaving the hull structure flat on the sea bed but not widely dispersed."}</skos:scopeNote>
+        <dcterms:identifier xml:lang="en-US">{"id": "887ec3d8-0f83-4c80-8585-db9f55885866", "value": "http://www.archesproject.org/e5280b10-0d0f-3b04-89f7-2a0b16665c69"}</dcterms:identifier>
       </skos:Concept>
     </skos:narrower>
-    <skos:narrower rdf:resource="http://www.archesproject.org/cfc14e0c-10df-3edc-830b-e6e77644e35a"/>
-    <skos:narrower rdf:resource="http://www.archesproject.org/e5280b10-0d0f-3b04-89f7-2a0b16665c69"/>
-    <skos:narrower rdf:resource="http://www.archesproject.org/895ee32a-7de6-37b1-8684-b0d8bf30e366"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/cfc14e0c-10df-3edc-830b-e6e77644e35a">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
+        <skos:scopeNote xml:lang="en">{"id": "2cb2daa9-0741-473f-b75c-ddff7d99ef01", "value": "A maritime monument where the vessel remains are buried in the sea bed."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "292da64a-295e-4877-861e-ff65391a0c89", "value": "Buried Vessel Structure"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en-US">{"id": "9a508a35-be5f-4882-8fd1-1c69dda16620", "value": "http://www.archesproject.org/cfc14e0c-10df-3edc-830b-e6e77644e35a"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
     <skos:narrower>
       <skos:Concept rdf:about="http://www.archesproject.org/e8cf40ff-34ae-3820-a652-ddb9efae3507">
         <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
-        <skos:scopeNote xml:lang="en">{"id": "06097d26-7eaa-471f-b96b-dbf3bf0d49dd", "value": "A maritime monument where the hull of a vessel is mostly in one piece, with large pieces of the superstructure intact."}</skos:scopeNote>
         <skos:prefLabel xml:lang="en">{"id": "bf458242-9a86-41ec-979e-cae685cfd78d", "value": "Intact Vessel Structure"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en-US">{"id": "929f89de-2816-4dd9-8e8a-45c4dc894a2b", "value": "http://www.archesproject.org/e8cf40ff-34ae-3820-a652-ddb9efae3507"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "06097d26-7eaa-471f-b96b-dbf3bf0d49dd", "value": "A maritime monument where the hull of a vessel is mostly in one piece, with large pieces of the superstructure intact."}</skos:scopeNote>
       </skos:Concept>
     </skos:narrower>
     <skos:prefLabel xml:lang="en">{"id": "98c417d5-fb8a-4a65-a2fa-cf5ac49cffcf", "value": "Vessel Structure"}</skos:prefLabel>
+    <skos:narrower rdf:resource="http://www.archesproject.org/895ee32a-7de6-37b1-8684-b0d8bf30e366"/>
     <skos:scopeNote xml:lang="en">{"id": "d56c0c82-274e-4ce0-b80b-1dda7885cb59", "value": "A maritime monument where the remains of a vessel are known to exist but where no detailed information is available."}</skos:scopeNote>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/4d86d1f9-a3eb-34ea-b6f6-061a7edad6af">
+        <skos:prefLabel xml:lang="en">{"id": "81b4fde6-924e-458a-a85b-2f7e34ed83a9", "value": "Scattered Vessel Structure"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "8e7d2244-f887-43ad-b775-7583520035bc", "value": "A maritime monument where the remains of a vessel are scattered over a wide area."}</skos:scopeNote>
+        <dcterms:identifier xml:lang="en-US">{"id": "871afb97-afeb-46a0-838e-11bb3f686d2f", "value": "http://www.archesproject.org/4d86d1f9-a3eb-34ea-b6f6-061a7edad6af"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/8e63ef44-9739-38e2-a192-f1f1bbae3497">
+    <skos:altLabel xml:lang="en">{"id": "40e10f5d-be49-419f-82ab-f0f484e0250e", "value": "Building - Bonded"}</skos:altLabel>
+    <skos:altLabel xml:lang="en">{"id": "6d1e70f0-023c-4615-a09a-5a7fac37b2f9", "value": "Uninhabited Building"}</skos:altLabel>
+    <skos:prefLabel xml:lang="en">{"id": "48d5884d-cbb2-4776-8028-0b9700884614", "value": "Extant Building"}</skos:prefLabel>
+    <skos:altLabel xml:lang="en">{"id": "c6cefd87-b06b-4ed7-a17c-48ce33199351", "value": "Roofed Ruin"}</skos:altLabel>
+    <skos:altLabel xml:lang="en">{"id": "0afd5afd-6edf-4f48-90ae-0cca936a5596", "value": "Building Complex"}</skos:altLabel>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
+    <skos:scopeNote xml:lang="en">{"id": "d4f07c6d-ec3d-4401-a3e9-517af938f597", "value": "Monument with roof or walls intact or substantially intact, significant survival of original features, even if building no longer in use for original function."}</skos:scopeNote>
+    <skos:altLabel xml:lang="en">{"id": "00a52d67-b41a-4ecf-a1b3-f7ed70213b0c", "value": "Partially Destroyed Monument"}</skos:altLabel>
+    <skos:altLabel xml:lang="en">{"id": "5560ebe8-8b58-43c5-9308-c8676de874ca", "value": "Building - Other"}</skos:altLabel>
+    <dcterms:identifier xml:lang="en-US">{"id": "e788f64e-e426-4ae0-857d-7d6acd6de4b3", "value": "http://www.archesproject.org/8e63ef44-9739-38e2-a192-f1f1bbae3497"}</dcterms:identifier>
+    <skos:altLabel xml:lang="en">{"id": "c82124fb-1c92-4845-8b43-4a2b06f93f7f", "value": "Inhabited Building"}</skos:altLabel>
+    <skos:altLabel xml:lang="en">{"id": "06b15b24-25e4-455a-856f-695ed3a85b7b", "value": "Roofed Building"}</skos:altLabel>
+    <skos:altLabel xml:lang="en">{"id": "be56ddcf-69ea-4bf0-a70b-7f8086017da3", "value": "Partially Demolished Building"}</skos:altLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/8dafa0b9-0503-3781-a9da-f91db6441d8f">
+    <skos:prefLabel xml:lang="en">{"id": "f51f8b12-c214-48f7-8b2d-a76ecd1b904d", "value": "Ruined Building"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
+    <skos:scopeNote xml:lang="en">{"id": "31c441a4-8970-446e-b6d2-dd5f01442fe2", "value": "Monument visible as substantial above ground remains, retaining Evidence of architecture and materials, with walls partially or completely intact but with roof and interior walls substantially or completely destroyed."}</skos:scopeNote>
+    <skos:altLabel xml:lang="en">{"id": "ac6c2736-4eb1-4c65-8104-6fddddd01598", "value": "Partially Demolished Building"}</skos:altLabel>
+    <dcterms:identifier xml:lang="en-US">{"id": "74318c5d-a720-457c-a8ee-fb70894699be", "value": "http://www.archesproject.org/8dafa0b9-0503-3781-a9da-f91db6441d8f"}</dcterms:identifier>
   </skos:Concept>
   <skos:Concept rdf:about="http://www.archesproject.org/8df44a9b-e44e-30f9-9119-64ee01676afe">
+    <skos:narrower rdf:resource="http://www.archesproject.org/b56b0ed2-2b75-37f8-9afe-590f534601ea"/>
+    <skos:narrower rdf:resource="http://www.archesproject.org/eb4957ab-b9a4-3483-8f7b-79e59274b2a9"/>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
+    <dcterms:identifier xml:lang="en-US">{"id": "53438b44-ffe4-4054-83c7-16ae6165d455", "value": "http://www.archesproject.org/8df44a9b-e44e-30f9-9119-64ee01676afe"}</dcterms:identifier>
     <skos:prefLabel xml:lang="en">{"id": "5e964fb6-eab0-46b0-9248-6fddd82df2a2", "value": "Evidence"}</skos:prefLabel>
     <skos:scopeNote xml:lang="en">{"id": "179ee8a6-031a-4508-b7fb-7cfb034c0c2f", "value": "Do not use"}</skos:scopeNote>
-    <skos:narrower rdf:resource="http://www.archesproject.org/eb4957ab-b9a4-3483-8f7b-79e59274b2a9"/>
     <skos:narrower rdf:resource="http://www.archesproject.org/b728cbad-19fe-31d4-a173-b0158f7f8e30"/>
     <skos:narrower rdf:resource="http://www.archesproject.org/456dabdb-9d9d-302a-a549-ea21ebb354a6"/>
-    <skos:narrower rdf:resource="http://www.archesproject.org/b56b0ed2-2b75-37f8-9afe-590f534601ea"/>
-    <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/f7171055-0fe6-360d-be5f-2fc0a91310bb">
-    <skos:scopeNote xml:lang="en">{"id": "47738c89-e282-433a-a670-694267a85994", "value": "A monument consisting of a built structure, but which has been demolished so that only a ground plan and foundations, or similar, are thought to remain. Where all below ground traces have also been removed use Destroyed Monument."}</skos:scopeNote>
-    <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
-    <skos:prefLabel xml:lang="en">{"id": "1a4383b0-dbff-4bc1-b810-5fa44aa4b193", "value": "Demolished Structure"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/2609770b-1409-3c72-933e-4aa52338c412">
-    <skos:scopeNote xml:lang="en">{"id": "6a0981b8-26b0-4a2a-af3b-0f2ce5e55c7d", "value": "Man-made roofless edifice or construction which is intact or substantially intant, with significant survival of original features, even if no longer serving original intended funtion."}</skos:scopeNote>
-    <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
-    <skos:prefLabel xml:lang="en">{"id": "44f40dab-c90d-4978-a78a-b41002b31b69", "value": "Extant Structure"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/070ab805-d997-3e28-ae66-a0eadf6c785b">
-    <skos:scopeNote xml:lang="en">{"id": "62cb585f-5adc-4913-b090-0a7e4944c9b3", "value": "A distribution of artefacts indicating the presence of former presence of a monument."}</skos:scopeNote>
-    <skos:inScheme rdf:resource="http://www.archesproject.org/6e4f917a-ed8c-3cc3-aefb-6ba064816075"/>
-    <skos:prefLabel xml:lang="en">{"id": "455e0115-7224-4b71-9b59-f791151e6b91", "value": "Artefact Scatter"}</skos:prefLabel>
   </skos:Concept>
 </rdf:RDF>

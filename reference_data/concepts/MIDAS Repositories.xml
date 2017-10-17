@@ -4,66 +4,75 @@
   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
   xmlns:dcterms="http://purl.org/dc/terms/"
 >
-  <skos:Concept rdf:about="http://www.archesproject.org/6f2c4acb-daa4-4ad9-98ad-405e84b4696d">
-    <skos:prefLabel xml:lang="en">{"id": "291f8540-a9c0-4f2f-82d5-53e9801b3455", "value": "Heritage Centres"}</skos:prefLabel>
+  <skos:Concept rdf:about="http://www.archesproject.org/8a978368-930e-4b8a-a151-3e9a6d5eb19f">
     <skos:inScheme>
       <skos:ConceptScheme rdf:about="http://www.archesproject.org/81870819-021e-45dc-8668-73465061f6f9">
-        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/84482163-0595-4bc9-995e-af96b56745e0"/>
-        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/e58b1763-d522-443b-a888-6980f46de271"/>
-        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/0d24285a-e8e9-405f-a6d7-b211a7b11420"/>
-        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/6f2c4acb-daa4-4ad9-98ad-405e84b4696d"/>
         <skos:hasTopConcept rdf:resource="http://www.archesproject.org/31ed82dc-e34b-43e3-9a07-c13deb3fd1a6"/>
-        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/bb83ced0-452d-41b9-8f28-6e2d85c3355c"/>
-        <dcterms:title xml:lang="en">{"id": "1f20a400-3f74-4803-a66e-7fdcf39685ee", "value": "MIDAS Repositories"}</dcterms:title>
         <skos:hasTopConcept rdf:resource="http://www.archesproject.org/c72840dc-4076-4e2c-8c7c-87aac584b3b4"/>
+        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/6f2c4acb-daa4-4ad9-98ad-405e84b4696d"/>
+        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/0d24285a-e8e9-405f-a6d7-b211a7b11420"/>
+        <dcterms:identifier xml:lang="en-US">{"id": "a835e75c-6a50-48dd-b6d4-5b3ceb0e1f46", "value": "http://www.archesproject.org/81870819-021e-45dc-8668-73465061f6f9"}</dcterms:identifier>
+        <dcterms:title xml:lang="en">{"id": "1f20a400-3f74-4803-a66e-7fdcf39685ee", "value": "MIDAS Repositories"}</dcterms:title>
         <skos:hasTopConcept rdf:resource="http://www.archesproject.org/e3f935da-f1ec-45e0-ba7c-797a7b1893b9"/>
+        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/e58b1763-d522-443b-a888-6980f46de271"/>
+        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/bb83ced0-452d-41b9-8f28-6e2d85c3355c"/>
+        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/84482163-0595-4bc9-995e-af96b56745e0"/>
       </skos:ConceptScheme>
     </skos:inScheme>
+    <skos:prefLabel xml:lang="en">{"id": "3ec7947b-1461-44ed-994b-11e56243ac4b", "value": "Museum of London"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en-US">{"id": "daed80ee-141f-4934-83c2-4bd7ac7523b4", "value": "http://www.archesproject.org/8a978368-930e-4b8a-a151-3e9a6d5eb19f"}</dcterms:identifier>
   </skos:Concept>
   <skos:Concept rdf:about="http://www.archesproject.org/0d24285a-e8e9-405f-a6d7-b211a7b11420">
+    <dcterms:identifier xml:lang="en-US">{"id": "a78ff3d9-1876-49e2-87f1-eb8eac0ae95f", "value": "http://www.archesproject.org/0d24285a-e8e9-405f-a6d7-b211a7b11420"}</dcterms:identifier>
     <skos:inScheme rdf:resource="http://www.archesproject.org/81870819-021e-45dc-8668-73465061f6f9"/>
     <skos:prefLabel xml:lang="en">{"id": "99e57ba3-2dc9-47f5-ab3a-1822dcce304d", "value": "Record Offices"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/e58b1763-d522-443b-a888-6980f46de271">
-    <skos:prefLabel xml:lang="en">{"id": "d1148532-dba9-48e2-85f6-547293756367", "value": "Universities"}</skos:prefLabel>
-    <skos:inScheme rdf:resource="http://www.archesproject.org/81870819-021e-45dc-8668-73465061f6f9"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/84482163-0595-4bc9-995e-af96b56745e0">
-    <skos:prefLabel xml:lang="en">{"id": "4f8588e1-6b2b-455f-96c7-001559791440", "value": "Museums"}</skos:prefLabel>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/8a978368-930e-4b8a-a151-3e9a6d5eb19f">
-        <skos:prefLabel xml:lang="en">{"id": "3ec7947b-1461-44ed-994b-11e56243ac4b", "value": "Museum of London"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/81870819-021e-45dc-8668-73465061f6f9"/>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:inScheme rdf:resource="http://www.archesproject.org/81870819-021e-45dc-8668-73465061f6f9"/>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/cc242880-b882-49ce-9b4d-6301c8fc39dc">
-        <skos:inScheme rdf:resource="http://www.archesproject.org/81870819-021e-45dc-8668-73465061f6f9"/>
-        <skos:prefLabel xml:lang="en">{"id": "081605bb-29d3-4d5a-92e1-d709241df274", "value": "British Museum"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/2a4875c4-346d-48d1-b00a-cd2f9bb73e31">
-        <skos:inScheme rdf:resource="http://www.archesproject.org/81870819-021e-45dc-8668-73465061f6f9"/>
-        <skos:prefLabel xml:lang="en">{"id": "2834749c-b703-4108-ba1d-39c114851b0a", "value": "The Collection"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:narrower>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/e3f935da-f1ec-45e0-ba7c-797a7b1893b9">
-    <skos:prefLabel xml:lang="en">{"id": "e79d3684-2e36-4422-bac8-e9c4eda4f97e", "value": "Archives"}</skos:prefLabel>
-    <skos:inScheme rdf:resource="http://www.archesproject.org/81870819-021e-45dc-8668-73465061f6f9"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/c72840dc-4076-4e2c-8c7c-87aac584b3b4">
-    <skos:prefLabel xml:lang="en">{"id": "5552aea7-0f82-43a0-b4b9-b1f53498e653", "value": "Galleries"}</skos:prefLabel>
-    <skos:inScheme rdf:resource="http://www.archesproject.org/81870819-021e-45dc-8668-73465061f6f9"/>
   </skos:Concept>
   <skos:Concept rdf:about="http://www.archesproject.org/bb83ced0-452d-41b9-8f28-6e2d85c3355c">
     <skos:inScheme rdf:resource="http://www.archesproject.org/81870819-021e-45dc-8668-73465061f6f9"/>
     <skos:prefLabel xml:lang="en">{"id": "e8b011a4-321f-4ccd-99e3-3af2337067a3", "value": "Heritage Bodies"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en-US">{"id": "b671d297-9752-4905-9cbd-5a2fbc4f298b", "value": "http://www.archesproject.org/bb83ced0-452d-41b9-8f28-6e2d85c3355c"}</dcterms:identifier>
   </skos:Concept>
   <skos:Concept rdf:about="http://www.archesproject.org/31ed82dc-e34b-43e3-9a07-c13deb3fd1a6">
     <skos:prefLabel xml:lang="en">{"id": "6196f184-84a2-44ef-8367-c75f0b64dfdb", "value": "Libraries"}</skos:prefLabel>
     <skos:inScheme rdf:resource="http://www.archesproject.org/81870819-021e-45dc-8668-73465061f6f9"/>
+    <dcterms:identifier xml:lang="en-US">{"id": "f7fe0ba0-0edd-4e1a-a071-063aad7a6c69", "value": "http://www.archesproject.org/31ed82dc-e34b-43e3-9a07-c13deb3fd1a6"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/cc242880-b882-49ce-9b4d-6301c8fc39dc">
+    <skos:prefLabel xml:lang="en">{"id": "081605bb-29d3-4d5a-92e1-d709241df274", "value": "British Museum"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en-US">{"id": "9e41632c-8618-4ca0-b88a-6e75206ceb1b", "value": "http://www.archesproject.org/cc242880-b882-49ce-9b4d-6301c8fc39dc"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/81870819-021e-45dc-8668-73465061f6f9"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/6f2c4acb-daa4-4ad9-98ad-405e84b4696d">
+    <skos:prefLabel xml:lang="en">{"id": "291f8540-a9c0-4f2f-82d5-53e9801b3455", "value": "Heritage Centres"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/81870819-021e-45dc-8668-73465061f6f9"/>
+    <dcterms:identifier xml:lang="en-US">{"id": "54a79473-48ee-4b8d-8bd0-7b5103578ff4", "value": "http://www.archesproject.org/6f2c4acb-daa4-4ad9-98ad-405e84b4696d"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/2a4875c4-346d-48d1-b00a-cd2f9bb73e31">
+    <skos:inScheme rdf:resource="http://www.archesproject.org/81870819-021e-45dc-8668-73465061f6f9"/>
+    <skos:prefLabel xml:lang="en">{"id": "2834749c-b703-4108-ba1d-39c114851b0a", "value": "The Collection"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en-US">{"id": "e1486f29-2069-4f16-b3a4-effe0eaf3fb6", "value": "http://www.archesproject.org/2a4875c4-346d-48d1-b00a-cd2f9bb73e31"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/84482163-0595-4bc9-995e-af96b56745e0">
+    <dcterms:identifier xml:lang="en-US">{"id": "14af6c62-8bc6-44e7-861d-1574f841a1ae", "value": "http://www.archesproject.org/84482163-0595-4bc9-995e-af96b56745e0"}</dcterms:identifier>
+    <skos:narrower rdf:resource="http://www.archesproject.org/8a978368-930e-4b8a-a151-3e9a6d5eb19f"/>
+    <skos:narrower rdf:resource="http://www.archesproject.org/cc242880-b882-49ce-9b4d-6301c8fc39dc"/>
+    <skos:prefLabel xml:lang="en">{"id": "4f8588e1-6b2b-455f-96c7-001559791440", "value": "Museums"}</skos:prefLabel>
+    <skos:narrower rdf:resource="http://www.archesproject.org/2a4875c4-346d-48d1-b00a-cd2f9bb73e31"/>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/81870819-021e-45dc-8668-73465061f6f9"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/c72840dc-4076-4e2c-8c7c-87aac584b3b4">
+    <skos:inScheme rdf:resource="http://www.archesproject.org/81870819-021e-45dc-8668-73465061f6f9"/>
+    <skos:prefLabel xml:lang="en">{"id": "5552aea7-0f82-43a0-b4b9-b1f53498e653", "value": "Galleries"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en-US">{"id": "5477ea22-95cf-47ab-a26e-eae6a13c164c", "value": "http://www.archesproject.org/c72840dc-4076-4e2c-8c7c-87aac584b3b4"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/e58b1763-d522-443b-a888-6980f46de271">
+    <dcterms:identifier xml:lang="en-US">{"id": "0bde4a6f-901b-4be6-a68b-11c8ba2e201f", "value": "http://www.archesproject.org/e58b1763-d522-443b-a888-6980f46de271"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/81870819-021e-45dc-8668-73465061f6f9"/>
+    <skos:prefLabel xml:lang="en">{"id": "d1148532-dba9-48e2-85f6-547293756367", "value": "Universities"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/e3f935da-f1ec-45e0-ba7c-797a7b1893b9">
+    <dcterms:identifier xml:lang="en-US">{"id": "e29d734c-dd1c-47f9-a867-b4cf6e3242f0", "value": "http://www.archesproject.org/e3f935da-f1ec-45e0-ba7c-797a7b1893b9"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/81870819-021e-45dc-8668-73465061f6f9"/>
+    <skos:prefLabel xml:lang="en">{"id": "e79d3684-2e36-4422-bac8-e9c4eda4f97e", "value": "Archives"}</skos:prefLabel>
   </skos:Concept>
 </rdf:RDF>

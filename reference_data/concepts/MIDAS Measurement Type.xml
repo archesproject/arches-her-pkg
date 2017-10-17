@@ -6,5 +6,6 @@
 >
   <skos:ConceptScheme rdf:about="http://www.archesproject.org/9afe2428-d9a8-41aa-ac5d-208f7e57f064">
     <dcterms:title xml:lang="en">{"id": "16347b5a-438f-4fdf-85c5-a7b40e0578fb", "value": "MIDAS Measurement Type"}</dcterms:title>
+    <dcterms:identifier xml:lang="en-US">{"id": "0042f1a1-f140-4475-bf13-9abe47fb1f44", "value": "http://www.archesproject.org/9afe2428-d9a8-41aa-ac5d-208f7e57f064"}</dcterms:identifier>
   </skos:ConceptScheme>
 </rdf:RDF>

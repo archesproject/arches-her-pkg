@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <skos:ConceptScheme rdf:about="http://www.archesproject.org/69f79a48-94a7-46f6-8662-7e1650fbfdf1">
+    <dcterms:title xml:lang="en">{"id": "e633580b-c5bf-4401-8d07-a56dd57443f9", "value": "MIDAS Storage Area Types"}</dcterms:title>
+    <dcterms:description xml:lang="en">{"id": "2cdb6e1f-0850-4524-9f94-1369f9804cef", "value": "Describes the types of area found within a repository."}</dcterms:description>
+  </skos:ConceptScheme>
+</rdf:RDF>

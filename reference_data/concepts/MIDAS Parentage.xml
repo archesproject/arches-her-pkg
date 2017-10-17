@@ -4,36 +4,38 @@
   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
   xmlns:dcterms="http://purl.org/dc/terms/"
 >
-  <skos:ConceptScheme rdf:about="http://www.archesproject.org/a3f07da5-c90e-48c0-8e7c-0cfc93201e6c">
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://www.archesproject.org/33f4dfc9-59bb-4e0b-a362-13c9c2032b46">
-        <skos:inScheme rdf:resource="http://www.archesproject.org/a3f07da5-c90e-48c0-8e7c-0cfc93201e6c"/>
-        <skos:prefLabel xml:lang="en">{"id": "19c8cdbb-ca92-4163-85fc-49782dd43a6a", "value": "Adoptive mother"}</skos:prefLabel>
-        <skos:definition xml:lang="en">{"id": "5d40f6f5-f724-4b1d-8326-63549c466e45", "value": "A woman who adopts a child of other parents and takes the child as her own."}</skos:definition>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://www.archesproject.org/81bbff68-f1d5-4fe9-8caa-a5611ee15fa2">
-        <skos:definition xml:lang="en">{"id": "defdf331-623d-4ec7-aab8-70df0aa4a2ba", "value": "A man who is the husband or partner of one's mother (or in a same-sex relationship - father) after the divorce or separation of one's parents or the death of one's father (or mother)."}</skos:definition>
-        <skos:prefLabel xml:lang="en">{"id": "ba43b225-6156-46ff-8644-36148e7fd7eb", "value": "Stepfather"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/a3f07da5-c90e-48c0-8e7c-0cfc93201e6c"/>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <dcterms:description xml:lang="en">{"id": "7a600675-8769-4c18-91ea-0b7ca44e5110", "value": "Type of relationships found between children and their parents"}</dcterms:description>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://www.archesproject.org/53cd92ae-0652-4f11-97af-8ca4e1f2aa2e">
-        <skos:inScheme rdf:resource="http://www.archesproject.org/a3f07da5-c90e-48c0-8e7c-0cfc93201e6c"/>
-        <skos:definition xml:lang="en">{"id": "d6642058-6e94-45ae-a820-f7631db33595", "value": "A woman who is the wife or partner of one's father (or in a same-sex relationship - mother) after the divorce or separation of one's parents or the death of one's mother (or father)."}</skos:definition>
-        <skos:prefLabel xml:lang="en">{"id": "1b72684d-a24e-4d84-a2b9-c79986cd21c4", "value": "Stepmother"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <dcterms:title xml:lang="en">{"id": "51a76216-fdfd-4e09-9018-909e364b5722", "value": "MIDAS Parentage"}</dcterms:title>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://www.archesproject.org/0c14f809-1476-450d-91b9-9aafcb2d28ee">
-        <skos:definition xml:lang="en">{"id": "5df67da3-f979-4a8d-a49d-8814b249227d", "value": "A man who adopts a child of other parents and takes the child as his own."}</skos:definition>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/a3f07da5-c90e-48c0-8e7c-0cfc93201e6c"/>
-        <skos:prefLabel xml:lang="en">{"id": "99689438-0be4-42f3-b9e1-01088f5d3841", "value": "Adoptive father"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:hasTopConcept>
-  </skos:ConceptScheme>
+  <skos:Concept rdf:about="http://www.archesproject.org/33f4dfc9-59bb-4e0b-a362-13c9c2032b46">
+    <dcterms:identifier xml:lang="en-US">{"id": "df28a668-9a67-4541-aeee-2b739c4d8faa", "value": "http://www.archesproject.org/33f4dfc9-59bb-4e0b-a362-13c9c2032b46"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "19c8cdbb-ca92-4163-85fc-49782dd43a6a", "value": "Adoptive mother"}</skos:prefLabel>
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://www.archesproject.org/a3f07da5-c90e-48c0-8e7c-0cfc93201e6c">
+        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/33f4dfc9-59bb-4e0b-a362-13c9c2032b46"/>
+        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/53cd92ae-0652-4f11-97af-8ca4e1f2aa2e"/>
+        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/0c14f809-1476-450d-91b9-9aafcb2d28ee"/>
+        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/81bbff68-f1d5-4fe9-8caa-a5611ee15fa2"/>
+        <dcterms:title xml:lang="en">{"id": "51a76216-fdfd-4e09-9018-909e364b5722", "value": "MIDAS Parentage"}</dcterms:title>
+        <dcterms:description xml:lang="en">{"id": "7a600675-8769-4c18-91ea-0b7ca44e5110", "value": "Type of relationships found between children and their parents"}</dcterms:description>
+        <dcterms:identifier xml:lang="en-US">{"id": "89cc3ebc-17af-416d-aca7-3de2035de953", "value": "http://www.archesproject.org/a3f07da5-c90e-48c0-8e7c-0cfc93201e6c"}</dcterms:identifier>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <skos:definition xml:lang="en">{"id": "5d40f6f5-f724-4b1d-8326-63549c466e45", "value": "A woman who adopts a child of other parents and takes the child as her own."}</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/81bbff68-f1d5-4fe9-8caa-a5611ee15fa2">
+    <skos:inScheme rdf:resource="http://www.archesproject.org/a3f07da5-c90e-48c0-8e7c-0cfc93201e6c"/>
+    <skos:prefLabel xml:lang="en">{"id": "ba43b225-6156-46ff-8644-36148e7fd7eb", "value": "Stepfather"}</skos:prefLabel>
+    <skos:definition xml:lang="en">{"id": "defdf331-623d-4ec7-aab8-70df0aa4a2ba", "value": "A man who is the husband or partner of one's mother (or in a same-sex relationship - father) after the divorce or separation of one's parents or the death of one's father (or mother)."}</skos:definition>
+    <dcterms:identifier xml:lang="en-US">{"id": "bcf6b6c4-d660-429e-85c9-1a7fdd8319b5", "value": "http://www.archesproject.org/81bbff68-f1d5-4fe9-8caa-a5611ee15fa2"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/0c14f809-1476-450d-91b9-9aafcb2d28ee">
+    <skos:prefLabel xml:lang="en">{"id": "99689438-0be4-42f3-b9e1-01088f5d3841", "value": "Adoptive father"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en-US">{"id": "cc5df9bd-6ad1-4ccb-a321-d3de924bc81f", "value": "http://www.archesproject.org/0c14f809-1476-450d-91b9-9aafcb2d28ee"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/a3f07da5-c90e-48c0-8e7c-0cfc93201e6c"/>
+    <skos:definition xml:lang="en">{"id": "5df67da3-f979-4a8d-a49d-8814b249227d", "value": "A man who adopts a child of other parents and takes the child as his own."}</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/53cd92ae-0652-4f11-97af-8ca4e1f2aa2e">
+    <skos:definition xml:lang="en">{"id": "d6642058-6e94-45ae-a820-f7631db33595", "value": "A woman who is the wife or partner of one's father (or in a same-sex relationship - mother) after the divorce or separation of one's parents or the death of one's mother (or father)."}</skos:definition>
+    <skos:prefLabel xml:lang="en">{"id": "1b72684d-a24e-4d84-a2b9-c79986cd21c4", "value": "Stepmother"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en-US">{"id": "bd5d9234-79a3-4263-a542-b0d19a63c092", "value": "http://www.archesproject.org/53cd92ae-0652-4f11-97af-8ca4e1f2aa2e"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/a3f07da5-c90e-48c0-8e7c-0cfc93201e6c"/>
+  </skos:Concept>
 </rdf:RDF>

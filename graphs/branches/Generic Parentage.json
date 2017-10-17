@@ -12,6 +12,7 @@
                     "helptext": null, 
                     "helptitle": null, 
                     "instructions": null, 
+                    "is_editable": true, 
                     "name": "Generic Parentage", 
                     "nodegroup_id": "6af8217a-a81a-11e7-9f72-021893e306d8", 
                     "sortorder": null, 
@@ -26,20 +27,20 @@
                 {
                     "description": null, 
                     "domainnode_id": "6af8217a-a81a-11e7-9f72-021893e306d8", 
-                    "edgeid": "af272adc-a81a-11e7-9f72-021893e306d8", 
-                    "graph_id": "6af8217b-a81a-11e7-9f72-021893e306d8", 
-                    "name": null, 
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by", 
-                    "rangenode_id": "af272adb-a81a-11e7-9f72-021893e306d8"
-                }, 
-                {
-                    "description": null, 
-                    "domainnode_id": "6af8217a-a81a-11e7-9f72-021893e306d8", 
                     "edgeid": "c54cd276-a81a-11e7-9f72-021893e306d8", 
                     "graph_id": "6af8217b-a81a-11e7-9f72-021893e306d8", 
                     "name": null, 
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P152_has_parent", 
                     "rangenode_id": "c54cd275-a81a-11e7-9f72-021893e306d8"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "6af8217a-a81a-11e7-9f72-021893e306d8", 
+                    "edgeid": "af272adc-a81a-11e7-9f72-021893e306d8", 
+                    "graph_id": "6af8217b-a81a-11e7-9f72-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by", 
+                    "rangenode_id": "af272adb-a81a-11e7-9f72-021893e306d8"
                 }, 
                 {
                     "description": null, 
@@ -77,6 +78,7 @@
                     "description": "", 
                     "graph_id": "6af8217b-a81a-11e7-9f72-021893e306d8", 
                     "is_collector": true, 
+                    "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": true, 
                     "name": "Child", 
@@ -91,6 +93,7 @@
                     "description": "Represents a single node in a graph", 
                     "graph_id": "6af8217b-a81a-11e7-9f72-021893e306d8", 
                     "is_collector": false, 
+                    "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": false, 
                     "name": "Name", 
@@ -107,6 +110,7 @@
                     "description": "Represents a single node in a graph", 
                     "graph_id": "6af8217b-a81a-11e7-9f72-021893e306d8", 
                     "is_collector": false, 
+                    "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": false, 
                     "name": "Parent", 
@@ -123,6 +127,7 @@
                     "description": "Represents a single node in a graph", 
                     "graph_id": "6af8217b-a81a-11e7-9f72-021893e306d8", 
                     "is_collector": false, 
+                    "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": false, 
                     "name": "Parent Type", 
@@ -144,6 +149,7 @@
                 "description": "", 
                 "graph_id": "6af8217b-a81a-11e7-9f72-021893e306d8", 
                 "is_collector": true, 
+                "isrequired": false, 
                 "issearchable": true, 
                 "istopnode": true, 
                 "name": "Child", 
@@ -157,8 +163,8 @@
     ], 
     "metadata": {
         "db": "PostgreSQL 9.6.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 5.3.1-14ubuntu2) 5.3.1 20160413, 64-bit", 
-        "git hash": "205c31b 2017-06-01 12:07:14 -0700", 
+        "git hash": "411ce7d 2017-10-12 13:02:46 -0700", 
         "os": "Linux", 
-        "os version": "4.4.0-93-generic"
+        "os version": "4.4.0-97-generic"
     }
 }

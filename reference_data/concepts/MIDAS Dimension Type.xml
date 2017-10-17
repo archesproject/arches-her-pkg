@@ -1,46 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
 >
-  <skos:Concept rdf:about="http://www.archesproject.org/64c51e61-8dc9-4c61-9693-eff38c224a01">
-    <skos:prefLabel xml:lang="en">{"id": "0a3b97ba-0da1-42ca-97cf-60c3ef60f24f", "value": "Height"}</skos:prefLabel>
-    <skos:inScheme>
-      <skos:ConceptScheme rdf:about="http://www.archesproject.org/64231b33-8548-466c-8f6a-93200f3a5614">
-        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/704dc7bf-bc4e-4ee7-a073-691bb5ba549b"/>
-        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/75bc8a59-060c-4a60-804e-1a90d58b75bc"/>
-        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/64c51e61-8dc9-4c61-9693-eff38c224a01"/>
-        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/fc0e6a53-5091-4007-a877-0ff270223c4d"/>
-        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/9aaea1bc-de22-4aa5-b0dc-eaf0da68280d"/>
-        <dcterms:title xml:lang="en">{"id": "73f71ea4-6f91-4e78-9cda-b0c683ca2f71", "value": "MIDAS Dimension Type"}</dcterms:title>
-        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/f6a5fb26-60f7-40d8-b8d1-4beca45a11df"/>
-        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/468aa267-c4af-40a3-8bfc-218ec4537161"/>
-      </skos:ConceptScheme>
-    </skos:inScheme>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/468aa267-c4af-40a3-8bfc-218ec4537161">
-    <skos:inScheme rdf:resource="http://www.archesproject.org/64231b33-8548-466c-8f6a-93200f3a5614"/>
-    <skos:prefLabel xml:lang="en">{"id": "6bbe277f-35b5-476f-add8-963e56244670", "value": "Diameter"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/fc0e6a53-5091-4007-a877-0ff270223c4d">
-    <skos:prefLabel xml:lang="en">{"id": "506cdc68-9bbd-44cd-8691-132e1c5a913d", "value": "Depth"}</skos:prefLabel>
-    <skos:inScheme rdf:resource="http://www.archesproject.org/64231b33-8548-466c-8f6a-93200f3a5614"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/f6a5fb26-60f7-40d8-b8d1-4beca45a11df">
-    <skos:prefLabel xml:lang="en">{"id": "b341d648-38b3-44f8-ba29-2c91d8e41de2", "value": "Width"}</skos:prefLabel>
-    <skos:inScheme rdf:resource="http://www.archesproject.org/64231b33-8548-466c-8f6a-93200f3a5614"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/9aaea1bc-de22-4aa5-b0dc-eaf0da68280d">
-    <skos:inScheme rdf:resource="http://www.archesproject.org/64231b33-8548-466c-8f6a-93200f3a5614"/>
-    <skos:prefLabel xml:lang="en">{"id": "3e02e4ff-0464-4f5f-9ea5-68d3d6178307", "value": "Breadth"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/75bc8a59-060c-4a60-804e-1a90d58b75bc">
-    <skos:prefLabel xml:lang="en">{"id": "d7e1f4d3-ca08-4dad-bb02-42091d391e49", "value": "Length"}</skos:prefLabel>
-    <skos:inScheme rdf:resource="http://www.archesproject.org/64231b33-8548-466c-8f6a-93200f3a5614"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/704dc7bf-bc4e-4ee7-a073-691bb5ba549b">
-    <skos:inScheme rdf:resource="http://www.archesproject.org/64231b33-8548-466c-8f6a-93200f3a5614"/>
-    <skos:prefLabel xml:lang="en">{"id": "a60d1e05-0dc8-46d1-b2b5-ccc8e8fd2935", "value": "Weight"}</skos:prefLabel>
-  </skos:Concept>
+  <skos:ConceptScheme rdf:about="http://www.archesproject.org/64231b33-8548-466c-8f6a-93200f3a5614">
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://www.archesproject.org/468aa267-c4af-40a3-8bfc-218ec4537161">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/64231b33-8548-466c-8f6a-93200f3a5614"/>
+        <dcterms:identifier xml:lang="en-US">{"id": "576698a5-d277-4463-96fc-64e4b2172157", "value": "http://www.archesproject.org/468aa267-c4af-40a3-8bfc-218ec4537161"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "6bbe277f-35b5-476f-add8-963e56244670", "value": "Diameter"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://www.archesproject.org/fc0e6a53-5091-4007-a877-0ff270223c4d">
+        <skos:prefLabel xml:lang="en">{"id": "506cdc68-9bbd-44cd-8691-132e1c5a913d", "value": "Depth"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/64231b33-8548-466c-8f6a-93200f3a5614"/>
+        <dcterms:identifier xml:lang="en-US">{"id": "77179bee-829b-4d97-ab63-0d5e29bd1acd", "value": "http://www.archesproject.org/fc0e6a53-5091-4007-a877-0ff270223c4d"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://www.archesproject.org/75bc8a59-060c-4a60-804e-1a90d58b75bc">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/64231b33-8548-466c-8f6a-93200f3a5614"/>
+        <dcterms:identifier xml:lang="en-US">{"id": "641ec398-db46-4cc7-8130-46e3a6433173", "value": "http://www.archesproject.org/75bc8a59-060c-4a60-804e-1a90d58b75bc"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "d7e1f4d3-ca08-4dad-bb02-42091d391e49", "value": "Length"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://www.archesproject.org/f6a5fb26-60f7-40d8-b8d1-4beca45a11df">
+        <skos:prefLabel xml:lang="en">{"id": "b341d648-38b3-44f8-ba29-2c91d8e41de2", "value": "Width"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/64231b33-8548-466c-8f6a-93200f3a5614"/>
+        <dcterms:identifier xml:lang="en-US">{"id": "5bd2d5be-a884-4f36-9e48-8546340161f7", "value": "http://www.archesproject.org/f6a5fb26-60f7-40d8-b8d1-4beca45a11df"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://www.archesproject.org/704dc7bf-bc4e-4ee7-a073-691bb5ba549b">
+        <dcterms:identifier xml:lang="en-US">{"id": "7a4dbc59-4406-4524-9658-07272ea3e9bc", "value": "http://www.archesproject.org/704dc7bf-bc4e-4ee7-a073-691bb5ba549b"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "a60d1e05-0dc8-46d1-b2b5-ccc8e8fd2935", "value": "Weight"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/64231b33-8548-466c-8f6a-93200f3a5614"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://www.archesproject.org/9aaea1bc-de22-4aa5-b0dc-eaf0da68280d">
+        <skos:prefLabel xml:lang="en">{"id": "3e02e4ff-0464-4f5f-9ea5-68d3d6178307", "value": "Breadth"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/64231b33-8548-466c-8f6a-93200f3a5614"/>
+        <dcterms:identifier xml:lang="en-US">{"id": "74976cc0-47b4-4d59-ab72-5a7fe741343b", "value": "http://www.archesproject.org/9aaea1bc-de22-4aa5-b0dc-eaf0da68280d"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://www.archesproject.org/64c51e61-8dc9-4c61-9693-eff38c224a01">
+        <dcterms:identifier xml:lang="en-US">{"id": "cdf5b613-f6d3-403a-8fa2-36f05d0785bd", "value": "http://www.archesproject.org/64c51e61-8dc9-4c61-9693-eff38c224a01"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "0a3b97ba-0da1-42ca-97cf-60c3ef60f24f", "value": "Height"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/64231b33-8548-466c-8f6a-93200f3a5614"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <dcterms:title xml:lang="en">{"id": "73f71ea4-6f91-4e78-9cda-b0c683ca2f71", "value": "MIDAS Dimension Type"}</dcterms:title>
+    <dcterms:identifier xml:lang="en-US">{"id": "a54ac825-d4e9-4689-97bb-aa302dea7954", "value": "http://www.archesproject.org/64231b33-8548-466c-8f6a-93200f3a5614"}</dcterms:identifier>
+  </skos:ConceptScheme>
 </rdf:RDF>

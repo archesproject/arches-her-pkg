@@ -5,34 +5,6 @@
             "cards": [
                 {
                     "active": true, 
-                    "cardid": "65cfb652-9df1-11e7-9f72-021893e306d8", 
-                    "description": "Represents a single node in a graph", 
-                    "graph_id": "d0508146-9246-11e7-b43c-021893e306d8", 
-                    "helpenabled": false, 
-                    "helptext": null, 
-                    "helptitle": null, 
-                    "instructions": null, 
-                    "name": "Activity Method", 
-                    "nodegroup_id": "abf58ce3-9def-11e7-9f72-021893e306d8", 
-                    "sortorder": 1, 
-                    "visible": true
-                }, 
-                {
-                    "active": true, 
-                    "cardid": "d0508149-9246-11e7-b43c-021893e306d8", 
-                    "description": "Describes the time span and type of an Activity Resource.", 
-                    "graph_id": "d0508146-9246-11e7-b43c-021893e306d8", 
-                    "helpenabled": false, 
-                    "helptext": null, 
-                    "helptitle": null, 
-                    "instructions": null, 
-                    "name": "HER Activity Phase", 
-                    "nodegroup_id": "d0508147-9246-11e7-b43c-021893e306d8", 
-                    "sortorder": null, 
-                    "visible": true
-                }, 
-                {
-                    "active": true, 
                     "cardid": "87954c6d-9df0-11e7-9f72-021893e306d8", 
                     "description": "", 
                     "graph_id": "d0508146-9246-11e7-b43c-021893e306d8", 
@@ -40,6 +12,7 @@
                     "helptext": null, 
                     "helptitle": null, 
                     "instructions": "Enter a description and description type for the resource.", 
+                    "is_editable": true, 
                     "name": "Descriptions", 
                     "nodegroup_id": "87954c6b-9df0-11e7-9f72-021893e306d8", 
                     "sortorder": 2, 
@@ -54,9 +27,40 @@
                     "helptext": null, 
                     "helptitle": null, 
                     "instructions": "Select an activity type and its corresponding to and from dates.", 
+                    "is_editable": true, 
                     "name": "Phase Type Assignment", 
                     "nodegroup_id": "d050814a-9246-11e7-b43c-021893e306d8", 
                     "sortorder": 0, 
+                    "visible": true
+                }, 
+                {
+                    "active": true, 
+                    "cardid": "d0508149-9246-11e7-b43c-021893e306d8", 
+                    "description": "Describes the time span and type of an Activity Resource.", 
+                    "graph_id": "d0508146-9246-11e7-b43c-021893e306d8", 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "helptitle": null, 
+                    "instructions": null, 
+                    "is_editable": true, 
+                    "name": "HER Activity Phase", 
+                    "nodegroup_id": "d0508147-9246-11e7-b43c-021893e306d8", 
+                    "sortorder": null, 
+                    "visible": true
+                }, 
+                {
+                    "active": true, 
+                    "cardid": "65cfb652-9df1-11e7-9f72-021893e306d8", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "d0508146-9246-11e7-b43c-021893e306d8", 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "helptitle": null, 
+                    "instructions": null, 
+                    "is_editable": true, 
+                    "name": "Activity Method", 
+                    "nodegroup_id": "abf58ce3-9def-11e7-9f72-021893e306d8", 
+                    "sortorder": 1, 
                     "visible": true
                 }
             ], 
@@ -1048,15 +1052,6 @@
             "edges": [
                 {
                     "description": null, 
-                    "domainnode_id": "d050814d-9246-11e7-b43c-021893e306d8", 
-                    "edgeid": "d0508155-9246-11e7-b43c-021893e306d8", 
-                    "graph_id": "d0508146-9246-11e7-b43c-021893e306d8", 
-                    "name": null, 
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P78_is_identified_by", 
-                    "rangenode_id": "d050814e-9246-11e7-b43c-021893e306d8"
-                }, 
-                {
-                    "description": null, 
                     "domainnode_id": "87954c6b-9df0-11e7-9f72-021893e306d8", 
                     "edgeid": "87954c73-9df0-11e7-9f72-021893e306d8", 
                     "graph_id": "d0508146-9246-11e7-b43c-021893e306d8", 
@@ -1075,12 +1070,12 @@
                 }, 
                 {
                     "description": null, 
-                    "domainnode_id": "d0508147-9246-11e7-b43c-021893e306d8", 
-                    "edgeid": "87954c74-9df0-11e7-9f72-021893e306d8", 
+                    "domainnode_id": "d050814d-9246-11e7-b43c-021893e306d8", 
+                    "edgeid": "d0508155-9246-11e7-b43c-021893e306d8", 
                     "graph_id": "d0508146-9246-11e7-b43c-021893e306d8", 
                     "name": null, 
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P140i_was_attributed_by", 
-                    "rangenode_id": "87954c6b-9df0-11e7-9f72-021893e306d8"
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P78_is_identified_by", 
+                    "rangenode_id": "d050814e-9246-11e7-b43c-021893e306d8"
                 }, 
                 {
                     "description": null, 
@@ -1103,6 +1098,15 @@
                 {
                     "description": null, 
                     "domainnode_id": "d0508147-9246-11e7-b43c-021893e306d8", 
+                    "edgeid": "d0508157-9246-11e7-b43c-021893e306d8", 
+                    "graph_id": "d0508146-9246-11e7-b43c-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P41i_was_classified_by", 
+                    "rangenode_id": "d050814a-9246-11e7-b43c-021893e306d8"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "d0508147-9246-11e7-b43c-021893e306d8", 
                     "edgeid": "abf58ce4-9def-11e7-9f72-021893e306d8", 
                     "graph_id": "d0508146-9246-11e7-b43c-021893e306d8", 
                     "name": null, 
@@ -1112,11 +1116,11 @@
                 {
                     "description": null, 
                     "domainnode_id": "d0508147-9246-11e7-b43c-021893e306d8", 
-                    "edgeid": "d0508157-9246-11e7-b43c-021893e306d8", 
+                    "edgeid": "87954c74-9df0-11e7-9f72-021893e306d8", 
                     "graph_id": "d0508146-9246-11e7-b43c-021893e306d8", 
                     "name": null, 
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P41i_was_classified_by", 
-                    "rangenode_id": "d050814a-9246-11e7-b43c-021893e306d8"
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P140i_was_attributed_by", 
+                    "rangenode_id": "87954c6b-9df0-11e7-9f72-021893e306d8"
                 }, 
                 {
                     "description": null, 
@@ -1179,6 +1183,7 @@
                     "description": "Represents a single node in a graph", 
                     "graph_id": "d0508146-9246-11e7-b43c-021893e306d8", 
                     "is_collector": false, 
+                    "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": false, 
                     "name": "Time Span Phase", 
@@ -1193,6 +1198,7 @@
                     "description": "Represents a single node in a graph", 
                     "graph_id": "d0508146-9246-11e7-b43c-021893e306d8", 
                     "is_collector": false, 
+                    "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": false, 
                     "name": "To Date", 
@@ -1209,6 +1215,7 @@
                     "description": "Represents a single node in a graph", 
                     "graph_id": "d0508146-9246-11e7-b43c-021893e306d8", 
                     "is_collector": false, 
+                    "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": false, 
                     "name": "Activity Type", 
@@ -1223,6 +1230,7 @@
                     "description": "Represents a single node in a graph", 
                     "graph_id": "d0508146-9246-11e7-b43c-021893e306d8", 
                     "is_collector": true, 
+                    "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": false, 
                     "name": "Phase Type Assignment", 
@@ -1232,71 +1240,12 @@
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P41i_was_classified_by"
                 }, 
                 {
-                    "config": {
-                        "fillColor": "rgba(233,112,111,0.8)"
-                    }, 
-                    "datatype": "semantic", 
-                    "description": "", 
-                    "graph_id": "d0508146-9246-11e7-b43c-021893e306d8", 
-                    "is_collector": true, 
-                    "issearchable": true, 
-                    "istopnode": true, 
-                    "name": "Activity Phase", 
-                    "nodegroup_id": "d0508147-9246-11e7-b43c-021893e306d8", 
-                    "nodeid": "d0508147-9246-11e7-b43c-021893e306d8", 
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E7_Activity", 
-                    "parentproperty": ""
-                }, 
-                {
-                    "config": null, 
-                    "datatype": "date", 
-                    "description": "Represents a single node in a graph", 
-                    "graph_id": "d0508146-9246-11e7-b43c-021893e306d8", 
-                    "is_collector": false, 
-                    "issearchable": true, 
-                    "istopnode": false, 
-                    "name": "From Date", 
-                    "nodegroup_id": "d050814a-9246-11e7-b43c-021893e306d8", 
-                    "nodeid": "d0508150-9246-11e7-b43c-021893e306d8", 
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E49_Time_Appellation", 
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P78_is_identified_by"
-                }, 
-                {
-                    "config": null, 
-                    "datatype": "semantic", 
-                    "description": "Represents a single node in a graph", 
-                    "graph_id": "d0508146-9246-11e7-b43c-021893e306d8", 
-                    "is_collector": true, 
-                    "issearchable": true, 
-                    "istopnode": false, 
-                    "name": "Activity Method", 
-                    "nodegroup_id": "abf58ce3-9def-11e7-9f72-021893e306d8", 
-                    "nodeid": "abf58ce3-9def-11e7-9f72-021893e306d8", 
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E29_Design_or_Procedure", 
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P33_used_specific_technique"
-                }, 
-                {
-                    "config": {
-                        "rdmCollection": "5ca159eb-4db7-4d0e-9018-fa3fbc42d32b"
-                    }, 
-                    "datatype": "concept", 
-                    "description": "Represents a single node in a graph", 
-                    "graph_id": "d0508146-9246-11e7-b43c-021893e306d8", 
-                    "is_collector": false, 
-                    "issearchable": true, 
-                    "istopnode": false, 
-                    "name": "Activity Method Type", 
-                    "nodegroup_id": "abf58ce3-9def-11e7-9f72-021893e306d8", 
-                    "nodeid": "c5b5b4cd-9def-11e7-9f72-021893e306d8", 
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type", 
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type"
-                }, 
-                {
                     "config": null, 
                     "datatype": "string", 
                     "description": "Represents a single node in a graph", 
                     "graph_id": "d0508146-9246-11e7-b43c-021893e306d8", 
                     "is_collector": false, 
+                    "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": false, 
                     "name": "Description", 
@@ -1307,12 +1256,77 @@
                 }, 
                 {
                     "config": {
+                        "rdmCollection": "5ca159eb-4db7-4d0e-9018-fa3fbc42d32b"
+                    }, 
+                    "datatype": "concept", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "d0508146-9246-11e7-b43c-021893e306d8", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Activity Method Type", 
+                    "nodegroup_id": "abf58ce3-9def-11e7-9f72-021893e306d8", 
+                    "nodeid": "c5b5b4cd-9def-11e7-9f72-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type"
+                }, 
+                {
+                    "config": {
+                        "fillColor": "rgba(233,112,111,0.8)"
+                    }, 
+                    "datatype": "semantic", 
+                    "description": "", 
+                    "graph_id": "d0508146-9246-11e7-b43c-021893e306d8", 
+                    "is_collector": true, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": true, 
+                    "name": "Activity Phase", 
+                    "nodegroup_id": "d0508147-9246-11e7-b43c-021893e306d8", 
+                    "nodeid": "d0508147-9246-11e7-b43c-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E7_Activity", 
+                    "parentproperty": ""
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "semantic", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "d0508146-9246-11e7-b43c-021893e306d8", 
+                    "is_collector": true, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Activity Method", 
+                    "nodegroup_id": "abf58ce3-9def-11e7-9f72-021893e306d8", 
+                    "nodeid": "abf58ce3-9def-11e7-9f72-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E29_Design_or_Procedure", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P33_used_specific_technique"
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "date", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "d0508146-9246-11e7-b43c-021893e306d8", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "From Date", 
+                    "nodegroup_id": "d050814a-9246-11e7-b43c-021893e306d8", 
+                    "nodeid": "d0508150-9246-11e7-b43c-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E49_Time_Appellation", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P78_is_identified_by"
+                }, 
+                {
+                    "config": {
                         "rdmCollection": null
                     }, 
                     "datatype": "concept", 
                     "description": "Represents a single node in a graph", 
                     "graph_id": "d0508146-9246-11e7-b43c-021893e306d8", 
                     "is_collector": false, 
+                    "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": false, 
                     "name": "Description Type", 
@@ -1327,6 +1341,7 @@
                     "description": "", 
                     "graph_id": "d0508146-9246-11e7-b43c-021893e306d8", 
                     "is_collector": true, 
+                    "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": false, 
                     "name": "Description Assignment", 
@@ -1348,6 +1363,7 @@
                 "description": "", 
                 "graph_id": "d0508146-9246-11e7-b43c-021893e306d8", 
                 "is_collector": true, 
+                "isrequired": false, 
                 "issearchable": true, 
                 "istopnode": true, 
                 "name": "Activity Phase", 
@@ -1361,8 +1377,8 @@
     ], 
     "metadata": {
         "db": "PostgreSQL 9.6.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 5.3.1-14ubuntu2) 5.3.1 20160413, 64-bit", 
-        "git hash": "205c31b 2017-06-01 12:07:14 -0700", 
+        "git hash": "411ce7d 2017-10-12 13:02:46 -0700", 
         "os": "Linux", 
-        "os version": "4.4.0-93-generic"
+        "os version": "4.4.0-97-generic"
     }
 }

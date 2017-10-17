@@ -1,28 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
 >
-  <skos:ConceptScheme rdf:about="http://www.archesproject.org/033e6b0c-bdb6-4170-a3f3-066617c8eb6d">
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://www.archesproject.org/d2dc24fb-afd2-47c8-9696-fcb369033faa">
-        <skos:prefLabel xml:lang="en">{"id": "262111b9-10ed-4c3e-8353-d91690253790", "value": "Final voyage"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/033e6b0c-bdb6-4170-a3f3-066617c8eb6d"/>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://www.archesproject.org/2565bc95-2532-4b04-bd2a-d370151687fe">
-        <skos:prefLabel xml:lang="en">{"id": "e3398ca5-4a56-4303-b12f-01b94fd84ac2", "value": "Cruise"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/033e6b0c-bdb6-4170-a3f3-066617c8eb6d"/>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://www.archesproject.org/ea7a794e-7a9b-4884-adaa-0e20a8b4415c">
-        <skos:prefLabel xml:lang="en">{"id": "271f67c9-db1a-43fb-b1f7-09f3dac43a97", "value": "Maiden voyage"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/033e6b0c-bdb6-4170-a3f3-066617c8eb6d"/>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <dcterms:title xml:lang="en">{"id": "10ffe73c-6b30-4736-8551-dba848187d78", "value": "MIDAS Voyage Type"}</dcterms:title>
-  </skos:ConceptScheme>
+  <skos:Concept rdf:about="http://www.archesproject.org/d2dc24fb-afd2-47c8-9696-fcb369033faa">
+    <dcterms:identifier xml:lang="en-US">{"id": "d4ecccb6-4d71-4224-9587-55c6856b05d4", "value": "http://www.archesproject.org/d2dc24fb-afd2-47c8-9696-fcb369033faa"}</dcterms:identifier>
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://www.archesproject.org/033e6b0c-bdb6-4170-a3f3-066617c8eb6d">
+        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/ea7a794e-7a9b-4884-adaa-0e20a8b4415c"/>
+        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/d2dc24fb-afd2-47c8-9696-fcb369033faa"/>
+        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/2565bc95-2532-4b04-bd2a-d370151687fe"/>
+        <dcterms:title xml:lang="en">{"id": "10ffe73c-6b30-4736-8551-dba848187d78", "value": "MIDAS Voyage Type"}</dcterms:title>
+        <dcterms:identifier xml:lang="en-US">{"id": "e98e5f10-4cf6-4441-8298-5aafe9ac7633", "value": "http://www.archesproject.org/033e6b0c-bdb6-4170-a3f3-066617c8eb6d"}</dcterms:identifier>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <skos:prefLabel xml:lang="en">{"id": "262111b9-10ed-4c3e-8353-d91690253790", "value": "Final voyage"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/2565bc95-2532-4b04-bd2a-d370151687fe">
+    <skos:inScheme rdf:resource="http://www.archesproject.org/033e6b0c-bdb6-4170-a3f3-066617c8eb6d"/>
+    <dcterms:identifier xml:lang="en-US">{"id": "408f399a-b1ab-48c5-83e3-a99adc79400e", "value": "http://www.archesproject.org/2565bc95-2532-4b04-bd2a-d370151687fe"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "e3398ca5-4a56-4303-b12f-01b94fd84ac2", "value": "Cruise"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/ea7a794e-7a9b-4884-adaa-0e20a8b4415c">
+    <skos:prefLabel xml:lang="en">{"id": "271f67c9-db1a-43fb-b1f7-09f3dac43a97", "value": "Maiden voyage"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/033e6b0c-bdb6-4170-a3f3-066617c8eb6d"/>
+    <dcterms:identifier xml:lang="en-US">{"id": "e3491129-690f-4aff-9846-a0dd19140e9c", "value": "http://www.archesproject.org/ea7a794e-7a9b-4884-adaa-0e20a8b4415c"}</dcterms:identifier>
+  </skos:Concept>
 </rdf:RDF>

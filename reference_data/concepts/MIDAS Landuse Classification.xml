@@ -4,196 +4,93 @@
   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
   xmlns:dcterms="http://purl.org/dc/terms/"
 >
-  <skos:Concept rdf:about="http://www.archesproject.org/e6fa155f-1230-4e40-a530-7f7538faed02">
-    <skos:prefLabel xml:lang="en">{"id": "eb8438e3-d3c0-4336-854a-204e750304ff", "value": "Coastland 4 (Saltmarsh)"}</skos:prefLabel>
+  <skos:Concept rdf:about="http://www.archesproject.org/16aec88b-8338-416b-90c8-095937421dac">
     <skos:inScheme>
       <skos:ConceptScheme rdf:about="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f">
-        <dcterms:title xml:lang="en">{"id": "5a5d9aaf-def9-4ef6-952d-dc1c5029d1cc", "value": "MIDAS Land Use Classification"}</dcterms:title>
-        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/86d9c714-d3c9-48e8-a1e6-a360125021c7"/>
-        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/6888f6e9-5f09-47cc-b2ad-f8a331e91ac5"/>
-        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/023fbd54-add6-4340-9643-854acf051f31"/>
         <skos:hasTopConcept rdf:resource="http://www.archesproject.org/74c429f8-2c90-447c-a74a-9b8c736feb0b"/>
-        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/16aec88b-8338-416b-90c8-095937421dac"/>
-        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/32fc8064-5577-4f16-a77c-965b450223a9"/>
+        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/6888f6e9-5f09-47cc-b2ad-f8a331e91ac5"/>
         <skos:hasTopConcept rdf:resource="http://www.archesproject.org/cdf66a42-9ac2-4923-ad79-672da5c86240"/>
+        <dcterms:identifier xml:lang="en-US">{"id": "64af5cdf-8641-4f16-b8f6-d314471dcc86", "value": "http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"}</dcterms:identifier>
         <skos:hasTopConcept rdf:resource="http://www.archesproject.org/5f477b32-a8e2-4bd6-856b-982de4be8f2b"/>
         <skos:hasTopConcept rdf:resource="http://www.archesproject.org/111782b1-1d89-46f1-a388-29bd093babe8"/>
+        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/86d9c714-d3c9-48e8-a1e6-a360125021c7"/>
+        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/16aec88b-8338-416b-90c8-095937421dac"/>
+        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/32fc8064-5577-4f16-a77c-965b450223a9"/>
+        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/023fbd54-add6-4340-9643-854acf051f31"/>
+        <dcterms:title xml:lang="en">{"id": "5a5d9aaf-def9-4ef6-952d-dc1c5029d1cc", "value": "MIDAS Land Use Classification"}</dcterms:title>
       </skos:ConceptScheme>
     </skos:inScheme>
-    <skos:scopeNote xml:lang="en">{"id": "5e88504d-dc11-4dae-bc8b-4bba525140fb", "value": "Term includes Saltings etc."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en-US">{"id": "5c11b070-d242-4015-bb3b-8cc2928943db", "value": "http://www.archesproject.org/16aec88b-8338-416b-90c8-095937421dac"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "1528adbc-3498-43be-830b-2a8c5da74f5a", "value": "Moorland"}</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/86d9c714-d3c9-48e8-a1e6-a360125021c7">
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/f6a0a305-115e-4e64-929b-33e0eb1589d9">
-        <skos:prefLabel xml:lang="en">{"id": "b04e228f-6070-4142-9b44-0d6a0a5354e0", "value": "Other 15 (Other)"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
-        <skos:scopeNote xml:lang="en">{"id": "fa049bb6-3cf4-425c-aa36-d24890fa6658", "value": "Specify in Description."}</skos:scopeNote>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/5be05756-a436-4693-a032-370de311c351">
-        <skos:scopeNote xml:lang="en">{"id": "d8e4c089-9479-4604-872e-c0739430e5c0", "value": "Specify in Description using: golf course, playing fields etc."}</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
-        <skos:prefLabel xml:lang="en">{"id": "e2baf4c3-0fca-408b-ae45-b8814453d69d", "value": "Other 14 (Recreational usage)"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/20bc5579-8360-4191-affd-29d69670def8">
-        <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
-        <skos:scopeNote xml:lang="en">{"id": "5cf3466c-f18a-4f57-bb45-88060b3c788f", "value": "For example mine, quarry etc."}</skos:scopeNote>
-        <skos:prefLabel xml:lang="en">{"id": "a90ebc33-29e6-495c-83cd-a79e3c89a875", "value": "Other 7 (Mineral extraction)"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:narrower>
+  <skos:Concept rdf:about="http://www.archesproject.org/40a40230-088a-49ef-9b6e-b4c539a6c0cc">
     <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/d1f0ce80-3245-4b1f-8bb8-c5696bd67311">
-        <skos:prefLabel xml:lang="en">{"id": "ec277460-74ba-46c3-bbef-10760e5729ff", "value": "Other 6 (Land boundary)"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
-        <skos:scopeNote xml:lang="en">{"id": "8f6d033a-9c9c-4b6b-a532-e579162b6dfc", "value": "Specify in Description using: hedge, fence, wall etc."}</skos:scopeNote>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/b33e14ca-5d51-4d52-91e5-9e87f7486a89">
-        <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
-        <skos:prefLabel xml:lang="en">{"id": "7d9673b8-ffbd-4b39-ba68-2b7891f88fc5", "value": "Other 13 (Waste ground)"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/f2ca0927-c58a-47f1-b518-a91b5157a0c8">
-        <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
-        <skos:prefLabel xml:lang="en">{"id": "2f44f74f-c6e7-4458-b3f9-f2167d40b25b", "value": "Other 8 (Dedicated to the display of a monument)"}</skos:prefLabel>
-        <skos:scopeNote xml:lang="en">{"id": "c189e38e-250f-4923-9a08-cfc193a46658", "value": "Where the land on which the monument stands is dedicated to the monument itself: this may include Guardianship sites displayed, also sites which exclude any other Land Classification e.g. Cross, Commemorative Monument etc."}</skos:scopeNote>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/96175b4c-2aee-43ba-90d5-ed226b2d605f">
-        <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
-        <skos:prefLabel xml:lang="en">{"id": "846c0127-4267-4a10-9174-0c1da23b5152", "value": "Other 9 (Natural formation: Cave, cliff etc.)"}</skos:prefLabel>
-        <skos:scopeNote xml:lang="en">{"id": "fc227bc6-f951-411b-b0e0-f7727ab56ba9", "value": "Specify the type of formation in the Description using: cave, cliff etc."}</skos:scopeNote>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/73a6c5a3-e7a1-4c3a-8c80-9894df58d3fe">
-        <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
-        <skos:scopeNote xml:lang="en">{"id": "8dc94b73-1a50-4142-a0df-2ebb3a6e1be6", "value": "Specify in Description using: private, public, formal etc."}</skos:scopeNote>
-        <skos:prefLabel xml:lang="en">{"id": "a4f45bc4-60bb-4280-afb3-a9eefd56d98c", "value": "Other 5 (Garden)"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/ba626c59-24ce-4edb-8179-53b6180f6e29">
-        <skos:scopeNote xml:lang="en">{"id": "d2302693-af3b-4793-bdd8-c0135fd3bbd3", "value": "In use for fruit growing. Includes former orchard retaining trees etc."}</skos:scopeNote>
-        <skos:prefLabel xml:lang="en">{"id": "c71cc679-4973-426c-8980-57a5309c0b48", "value": "Other 10 (Orchard)"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/1d1f8185-a493-4a36-8ec6-8e08e62bdffc">
-        <skos:scopeNote xml:lang="en">{"id": "a3867943-63a5-4129-86ab-4b4049e0a26b", "value": "Uncultivated land lying alongside a thoroughfare."}</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
-        <skos:prefLabel xml:lang="en">{"id": "b2ff082a-edbf-4e25-a666-f4bb99a1a92c", "value": "Other 12 (Verge)"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/c8ba0e9e-91aa-452b-89a3-c555624372ab">
-        <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
-        <skos:scopeNote xml:lang="en">{"id": "cf914ad3-c670-4918-86fa-d90fe3d43753", "value": "In use for small scale horticulture."}</skos:scopeNote>
-        <skos:prefLabel xml:lang="en">{"id": "85763165-5f3b-4179-ba48-e275f2af2d8c", "value": "Other 1 (Allotment)"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/8c6fd0de-866c-4b4b-9538-ec42355d0064">
-        <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
-        <skos:scopeNote xml:lang="en">{"id": "2d91bf02-c85d-4892-92ae-518522e71bea", "value": "Including ground in current use for burials and legally consecrated ground, e.g. graveyard, chapel-ground etc."}</skos:scopeNote>
-        <skos:prefLabel xml:lang="en">{"id": "404f0bcb-f69a-4fb9-8ee8-5a4b4c97f3fe", "value": "Other 4 (Churchyard)"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:prefLabel xml:lang="en">{"id": "4d6eaca4-cd39-4461-a72c-3e935b75cae4", "value": "Other"}</skos:prefLabel>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/4ba1ca72-9731-4ac6-b4d4-77aa53aa57f0">
-        <skos:scopeNote xml:lang="en">{"id": "3059db31-893e-437d-bf48-a4a6a639b59e", "value": "Specify in Description using: path, road, track, bridge, lay-by etc."}</skos:scopeNote>
-        <skos:prefLabel xml:lang="en">{"id": "4b3b1f9d-7694-4450-aa4a-dc2e403c9d94", "value": "Other 11 (Thoroughfare)"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/522c05d5-d2dd-4435-ad87-be542b42672d">
-        <skos:prefLabel xml:lang="en">{"id": "945af4ec-b3a0-4a17-902d-0f45bbbb5ced", "value": "Other 2 (In use as a building)"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
-        <skos:scopeNote xml:lang="en">{"id": "722b696d-b0e1-4d01-84eb-34a54c701071", "value": "In use as a building."}</skos:scopeNote>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/6fe97a13-2c73-4c8e-9316-56e7111792c5">
-        <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
-        <skos:scopeNote xml:lang="en">{"id": "53d68767-64fd-4ab6-b017-1eb3a2d696a0", "value": "Site underlying building or structure."}</skos:scopeNote>
-        <skos:prefLabel xml:lang="en">{"id": "3ed07133-fe44-4edd-ac8e-fa6d158f62b0", "value": "Other 3 (Built over)"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:narrower>
+    <dcterms:identifier xml:lang="en-US">{"id": "50d695b3-1c76-4733-aa88-96294e8deb0b", "value": "http://www.archesproject.org/40a40230-088a-49ef-9b6e-b4c539a6c0cc"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "383467da-f513-42c6-ac83-c90ff258ad71", "value": "Woodland 6 (Parkland)"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "f92ed328-9a20-4de8-944b-0d4f41ae973d", "value": "In which the density of trees is significantly less marked than in woodland; if parkland is currently cultivated then classify land accordingly."}</skos:scopeNote>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/74c429f8-2c90-447c-a74a-9b8c736feb0b">
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/b33dd9f9-0673-4461-b063-d4a0f40c4637">
-        <skos:prefLabel xml:lang="en">{"id": "50682d48-e4af-474e-8c27-639ff08fcb4b", "value": "Cultivated Land 4 (Character undetermined)"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
-        <skos:scopeNote xml:lang="en">{"id": "be3f7d85-267b-4911-9b24-7bf68b64ee65", "value": "Character of operations not determined."}</skos:scopeNote>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/0cf8adc2-8d6a-4465-a98c-92041ebab4d1">
-        <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
-        <skos:prefLabel xml:lang="en">{"id": "6d075080-3859-475d-a598-6c25216fe2ed", "value": "Cultivated Land 1 (Minimal Cultivation)"}</skos:prefLabel>
-        <skos:scopeNote xml:lang="en">{"id": "0b106275-4678-46e5-9e8d-fd9adec44643", "value": "Land use involving no operations likely to be damaging to archaeological remains."}</skos:scopeNote>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/fcaaebd0-e428-49c3-b08a-6f5ae5cb4ae3">
-        <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
-        <skos:scopeNote xml:lang="en">{"id": "18f65385-0205-4f72-98f3-1ec7420aea78", "value": "Operations restricted to a depth of no more than 25 cms. If possible state depth in Description."}</skos:scopeNote>
-        <skos:prefLabel xml:lang="en">{"id": "fd5a7096-da5a-4af6-a68b-865bc4a3a7a7", "value": "Cultivated Land 2 (Operation to a depth &lt;0.25M)"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:narrower>
+  <skos:Concept rdf:about="http://www.archesproject.org/c8ba0e9e-91aa-452b-89a3-c555624372ab">
+    <dcterms:identifier xml:lang="en-US">{"id": "effebcaf-fbae-4dc7-baaf-2174f0ec634e", "value": "http://www.archesproject.org/c8ba0e9e-91aa-452b-89a3-c555624372ab"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "cf914ad3-c670-4918-86fa-d90fe3d43753", "value": "In use for small scale horticulture."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "85763165-5f3b-4179-ba48-e275f2af2d8c", "value": "Other 1 (Allotment)"}</skos:prefLabel>
     <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/15dc6040-fd5b-4177-a634-d2077c9da951">
-        <skos:prefLabel xml:lang="en">{"id": "5492a59a-5103-4039-b654-460958ee8841", "value": "Cultivated Land 3 (Operation to a depth &gt;0.25M)"}</skos:prefLabel>
-        <skos:scopeNote xml:lang="en">{"id": "ab7619e1-0341-42af-87f2-9d2e745f04b2", "value": "Operations in excess of 25 cms. If possible state depth in Description."}</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:prefLabel xml:lang="en">{"id": "58d4cb7b-5a0d-46d7-b647-faa99e94a283", "value": "Cultivated Land"}</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/12e4318c-8bdb-4dc4-a6d9-a48dbc449963">
+  <skos:Concept rdf:about="http://www.archesproject.org/85bab893-6c33-4e11-bbc7-3b81ff8a48d5">
     <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
-    <skos:prefLabel xml:lang="en">{"id": "60489497-d8ad-4770-b8da-b060342bd15a", "value": "Grassland, Heathland 1 (Heathland)"}</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">{"id": "da245e20-741b-4470-8a7a-c68e1a1810ed", "value": "A plant community which includes low shrubs e.g. heathers, bilberry, gorse also the presence of bracken."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "d0d5ade3-87a4-4881-874c-f82931e01c15", "value": "Grassland, Heathland 5 (Character undetermined)"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "cd4ebe1d-32f8-4f62-903b-876a3ec222e7", "value": "Character and / or management not determined."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en-US">{"id": "e197b9fb-801c-4824-830d-990fc0c50912", "value": "http://www.archesproject.org/85bab893-6c33-4e11-bbc7-3b81ff8a48d5"}</dcterms:identifier>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/6a67b98f-e571-461b-99e9-2f99a93adc44">
-    <skos:prefLabel xml:lang="en">{"id": "2a417d15-4186-4899-8f70-86d211a9f1f2", "value": "Woodland 7 (Scrub)"}</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">{"id": "5bcfc5b6-ed48-4cf7-b048-6e69ac52fd87", "value": "The term scrub includes invasive woodland characterised by the presence of birch, willow, alder, ash, sycamore, conifers as low trees, with shrubs."}</skos:scopeNote>
+  <skos:Concept rdf:about="http://www.archesproject.org/efb9684c-7f94-45b4-bb0d-8fc4549d88cd">
+    <skos:prefLabel xml:lang="en">{"id": "f29e294d-a301-46d2-8ed1-84602ec52815", "value": "Grassland, Heathland 2 (Undisturbed grassland)"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en-US">{"id": "66b2d6e0-99e0-4f90-80b5-74cd0d757ccb", "value": "http://www.archesproject.org/efb9684c-7f94-45b4-bb0d-8fc4549d88cd"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
+    <skos:scopeNote xml:lang="en">{"id": "38e89183-7b9d-4b4e-9b48-cb85b853ccd6", "value": "If managed at all, then only to a low intensity, e.g. mowing, spraying etc., involving operations which are not archaeologically damaging."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/3e6f6ba2-b19c-4f4b-aca5-2527c07b068f">
+    <skos:scopeNote xml:lang="en">{"id": "64cb885c-84fa-4ed6-8661-4955849e3097", "value": "That area between high and low water levels. Specify in Description using; sand, shingle, mud flat, estuarine silt, rock etc."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "c0cfc47e-aff0-4178-9eed-1f8c5f12ea15", "value": "Coastland 2 (Inter-tidal)"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en-US">{"id": "4693f74d-ae80-4efa-a937-dea1b00092f2", "value": "http://www.archesproject.org/3e6f6ba2-b19c-4f4b-aca5-2527c07b068f"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/b43c439a-1ef2-43bd-a633-38da59ff6c1b">
+    <skos:scopeNote xml:lang="en">{"id": "80b48148-899c-4644-9f64-5ab68d22ae42", "value": "Specify in Description using: pond, lake, artificial lake, canal (if wet) etc."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
+    <dcterms:identifier xml:lang="en-US">{"id": "668148fc-54a8-477c-b1a2-018e1c8eb896", "value": "http://www.archesproject.org/b43c439a-1ef2-43bd-a633-38da59ff6c1b"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "c5be82a0-9519-4d42-a7f8-da8c1340fb9b", "value": "Open Fresh Water 2 (Standing Water)"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/c5021fec-f469-47aa-bc42-e7117ad952f1">
+    <dcterms:identifier xml:lang="en-US">{"id": "24e64069-99b0-451a-bfd3-50da3a84698f", "value": "http://www.archesproject.org/c5021fec-f469-47aa-bc42-e7117ad952f1"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "08623b26-97ed-4de9-a11a-edf1c9517dee", "value": "In which a range of conifers may be planted e.g. spruce, larch, pine."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "d6176212-24cd-4d2a-bb90-252e2019c073", "value": "Woodland 4 (Coniferous plantation)"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/bd97edaa-7c2b-44bd-959b-e0ef902dd07f">
+    <dcterms:identifier xml:lang="en-US">{"id": "7f68d813-74b3-48ec-9f2b-c86e979c77f8", "value": "http://www.archesproject.org/bd97edaa-7c2b-44bd-959b-e0ef902dd07f"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "df911da1-2c09-490f-a929-3a28464ad8d8", "value": "Use for coastal cliffs; for inland features use OTHER 9."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "423b4fbd-e43e-4335-9611-1783435bbb5d", "value": "Coastland 5 (Cliffs and related features)"}</skos:prefLabel>
     <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
   </skos:Concept>
   <skos:Concept rdf:about="http://www.archesproject.org/6888f6e9-5f09-47cc-b2ad-f8a331e91ac5">
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/85bab893-6c33-4e11-bbc7-3b81ff8a48d5">
-        <skos:prefLabel xml:lang="en">{"id": "d0d5ade3-87a4-4881-874c-f82931e01c15", "value": "Grassland, Heathland 5 (Character undetermined)"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
-        <skos:scopeNote xml:lang="en">{"id": "cd4ebe1d-32f8-4f62-903b-876a3ec222e7", "value": "Character and / or management not determined."}</skos:scopeNote>
-      </skos:Concept>
-    </skos:narrower>
+    <skos:narrower rdf:resource="http://www.archesproject.org/85bab893-6c33-4e11-bbc7-3b81ff8a48d5"/>
     <skos:prefLabel xml:lang="en">{"id": "2f4022c9-afe5-4850-9cf1-eb1bf8cb448a", "value": "Grassland, Heathland"}</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.archesproject.org/12e4318c-8bdb-4dc4-a6d9-a48dbc449963"/>
+    <dcterms:identifier xml:lang="en-US">{"id": "2829a724-3f25-4c66-8f87-06e210e74401", "value": "http://www.archesproject.org/6888f6e9-5f09-47cc-b2ad-f8a331e91ac5"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
+    <skos:narrower rdf:resource="http://www.archesproject.org/efb9684c-7f94-45b4-bb0d-8fc4549d88cd"/>
     <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/c8a6829d-24a9-4e1d-912d-b599c576a54b">
-        <skos:prefLabel xml:lang="en">{"id": "16032f98-adae-4fbc-a517-b95c26a1b39f", "value": "Grassland, Heathland 6 (Recreated grassland)"}</skos:prefLabel>
+      <skos:Concept rdf:about="http://www.archesproject.org/12e4318c-8bdb-4dc4-a6d9-a48dbc449963">
+        <skos:prefLabel xml:lang="en">{"id": "60489497-d8ad-4770-b8da-b060342bd15a", "value": "Grassland, Heathland 1 (Heathland)"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "da245e20-741b-4470-8a7a-c68e1a1810ed", "value": "A plant community which includes low shrubs e.g. heathers, bilberry, gorse also the presence of bracken."}</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
-        <skos:scopeNote xml:lang="en">{"id": "d2612be7-9a73-419a-9a1e-d66804a5e1fd", "value": "Previously arable, usually part of Countryside Stewardship Scheme."}</skos:scopeNote>
+        <dcterms:identifier xml:lang="en-US">{"id": "609ea355-329a-4ff4-8532-b4691b822f57", "value": "http://www.archesproject.org/12e4318c-8bdb-4dc4-a6d9-a48dbc449963"}</dcterms:identifier>
       </skos:Concept>
     </skos:narrower>
     <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/efb9684c-7f94-45b4-bb0d-8fc4549d88cd">
-        <skos:scopeNote xml:lang="en">{"id": "38e89183-7b9d-4b4e-9b48-cb85b853ccd6", "value": "If managed at all, then only to a low intensity, e.g. mowing, spraying etc., involving operations which are not archaeologically damaging."}</skos:scopeNote>
+      <skos:Concept rdf:about="http://www.archesproject.org/54e8e7eb-990c-41b0-8f5a-082d8ef2b7ed">
         <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
-        <skos:prefLabel xml:lang="en">{"id": "f29e294d-a301-46d2-8ed1-84602ec52815", "value": "Grassland, Heathland 2 (Undisturbed grassland)"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en-US">{"id": "6b7a2643-fb89-4ca8-9301-b0fe826cacb0", "value": "http://www.archesproject.org/54e8e7eb-990c-41b0-8f5a-082d8ef2b7ed"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "7c48541b-2adf-4f77-8bfa-bf83598a0a25", "value": "Grassland, Heathland 4 (Regularly improved)"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "93249a35-3681-485f-8c2c-8e4785bfb770", "value": "Regularly cultivated and re-seeded grassland (but not including temporary grassland within arable rotation - this would be classified under Cultivated Land)."}</skos:scopeNote>
       </skos:Concept>
     </skos:narrower>
     <skos:narrower>
@@ -201,138 +98,282 @@
         <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
         <skos:prefLabel xml:lang="en">{"id": "9fe91891-ba8a-4a28-af05-afd78c718f31", "value": "Grassland, Heathland 3 (Disturbed grassland)"}</skos:prefLabel>
         <skos:scopeNote xml:lang="en">{"id": "91483cd9-83df-41b3-8d61-ade0d9726d08", "value": "Areas of past and current land improvement, involving operations capable of disturbing the archaeology, e.g. land drainage, land reclaimation, cultivation including areas of ridge and furrow but not Celtic Fields."}</skos:scopeNote>
+        <dcterms:identifier xml:lang="en-US">{"id": "acbaf3c8-002f-4804-b02e-6177e9d9cefa", "value": "http://www.archesproject.org/6f8bbfae-7fb6-4580-959e-4dbbd64f2e48"}</dcterms:identifier>
       </skos:Concept>
     </skos:narrower>
     <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/54e8e7eb-990c-41b0-8f5a-082d8ef2b7ed">
-        <skos:scopeNote xml:lang="en">{"id": "93249a35-3681-485f-8c2c-8e4785bfb770", "value": "Regularly cultivated and re-seeded grassland (but not including temporary grassland within arable rotation - this would be classified under Cultivated Land)."}</skos:scopeNote>
+      <skos:Concept rdf:about="http://www.archesproject.org/c8a6829d-24a9-4e1d-912d-b599c576a54b">
+        <skos:scopeNote xml:lang="en">{"id": "d2612be7-9a73-419a-9a1e-d66804a5e1fd", "value": "Previously arable, usually part of Countryside Stewardship Scheme."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "16032f98-adae-4fbc-a517-b95c26a1b39f", "value": "Grassland, Heathland 6 (Recreated grassland)"}</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
-        <skos:prefLabel xml:lang="en">{"id": "7c48541b-2adf-4f77-8bfa-bf83598a0a25", "value": "Grassland, Heathland 4 (Regularly improved)"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en-US">{"id": "ba7b8f88-6311-4c70-9b1b-cf7837ed73c7", "value": "http://www.archesproject.org/c8a6829d-24a9-4e1d-912d-b599c576a54b"}</dcterms:identifier>
       </skos:Concept>
     </skos:narrower>
-    <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/70afb1cd-2945-434c-9f54-d4a1fe9a07e0">
-    <skos:prefLabel xml:lang="en">{"id": "22a46476-7bde-4670-bfe5-acf18357a0f2", "value": "Coastland 6 (Other)"}</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">{"id": "8ca01e5e-72b0-4cde-9d5e-8dfce62acc51", "value": "Specify in Description using terms not included in the above"}</skos:scopeNote>
+  <skos:Concept rdf:about="http://www.archesproject.org/1d1f8185-a493-4a36-8ec6-8e08e62bdffc">
     <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
+    <skos:scopeNote xml:lang="en">{"id": "a3867943-63a5-4129-86ab-4b4049e0a26b", "value": "Uncultivated land lying alongside a thoroughfare."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en-US">{"id": "ed5a048a-3947-490e-a87e-12800d6ad748", "value": "http://www.archesproject.org/1d1f8185-a493-4a36-8ec6-8e08e62bdffc"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "b2ff082a-edbf-4e25-a666-f4bb99a1a92c", "value": "Other 12 (Verge)"}</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/cdf66a42-9ac2-4923-ad79-672da5c86240">
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/40a40230-088a-49ef-9b6e-b4c539a6c0cc">
-        <skos:prefLabel xml:lang="en">{"id": "383467da-f513-42c6-ac83-c90ff258ad71", "value": "Woodland 6 (Parkland)"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
-        <skos:scopeNote xml:lang="en">{"id": "f92ed328-9a20-4de8-944b-0d4f41ae973d", "value": "In which the density of trees is significantly less marked than in woodland; if parkland is currently cultivated then classify land accordingly."}</skos:scopeNote>
-      </skos:Concept>
-    </skos:narrower>
+  <skos:Concept rdf:about="http://www.archesproject.org/ffec313f-2b0a-486f-821b-5bfaf95e2a59">
+    <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
+    <skos:prefLabel xml:lang="en">{"id": "fc85ff16-3591-4f13-aac2-e36674f90e4f", "value": "Woodland 1 (Deciduous native)"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en-US">{"id": "53d26feb-8237-44c0-a5e8-c1a33fec76c0", "value": "http://www.archesproject.org/ffec313f-2b0a-486f-821b-5bfaf95e2a59"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "d146b6b4-1484-450c-9738-d0489f36ecef", "value": "Defined as species present after the last glaciation e.g. oak, ash, elm, beech, birch, alder, hazel, hornbeam etc. Specify in Description whether currently managed, unmanaged, or management not determined."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/5f477b32-a8e2-4bd6-856b-982de4be8f2b">
     <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
     <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/e61b858e-7431-44aa-b3f0-e40a60924e2e">
+      <skos:Concept rdf:about="http://www.archesproject.org/e884401f-51a1-4382-8187-0d4da0fcac51">
         <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
-        <skos:scopeNote xml:lang="en">{"id": "cec17e2b-3ede-43c3-b014-e416deaa7a5a", "value": "Defined as species introduced after the last glaciation, e.g. sycamore, sweet chestnut, etc. Specify in Description whether currently managed, neglected, unmanaged or management not determined."}</skos:scopeNote>
-        <skos:prefLabel xml:lang="en">{"id": "d4d5e185-8472-4ac9-8977-bfd480d0113d", "value": "Woodland 2 (Deciduous introduced)"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "bf1af928-1516-41e8-8d1f-2ac53fd5dc86", "value": "Specify in Description using: river, stream, estuary above tidal (saline) influence etc."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "244139f3-0d39-478e-a945-5a25124b1168", "value": "Open Fresh Water 1 (Running Water)"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en-US">{"id": "46182f00-fd26-4a1c-9731-da165fc55a8c", "value": "http://www.archesproject.org/e884401f-51a1-4382-8187-0d4da0fcac51"}</dcterms:identifier>
       </skos:Concept>
     </skos:narrower>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/a7bb161d-47ea-401e-ba10-00fe8c3adda6">
-        <skos:scopeNote xml:lang="en">{"id": "3cad2071-c30f-46eb-87fd-73ba1d9234cb", "value": "Specify in Description whether currently managed, neglected, unmanaged or management not determined."}</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
-        <skos:prefLabel xml:lang="en">{"id": "da49c7fc-6d77-4440-b604-ae5d2cbc5a32", "value": "Woodland 5 (Undetermined)"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower rdf:resource="http://www.archesproject.org/6a67b98f-e571-461b-99e9-2f99a93adc44"/>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/ffec313f-2b0a-486f-821b-5bfaf95e2a59">
-        <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
-        <skos:prefLabel xml:lang="en">{"id": "fc85ff16-3591-4f13-aac2-e36674f90e4f", "value": "Woodland 1 (Deciduous native)"}</skos:prefLabel>
-        <skos:scopeNote xml:lang="en">{"id": "d146b6b4-1484-450c-9738-d0489f36ecef", "value": "Defined as species present after the last glaciation e.g. oak, ash, elm, beech, birch, alder, hazel, hornbeam etc. Specify in Description whether currently managed, unmanaged, or management not determined."}</skos:scopeNote>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:prefLabel xml:lang="en">{"id": "4d462c54-a0da-400a-83cd-3ed910525cfc", "value": "Woodland"}</skos:prefLabel>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/c5021fec-f469-47aa-bc42-e7117ad952f1">
-        <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
-        <skos:scopeNote xml:lang="en">{"id": "08623b26-97ed-4de9-a11a-edf1c9517dee", "value": "In which a range of conifers may be planted e.g. spruce, larch, pine."}</skos:scopeNote>
-        <skos:prefLabel xml:lang="en">{"id": "d6176212-24cd-4d2a-bb90-252e2019c073", "value": "Woodland 4 (Coniferous plantation)"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/476696f8-905a-467a-b446-bfcb4a53fe43">
-        <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
-        <skos:prefLabel xml:lang="en">{"id": "15e07ee0-53d1-4476-974e-6ee18c143938", "value": "Woodland 3 (Mixed)"}</skos:prefLabel>
-        <skos:scopeNote xml:lang="en">{"id": "1aaa4cde-9f90-4a0b-97c9-48c397ae1901", "value": "In which coniferous and deciduous are present in roughly equal proportions. Specify in Description whether currently managed, neglected, unmanaged or management not determined."}</skos:scopeNote>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/16251df4-3cab-48d4-ba49-8838ddeb0edc">
-        <skos:prefLabel xml:lang="en">{"id": "252e74aa-4cc1-451e-84dd-6a65cf7d61d9", "value": "Woodland 8 (Other)"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
-        <skos:scopeNote xml:lang="en">{"id": "9a12cc55-9e6d-491c-9620-1c7540987c90", "value": "Specify in Description."}</skos:scopeNote>
-      </skos:Concept>
-    </skos:narrower>
+    <skos:narrower rdf:resource="http://www.archesproject.org/b43c439a-1ef2-43bd-a633-38da59ff6c1b"/>
+    <dcterms:identifier xml:lang="en-US">{"id": "887a5824-923c-4f09-81c3-4fe6ba6567fe", "value": "http://www.archesproject.org/5f477b32-a8e2-4bd6-856b-982de4be8f2b"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "d2b69e30-5479-4df6-9846-7789de0f2db0", "value": "Open Fresh Water"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/476696f8-905a-467a-b446-bfcb4a53fe43">
+    <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
+    <skos:scopeNote xml:lang="en">{"id": "1aaa4cde-9f90-4a0b-97c9-48c397ae1901", "value": "In which coniferous and deciduous are present in roughly equal proportions. Specify in Description whether currently managed, neglected, unmanaged or management not determined."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en-US">{"id": "3212dda2-7d08-4363-a718-5e5a01d4e817", "value": "http://www.archesproject.org/476696f8-905a-467a-b446-bfcb4a53fe43"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "15e07ee0-53d1-4476-974e-6ee18c143938", "value": "Woodland 3 (Mixed)"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/099579b7-dc14-444f-8b03-0d96db918b0e">
+    <skos:prefLabel xml:lang="en">{"id": "6bcc745e-bb5b-46d4-8253-bb3e7dae40e0", "value": "Coastland 1 (Marine)"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
+    <dcterms:identifier xml:lang="en-US">{"id": "9dcac0da-a2a4-4789-a6d2-0e8a3683ced0", "value": "http://www.archesproject.org/099579b7-dc14-444f-8b03-0d96db918b0e"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "e41fb06e-dcbd-4be5-be21-4335fff94ef7", "value": "That area below low water level and inside territorial waters; the term maritime includes saline waters within tidal environments."}</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="http://www.archesproject.org/32fc8064-5577-4f16-a77c-965b450223a9">
+    <dcterms:identifier xml:lang="en-US">{"id": "5bed24fb-98c3-434d-94d6-bd4f01d43f37", "value": "http://www.archesproject.org/32fc8064-5577-4f16-a77c-965b450223a9"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "50d00fb5-c4f7-4e2d-9984-53552461dafa", "value": "Coastland"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/e6fa155f-1230-4e40-a530-7f7538faed02">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
+        <dcterms:identifier xml:lang="en-US">{"id": "b642422d-3c79-4ece-bc97-9583a7913911", "value": "http://www.archesproject.org/e6fa155f-1230-4e40-a530-7f7538faed02"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "5e88504d-dc11-4dae-bc8b-4bba525140fb", "value": "Term includes Saltings etc."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "eb8438e3-d3c0-4336-854a-204e750304ff", "value": "Coastland 4 (Saltmarsh)"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://www.archesproject.org/3e6f6ba2-b19c-4f4b-aca5-2527c07b068f"/>
     <skos:narrower>
       <skos:Concept rdf:about="http://www.archesproject.org/9aeca17f-a097-44c6-a365-632b09e83b4b">
         <skos:prefLabel xml:lang="en">{"id": "bd56b779-1c51-4851-9671-72bfd4a013a9", "value": "Coastland 3 (Above High Water)"}</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
         <skos:scopeNote xml:lang="en">{"id": "bfbd9198-31db-4669-b292-f2aa1b716b28", "value": "Coastal area above high water levele. Specify in Description using: sand, sand dune, shingle etc."}</skos:scopeNote>
+        <dcterms:identifier xml:lang="en-US">{"id": "bb5e07cb-1bf0-428e-8169-6d78a89a728f", "value": "http://www.archesproject.org/9aeca17f-a097-44c6-a365-632b09e83b4b"}</dcterms:identifier>
       </skos:Concept>
     </skos:narrower>
+    <skos:narrower rdf:resource="http://www.archesproject.org/099579b7-dc14-444f-8b03-0d96db918b0e"/>
     <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/3e6f6ba2-b19c-4f4b-aca5-2527c07b068f">
-        <skos:prefLabel xml:lang="en">{"id": "c0cfc47e-aff0-4178-9eed-1f8c5f12ea15", "value": "Coastland 2 (Inter-tidal)"}</skos:prefLabel>
-        <skos:scopeNote xml:lang="en">{"id": "64cb885c-84fa-4ed6-8661-4955849e3097", "value": "That area between high and low water levels. Specify in Description using; sand, shingle, mud flat, estuarine silt, rock etc."}</skos:scopeNote>
+      <skos:Concept rdf:about="http://www.archesproject.org/70afb1cd-2945-434c-9f54-d4a1fe9a07e0">
+        <skos:prefLabel xml:lang="en">{"id": "22a46476-7bde-4670-bfe5-acf18357a0f2", "value": "Coastland 6 (Other)"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "8ca01e5e-72b0-4cde-9d5e-8dfce62acc51", "value": "Specify in Description using terms not included in the above"}</skos:scopeNote>
+        <dcterms:identifier xml:lang="en-US">{"id": "66892991-a502-4720-9288-e9232db99993", "value": "http://www.archesproject.org/70afb1cd-2945-434c-9f54-d4a1fe9a07e0"}</dcterms:identifier>
         <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
       </skos:Concept>
     </skos:narrower>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/bd97edaa-7c2b-44bd-959b-e0ef902dd07f">
-        <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
-        <skos:prefLabel xml:lang="en">{"id": "423b4fbd-e43e-4335-9611-1783435bbb5d", "value": "Coastland 5 (Cliffs and related features)"}</skos:prefLabel>
-        <skos:scopeNote xml:lang="en">{"id": "df911da1-2c09-490f-a929-3a28464ad8d8", "value": "Use for coastal cliffs; for inland features use OTHER 9."}</skos:scopeNote>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:narrower rdf:resource="http://www.archesproject.org/70afb1cd-2945-434c-9f54-d4a1fe9a07e0"/>
-    <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/099579b7-dc14-444f-8b03-0d96db918b0e">
-        <skos:prefLabel xml:lang="en">{"id": "6bcc745e-bb5b-46d4-8253-bb3e7dae40e0", "value": "Coastland 1 (Marine)"}</skos:prefLabel>
-        <skos:scopeNote xml:lang="en">{"id": "e41fb06e-dcbd-4be5-be21-4335fff94ef7", "value": "That area below low water level and inside territorial waters; the term maritime includes saline waters within tidal environments."}</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
-      </skos:Concept>
-    </skos:narrower>
-    <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
-    <skos:narrower rdf:resource="http://www.archesproject.org/e6fa155f-1230-4e40-a530-7f7538faed02"/>
-    <skos:prefLabel xml:lang="en">{"id": "50d00fb5-c4f7-4e2d-9984-53552461dafa", "value": "Coastland"}</skos:prefLabel>
+    <skos:narrower rdf:resource="http://www.archesproject.org/bd97edaa-7c2b-44bd-959b-e0ef902dd07f"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/b43c439a-1ef2-43bd-a633-38da59ff6c1b">
-    <skos:prefLabel xml:lang="en">{"id": "c5be82a0-9519-4d42-a7f8-da8c1340fb9b", "value": "Open Fresh Water 2 (Standing Water)"}</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">{"id": "80b48148-899c-4644-9f64-5ab68d22ae42", "value": "Specify in Description using: pond, lake, artificial lake, canal (if wet) etc."}</skos:scopeNote>
+  <skos:Concept rdf:about="http://www.archesproject.org/6a67b98f-e571-461b-99e9-2f99a93adc44">
+    <skos:prefLabel xml:lang="en">{"id": "2a417d15-4186-4899-8f70-86d211a9f1f2", "value": "Woodland 7 (Scrub)"}</skos:prefLabel>
     <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
+    <dcterms:identifier xml:lang="en-US">{"id": "9a295b13-fa89-4377-b224-502454f8a938", "value": "http://www.archesproject.org/6a67b98f-e571-461b-99e9-2f99a93adc44"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "5bcfc5b6-ed48-4cf7-b048-6e69ac52fd87", "value": "The term scrub includes invasive woodland characterised by the presence of birch, willow, alder, ash, sycamore, conifers as low trees, with shrubs."}</skos:scopeNote>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/5f477b32-a8e2-4bd6-856b-982de4be8f2b">
-    <skos:prefLabel xml:lang="en">{"id": "d2b69e30-5479-4df6-9846-7789de0f2db0", "value": "Open Fresh Water"}</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.archesproject.org/b43c439a-1ef2-43bd-a633-38da59ff6c1b"/>
+  <skos:Concept rdf:about="http://www.archesproject.org/86d9c714-d3c9-48e8-a1e6-a360125021c7">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/4ba1ca72-9731-4ac6-b4d4-77aa53aa57f0">
+        <skos:prefLabel xml:lang="en">{"id": "4b3b1f9d-7694-4450-aa4a-dc2e403c9d94", "value": "Other 11 (Thoroughfare)"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en-US">{"id": "8a720291-be45-4d06-b654-4dabb1e865c5", "value": "http://www.archesproject.org/4ba1ca72-9731-4ac6-b4d4-77aa53aa57f0"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
+        <skos:scopeNote xml:lang="en">{"id": "3059db31-893e-437d-bf48-a4a6a639b59e", "value": "Specify in Description using: path, road, track, bridge, lay-by etc."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://www.archesproject.org/c8ba0e9e-91aa-452b-89a3-c555624372ab"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/f6a0a305-115e-4e64-929b-33e0eb1589d9">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
+        <skos:scopeNote xml:lang="en">{"id": "fa049bb6-3cf4-425c-aa36-d24890fa6658", "value": "Specify in Description."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "b04e228f-6070-4142-9b44-0d6a0a5354e0", "value": "Other 15 (Other)"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en-US">{"id": "32a64fb4-727f-474b-93e2-e98411cbd71f", "value": "http://www.archesproject.org/f6a0a305-115e-4e64-929b-33e0eb1589d9"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/6fe97a13-2c73-4c8e-9316-56e7111792c5">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
+        <dcterms:identifier xml:lang="en-US">{"id": "4740de58-1203-4524-b56c-89b597074982", "value": "http://www.archesproject.org/6fe97a13-2c73-4c8e-9316-56e7111792c5"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "3ed07133-fe44-4edd-ac8e-fa6d158f62b0", "value": "Other 3 (Built over)"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "53d68767-64fd-4ab6-b017-1eb3a2d696a0", "value": "Site underlying building or structure."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/522c05d5-d2dd-4435-ad87-be542b42672d">
+        <skos:prefLabel xml:lang="en">{"id": "945af4ec-b3a0-4a17-902d-0f45bbbb5ced", "value": "Other 2 (In use as a building)"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
+        <dcterms:identifier xml:lang="en-US">{"id": "75f43d43-ee7b-46b7-a240-2e25d02f66a2", "value": "http://www.archesproject.org/522c05d5-d2dd-4435-ad87-be542b42672d"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "722b696d-b0e1-4d01-84eb-34a54c701071", "value": "In use as a building."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://www.archesproject.org/1d1f8185-a493-4a36-8ec6-8e08e62bdffc"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/b33e14ca-5d51-4d52-91e5-9e87f7486a89">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
+        <dcterms:identifier xml:lang="en-US">{"id": "b48467da-8e81-4809-9158-1f40d0e40b60", "value": "http://www.archesproject.org/b33e14ca-5d51-4d52-91e5-9e87f7486a89"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "7d9673b8-ffbd-4b39-ba68-2b7891f88fc5", "value": "Other 13 (Waste ground)"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
     <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
     <skos:narrower>
-      <skos:Concept rdf:about="http://www.archesproject.org/e884401f-51a1-4382-8187-0d4da0fcac51">
-        <skos:scopeNote xml:lang="en">{"id": "bf1af928-1516-41e8-8d1f-2ac53fd5dc86", "value": "Specify in Description using: river, stream, estuary above tidal (saline) influence etc."}</skos:scopeNote>
-        <skos:prefLabel xml:lang="en">{"id": "244139f3-0d39-478e-a945-5a25124b1168", "value": "Open Fresh Water 1 (Running Water)"}</skos:prefLabel>
+      <skos:Concept rdf:about="http://www.archesproject.org/f2ca0927-c58a-47f1-b518-a91b5157a0c8">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
+        <dcterms:identifier xml:lang="en-US">{"id": "56d3fe18-62cc-4169-a665-79bba5d857af", "value": "http://www.archesproject.org/f2ca0927-c58a-47f1-b518-a91b5157a0c8"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "2f44f74f-c6e7-4458-b3f9-f2167d40b25b", "value": "Other 8 (Dedicated to the display of a monument)"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "c189e38e-250f-4923-9a08-cfc193a46658", "value": "Where the land on which the monument stands is dedicated to the monument itself: this may include Guardianship sites displayed, also sites which exclude any other Land Classification e.g. Cross, Commemorative Monument etc."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <dcterms:identifier xml:lang="en-US">{"id": "9085f052-abb6-4c6d-8b42-11b3f2c0c22d", "value": "http://www.archesproject.org/86d9c714-d3c9-48e8-a1e6-a360125021c7"}</dcterms:identifier>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/8c6fd0de-866c-4b4b-9538-ec42355d0064">
+        <skos:prefLabel xml:lang="en">{"id": "404f0bcb-f69a-4fb9-8ee8-5a4b4c97f3fe", "value": "Other 4 (Churchyard)"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en-US">{"id": "083b6d2e-67bc-4240-bb2a-57e8f12a98f8", "value": "http://www.archesproject.org/8c6fd0de-866c-4b4b-9538-ec42355d0064"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
+        <skos:scopeNote xml:lang="en">{"id": "2d91bf02-c85d-4892-92ae-518522e71bea", "value": "Including ground in current use for burials and legally consecrated ground, e.g. graveyard, chapel-ground etc."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/d1f0ce80-3245-4b1f-8bb8-c5696bd67311">
+        <dcterms:identifier xml:lang="en-US">{"id": "a60c9ac3-e496-458a-8b25-266f56320944", "value": "http://www.archesproject.org/d1f0ce80-3245-4b1f-8bb8-c5696bd67311"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "8f6d033a-9c9c-4b6b-a532-e579162b6dfc", "value": "Specify in Description using: hedge, fence, wall etc."}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
+        <skos:prefLabel xml:lang="en">{"id": "ec277460-74ba-46c3-bbef-10760e5729ff", "value": "Other 6 (Land boundary)"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/5be05756-a436-4693-a032-370de311c351">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
+        <skos:scopeNote xml:lang="en">{"id": "d8e4c089-9479-4604-872e-c0739430e5c0", "value": "Specify in Description using: golf course, playing fields etc."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "e2baf4c3-0fca-408b-ae45-b8814453d69d", "value": "Other 14 (Recreational usage)"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en-US">{"id": "0d56400f-7e5e-41dd-9a25-bed7e1978f52", "value": "http://www.archesproject.org/5be05756-a436-4693-a032-370de311c351"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/20bc5579-8360-4191-affd-29d69670def8">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
+        <skos:prefLabel xml:lang="en">{"id": "a90ebc33-29e6-495c-83cd-a79e3c89a875", "value": "Other 7 (Mineral extraction)"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "5cf3466c-f18a-4f57-bb45-88060b3c788f", "value": "For example mine, quarry etc."}</skos:scopeNote>
+        <dcterms:identifier xml:lang="en-US">{"id": "e2ef3f7b-bfad-40da-93c9-de8abe7592f7", "value": "http://www.archesproject.org/20bc5579-8360-4191-affd-29d69670def8"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="en">{"id": "4d6eaca4-cd39-4461-a72c-3e935b75cae4", "value": "Other"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/73a6c5a3-e7a1-4c3a-8c80-9894df58d3fe">
+        <skos:prefLabel xml:lang="en">{"id": "a4f45bc4-60bb-4280-afb3-a9eefd56d98c", "value": "Other 5 (Garden)"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "8dc94b73-1a50-4142-a0df-2ebb3a6e1be6", "value": "Specify in Description using: private, public, formal etc."}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
+        <dcterms:identifier xml:lang="en-US">{"id": "f5eb8119-cb54-40b7-aa77-06328c09d339", "value": "http://www.archesproject.org/73a6c5a3-e7a1-4c3a-8c80-9894df58d3fe"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/96175b4c-2aee-43ba-90d5-ed226b2d605f">
+        <dcterms:identifier xml:lang="en-US">{"id": "d61395af-f4d9-4337-b513-33e0b9fdeaef", "value": "http://www.archesproject.org/96175b4c-2aee-43ba-90d5-ed226b2d605f"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "fc227bc6-f951-411b-b0e0-f7727ab56ba9", "value": "Specify the type of formation in the Description using: cave, cliff etc."}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
+        <skos:prefLabel xml:lang="en">{"id": "846c0127-4267-4a10-9174-0c1da23b5152", "value": "Other 9 (Natural formation: Cave, cliff etc.)"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/ba626c59-24ce-4edb-8179-53b6180f6e29">
+        <skos:scopeNote xml:lang="en">{"id": "d2302693-af3b-4793-bdd8-c0135fd3bbd3", "value": "In use for fruit growing. Includes former orchard retaining trees etc."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "c71cc679-4973-426c-8980-57a5309c0b48", "value": "Other 10 (Orchard)"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en-US">{"id": "215c7770-3411-42e4-8f2d-8ca64a96c721", "value": "http://www.archesproject.org/ba626c59-24ce-4edb-8179-53b6180f6e29"}</dcterms:identifier>
         <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
       </skos:Concept>
     </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/74c429f8-2c90-447c-a74a-9b8c736feb0b">
+    <skos:prefLabel xml:lang="en">{"id": "58d4cb7b-5a0d-46d7-b647-faa99e94a283", "value": "Cultivated Land"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/15dc6040-fd5b-4177-a634-d2077c9da951">
+        <dcterms:identifier xml:lang="en-US">{"id": "a7cb3ed4-8c5c-4fab-a739-fcffa107d5a7", "value": "http://www.archesproject.org/15dc6040-fd5b-4177-a634-d2077c9da951"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
+        <skos:scopeNote xml:lang="en">{"id": "ab7619e1-0341-42af-87f2-9d2e745f04b2", "value": "Operations in excess of 25 cms. If possible state depth in Description."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "5492a59a-5103-4039-b654-460958ee8841", "value": "Cultivated Land 3 (Operation to a depth &gt;0.25M)"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/0cf8adc2-8d6a-4465-a98c-92041ebab4d1">
+        <dcterms:identifier xml:lang="en-US">{"id": "d3143bd4-80bf-4df3-b6f9-f9fa597edcbe", "value": "http://www.archesproject.org/0cf8adc2-8d6a-4465-a98c-92041ebab4d1"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "6d075080-3859-475d-a598-6c25216fe2ed", "value": "Cultivated Land 1 (Minimal Cultivation)"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
+        <skos:scopeNote xml:lang="en">{"id": "0b106275-4678-46e5-9e8d-fd9adec44643", "value": "Land use involving no operations likely to be damaging to archaeological remains."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/b33dd9f9-0673-4461-b063-d4a0f40c4637">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
+        <skos:scopeNote xml:lang="en">{"id": "be3f7d85-267b-4911-9b24-7bf68b64ee65", "value": "Character of operations not determined."}</skos:scopeNote>
+        <dcterms:identifier xml:lang="en-US">{"id": "75d80585-c87b-4861-a64d-4c9ded88cba9", "value": "http://www.archesproject.org/b33dd9f9-0673-4461-b063-d4a0f40c4637"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "50682d48-e4af-474e-8c27-639ff08fcb4b", "value": "Cultivated Land 4 (Character undetermined)"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/fcaaebd0-e428-49c3-b08a-6f5ae5cb4ae3">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
+        <skos:prefLabel xml:lang="en">{"id": "fd5a7096-da5a-4af6-a68b-865bc4a3a7a7", "value": "Cultivated Land 2 (Operation to a depth &lt;0.25M)"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "18f65385-0205-4f72-98f3-1ec7420aea78", "value": "Operations restricted to a depth of no more than 25 cms. If possible state depth in Description."}</skos:scopeNote>
+        <dcterms:identifier xml:lang="en-US">{"id": "24e9a362-b6e7-4b6c-b651-ec5c12def756", "value": "http://www.archesproject.org/fcaaebd0-e428-49c3-b08a-6f5ae5cb4ae3"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <dcterms:identifier xml:lang="en-US">{"id": "7abc6503-1174-405e-abe5-bed6c2bc5e67", "value": "http://www.archesproject.org/74c429f8-2c90-447c-a74a-9b8c736feb0b"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/e61b858e-7431-44aa-b3f0-e40a60924e2e">
+    <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
+    <skos:prefLabel xml:lang="en">{"id": "d4d5e185-8472-4ac9-8977-bfd480d0113d", "value": "Woodland 2 (Deciduous introduced)"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en-US">{"id": "2ed30c68-aac4-40bd-b1f6-5a390f03acc1", "value": "http://www.archesproject.org/e61b858e-7431-44aa-b3f0-e40a60924e2e"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "cec17e2b-3ede-43c3-b014-e416deaa7a5a", "value": "Defined as species introduced after the last glaciation, e.g. sycamore, sweet chestnut, etc. Specify in Description whether currently managed, neglected, unmanaged or management not determined."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/16251df4-3cab-48d4-ba49-8838ddeb0edc">
+    <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
+    <skos:prefLabel xml:lang="en">{"id": "252e74aa-4cc1-451e-84dd-6a65cf7d61d9", "value": "Woodland 8 (Other)"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "9a12cc55-9e6d-491c-9620-1c7540987c90", "value": "Specify in Description."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en-US">{"id": "7f5002ca-5145-4635-8b3b-a854a8d79c13", "value": "http://www.archesproject.org/16251df4-3cab-48d4-ba49-8838ddeb0edc"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/cdf66a42-9ac2-4923-ad79-672da5c86240">
+    <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
+    <dcterms:identifier xml:lang="en-US">{"id": "b5d15c09-579f-42f3-bc73-30de4da915eb", "value": "http://www.archesproject.org/cdf66a42-9ac2-4923-ad79-672da5c86240"}</dcterms:identifier>
+    <skos:narrower rdf:resource="http://www.archesproject.org/c5021fec-f469-47aa-bc42-e7117ad952f1"/>
+    <skos:narrower rdf:resource="http://www.archesproject.org/16251df4-3cab-48d4-ba49-8838ddeb0edc"/>
+    <skos:narrower rdf:resource="http://www.archesproject.org/476696f8-905a-467a-b446-bfcb4a53fe43"/>
+    <skos:prefLabel xml:lang="en">{"id": "4d462c54-a0da-400a-83cd-3ed910525cfc", "value": "Woodland"}</skos:prefLabel>
+    <skos:narrower rdf:resource="http://www.archesproject.org/ffec313f-2b0a-486f-821b-5bfaf95e2a59"/>
+    <skos:narrower rdf:resource="http://www.archesproject.org/6a67b98f-e571-461b-99e9-2f99a93adc44"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://www.archesproject.org/a7bb161d-47ea-401e-ba10-00fe8c3adda6">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
+        <skos:prefLabel xml:lang="en">{"id": "da49c7fc-6d77-4440-b604-ae5d2cbc5a32", "value": "Woodland 5 (Undetermined)"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en-US">{"id": "f3192bfc-5a3e-4009-aa99-031ad7909d6b", "value": "http://www.archesproject.org/a7bb161d-47ea-401e-ba10-00fe8c3adda6"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "3cad2071-c30f-46eb-87fd-73ba1d9234cb", "value": "Specify in Description whether currently managed, neglected, unmanaged or management not determined."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://www.archesproject.org/40a40230-088a-49ef-9b6e-b4c539a6c0cc"/>
+    <skos:narrower rdf:resource="http://www.archesproject.org/e61b858e-7431-44aa-b3f0-e40a60924e2e"/>
   </skos:Concept>
   <skos:Concept rdf:about="http://www.archesproject.org/111782b1-1d89-46f1-a388-29bd093babe8">
-    <skos:scopeNote xml:lang="en">{"id": "3dd37238-726c-4571-9344-26130d58ad67", "value": "To include areas of wet valley bogs, sphagnum bogs, fens (N.B. in areas such as the Fens and the Somerset Levels most land should be classified under Cultivated Land, Woodland or Grassland rather than Wetlands)."}</skos:scopeNote>
-    <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
     <skos:prefLabel xml:lang="en">{"id": "bbe0383c-8f22-4767-832d-26787576841b", "value": "Wetlands"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/16aec88b-8338-416b-90c8-095937421dac">
+    <dcterms:identifier xml:lang="en-US">{"id": "2d333741-43ac-4bd2-8c16-3ecc482d944c", "value": "http://www.archesproject.org/111782b1-1d89-46f1-a388-29bd093babe8"}</dcterms:identifier>
     <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
-    <skos:prefLabel xml:lang="en">{"id": "1528adbc-3498-43be-830b-2a8c5da74f5a", "value": "Moorland"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "3dd37238-726c-4571-9344-26130d58ad67", "value": "To include areas of wet valley bogs, sphagnum bogs, fens (N.B. in areas such as the Fens and the Somerset Levels most land should be classified under Cultivated Land, Woodland or Grassland rather than Wetlands)."}</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="http://www.archesproject.org/023fbd54-add6-4340-9643-854acf051f31">
     <skos:prefLabel xml:lang="en">{"id": "48a4451a-37d3-4e9e-b4fd-d621a1a1069c", "value": "Unassigned"}</skos:prefLabel>
     <skos:inScheme rdf:resource="http://www.archesproject.org/0815a1f3-66c3-457a-96de-f57c82056e1f"/>
+    <dcterms:identifier xml:lang="en-US">{"id": "2fbab873-9a22-46bb-a90a-1ef95ed0c440", "value": "http://www.archesproject.org/023fbd54-add6-4340-9643-854acf051f31"}</dcterms:identifier>
   </skos:Concept>
 </rdf:RDF>

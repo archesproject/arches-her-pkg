@@ -12,6 +12,7 @@
                     "helptext": null, 
                     "helptitle": null, 
                     "instructions": "One assessment of condition at a particular point in time. ", 
+                    "is_editable": true, 
                     "name": "HER Condition Assessment ", 
                     "nodegroup_id": "ce0d5769-94aa-11e7-b43c-021893e306d8", 
                     "sortorder": null, 
@@ -27,34 +28,50 @@
                             {
                                 "children": [], 
                                 "collector": "", 
-                                "conceptid": "16a462cb-cf4c-4959-8991-8d46c041dd6c", 
-                                "id": "5c459cec-0e3f-4f5f-99e5-e4608530508b", 
-                                "sortorder": "1", 
-                                "text": "good"
+                                "conceptid": "c10e38a2-2e9d-489c-9b66-e4f300a1eb3f", 
+                                "id": "93b0da89-2246-4571-85a2-3edad9c26d5f", 
+                                "sortorder": "01", 
+                                "text": "Excellent"
                             }, 
                             {
                                 "children": [], 
                                 "collector": "", 
-                                "conceptid": "863baf30-f9c1-4762-a1fc-57d400294bb4", 
-                                "id": "44dbe54e-0bf2-4ee9-9ae1-ad7ddd0a53a6", 
-                                "sortorder": "2", 
-                                "text": "fair"
+                                "conceptid": "2bf0dad9-f2c0-4860-a42a-a730350debcb", 
+                                "id": "07eb33df-8b40-4473-8633-1cc495fde423", 
+                                "sortorder": "02", 
+                                "text": "Good"
                             }, 
                             {
                                 "children": [], 
                                 "collector": "", 
-                                "conceptid": "3bcf52dc-f8c8-4cb3-9240-44abb7d11c94", 
-                                "id": "4e4e7fbf-d0f6-4f86-8005-b1b52de0aa14", 
-                                "sortorder": "3", 
-                                "text": "poor"
+                                "conceptid": "a6ef61c2-fe80-4041-80d1-17bb5d8a8c81", 
+                                "id": "a0406645-cafa-4d39-9d80-ac04fc8b10d3", 
+                                "sortorder": "03", 
+                                "text": "Fair"
                             }, 
                             {
                                 "children": [], 
                                 "collector": "", 
-                                "conceptid": "b33f47c0-f0db-4c79-bc71-deae8813e2ce", 
-                                "id": "6df218a4-1056-4c7d-8519-b013a80384c4", 
-                                "sortorder": "4", 
-                                "text": "very bad"
+                                "conceptid": "5e74fc51-ef3d-43f2-bd44-ba6e2fc60292", 
+                                "id": "7a89c4eb-7671-4650-9729-d30b4f00e9f1", 
+                                "sortorder": "04", 
+                                "text": "Poor"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "087fc970-fc31-42ed-b948-31cab7dce0af", 
+                                "id": "befaca78-8ef6-4c18-97f1-46a4b48f9847", 
+                                "sortorder": "05", 
+                                "text": "Bad"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "860c46e0-9db5-4824-94c4-2edaeac89536", 
+                                "id": "d7be0d6d-46f7-4876-afc1-1c084462fda7", 
+                                "sortorder": "06", 
+                                "text": "Unknown"
                             }
                         ], 
                         "placeholder": "Select an option"
@@ -62,8 +79,51 @@
                     "id": "ce0d5773-94aa-11e7-b43c-021893e306d8", 
                     "label": "Condition", 
                     "node_id": "ce0d576d-94aa-11e7-b43c-021893e306d8", 
-                    "sortorder": 1, 
+                    "sortorder": 0, 
                     "widget_id": "10000000-0000-0000-0000-000000000009"
+                }, 
+                {
+                    "card_id": "ce0d576b-94aa-11e7-b43c-021893e306d8", 
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD", 
+                        "label": "Date of Assessment", 
+                        "maxDate": false, 
+                        "minDate": false, 
+                        "placeholder": "Enter date", 
+                        "viewMode": "days"
+                    }, 
+                    "id": "b2bba444-b06e-11e7-84a5-021893e306d8", 
+                    "label": "Date of Assessment", 
+                    "node_id": "321c99a9-94ab-11e7-b43c-021893e306d8", 
+                    "sortorder": 1, 
+                    "widget_id": "10000000-0000-0000-0000-000000000004"
+                }, 
+                {
+                    "card_id": "ce0d576b-94aa-11e7-b43c-021893e306d8", 
+                    "config": {
+                        "acceptedFiles": "", 
+                        "label": "Image File", 
+                        "maxFilesize": "200"
+                    }, 
+                    "id": "b2bba446-b06e-11e7-84a5-021893e306d8", 
+                    "label": "Image File", 
+                    "node_id": "f5c5b295-b06d-11e7-84a5-021893e306d8", 
+                    "sortorder": 2, 
+                    "widget_id": "10000000-0000-0000-0000-000000000019"
+                }, 
+                {
+                    "card_id": "ce0d576b-94aa-11e7-b43c-021893e306d8", 
+                    "config": {
+                        "label": "Caption ", 
+                        "maxLength": null, 
+                        "placeholder": "Enter text", 
+                        "width": "100%"
+                    }, 
+                    "id": "b2bba445-b06e-11e7-84a5-021893e306d8", 
+                    "label": "Caption ", 
+                    "node_id": "de1bd309-b06d-11e7-84a5-021893e306d8", 
+                    "sortorder": 3, 
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
                 }
             ], 
             "deploymentdate": null, 
@@ -90,12 +150,30 @@
                 }, 
                 {
                     "description": null, 
-                    "domainnode_id": "1ed56411-94ab-11e7-b43c-021893e306d8", 
-                    "edgeid": "321c99aa-94ab-11e7-b43c-021893e306d8", 
+                    "domainnode_id": "966586ef-b06d-11e7-84a5-021893e306d8", 
+                    "edgeid": "de1bd30a-b06d-11e7-84a5-021893e306d8", 
                     "graph_id": "ce0d5768-94aa-11e7-b43c-021893e306d8", 
                     "name": null, 
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P78_is_identified_by", 
-                    "rangenode_id": "321c99a9-94ab-11e7-b43c-021893e306d8"
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note", 
+                    "rangenode_id": "de1bd309-b06d-11e7-84a5-021893e306d8"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "ce0d5769-94aa-11e7-b43c-021893e306d8", 
+                    "edgeid": "966586f0-b06d-11e7-84a5-021893e306d8", 
+                    "graph_id": "ce0d5768-94aa-11e7-b43c-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation", 
+                    "rangenode_id": "966586ef-b06d-11e7-84a5-021893e306d8"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "966586ef-b06d-11e7-84a5-021893e306d8", 
+                    "edgeid": "f5c5b296-b06d-11e7-84a5-021893e306d8", 
+                    "graph_id": "ce0d5768-94aa-11e7-b43c-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation", 
+                    "rangenode_id": "f5c5b295-b06d-11e7-84a5-021893e306d8"
                 }, 
                 {
                     "description": null, 
@@ -105,6 +183,15 @@
                     "name": null, 
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span", 
                     "rangenode_id": "1ed56411-94ab-11e7-b43c-021893e306d8"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "1ed56411-94ab-11e7-b43c-021893e306d8", 
+                    "edgeid": "321c99aa-94ab-11e7-b43c-021893e306d8", 
+                    "graph_id": "ce0d5768-94aa-11e7-b43c-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P78_is_identified_by", 
+                    "rangenode_id": "321c99a9-94ab-11e7-b43c-021893e306d8"
                 }
             ], 
             "forms": [], 
@@ -133,6 +220,7 @@
                     "description": "Represents a single node in a graph", 
                     "graph_id": "ce0d5768-94aa-11e7-b43c-021893e306d8", 
                     "is_collector": false, 
+                    "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": false, 
                     "name": "Condition Type", 
@@ -149,6 +237,7 @@
                     "description": "", 
                     "graph_id": "ce0d5768-94aa-11e7-b43c-021893e306d8", 
                     "is_collector": true, 
+                    "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": true, 
                     "name": "Condition Assessment", 
@@ -163,13 +252,14 @@
                     "description": "Represents a single node in a graph", 
                     "graph_id": "ce0d5768-94aa-11e7-b43c-021893e306d8", 
                     "is_collector": false, 
+                    "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": false, 
-                    "name": "Condition Timespan", 
+                    "name": "Image", 
                     "nodegroup_id": "ce0d5769-94aa-11e7-b43c-021893e306d8", 
-                    "nodeid": "1ed56411-94ab-11e7-b43c-021893e306d8", 
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span", 
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span"
+                    "nodeid": "966586ef-b06d-11e7-84a5-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E36_Visual_Item", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation"
                 }, 
                 {
                     "config": null, 
@@ -177,6 +267,7 @@
                     "description": "Represents a single node in a graph", 
                     "graph_id": "ce0d5768-94aa-11e7-b43c-021893e306d8", 
                     "is_collector": false, 
+                    "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": false, 
                     "name": "Condition State", 
@@ -187,10 +278,41 @@
                 }, 
                 {
                     "config": null, 
+                    "datatype": "string", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "ce0d5768-94aa-11e7-b43c-021893e306d8", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Caption ", 
+                    "nodegroup_id": "ce0d5769-94aa-11e7-b43c-021893e306d8", 
+                    "nodeid": "de1bd309-b06d-11e7-84a5-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E62_String", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note"
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "file-list", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "ce0d5768-94aa-11e7-b43c-021893e306d8", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Image File", 
+                    "nodegroup_id": "ce0d5769-94aa-11e7-b43c-021893e306d8", 
+                    "nodeid": "f5c5b295-b06d-11e7-84a5-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E38_Image", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation"
+                }, 
+                {
+                    "config": null, 
                     "datatype": "date", 
                     "description": "Represents a single node in a graph", 
                     "graph_id": "ce0d5768-94aa-11e7-b43c-021893e306d8", 
                     "is_collector": false, 
+                    "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": false, 
                     "name": "Date of Assessment", 
@@ -198,6 +320,21 @@
                     "nodeid": "321c99a9-94ab-11e7-b43c-021893e306d8", 
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E50_Date", 
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P78_is_identified_by"
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "semantic", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "ce0d5768-94aa-11e7-b43c-021893e306d8", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Condition Timespan", 
+                    "nodegroup_id": "ce0d5769-94aa-11e7-b43c-021893e306d8", 
+                    "nodeid": "1ed56411-94ab-11e7-b43c-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span"
                 }
             ], 
             "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd", 
@@ -212,6 +349,7 @@
                 "description": "", 
                 "graph_id": "ce0d5768-94aa-11e7-b43c-021893e306d8", 
                 "is_collector": true, 
+                "isrequired": false, 
                 "issearchable": true, 
                 "istopnode": true, 
                 "name": "Condition Assessment", 
@@ -225,8 +363,8 @@
     ], 
     "metadata": {
         "db": "PostgreSQL 9.6.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 5.3.1-14ubuntu2) 5.3.1 20160413, 64-bit", 
-        "git hash": "205c31b 2017-06-01 12:07:14 -0700", 
+        "git hash": "411ce7d 2017-10-12 13:02:46 -0700", 
         "os": "Linux", 
-        "os version": "4.4.0-93-generic"
+        "os version": "4.4.0-97-generic"
     }
 }

@@ -4,28 +4,36 @@
   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
   xmlns:dcterms="http://purl.org/dc/terms/"
 >
-  <skos:Concept rdf:about="http://www.archesproject.org/37ed5f21-97ea-47cd-9e62-2f8163c8349e">
-    <skos:prefLabel xml:lang="en">{"id": "4f7c2cd9-a143-4daf-b9f3-d4b3f31630cf", "value": "Conservation Area"}</skos:prefLabel>
-    <skos:inScheme>
-      <skos:ConceptScheme rdf:about="http://www.archesproject.org/038f0d8c-736f-4f18-86ca-7ed31815ada1">
-        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/0d22f7f9-fc6a-43ee-9872-3b6673b45edb"/>
-        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/6b7efe08-367d-48f3-bb13-6c7d719a7004"/>
-        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/2f1e86b8-7eae-4182-a49f-33938f6e8ec9"/>
-        <dcterms:title xml:lang="en">{"id": "5af4e81e-87e8-4028-9fdf-9395b40a36b8", "value": "MIDAS Area Type"}</dcterms:title>
-        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/37ed5f21-97ea-47cd-9e62-2f8163c8349e"/>
-      </skos:ConceptScheme>
-    </skos:inScheme>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/6b7efe08-367d-48f3-bb13-6c7d719a7004">
-    <skos:inScheme rdf:resource="http://www.archesproject.org/038f0d8c-736f-4f18-86ca-7ed31815ada1"/>
-    <skos:prefLabel xml:lang="en">{"id": "3e1dace0-b51f-4109-a450-aa0a7ccc9382", "value": "Parkland"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/0d22f7f9-fc6a-43ee-9872-3b6673b45edb">
-    <skos:inScheme rdf:resource="http://www.archesproject.org/038f0d8c-736f-4f18-86ca-7ed31815ada1"/>
-    <skos:prefLabel xml:lang="en">{"id": "5c9a7f14-d8c9-4f00-9a8b-5e3083f7528e", "value": "Urban Area"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://www.archesproject.org/2f1e86b8-7eae-4182-a49f-33938f6e8ec9">
-    <skos:inScheme rdf:resource="http://www.archesproject.org/038f0d8c-736f-4f18-86ca-7ed31815ada1"/>
-    <skos:prefLabel xml:lang="en">{"id": "022b0c40-5e06-4a98-9dfb-4ef25bdfdc12", "value": "Archaeological Site"}</skos:prefLabel>
-  </skos:Concept>
+  <skos:ConceptScheme rdf:about="http://www.archesproject.org/038f0d8c-736f-4f18-86ca-7ed31815ada1">
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://www.archesproject.org/37ed5f21-97ea-47cd-9e62-2f8163c8349e">
+        <skos:prefLabel xml:lang="en">{"id": "4f7c2cd9-a143-4daf-b9f3-d4b3f31630cf", "value": "Conservation Area"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/038f0d8c-736f-4f18-86ca-7ed31815ada1"/>
+        <dcterms:identifier xml:lang="en-US">{"id": "2425c69c-ce90-4585-8f27-dfafe43c5ff2", "value": "http://www.archesproject.org/37ed5f21-97ea-47cd-9e62-2f8163c8349e"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://www.archesproject.org/0d22f7f9-fc6a-43ee-9872-3b6673b45edb">
+        <dcterms:identifier xml:lang="en-US">{"id": "117425aa-5f63-4624-937c-5597fb1869b6", "value": "http://www.archesproject.org/0d22f7f9-fc6a-43ee-9872-3b6673b45edb"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/038f0d8c-736f-4f18-86ca-7ed31815ada1"/>
+        <skos:prefLabel xml:lang="en">{"id": "5c9a7f14-d8c9-4f00-9a8b-5e3083f7528e", "value": "Urban Area"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <dcterms:title xml:lang="en">{"id": "5af4e81e-87e8-4028-9fdf-9395b40a36b8", "value": "MIDAS Area Type"}</dcterms:title>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://www.archesproject.org/2f1e86b8-7eae-4182-a49f-33938f6e8ec9">
+        <dcterms:identifier xml:lang="en-US">{"id": "dfba27cb-ea2c-412a-97e3-d4cf8a6b4e0d", "value": "http://www.archesproject.org/2f1e86b8-7eae-4182-a49f-33938f6e8ec9"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "022b0c40-5e06-4a98-9dfb-4ef25bdfdc12", "value": "Archaeological Site"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/038f0d8c-736f-4f18-86ca-7ed31815ada1"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <dcterms:identifier xml:lang="en-US">{"id": "ac19ae49-f652-46af-8f4c-a1ad395f3631", "value": "http://www.archesproject.org/038f0d8c-736f-4f18-86ca-7ed31815ada1"}</dcterms:identifier>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://www.archesproject.org/6b7efe08-367d-48f3-bb13-6c7d719a7004">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/038f0d8c-736f-4f18-86ca-7ed31815ada1"/>
+        <skos:prefLabel xml:lang="en">{"id": "3e1dace0-b51f-4109-a450-aa0a7ccc9382", "value": "Parkland"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en-US">{"id": "d29069fc-bb6d-4779-b0cd-f0faee368227", "value": "http://www.archesproject.org/6b7efe08-367d-48f3-bb13-6c7d719a7004"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:hasTopConcept>
+  </skos:ConceptScheme>
 </rdf:RDF>

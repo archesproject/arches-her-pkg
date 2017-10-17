@@ -12,6 +12,7 @@
                     "helptext": null, 
                     "helptitle": null, 
                     "instructions": null, 
+                    "is_editable": true, 
                     "name": "AMIE Belief", 
                     "nodegroup_id": "7a9bb56b-9a19-11e7-9f72-021893e306d8", 
                     "sortorder": null, 
@@ -26,6 +27,7 @@
                     "helptext": null, 
                     "helptitle": null, 
                     "instructions": null, 
+                    "is_editable": true, 
                     "name": "AMIE Belief", 
                     "nodegroup_id": "56e4794b-9a19-11e7-9f72-021893e306d8", 
                     "sortorder": null, 
@@ -40,6 +42,7 @@
                     "helptext": null, 
                     "helptitle": null, 
                     "instructions": null, 
+                    "is_editable": true, 
                     "name": "HER Evidence ", 
                     "nodegroup_id": "06a8cce4-9a17-11e7-9f72-021893e306d8", 
                     "sortorder": null, 
@@ -53,15 +56,6 @@
             "edges": [
                 {
                     "description": null, 
-                    "domainnode_id": "7a9bb56b-9a19-11e7-9f72-021893e306d8", 
-                    "edgeid": "7a9bb571-9a19-11e7-9f72-021893e306d8", 
-                    "graph_id": "06a8cce5-9a17-11e7-9f72-021893e306d8", 
-                    "name": null, 
-                    "ontologyproperty": "http://www.ics.forth.gr/isl/CRMinf/J5_holds_to_be", 
-                    "rangenode_id": "7a9bb56f-9a19-11e7-9f72-021893e306d8"
-                }, 
-                {
-                    "description": null, 
                     "domainnode_id": "06a8cce4-9a17-11e7-9f72-021893e306d8", 
                     "edgeid": "7a9bb572-9a19-11e7-9f72-021893e306d8", 
                     "graph_id": "06a8cce5-9a17-11e7-9f72-021893e306d8", 
@@ -72,20 +66,20 @@
                 {
                     "description": null, 
                     "domainnode_id": "7a9bb56b-9a19-11e7-9f72-021893e306d8", 
+                    "edgeid": "7a9bb571-9a19-11e7-9f72-021893e306d8", 
+                    "graph_id": "06a8cce5-9a17-11e7-9f72-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.ics.forth.gr/isl/CRMinf/J5_holds_to_be", 
+                    "rangenode_id": "7a9bb56f-9a19-11e7-9f72-021893e306d8"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "7a9bb56b-9a19-11e7-9f72-021893e306d8", 
                     "edgeid": "7a9bb570-9a19-11e7-9f72-021893e306d8", 
                     "graph_id": "06a8cce5-9a17-11e7-9f72-021893e306d8", 
                     "name": null, 
                     "ontologyproperty": "http://www.ics.forth.gr/isl/CRMinf/J4_that", 
                     "rangenode_id": "7a9bb56e-9a19-11e7-9f72-021893e306d8"
-                }, 
-                {
-                    "description": null, 
-                    "domainnode_id": "56e4794b-9a19-11e7-9f72-021893e306d8", 
-                    "edgeid": "56e47950-9a19-11e7-9f72-021893e306d8", 
-                    "graph_id": "06a8cce5-9a17-11e7-9f72-021893e306d8", 
-                    "name": null, 
-                    "ontologyproperty": "http://www.ics.forth.gr/isl/CRMinf/J4_that", 
-                    "rangenode_id": "56e4794e-9a19-11e7-9f72-021893e306d8"
                 }, 
                 {
                     "description": null, 
@@ -104,6 +98,15 @@
                     "name": null, 
                     "ontologyproperty": "http://www.ics.forth.gr/isl/CRMinf/J2_concluded_that", 
                     "rangenode_id": "56e4794b-9a19-11e7-9f72-021893e306d8"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "56e4794b-9a19-11e7-9f72-021893e306d8", 
+                    "edgeid": "56e47950-9a19-11e7-9f72-021893e306d8", 
+                    "graph_id": "06a8cce5-9a17-11e7-9f72-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.ics.forth.gr/isl/CRMinf/J4_that", 
+                    "rangenode_id": "56e4794e-9a19-11e7-9f72-021893e306d8"
                 }
             ], 
             "forms": [], 
@@ -125,14 +128,14 @@
                 {
                     "cardinality": "1", 
                     "legacygroupid": null, 
-                    "nodegroupid": "06a8cce4-9a17-11e7-9f72-021893e306d8", 
-                    "parentnodegroup_id": null
+                    "nodegroupid": "56e4794b-9a19-11e7-9f72-021893e306d8", 
+                    "parentnodegroup_id": "06a8cce4-9a17-11e7-9f72-021893e306d8"
                 }, 
                 {
                     "cardinality": "1", 
                     "legacygroupid": null, 
-                    "nodegroupid": "56e4794b-9a19-11e7-9f72-021893e306d8", 
-                    "parentnodegroup_id": "06a8cce4-9a17-11e7-9f72-021893e306d8"
+                    "nodegroupid": "06a8cce4-9a17-11e7-9f72-021893e306d8", 
+                    "parentnodegroup_id": null
                 }
             ], 
             "nodes": [
@@ -142,6 +145,7 @@
                     "description": "Represents a single node in a graph", 
                     "graph_id": "06a8cce5-9a17-11e7-9f72-021893e306d8", 
                     "is_collector": false, 
+                    "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": false, 
                     "name": "Proposition Set", 
@@ -174,6 +178,7 @@
                     "description": "Represents a single node in a graph", 
                     "graph_id": "06a8cce5-9a17-11e7-9f72-021893e306d8", 
                     "is_collector": false, 
+                    "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": false, 
                     "name": "Belief Value", 
@@ -181,6 +186,72 @@
                     "nodeid": "7a9bb56f-9a19-11e7-9f72-021893e306d8", 
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E59_Primitive_Value", 
                     "parentproperty": "http://www.ics.forth.gr/isl/CRMinf/J5_holds_to_be"
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "string", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "06a8cce5-9a17-11e7-9f72-021893e306d8", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Proposition Set", 
+                    "nodegroup_id": "56e4794b-9a19-11e7-9f72-021893e306d8", 
+                    "nodeid": "56e4794e-9a19-11e7-9f72-021893e306d8", 
+                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMinf/I4_Proposition_Set", 
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMinf/J4_that"
+                }, 
+                {
+                    "config": {
+                        "fillColor": "rgba(233,112,111,0.8)"
+                    }, 
+                    "datatype": "semantic", 
+                    "description": "", 
+                    "graph_id": "06a8cce5-9a17-11e7-9f72-021893e306d8", 
+                    "is_collector": true, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Belief", 
+                    "nodegroup_id": "7a9bb56b-9a19-11e7-9f72-021893e306d8", 
+                    "nodeid": "7a9bb56b-9a19-11e7-9f72-021893e306d8", 
+                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMinf/I2_Belief", 
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMinf/J2_concluded_that"
+                }, 
+                {
+                    "config": {
+                        "fillColor": "rgba(233,112,111,0.8)"
+                    }, 
+                    "datatype": "semantic", 
+                    "description": "", 
+                    "graph_id": "06a8cce5-9a17-11e7-9f72-021893e306d8", 
+                    "is_collector": true, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": true, 
+                    "name": "Evolution Decision", 
+                    "nodegroup_id": "06a8cce4-9a17-11e7-9f72-021893e306d8", 
+                    "nodeid": "06a8cce4-9a17-11e7-9f72-021893e306d8", 
+                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMinf/I5_Inference_Making", 
+                    "parentproperty": ""
+                }, 
+                {
+                    "config": {
+                        "fillColor": "rgba(233,112,111,0.8)"
+                    }, 
+                    "datatype": "semantic", 
+                    "description": "", 
+                    "graph_id": "06a8cce5-9a17-11e7-9f72-021893e306d8", 
+                    "is_collector": true, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Belief", 
+                    "nodegroup_id": "56e4794b-9a19-11e7-9f72-021893e306d8", 
+                    "nodeid": "56e4794b-9a19-11e7-9f72-021893e306d8", 
+                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMinf/I2_Belief", 
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMinf/J2_concluded_that"
                 }, 
                 {
                     "config": {
@@ -206,6 +277,7 @@
                     "description": "Represents a single node in a graph", 
                     "graph_id": "06a8cce5-9a17-11e7-9f72-021893e306d8", 
                     "is_collector": false, 
+                    "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": false, 
                     "name": "Belief Value", 
@@ -213,68 +285,6 @@
                     "nodeid": "56e4794f-9a19-11e7-9f72-021893e306d8", 
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E59_Primitive_Value", 
                     "parentproperty": "http://www.ics.forth.gr/isl/CRMinf/J5_holds_to_be"
-                }, 
-                {
-                    "config": {
-                        "fillColor": "rgba(233,112,111,0.8)"
-                    }, 
-                    "datatype": "semantic", 
-                    "description": "", 
-                    "graph_id": "06a8cce5-9a17-11e7-9f72-021893e306d8", 
-                    "is_collector": true, 
-                    "issearchable": true, 
-                    "istopnode": false, 
-                    "name": "Belief", 
-                    "nodegroup_id": "7a9bb56b-9a19-11e7-9f72-021893e306d8", 
-                    "nodeid": "7a9bb56b-9a19-11e7-9f72-021893e306d8", 
-                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMinf/I2_Belief", 
-                    "parentproperty": "http://www.ics.forth.gr/isl/CRMinf/J2_concluded_that"
-                }, 
-                {
-                    "config": null, 
-                    "datatype": "string", 
-                    "description": "Represents a single node in a graph", 
-                    "graph_id": "06a8cce5-9a17-11e7-9f72-021893e306d8", 
-                    "is_collector": false, 
-                    "issearchable": true, 
-                    "istopnode": false, 
-                    "name": "Proposition Set", 
-                    "nodegroup_id": "56e4794b-9a19-11e7-9f72-021893e306d8", 
-                    "nodeid": "56e4794e-9a19-11e7-9f72-021893e306d8", 
-                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMinf/I4_Proposition_Set", 
-                    "parentproperty": "http://www.ics.forth.gr/isl/CRMinf/J4_that"
-                }, 
-                {
-                    "config": {
-                        "fillColor": "rgba(233,112,111,0.8)"
-                    }, 
-                    "datatype": "semantic", 
-                    "description": "", 
-                    "graph_id": "06a8cce5-9a17-11e7-9f72-021893e306d8", 
-                    "is_collector": true, 
-                    "issearchable": true, 
-                    "istopnode": false, 
-                    "name": "Belief", 
-                    "nodegroup_id": "56e4794b-9a19-11e7-9f72-021893e306d8", 
-                    "nodeid": "56e4794b-9a19-11e7-9f72-021893e306d8", 
-                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMinf/I2_Belief", 
-                    "parentproperty": "http://www.ics.forth.gr/isl/CRMinf/J2_concluded_that"
-                }, 
-                {
-                    "config": {
-                        "fillColor": "rgba(233,112,111,0.8)"
-                    }, 
-                    "datatype": "semantic", 
-                    "description": "", 
-                    "graph_id": "06a8cce5-9a17-11e7-9f72-021893e306d8", 
-                    "is_collector": true, 
-                    "issearchable": true, 
-                    "istopnode": true, 
-                    "name": "Evolution Decision", 
-                    "nodegroup_id": "06a8cce4-9a17-11e7-9f72-021893e306d8", 
-                    "nodeid": "06a8cce4-9a17-11e7-9f72-021893e306d8", 
-                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMinf/I5_Inference_Making", 
-                    "parentproperty": ""
                 }
             ], 
             "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd", 
@@ -289,6 +299,7 @@
                 "description": "", 
                 "graph_id": "06a8cce5-9a17-11e7-9f72-021893e306d8", 
                 "is_collector": true, 
+                "isrequired": false, 
                 "issearchable": true, 
                 "istopnode": true, 
                 "name": "Evolution Decision", 
@@ -302,8 +313,8 @@
     ], 
     "metadata": {
         "db": "PostgreSQL 9.6.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 5.3.1-14ubuntu2) 5.3.1 20160413, 64-bit", 
-        "git hash": "205c31b 2017-06-01 12:07:14 -0700", 
+        "git hash": "411ce7d 2017-10-12 13:02:46 -0700", 
         "os": "Linux", 
-        "os version": "4.4.0-93-generic"
+        "os version": "4.4.0-97-generic"
     }
 }

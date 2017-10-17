@@ -4,31 +4,33 @@
   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
   xmlns:dcterms="http://purl.org/dc/terms/"
 >
-  <skos:ConceptScheme rdf:about="http://www.archesproject.org/9f4c4777-bdb6-41b3-b33b-16e7e3963afb">
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://www.archesproject.org/14fd3f0b-14ec-416c-8aa1-3d606cd23815">
-        <skos:inScheme rdf:resource="http://www.archesproject.org/9f4c4777-bdb6-41b3-b33b-16e7e3963afb"/>
-        <skos:prefLabel xml:lang="en">{"id": "c17be8ab-9f41-4e6b-a9a3-e96c22a3bee9", "value": "Primary material"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://www.archesproject.org/8e2dfddf-a989-44bd-b102-43d2a345b3a6">
-        <skos:inScheme rdf:resource="http://www.archesproject.org/9f4c4777-bdb6-41b3-b33b-16e7e3963afb"/>
-        <skos:prefLabel xml:lang="en">{"id": "d5124298-25a4-4c7e-9f00-b32509c21b0c", "value": "Construction material"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://www.archesproject.org/55d0c851-b6dd-41b2-82aa-7d1b5cd3ae82">
-        <skos:inScheme rdf:resource="http://www.archesproject.org/9f4c4777-bdb6-41b3-b33b-16e7e3963afb"/>
-        <skos:prefLabel xml:lang="en">{"id": "4fcfea9a-5db8-4b9d-963b-350d5fbf93ee", "value": "Secondary material"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <dcterms:title xml:lang="en">{"id": "b5f9152b-8d79-4485-a255-85a2cdc00251", "value": "MIDAS Material Type"}</dcterms:title>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://www.archesproject.org/c7512ec7-d19d-42cb-89e7-e10097a3f70d">
-        <skos:inScheme rdf:resource="http://www.archesproject.org/9f4c4777-bdb6-41b3-b33b-16e7e3963afb"/>
-        <skos:prefLabel xml:lang="en">{"id": "4b69b383-49ad-4c85-8cf8-56398eb2d95b", "value": "Covering material"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:hasTopConcept>
-  </skos:ConceptScheme>
+  <skos:Concept rdf:about="http://www.archesproject.org/55d0c851-b6dd-41b2-82aa-7d1b5cd3ae82">
+    <skos:prefLabel xml:lang="en">{"id": "4fcfea9a-5db8-4b9d-963b-350d5fbf93ee", "value": "Secondary material"}</skos:prefLabel>
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://www.archesproject.org/9f4c4777-bdb6-41b3-b33b-16e7e3963afb">
+        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/8e2dfddf-a989-44bd-b102-43d2a345b3a6"/>
+        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/55d0c851-b6dd-41b2-82aa-7d1b5cd3ae82"/>
+        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/c7512ec7-d19d-42cb-89e7-e10097a3f70d"/>
+        <dcterms:title xml:lang="en">{"id": "b5f9152b-8d79-4485-a255-85a2cdc00251", "value": "MIDAS Material Type"}</dcterms:title>
+        <skos:hasTopConcept rdf:resource="http://www.archesproject.org/14fd3f0b-14ec-416c-8aa1-3d606cd23815"/>
+        <dcterms:identifier xml:lang="en-US">{"id": "518697de-bd5e-440c-9fee-02d4040077f4", "value": "http://www.archesproject.org/9f4c4777-bdb6-41b3-b33b-16e7e3963afb"}</dcterms:identifier>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <dcterms:identifier xml:lang="en-US">{"id": "f7bd92df-de8d-43b1-b931-7a0bd7240552", "value": "http://www.archesproject.org/55d0c851-b6dd-41b2-82aa-7d1b5cd3ae82"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/8e2dfddf-a989-44bd-b102-43d2a345b3a6">
+    <dcterms:identifier xml:lang="en-US">{"id": "794e093f-51a9-420c-80bb-a1dc43ac25e4", "value": "http://www.archesproject.org/8e2dfddf-a989-44bd-b102-43d2a345b3a6"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "d5124298-25a4-4c7e-9f00-b32509c21b0c", "value": "Construction material"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/9f4c4777-bdb6-41b3-b33b-16e7e3963afb"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/14fd3f0b-14ec-416c-8aa1-3d606cd23815">
+    <skos:inScheme rdf:resource="http://www.archesproject.org/9f4c4777-bdb6-41b3-b33b-16e7e3963afb"/>
+    <skos:prefLabel xml:lang="en">{"id": "c17be8ab-9f41-4e6b-a9a3-e96c22a3bee9", "value": "Primary material"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en-US">{"id": "485ac941-2683-4e5b-bc8c-c671f88a3e7e", "value": "http://www.archesproject.org/14fd3f0b-14ec-416c-8aa1-3d606cd23815"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.archesproject.org/c7512ec7-d19d-42cb-89e7-e10097a3f70d">
+    <dcterms:identifier xml:lang="en-US">{"id": "da57007a-da44-4eaa-84ab-5419743325ae", "value": "http://www.archesproject.org/c7512ec7-d19d-42cb-89e7-e10097a3f70d"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "4b69b383-49ad-4c85-8cf8-56398eb2d95b", "value": "Covering material"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://www.archesproject.org/9f4c4777-bdb6-41b3-b33b-16e7e3963afb"/>
+  </skos:Concept>
 </rdf:RDF>

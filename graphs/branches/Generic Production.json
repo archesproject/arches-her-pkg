@@ -12,6 +12,7 @@
                     "helptext": null, 
                     "helptitle": null, 
                     "instructions": null, 
+                    "is_editable": true, 
                     "name": "Generic Production", 
                     "nodegroup_id": "a6ff43f9-a84a-11e7-9f72-021893e306d8", 
                     "sortorder": null, 
@@ -559,11 +560,38 @@
                 {
                     "description": null, 
                     "domainnode_id": "a6ff43f9-a84a-11e7-9f72-021893e306d8", 
+                    "edgeid": "a6ff440a-a84a-11e7-9f72-021893e306d8", 
+                    "graph_id": "a6ff43f8-a84a-11e7-9f72-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P33_used_specific_technique", 
+                    "rangenode_id": "a6ff4401-a84a-11e7-9f72-021893e306d8"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "a6ff43fd-a84a-11e7-9f72-021893e306d8", 
+                    "edgeid": "a6ff440b-a84a-11e7-9f72-021893e306d8", 
+                    "graph_id": "a6ff43f8-a84a-11e7-9f72-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P78_is_identified_by", 
+                    "rangenode_id": "a6ff43ff-a84a-11e7-9f72-021893e306d8"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "a6ff43f9-a84a-11e7-9f72-021893e306d8", 
                     "edgeid": "a6ff4407-a84a-11e7-9f72-021893e306d8", 
                     "graph_id": "a6ff43f8-a84a-11e7-9f72-021893e306d8", 
                     "name": null, 
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P33_used_specific_technique", 
                     "rangenode_id": "a6ff43fc-a84a-11e7-9f72-021893e306d8"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "a6ff43fd-a84a-11e7-9f72-021893e306d8", 
+                    "edgeid": "a6ff440c-a84a-11e7-9f72-021893e306d8", 
+                    "graph_id": "a6ff43f8-a84a-11e7-9f72-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P78_is_identified_by", 
+                    "rangenode_id": "a6ff4400-a84a-11e7-9f72-021893e306d8"
                 }, 
                 {
                     "description": null, 
@@ -577,38 +605,11 @@
                 {
                     "description": null, 
                     "domainnode_id": "a6ff43f9-a84a-11e7-9f72-021893e306d8", 
-                    "edgeid": "a6ff440a-a84a-11e7-9f72-021893e306d8", 
-                    "graph_id": "a6ff43f8-a84a-11e7-9f72-021893e306d8", 
-                    "name": null, 
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P33_used_specific_technique", 
-                    "rangenode_id": "a6ff4401-a84a-11e7-9f72-021893e306d8"
-                }, 
-                {
-                    "description": null, 
-                    "domainnode_id": "a6ff43f9-a84a-11e7-9f72-021893e306d8", 
                     "edgeid": "a6ff4409-a84a-11e7-9f72-021893e306d8", 
                     "graph_id": "a6ff43f8-a84a-11e7-9f72-021893e306d8", 
                     "name": null, 
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P117_occurs_during", 
                     "rangenode_id": "a6ff43fe-a84a-11e7-9f72-021893e306d8"
-                }, 
-                {
-                    "description": null, 
-                    "domainnode_id": "a6ff43fd-a84a-11e7-9f72-021893e306d8", 
-                    "edgeid": "a6ff440b-a84a-11e7-9f72-021893e306d8", 
-                    "graph_id": "a6ff43f8-a84a-11e7-9f72-021893e306d8", 
-                    "name": null, 
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P78_is_identified_by", 
-                    "rangenode_id": "a6ff43ff-a84a-11e7-9f72-021893e306d8"
-                }, 
-                {
-                    "description": null, 
-                    "domainnode_id": "a6ff43fd-a84a-11e7-9f72-021893e306d8", 
-                    "edgeid": "a6ff440c-a84a-11e7-9f72-021893e306d8", 
-                    "graph_id": "a6ff43f8-a84a-11e7-9f72-021893e306d8", 
-                    "name": null, 
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P78_is_identified_by", 
-                    "rangenode_id": "a6ff4400-a84a-11e7-9f72-021893e306d8"
                 }
             ], 
             "forms": [], 
@@ -637,6 +638,7 @@
                     "description": "", 
                     "graph_id": "a6ff43f8-a84a-11e7-9f72-021893e306d8", 
                     "is_collector": true, 
+                    "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": true, 
                     "name": "Production", 
@@ -651,71 +653,12 @@
                     "description": "Represents a single node in a graph", 
                     "graph_id": "a6ff43f8-a84a-11e7-9f72-021893e306d8", 
                     "is_collector": false, 
+                    "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": false, 
                     "name": "To Date", 
                     "nodegroup_id": "a6ff43f9-a84a-11e7-9f72-021893e306d8", 
                     "nodeid": "a6ff4400-a84a-11e7-9f72-021893e306d8", 
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E49_Time_Appellation", 
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P78_is_identified_by"
-                }, 
-                {
-                    "config": {
-                        "rdmCollection": "4f03cee9-3db5-4320-9d0c-301b2d7d23ad"
-                    }, 
-                    "datatype": "concept", 
-                    "description": "Represents a single node in a graph", 
-                    "graph_id": "a6ff43f8-a84a-11e7-9f72-021893e306d8", 
-                    "is_collector": false, 
-                    "issearchable": true, 
-                    "istopnode": false, 
-                    "name": "Production Technique", 
-                    "nodegroup_id": "a6ff43f9-a84a-11e7-9f72-021893e306d8", 
-                    "nodeid": "a6ff43fc-a84a-11e7-9f72-021893e306d8", 
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E29_Design_or_Procedure", 
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P33_used_specific_technique"
-                }, 
-                {
-                    "config": null, 
-                    "datatype": "semantic", 
-                    "description": "Represents a single node in a graph", 
-                    "graph_id": "a6ff43f8-a84a-11e7-9f72-021893e306d8", 
-                    "is_collector": false, 
-                    "issearchable": true, 
-                    "istopnode": false, 
-                    "name": "Production Time Span", 
-                    "nodegroup_id": "a6ff43f9-a84a-11e7-9f72-021893e306d8", 
-                    "nodeid": "a6ff43fd-a84a-11e7-9f72-021893e306d8", 
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span", 
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span"
-                }, 
-                {
-                    "config": {
-                        "rdmCollection": "aba60a02-99dc-4e50-8ee8-e6f460827db9"
-                    }, 
-                    "datatype": "concept", 
-                    "description": "Represents a single node in a graph", 
-                    "graph_id": "a6ff43f8-a84a-11e7-9f72-021893e306d8", 
-                    "is_collector": false, 
-                    "issearchable": true, 
-                    "istopnode": false, 
-                    "name": "Cultural Period", 
-                    "nodegroup_id": "a6ff43f9-a84a-11e7-9f72-021893e306d8", 
-                    "nodeid": "a6ff43fe-a84a-11e7-9f72-021893e306d8", 
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E4_Period", 
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P117_occurs_during"
-                }, 
-                {
-                    "config": null, 
-                    "datatype": "date", 
-                    "description": "Represents a single node in a graph", 
-                    "graph_id": "a6ff43f8-a84a-11e7-9f72-021893e306d8", 
-                    "is_collector": false, 
-                    "issearchable": true, 
-                    "istopnode": false, 
-                    "name": "From Date", 
-                    "nodegroup_id": "a6ff43f9-a84a-11e7-9f72-021893e306d8", 
-                    "nodeid": "a6ff43ff-a84a-11e7-9f72-021893e306d8", 
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E49_Time_Appellation", 
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P78_is_identified_by"
                 }, 
@@ -727,6 +670,7 @@
                     "description": "Represents a single node in a graph", 
                     "graph_id": "a6ff43f8-a84a-11e7-9f72-021893e306d8", 
                     "is_collector": false, 
+                    "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": false, 
                     "name": "Production Method", 
@@ -734,6 +678,70 @@
                     "nodeid": "a6ff4401-a84a-11e7-9f72-021893e306d8", 
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E29_Design_or_Procedure", 
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P33_used_specific_technique"
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "date", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "a6ff43f8-a84a-11e7-9f72-021893e306d8", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "From Date", 
+                    "nodegroup_id": "a6ff43f9-a84a-11e7-9f72-021893e306d8", 
+                    "nodeid": "a6ff43ff-a84a-11e7-9f72-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E49_Time_Appellation", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P78_is_identified_by"
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "semantic", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "a6ff43f8-a84a-11e7-9f72-021893e306d8", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Production Time Span", 
+                    "nodegroup_id": "a6ff43f9-a84a-11e7-9f72-021893e306d8", 
+                    "nodeid": "a6ff43fd-a84a-11e7-9f72-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span"
+                }, 
+                {
+                    "config": {
+                        "rdmCollection": "4f03cee9-3db5-4320-9d0c-301b2d7d23ad"
+                    }, 
+                    "datatype": "concept", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "a6ff43f8-a84a-11e7-9f72-021893e306d8", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Production Technique", 
+                    "nodegroup_id": "a6ff43f9-a84a-11e7-9f72-021893e306d8", 
+                    "nodeid": "a6ff43fc-a84a-11e7-9f72-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E29_Design_or_Procedure", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P33_used_specific_technique"
+                }, 
+                {
+                    "config": {
+                        "rdmCollection": "aba60a02-99dc-4e50-8ee8-e6f460827db9"
+                    }, 
+                    "datatype": "concept", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "a6ff43f8-a84a-11e7-9f72-021893e306d8", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Cultural Period", 
+                    "nodegroup_id": "a6ff43f9-a84a-11e7-9f72-021893e306d8", 
+                    "nodeid": "a6ff43fe-a84a-11e7-9f72-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E4_Period", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P117_occurs_during"
                 }
             ], 
             "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd", 
@@ -748,6 +756,7 @@
                 "description": "", 
                 "graph_id": "a6ff43f8-a84a-11e7-9f72-021893e306d8", 
                 "is_collector": true, 
+                "isrequired": false, 
                 "issearchable": true, 
                 "istopnode": true, 
                 "name": "Production", 
@@ -761,8 +770,8 @@
     ], 
     "metadata": {
         "db": "PostgreSQL 9.6.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 5.3.1-14ubuntu2) 5.3.1 20160413, 64-bit", 
-        "git hash": "205c31b 2017-06-01 12:07:14 -0700", 
+        "git hash": "411ce7d 2017-10-12 13:02:46 -0700", 
         "os": "Linux", 
-        "os version": "4.4.0-93-generic"
+        "os version": "4.4.0-97-generic"
     }
 }

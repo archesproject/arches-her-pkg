@@ -10,8 +10,9 @@
                     "graph_id": "25f115c5-a51c-11e7-9f72-021893e306d8", 
                     "helpenabled": true, 
                     "helptext": "<p><strong>Number or Name</strong></p>\n\n<p>Use for the number or name of the house or building. For flats or subdivisions of a building use the number/name of the flat/subdivsion followed by the Number or Name of the building e.g. &quot;Flat 15, Carlisle House&nbsp;or &quot;Finance Department, Historic England&quot;.</p>\n\n<p><strong>Road or Street Name</strong></p>\n\n<p>Use for the main thoroughfare on which the building sits. Where a building is situated on the corner of 2 roads consider entering mutliple addresses.</p>\n\n<p><strong>Locality</strong></p>\n\n<p>Use for areas identified formally or informally by a particular name where people live or where certain activities take place that may form part of a town, city or urban area.</p>\n\n<p><strong>Town or City</strong></p>\n\n<p>Use for the main postal Town or City in which the building is located. Also includes hamlets and villages.</p>\n\n<p><strong>Postal Code</strong></p>\n\n<p>Use for the postcode of the property, where known.</p>\n", 
-                    "helptitle": null, 
+                    "helptitle": "<p><strong>Number or Name</strong></p>\n\n<p>Use for the number or name of the house or building. For flats or subdivisions of a building use the number/name of the flat/subdivsion followed by the Number or Name of the building e.g. &quot;Flat 15, Carlisle House&nbsp;or &quot;Finance Department, Historic England&quot;.</p>\n\n<p><strong>Road or Street Name</strong></p>\n\n<p>Use for the main thoroughfare on which the building sits. Where a building is situated on the corner of 2 roads consider entering mutliple addresses.</p>\n\n<p><strong>Locality</strong></p>\n\n<p>Use for areas identified formally or informally by a particular name where people live or where certain activities take place that may form part of a town, city or urban area.</p>\n\n<p><strong>Town or City</strong></p>\n\n<p>Use for the main postal Town or City in which the building is located. Also includes hamlets and villages.</p>\n\n<p><strong>Postal Code</strong></p>\n\n<p>Use for the postcode of the property, where known.</p>\n", 
                     "instructions": null, 
+                    "is_editable": true, 
                     "name": "Generic Address", 
                     "nodegroup_id": "25f115c4-a51c-11e7-9f72-021893e306d8", 
                     "sortorder": null, 
@@ -97,15 +98,6 @@
                 {
                     "description": null, 
                     "domainnode_id": "25f115c4-a51c-11e7-9f72-021893e306d8", 
-                    "edgeid": "692384a0-a51c-11e7-9f72-021893e306d8", 
-                    "graph_id": "25f115c5-a51c-11e7-9f72-021893e306d8", 
-                    "name": null, 
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of", 
-                    "rangenode_id": "6923849f-a51c-11e7-9f72-021893e306d8"
-                }, 
-                {
-                    "description": null, 
-                    "domainnode_id": "25f115c4-a51c-11e7-9f72-021893e306d8", 
                     "edgeid": "77407fa2-a51c-11e7-9f72-021893e306d8", 
                     "graph_id": "25f115c5-a51c-11e7-9f72-021893e306d8", 
                     "name": null, 
@@ -115,20 +107,29 @@
                 {
                     "description": null, 
                     "domainnode_id": "25f115c4-a51c-11e7-9f72-021893e306d8", 
-                    "edgeid": "a1299448-a51c-11e7-9f72-021893e306d8", 
-                    "graph_id": "25f115c5-a51c-11e7-9f72-021893e306d8", 
-                    "name": null, 
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of", 
-                    "rangenode_id": "a1299447-a51c-11e7-9f72-021893e306d8"
-                }, 
-                {
-                    "description": null, 
-                    "domainnode_id": "25f115c4-a51c-11e7-9f72-021893e306d8", 
                     "edgeid": "91ed5cf8-a51c-11e7-9f72-021893e306d8", 
                     "graph_id": "25f115c5-a51c-11e7-9f72-021893e306d8", 
                     "name": null, 
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of", 
                     "rangenode_id": "91ed5cf7-a51c-11e7-9f72-021893e306d8"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "25f115c4-a51c-11e7-9f72-021893e306d8", 
+                    "edgeid": "692384a0-a51c-11e7-9f72-021893e306d8", 
+                    "graph_id": "25f115c5-a51c-11e7-9f72-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of", 
+                    "rangenode_id": "6923849f-a51c-11e7-9f72-021893e306d8"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "25f115c4-a51c-11e7-9f72-021893e306d8", 
+                    "edgeid": "a1299448-a51c-11e7-9f72-021893e306d8", 
+                    "graph_id": "25f115c5-a51c-11e7-9f72-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of", 
+                    "rangenode_id": "a1299447-a51c-11e7-9f72-021893e306d8"
                 }, 
                 {
                     "description": null, 
@@ -164,6 +165,7 @@
                     "description": "Represents a single node in a graph", 
                     "graph_id": "25f115c5-a51c-11e7-9f72-021893e306d8", 
                     "is_collector": false, 
+                    "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": false, 
                     "name": "Road or Street Name", 
@@ -178,6 +180,7 @@
                     "description": "Represents a single node in a graph", 
                     "graph_id": "25f115c5-a51c-11e7-9f72-021893e306d8", 
                     "is_collector": false, 
+                    "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": false, 
                     "name": "Town or City", 
@@ -192,6 +195,7 @@
                     "description": "Represents a single node in a graph", 
                     "graph_id": "25f115c5-a51c-11e7-9f72-021893e306d8", 
                     "is_collector": false, 
+                    "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": false, 
                     "name": "Postal Code", 
@@ -206,6 +210,7 @@
                     "description": "Represents a single node in a graph", 
                     "graph_id": "25f115c5-a51c-11e7-9f72-021893e306d8", 
                     "is_collector": false, 
+                    "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": false, 
                     "name": "Locality", 
@@ -222,6 +227,7 @@
                     "description": "", 
                     "graph_id": "25f115c5-a51c-11e7-9f72-021893e306d8", 
                     "is_collector": true, 
+                    "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": true, 
                     "name": "Address", 
@@ -236,6 +242,7 @@
                     "description": "Represents a single node in a graph", 
                     "graph_id": "25f115c5-a51c-11e7-9f72-021893e306d8", 
                     "is_collector": false, 
+                    "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": false, 
                     "name": "Number in Road or Street", 
@@ -257,6 +264,7 @@
                 "description": "", 
                 "graph_id": "25f115c5-a51c-11e7-9f72-021893e306d8", 
                 "is_collector": true, 
+                "isrequired": false, 
                 "issearchable": true, 
                 "istopnode": true, 
                 "name": "Address", 
@@ -270,8 +278,8 @@
     ], 
     "metadata": {
         "db": "PostgreSQL 9.6.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 5.3.1-14ubuntu2) 5.3.1 20160413, 64-bit", 
-        "git hash": "205c31b 2017-06-01 12:07:14 -0700", 
+        "git hash": "411ce7d 2017-10-12 13:02:46 -0700", 
         "os": "Linux", 
-        "os version": "4.4.0-93-generic"
+        "os version": "4.4.0-97-generic"
     }
 }

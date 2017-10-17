@@ -12,6 +12,7 @@
                     "helptext": null, 
                     "helptitle": null, 
                     "instructions": "Capture the measurements associated to this resource.", 
+                    "is_editable": true, 
                     "name": "Generic Archive Extents", 
                     "nodegroup_id": "f634610f-a851-11e7-9f72-021893e306d8", 
                     "sortorder": null, 
@@ -113,11 +114,11 @@
                 {
                     "description": null, 
                     "domainnode_id": "f6346113-a851-11e7-9f72-021893e306d8", 
-                    "edgeid": "f6346117-a851-11e7-9f72-021893e306d8", 
+                    "edgeid": "f6346119-a851-11e7-9f72-021893e306d8", 
                     "graph_id": "f634610e-a851-11e7-9f72-021893e306d8", 
                     "name": null, 
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P90_has_value", 
-                    "rangenode_id": "f6346112-a851-11e7-9f72-021893e306d8"
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P91_has_unit", 
+                    "rangenode_id": "f6346114-a851-11e7-9f72-021893e306d8"
                 }, 
                 {
                     "description": null, 
@@ -131,11 +132,11 @@
                 {
                     "description": null, 
                     "domainnode_id": "f6346113-a851-11e7-9f72-021893e306d8", 
-                    "edgeid": "f6346119-a851-11e7-9f72-021893e306d8", 
+                    "edgeid": "f6346117-a851-11e7-9f72-021893e306d8", 
                     "graph_id": "f634610e-a851-11e7-9f72-021893e306d8", 
                     "name": null, 
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P91_has_unit", 
-                    "rangenode_id": "f6346114-a851-11e7-9f72-021893e306d8"
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P90_has_value", 
+                    "rangenode_id": "f6346112-a851-11e7-9f72-021893e306d8"
                 }
             ], 
             "forms": [], 
@@ -162,6 +163,7 @@
                     "description": "Represents a single node in a graph", 
                     "graph_id": "f634610e-a851-11e7-9f72-021893e306d8", 
                     "is_collector": false, 
+                    "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": false, 
                     "name": "Extent", 
@@ -178,6 +180,7 @@
                     "description": "Represents a single node in a graph", 
                     "graph_id": "f634610e-a851-11e7-9f72-021893e306d8", 
                     "is_collector": false, 
+                    "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": false, 
                     "name": "Extent Measurement Unit", 
@@ -192,6 +195,7 @@
                     "description": "Represents a single node in a graph", 
                     "graph_id": "f634610e-a851-11e7-9f72-021893e306d8", 
                     "is_collector": false, 
+                    "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": false, 
                     "name": "Quantity", 
@@ -208,6 +212,7 @@
                     "description": "", 
                     "graph_id": "f634610e-a851-11e7-9f72-021893e306d8", 
                     "is_collector": true, 
+                    "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": true, 
                     "name": "Archive Extent", 
@@ -229,6 +234,7 @@
                 "description": "", 
                 "graph_id": "f634610e-a851-11e7-9f72-021893e306d8", 
                 "is_collector": true, 
+                "isrequired": false, 
                 "issearchable": true, 
                 "istopnode": true, 
                 "name": "Archive Extent", 
@@ -242,8 +248,8 @@
     ], 
     "metadata": {
         "db": "PostgreSQL 9.6.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 5.3.1-14ubuntu2) 5.3.1 20160413, 64-bit", 
-        "git hash": "205c31b 2017-06-01 12:07:14 -0700", 
+        "git hash": "411ce7d 2017-10-12 13:02:46 -0700", 
         "os": "Linux", 
-        "os version": "4.4.0-93-generic"
+        "os version": "4.4.0-97-generic"
     }
 }

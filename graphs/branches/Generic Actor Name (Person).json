@@ -10,8 +10,9 @@
                     "graph_id": "65bb0830-a77a-11e7-9f72-021893e306d8", 
                     "helpenabled": true, 
                     "helptext": "<p>The following guidelines are based on the National Council of Archives <em>Rules for the Construction of Personal, Place and Corporate Names.&nbsp;</em></p>\n\n<p><strong>Title</strong></p>\n\n<p>In English only the titles Lord, Lady, Sir, Dame and Hon (Honourable) may precede the forename. However common practice allows for other titles, such as Mr, Mrs etc, to be used. Select the most appropriate.</p>\n\n<p><strong>Initials</strong></p>\n\n<p>These should only be used where the full name is not known&nbsp;or the individual is more usually known by their initials, eg. T.S. Eliot.&nbsp;</p>\n\n<p><strong>Forename</strong></p>\n\n<p>A forename is the component of the name which a person is given in addition to his/her surname. All forenames should be listed to assist disambiguation between individuals.</p>\n\n<p><strong>Middle name(s)</strong></p>\n\n<p>Record middle names where given.</p>\n\n<p><strong>Surname</strong></p>\n\n<p>The component of a name which a person usually shares with other members of their family<strong>.</strong></p>\n\n<p><strong>Epithet</strong></p>\n\n<p>This is a word or phrase describing a person&#39;s status, position, occupation, nationality, place of birth etc. An epithet should be included as a qualifier where any confusion between persons may arise.</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n", 
-                    "helptitle": "Naming Individuals", 
+                    "helptitle": "<p>The following guidelines are based on the National Council of Archives <em>Rules for the Construction of Personal, Place and Corporate Names.&nbsp;</em></p>\n\n<p><strong>Title</strong></p>\n\n<p>In English only the titles Lord, Lady, Sir, Dame and Hon (Honourable) may precede the forename. However common practice allows for other titles, such as Mr, Mrs etc, to be used. Select the most appropriate.</p>\n\n<p><strong>Initials</strong></p>\n\n<p>These should only be used where the full name is not known&nbsp;or the individual is more usually known by their initials, eg. T.S. Eliot.&nbsp;</p>\n\n<p><strong>Forename</strong></p>\n\n<p>A forename is the component of the name which a person is given in addition to his/her surname. All forenames should be listed to assist disambiguation between individuals.</p>\n\n<p><strong>Middle name(s)</strong></p>\n\n<p>Record middle names where given.</p>\n\n<p><strong>Surname</strong></p>\n\n<p>The component of a name which a person usually shares with other members of their family<strong>.</strong></p>\n\n<p><strong>Epithet</strong></p>\n\n<p>This is a word or phrase describing a person&#39;s status, position, occupation, nationality, place of birth etc. An epithet should be included as a qualifier where any confusion between persons may arise.</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n", 
                     "instructions": null, 
+                    "is_editable": true, 
                     "name": "Generic Actor Name (Person)", 
                     "nodegroup_id": "65bb0831-a77a-11e7-9f72-021893e306d8", 
                     "sortorder": null, 
@@ -179,29 +180,20 @@
                 {
                     "description": null, 
                     "domainnode_id": "65bb0831-a77a-11e7-9f72-021893e306d8", 
+                    "edgeid": "65bb0844-a77a-11e7-9f72-021893e306d8", 
+                    "graph_id": "65bb0830-a77a-11e7-9f72-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of", 
+                    "rangenode_id": "65bb0837-a77a-11e7-9f72-021893e306d8"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "65bb0831-a77a-11e7-9f72-021893e306d8", 
                     "edgeid": "65bb0842-a77a-11e7-9f72-021893e306d8", 
                     "graph_id": "65bb0830-a77a-11e7-9f72-021893e306d8", 
                     "name": null, 
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of", 
                     "rangenode_id": "65bb0836-a77a-11e7-9f72-021893e306d8"
-                }, 
-                {
-                    "description": null, 
-                    "domainnode_id": "65bb0831-a77a-11e7-9f72-021893e306d8", 
-                    "edgeid": "65bb0843-a77a-11e7-9f72-021893e306d8", 
-                    "graph_id": "65bb0830-a77a-11e7-9f72-021893e306d8", 
-                    "name": null, 
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of", 
-                    "rangenode_id": "65bb0838-a77a-11e7-9f72-021893e306d8"
-                }, 
-                {
-                    "description": null, 
-                    "domainnode_id": "65bb0831-a77a-11e7-9f72-021893e306d8", 
-                    "edgeid": "65bb0846-a77a-11e7-9f72-021893e306d8", 
-                    "graph_id": "65bb0830-a77a-11e7-9f72-021893e306d8", 
-                    "name": null, 
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of", 
-                    "rangenode_id": "65bb0834-a77a-11e7-9f72-021893e306d8"
                 }, 
                 {
                     "description": null, 
@@ -215,11 +207,11 @@
                 {
                     "description": null, 
                     "domainnode_id": "65bb0831-a77a-11e7-9f72-021893e306d8", 
-                    "edgeid": "65bb0845-a77a-11e7-9f72-021893e306d8", 
+                    "edgeid": "65bb0843-a77a-11e7-9f72-021893e306d8", 
                     "graph_id": "65bb0830-a77a-11e7-9f72-021893e306d8", 
                     "name": null, 
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type", 
-                    "rangenode_id": "65bb0835-a77a-11e7-9f72-021893e306d8"
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of", 
+                    "rangenode_id": "65bb0838-a77a-11e7-9f72-021893e306d8"
                 }, 
                 {
                     "description": null, 
@@ -233,11 +225,20 @@
                 {
                     "description": null, 
                     "domainnode_id": "65bb0831-a77a-11e7-9f72-021893e306d8", 
-                    "edgeid": "65bb0844-a77a-11e7-9f72-021893e306d8", 
+                    "edgeid": "65bb0846-a77a-11e7-9f72-021893e306d8", 
                     "graph_id": "65bb0830-a77a-11e7-9f72-021893e306d8", 
                     "name": null, 
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of", 
-                    "rangenode_id": "65bb0837-a77a-11e7-9f72-021893e306d8"
+                    "rangenode_id": "65bb0834-a77a-11e7-9f72-021893e306d8"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "65bb0831-a77a-11e7-9f72-021893e306d8", 
+                    "edgeid": "65bb0845-a77a-11e7-9f72-021893e306d8", 
+                    "graph_id": "65bb0830-a77a-11e7-9f72-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type", 
+                    "rangenode_id": "65bb0835-a77a-11e7-9f72-021893e306d8"
                 }
             ], 
             "forms": [], 
@@ -264,6 +265,7 @@
                     "description": "Represents a single node in a graph", 
                     "graph_id": "65bb0830-a77a-11e7-9f72-021893e306d8", 
                     "is_collector": false, 
+                    "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": false, 
                     "name": "Initials", 
@@ -278,6 +280,7 @@
                     "description": "Represents a single node in a graph", 
                     "graph_id": "65bb0830-a77a-11e7-9f72-021893e306d8", 
                     "is_collector": false, 
+                    "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": false, 
                     "name": "Surname", 
@@ -287,6 +290,38 @@
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of"
                 }, 
                 {
+                    "config": null, 
+                    "datatype": "string", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "65bb0830-a77a-11e7-9f72-021893e306d8", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Epithet", 
+                    "nodegroup_id": "65bb0831-a77a-11e7-9f72-021893e306d8", 
+                    "nodeid": "65bb0838-a77a-11e7-9f72-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of"
+                }, 
+                {
+                    "config": {
+                        "fillColor": "rgba(233,112,111,0.8)"
+                    }, 
+                    "datatype": "semantic", 
+                    "description": "", 
+                    "graph_id": "65bb0830-a77a-11e7-9f72-021893e306d8", 
+                    "is_collector": true, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": true, 
+                    "name": "Person Name", 
+                    "nodegroup_id": "65bb0831-a77a-11e7-9f72-021893e306d8", 
+                    "nodeid": "65bb0831-a77a-11e7-9f72-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation", 
+                    "parentproperty": ""
+                }, 
+                {
                     "config": {
                         "options": []
                     }, 
@@ -294,6 +329,7 @@
                     "description": "Represents a single node in a graph", 
                     "graph_id": "65bb0830-a77a-11e7-9f72-021893e306d8", 
                     "is_collector": false, 
+                    "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": false, 
                     "name": "Title", 
@@ -308,6 +344,7 @@
                     "description": "Represents a single node in a graph", 
                     "graph_id": "65bb0830-a77a-11e7-9f72-021893e306d8", 
                     "is_collector": false, 
+                    "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": false, 
                     "name": "Middle Name(s)", 
@@ -317,46 +354,17 @@
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of"
                 }, 
                 {
-                    "config": {
-                        "fillColor": "rgba(233,112,111,0.8)"
-                    }, 
-                    "datatype": "semantic", 
-                    "description": "", 
-                    "graph_id": "65bb0830-a77a-11e7-9f72-021893e306d8", 
-                    "is_collector": true, 
-                    "issearchable": true, 
-                    "istopnode": true, 
-                    "name": "Person Name", 
-                    "nodegroup_id": "65bb0831-a77a-11e7-9f72-021893e306d8", 
-                    "nodeid": "65bb0831-a77a-11e7-9f72-021893e306d8", 
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation", 
-                    "parentproperty": ""
-                }, 
-                {
                     "config": null, 
                     "datatype": "string", 
                     "description": "Represents a single node in a graph", 
                     "graph_id": "65bb0830-a77a-11e7-9f72-021893e306d8", 
                     "is_collector": false, 
+                    "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": false, 
                     "name": "Forename", 
                     "nodegroup_id": "65bb0831-a77a-11e7-9f72-021893e306d8", 
                     "nodeid": "65bb0834-a77a-11e7-9f72-021893e306d8", 
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation", 
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of"
-                }, 
-                {
-                    "config": null, 
-                    "datatype": "string", 
-                    "description": "Represents a single node in a graph", 
-                    "graph_id": "65bb0830-a77a-11e7-9f72-021893e306d8", 
-                    "is_collector": false, 
-                    "issearchable": true, 
-                    "istopnode": false, 
-                    "name": "Epithet", 
-                    "nodegroup_id": "65bb0831-a77a-11e7-9f72-021893e306d8", 
-                    "nodeid": "65bb0838-a77a-11e7-9f72-021893e306d8", 
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation", 
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of"
                 }, 
@@ -368,6 +376,7 @@
                     "description": "Represents a single node in a graph", 
                     "graph_id": "65bb0830-a77a-11e7-9f72-021893e306d8", 
                     "is_collector": false, 
+                    "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": false, 
                     "name": "Name Type", 
@@ -389,6 +398,7 @@
                 "description": "", 
                 "graph_id": "65bb0830-a77a-11e7-9f72-021893e306d8", 
                 "is_collector": true, 
+                "isrequired": false, 
                 "issearchable": true, 
                 "istopnode": true, 
                 "name": "Person Name", 
@@ -402,8 +412,8 @@
     ], 
     "metadata": {
         "db": "PostgreSQL 9.6.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 5.3.1-14ubuntu2) 5.3.1 20160413, 64-bit", 
-        "git hash": "205c31b 2017-06-01 12:07:14 -0700", 
+        "git hash": "411ce7d 2017-10-12 13:02:46 -0700", 
         "os": "Linux", 
-        "os version": "4.4.0-93-generic"
+        "os version": "4.4.0-97-generic"
     }
 }

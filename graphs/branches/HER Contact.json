@@ -12,6 +12,7 @@
                     "helptext": null, 
                     "helptitle": null, 
                     "instructions": null, 
+                    "is_editable": true, 
                     "name": "HER Contact", 
                     "nodegroup_id": "d118c882-93b7-11e7-b43c-021893e306d8", 
                     "sortorder": null, 
@@ -41,20 +42,20 @@
                 {
                     "description": null, 
                     "domainnode_id": "d118c882-93b7-11e7-b43c-021893e306d8", 
-                    "edgeid": "f59274fa-a850-11e7-9f72-021893e306d8", 
-                    "graph_id": "d118c883-93b7-11e7-b43c-021893e306d8", 
-                    "name": null, 
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type", 
-                    "rangenode_id": "f59274f9-a850-11e7-9f72-021893e306d8"
-                }, 
-                {
-                    "description": null, 
-                    "domainnode_id": "d118c882-93b7-11e7-b43c-021893e306d8", 
                     "edgeid": "529c586c-93b8-11e7-b43c-021893e306d8", 
                     "graph_id": "d118c883-93b7-11e7-b43c-021893e306d8", 
                     "name": null, 
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1i_identifies", 
                     "rangenode_id": "529c586b-93b8-11e7-b43c-021893e306d8"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "d118c882-93b7-11e7-b43c-021893e306d8", 
+                    "edgeid": "f59274fa-a850-11e7-9f72-021893e306d8", 
+                    "graph_id": "d118c883-93b7-11e7-b43c-021893e306d8", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type", 
+                    "rangenode_id": "f59274f9-a850-11e7-9f72-021893e306d8"
                 }
             ], 
             "forms": [], 
@@ -83,6 +84,7 @@
                     "description": "", 
                     "graph_id": "d118c883-93b7-11e7-b43c-021893e306d8", 
                     "is_collector": true, 
+                    "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": true, 
                     "name": "Contact Details", 
@@ -97,6 +99,7 @@
                     "description": "Represents a single node in a graph", 
                     "graph_id": "d118c883-93b7-11e7-b43c-021893e306d8", 
                     "is_collector": false, 
+                    "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": false, 
                     "name": "Contact point", 
@@ -113,6 +116,7 @@
                     "description": "Represents a single node in a graph", 
                     "graph_id": "d118c883-93b7-11e7-b43c-021893e306d8", 
                     "is_collector": false, 
+                    "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": false, 
                     "name": "Contact Point Types", 
@@ -134,6 +138,7 @@
                 "description": "", 
                 "graph_id": "d118c883-93b7-11e7-b43c-021893e306d8", 
                 "is_collector": true, 
+                "isrequired": false, 
                 "issearchable": true, 
                 "istopnode": true, 
                 "name": "Contact Details", 
@@ -147,8 +152,8 @@
     ], 
     "metadata": {
         "db": "PostgreSQL 9.6.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 5.3.1-14ubuntu2) 5.3.1 20160413, 64-bit", 
-        "git hash": "205c31b 2017-06-01 12:07:14 -0700", 
+        "git hash": "411ce7d 2017-10-12 13:02:46 -0700", 
         "os": "Linux", 
-        "os version": "4.4.0-93-generic"
+        "os version": "4.4.0-97-generic"
     }
 }

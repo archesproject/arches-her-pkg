@@ -57,9 +57,11 @@ python manage.py packages -o import_reference_data -s $HERPATH/reference_data/co
 python manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/"MIDAS Right Type.xml" -ow overwrite -st keep
 python manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/"MIDAS Role Type.xml" -ow overwrite -st keep
 python manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/"MIDAS Scripts.xml" -ow overwrite -st keep
+python manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/"MIDAS Storage Area Type.xml" -ow overwrite -st keep
 python manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/"MIDAS Subjects.xml" -ow overwrite -st keep
 python manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/"MIDAS Techniques.xml" -ow overwrite -st keep
 python manage.py packages -o import_reference_data -s $HERPATH/reference_data/concepts/"MIDAS Voyage Type.xml" -ow overwrite -st keep
+
 
 python manage.py packages -o import_reference_data -s $HERPATH/reference_data/collections/"Arches HER Collections.xml" -ow overwrite -st keep
 
@@ -81,6 +83,8 @@ python manage.py packages -o import_graphs -s $HERPATH/graphs/resource_models/
 # python manage.py packages -o import_business_data -s $HERPATH/business_data/files/LHD_Investigative_Activities.csv -ow overwrite --bulk
 # python manage.py packages -o import_business_data -s $HERPATH/business_data/files/LHD_Heritage_Asset_Monument.csv -ow overwrite --bulk
 # python manage.py packages -o import_business_data -s $HERPATH/business_data/files/LHD_Bibliographic_Sources.csv -ow overwrite --bulk
+# python manage.py packages -o import_business_data -s $HERPATH/business_data/files/LHD_Organizations.csv -ow overwrite --bulk
+# python manage.py packages -o import_business_data -s $HERPATH/business_data/files/LHD_Actors.csv -ow overwrite --bulk
 
 
 # # Load Related Resources

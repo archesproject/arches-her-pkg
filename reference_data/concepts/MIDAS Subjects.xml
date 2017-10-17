@@ -4,8 +4,7 @@
   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 >
-  <skos:ConceptScheme rdf:about="http://www.archesproject.org/609a085c-6ace-4342-b9cf-7d563b1a64ea">
-    <dcterms:title xml:lang="en">{"id": "08d780ff-cf6b-4a4b-981e-d4b86559946e", "value": "MIDAS Subjects"}</dcterms:title>
-    <dcterms:description xml:lang="en">{"id": "91fe2aef-8b64-4f71-a39b-e3020a696d6b", "value": "The subject matter or intellectual content of an Information Source. "}</dcterms:description>
+  <skos:ConceptScheme rdf:about="http://www.archesproject.org/8b6a23dc-c712-49bf-b2ff-9b44576eb83c">
+    <dcterms:title xml:lang="en">{"id": "cfb1055b-cdfb-4585-96da-daffe69c2a2d", "value": "MIDAS Subjects"}</dcterms:title>
   </skos:ConceptScheme>
 </rdf:RDF>

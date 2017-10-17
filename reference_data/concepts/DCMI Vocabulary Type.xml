@@ -6,81 +6,93 @@
 >
   <skos:ConceptScheme rdf:about="http://www.archesproject.org/3af3709a-8e12-491a-95d5-b009ed96fd0f">
     <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://www.archesproject.org/91c93264-de70-4f02-9792-51bfef70b3e9">
-        <skos:prefLabel xml:lang="en">{"id": "1a2be504-9111-47de-b84a-5eff4c253c7f", "value": "PhysicalObject"}</skos:prefLabel>
+      <skos:Concept rdf:about="http://www.archesproject.org/1369fc10-7198-4a1f-893f-cf6861d074f6">
+        <dcterms:identifier xml:lang="en-US">{"id": "3dd393f1-d9d9-4eca-b0da-07b3bc8bd84e", "value": "http://www.archesproject.org/1369fc10-7198-4a1f-893f-cf6861d074f6"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "e993436f-b30f-43d9-b819-c7aa2b1cf578", "value": "A series of visual representations imparting an impression of motion when shown in succession. Examples include animations, movies, television programs, videos, zoetropes, or visual output from a simulation. Instances of the type Moving Image must also be describable as instances of the broader type Image."}</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.archesproject.org/3af3709a-8e12-491a-95d5-b009ed96fd0f"/>
+        <skos:prefLabel xml:lang="en">{"id": "d50a6e09-9f63-464c-a35b-adb1180ff6f9", "value": "MovingImage"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://www.archesproject.org/9c7a8eeb-83ea-4c52-a014-f8bc4e9ef565">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/3af3709a-8e12-491a-95d5-b009ed96fd0f"/>
+        <dcterms:identifier xml:lang="en-US">{"id": "16c59541-af52-4bee-8d82-c683a10c31ee", "value": "http://www.archesproject.org/9c7a8eeb-83ea-4c52-a014-f8bc4e9ef565"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "78452a56-712d-4c13-89dd-1943f21e5f9b", "value": "Image"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "b79da3b6-788e-42a9-915e-18925a7737c5", "value": "A visual representation other than text. Examples include images and photographs of physical objects, paintings, prints, drawings, other images and graphics, animations and moving pictures, film, diagrams, maps, musical notation. Note that Image may include both electronic and physical representations."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://www.archesproject.org/91c93264-de70-4f02-9792-51bfef70b3e9">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/3af3709a-8e12-491a-95d5-b009ed96fd0f"/>
+        <skos:prefLabel xml:lang="en">{"id": "1a2be504-9111-47de-b84a-5eff4c253c7f", "value": "PhysicalObject"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en-US">{"id": "027caef2-e4bb-4a81-9a9e-b7673cf4cf5f", "value": "http://www.archesproject.org/91c93264-de70-4f02-9792-51bfef70b3e9"}</dcterms:identifier>
         <skos:scopeNote xml:lang="en">{"id": "186c192b-b356-4810-8754-8dc2e399aaab", "value": "An inanimate, three-dimensional object or substance. Note that digital representations of, or surrogates for, these objects should use Image, Text or one of the other types."}</skos:scopeNote>
       </skos:Concept>
     </skos:hasTopConcept>
     <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://www.archesproject.org/87f3e0bb-9ebc-4208-b530-6928f011337f">
+      <skos:Concept rdf:about="http://www.archesproject.org/806d111b-01d5-4ae8-91d2-c5e325f8ed08">
+        <skos:prefLabel xml:lang="en">{"id": "7b7b9d92-964f-432c-94c6-fcc5d72be1fc", "value": "Event"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "dadfc63b-ed94-46df-aea6-4da7867974ed", "value": "A non-persistent, time-based occurrence. Metadata for an event provides descriptive information that is the basis for discovery of the purpose, location, duration, and responsible agents associated with an event. Examples include an exhibition, webcast, conference, workshop, open day, performance, battle, trial, wedding, tea party, conflagration."}</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.archesproject.org/3af3709a-8e12-491a-95d5-b009ed96fd0f"/>
-        <skos:scopeNote xml:lang="en">{"id": "6070b4f3-cdef-41f7-8751-1c3534e6345b", "value": "A resource consisting primarily of words for reading. Examples include books, letters, dissertations, poems, newspapers, articles, archives of mailing lists. Note that facsimiles or images of texts are still of the genre Text."}</skos:scopeNote>
-        <skos:prefLabel xml:lang="en">{"id": "22ec1198-9ad5-4203-995c-3905b6c48f0c", "value": "Text"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en-US">{"id": "4b2db618-462a-498e-bb20-a912164e2be5", "value": "http://www.archesproject.org/806d111b-01d5-4ae8-91d2-c5e325f8ed08"}</dcterms:identifier>
       </skos:Concept>
     </skos:hasTopConcept>
     <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://www.archesproject.org/1369fc10-7198-4a1f-893f-cf6861d074f6">
-        <skos:prefLabel xml:lang="en">{"id": "d50a6e09-9f63-464c-a35b-adb1180ff6f9", "value": "MovingImage"}</skos:prefLabel>
+      <skos:Concept rdf:about="http://www.archesproject.org/8f64b12c-452d-4ad0-9db4-5292dd7d70db">
+        <skos:prefLabel xml:lang="en">{"id": "f83ffb36-f022-4616-acca-a7124a66624d", "value": "InteractiveResource"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "67923bd5-8cbb-49c7-bb4d-31584292f180", "value": "A resource requiring interaction from the user to be understood, executed, or experienced. Examples include forms on Web pages, applets, multimedia learning objects, chat services, or virtual reality environments."}</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.archesproject.org/3af3709a-8e12-491a-95d5-b009ed96fd0f"/>
-        <skos:scopeNote xml:lang="en">{"id": "e993436f-b30f-43d9-b819-c7aa2b1cf578", "value": "A series of visual representations imparting an impression of motion when shown in succession. Examples include animations, movies, television programs, videos, zoetropes, or visual output from a simulation. Instances of the type Moving Image must also be describable as instances of the broader type Image."}</skos:scopeNote>
+        <dcterms:identifier xml:lang="en-US">{"id": "bd8f2e51-0f6b-43a5-8149-dcc3babecc83", "value": "http://www.archesproject.org/8f64b12c-452d-4ad0-9db4-5292dd7d70db"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <dcterms:identifier xml:lang="en-US">{"id": "a7486bc9-dd67-4431-9386-5e7776a8b241", "value": "http://www.archesproject.org/3af3709a-8e12-491a-95d5-b009ed96fd0f"}</dcterms:identifier>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://www.archesproject.org/a8b0b194-2e35-4a3e-9f79-180fce857a50">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/3af3709a-8e12-491a-95d5-b009ed96fd0f"/>
+        <skos:scopeNote xml:lang="en">{"id": "5ec30875-8e5e-476c-ac8c-06794870f544", "value": "Data encoded in a defined structure. Examples include lists, tables, and databases. A dataset may be useful for direct machine processing."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "e5215410-f5ac-45f4-aa72-d88f8f099ab7", "value": "Dataset"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en-US">{"id": "b9dde4f9-e4db-4fe1-975c-7c52cfad1b4e", "value": "http://www.archesproject.org/a8b0b194-2e35-4a3e-9f79-180fce857a50"}</dcterms:identifier>
       </skos:Concept>
     </skos:hasTopConcept>
     <skos:hasTopConcept>
       <skos:Concept rdf:about="http://www.archesproject.org/57e6c581-8e24-4710-9b51-8df2447f8426">
-        <skos:prefLabel xml:lang="en">{"id": "6c7a734e-df73-4d4b-ba7f-c0d32399b80a", "value": "StillImage"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/3af3709a-8e12-491a-95d5-b009ed96fd0f"/>
         <skos:scopeNote xml:lang="en">{"id": "587f8482-3fca-44c5-a4b1-040b234a32a2", "value": "A static visual representation. Examples include paintings, drawings, graphic designs, plans and maps. Recommended best practice is to assign the type Text to images of textual materials. Instances of the type Still Image must also be describable as instances of the broader type Image."}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/3af3709a-8e12-491a-95d5-b009ed96fd0f"/>
+        <dcterms:identifier xml:lang="en-US">{"id": "2e23ed93-d8c5-4c18-87ae-efab0a0f7b71", "value": "http://www.archesproject.org/57e6c581-8e24-4710-9b51-8df2447f8426"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "6c7a734e-df73-4d4b-ba7f-c0d32399b80a", "value": "StillImage"}</skos:prefLabel>
       </skos:Concept>
     </skos:hasTopConcept>
     <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://www.archesproject.org/87f3e0bb-9ebc-4208-b530-6928f011337f">
+        <dcterms:identifier xml:lang="en-US">{"id": "23032ea2-3d10-4566-ba46-64bdb000bf46", "value": "http://www.archesproject.org/87f3e0bb-9ebc-4208-b530-6928f011337f"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/3af3709a-8e12-491a-95d5-b009ed96fd0f"/>
+        <skos:prefLabel xml:lang="en">{"id": "22ec1198-9ad5-4203-995c-3905b6c48f0c", "value": "Text"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "6070b4f3-cdef-41f7-8751-1c3534e6345b", "value": "A resource consisting primarily of words for reading. Examples include books, letters, dissertations, poems, newspapers, articles, archives of mailing lists. Note that facsimiles or images of texts are still of the genre Text."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://www.archesproject.org/cb6e731f-aa08-4142-be27-dffa446dac22">
+        <dcterms:identifier xml:lang="en-US">{"id": "5031bddc-ac71-48b6-91d4-ce4b009c2622", "value": "http://www.archesproject.org/cb6e731f-aa08-4142-be27-dffa446dac22"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "65fb9907-a170-456b-85fd-0735caaea0fb", "value": "A computer program in source or compiled form. Examples include a C source file, MS-Windows .exe executable, or Perl script."}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/3af3709a-8e12-491a-95d5-b009ed96fd0f"/>
+        <skos:prefLabel xml:lang="en">{"id": "862b11ec-0b8c-44d6-970e-d145848b649a", "value": "Software"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <dcterms:title xml:lang="en">{"id": "4ec9af3f-2451-414c-9c31-0c0604496c38", "value": "DCMI Type Vocabulary"}</dcterms:title>
+    <skos:hasTopConcept>
       <skos:Concept rdf:about="http://www.archesproject.org/cc384399-9ae3-4049-b3f5-be84901fd3d7">
         <skos:prefLabel xml:lang="en">{"id": "bdaf6883-38be-46e7-8b24-85a05360aee4", "value": "Service"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en-US">{"id": "e14ac7e8-0d63-49ad-8ca7-09503390023a", "value": "http://www.archesproject.org/cc384399-9ae3-4049-b3f5-be84901fd3d7"}</dcterms:identifier>
         <skos:inScheme rdf:resource="http://www.archesproject.org/3af3709a-8e12-491a-95d5-b009ed96fd0f"/>
         <skos:scopeNote xml:lang="en">{"id": "3669cfa6-4f0e-4ed6-af0e-668988316f89", "value": "A system that provides one or more functions. Examples include a photocopying service, a banking service, an authentication service, interlibrary loans, a Z39.50 or Web server."}</skos:scopeNote>
       </skos:Concept>
     </skos:hasTopConcept>
     <skos:hasTopConcept>
       <skos:Concept rdf:about="http://www.archesproject.org/765107ee-7f2c-4342-af87-5211410020f2">
-        <skos:prefLabel xml:lang="en">{"id": "4bc715d0-9567-40c9-9da1-1b298150027c", "value": "Collection"}</skos:prefLabel>
         <skos:scopeNote xml:lang="en">{"id": "a7de0361-6f4a-4b9d-b47a-1e0b374983fc", "value": "An aggregation of resources. A collection is described as a group; its parts may also be separately described."}</skos:scopeNote>
         <skos:inScheme rdf:resource="http://www.archesproject.org/3af3709a-8e12-491a-95d5-b009ed96fd0f"/>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://www.archesproject.org/a8b0b194-2e35-4a3e-9f79-180fce857a50">
-        <skos:scopeNote xml:lang="en">{"id": "5ec30875-8e5e-476c-ac8c-06794870f544", "value": "Data encoded in a defined structure. Examples include lists, tables, and databases. A dataset may be useful for direct machine processing."}</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/3af3709a-8e12-491a-95d5-b009ed96fd0f"/>
-        <skos:prefLabel xml:lang="en">{"id": "e5215410-f5ac-45f4-aa72-d88f8f099ab7", "value": "Dataset"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://www.archesproject.org/806d111b-01d5-4ae8-91d2-c5e325f8ed08">
-        <skos:scopeNote xml:lang="en">{"id": "dadfc63b-ed94-46df-aea6-4da7867974ed", "value": "A non-persistent, time-based occurrence. Metadata for an event provides descriptive information that is the basis for discovery of the purpose, location, duration, and responsible agents associated with an event. Examples include an exhibition, webcast, conference, workshop, open day, performance, battle, trial, wedding, tea party, conflagration."}</skos:scopeNote>
-        <skos:prefLabel xml:lang="en">{"id": "7b7b9d92-964f-432c-94c6-fcc5d72be1fc", "value": "Event"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/3af3709a-8e12-491a-95d5-b009ed96fd0f"/>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <dcterms:title xml:lang="en">{"id": "4ec9af3f-2451-414c-9c31-0c0604496c38", "value": "DCMI Type Vocabulary"}</dcterms:title>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://www.archesproject.org/9c7a8eeb-83ea-4c52-a014-f8bc4e9ef565">
-        <skos:inScheme rdf:resource="http://www.archesproject.org/3af3709a-8e12-491a-95d5-b009ed96fd0f"/>
-        <skos:prefLabel xml:lang="en">{"id": "78452a56-712d-4c13-89dd-1943f21e5f9b", "value": "Image"}</skos:prefLabel>
-        <skos:scopeNote xml:lang="en">{"id": "b79da3b6-788e-42a9-915e-18925a7737c5", "value": "A visual representation other than text. Examples include images and photographs of physical objects, paintings, prints, drawings, other images and graphics, animations and moving pictures, film, diagrams, maps, musical notation. Note that Image may include both electronic and physical representations."}</skos:scopeNote>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://www.archesproject.org/8f64b12c-452d-4ad0-9db4-5292dd7d70db">
-        <skos:scopeNote xml:lang="en">{"id": "67923bd5-8cbb-49c7-bb4d-31584292f180", "value": "A resource requiring interaction from the user to be understood, executed, or experienced. Examples include forms on Web pages, applets, multimedia learning objects, chat services, or virtual reality environments."}</skos:scopeNote>
-        <skos:prefLabel xml:lang="en">{"id": "f83ffb36-f022-4616-acca-a7124a66624d", "value": "InteractiveResource"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/3af3709a-8e12-491a-95d5-b009ed96fd0f"/>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://www.archesproject.org/cb6e731f-aa08-4142-be27-dffa446dac22">
-        <skos:prefLabel xml:lang="en">{"id": "862b11ec-0b8c-44d6-970e-d145848b649a", "value": "Software"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/3af3709a-8e12-491a-95d5-b009ed96fd0f"/>
-        <skos:scopeNote xml:lang="en">{"id": "65fb9907-a170-456b-85fd-0735caaea0fb", "value": "A computer program in source or compiled form. Examples include a C source file, MS-Windows .exe executable, or Perl script."}</skos:scopeNote>
+        <dcterms:identifier xml:lang="en-US">{"id": "41f58f71-097e-4f0a-ba3f-1359feffd2fe", "value": "http://www.archesproject.org/765107ee-7f2c-4342-af87-5211410020f2"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "4bc715d0-9567-40c9-9da1-1b298150027c", "value": "Collection"}</skos:prefLabel>
       </skos:Concept>
     </skos:hasTopConcept>
   </skos:ConceptScheme>

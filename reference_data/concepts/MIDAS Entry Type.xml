@@ -1,46 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
 >
   <skos:ConceptScheme rdf:about="http://www.archesproject.org/4a17a32c-1639-4ce5-9747-a0ceebe485a1">
     <skos:hasTopConcept>
       <skos:Concept rdf:about="http://www.archesproject.org/cd5e891c-e5fe-4e30-a21d-67657a21150c">
-        <skos:prefLabel xml:lang="en">{"id": "2b1e9a32-e99c-454e-9a26-1849079832dd", "value": "Listed Building"}</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.archesproject.org/4a17a32c-1639-4ce5-9747-a0ceebe485a1"/>
+        <dcterms:identifier xml:lang="en-US">{"id": "cee7d8aa-7edc-42cc-a9e9-3699273795b0", "value": "http://www.archesproject.org/cd5e891c-e5fe-4e30-a21d-67657a21150c"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "2b1e9a32-e99c-454e-9a26-1849079832dd", "value": "Listed Building"}</skos:prefLabel>
       </skos:Concept>
     </skos:hasTopConcept>
     <dcterms:title xml:lang="en">{"id": "0c46114d-b808-4cb8-aac4-39ae64aa9dc1", "value": "MIDAS Entry Type"}</dcterms:title>
     <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://www.archesproject.org/7feb9910-07df-4986-b5ea-57ba09403a0b">
-        <skos:prefLabel xml:lang="en">{"id": "ab409e8d-b883-4994-8634-ae93914c7892", "value": "Structure"}</skos:prefLabel>
+      <skos:Concept rdf:about="http://www.archesproject.org/8eafe229-189a-4b99-8f17-9afadac82c13">
         <skos:inScheme rdf:resource="http://www.archesproject.org/4a17a32c-1639-4ce5-9747-a0ceebe485a1"/>
+        <skos:prefLabel xml:lang="en">{"id": "09062347-5b75-4ae5-952c-7336807083bb", "value": "Park and Garden"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en-US">{"id": "f89cb53e-d07d-4a03-b391-f15302cac19d", "value": "http://www.archesproject.org/8eafe229-189a-4b99-8f17-9afadac82c13"}</dcterms:identifier>
       </skos:Concept>
     </skos:hasTopConcept>
     <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://www.archesproject.org/8eafe229-189a-4b99-8f17-9afadac82c13">
-        <skos:prefLabel xml:lang="en">{"id": "09062347-5b75-4ae5-952c-7336807083bb", "value": "Park and Garden"}</skos:prefLabel>
+      <skos:Concept rdf:about="http://www.archesproject.org/f403aa7e-7272-4cb0-b130-d2d8d923345a">
+        <dcterms:identifier xml:lang="en-US">{"id": "bf0dfe97-e22b-4380-93b5-aec2276cac91", "value": "http://www.archesproject.org/f403aa7e-7272-4cb0-b130-d2d8d923345a"}</dcterms:identifier>
         <skos:inScheme rdf:resource="http://www.archesproject.org/4a17a32c-1639-4ce5-9747-a0ceebe485a1"/>
+        <skos:prefLabel xml:lang="en">{"id": "dddca8ae-c02b-4c8d-a0e7-7f889490609a", "value": "Findspot"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://www.archesproject.org/ec1d4250-6228-4caa-9787-0f6dd6d0c717">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/4a17a32c-1639-4ce5-9747-a0ceebe485a1"/>
+        <dcterms:identifier xml:lang="en-US">{"id": "e713bb38-f6c7-4e6d-a3d5-d59369729026", "value": "http://www.archesproject.org/ec1d4250-6228-4caa-9787-0f6dd6d0c717"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "1271965d-d564-4501-b241-849fca3f978e", "value": "Feature"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://www.archesproject.org/7feb9910-07df-4986-b5ea-57ba09403a0b">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/4a17a32c-1639-4ce5-9747-a0ceebe485a1"/>
+        <skos:prefLabel xml:lang="en">{"id": "ab409e8d-b883-4994-8634-ae93914c7892", "value": "Structure"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en-US">{"id": "5de5d541-7dcb-4c02-a83d-aad9ad7a1f3f", "value": "http://www.archesproject.org/7feb9910-07df-4986-b5ea-57ba09403a0b"}</dcterms:identifier>
       </skos:Concept>
     </skos:hasTopConcept>
     <skos:hasTopConcept>
       <skos:Concept rdf:about="http://www.archesproject.org/30305dfe-dae3-4bc7-9871-e9bf817f02d8">
         <skos:prefLabel xml:lang="en">{"id": "a4846702-04e5-4794-8f0f-02b7b55fd115", "value": "Building"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en-US">{"id": "002ad5f7-bb96-4051-b073-41146f32922f", "value": "http://www.archesproject.org/30305dfe-dae3-4bc7-9871-e9bf817f02d8"}</dcterms:identifier>
         <skos:inScheme rdf:resource="http://www.archesproject.org/4a17a32c-1639-4ce5-9747-a0ceebe485a1"/>
       </skos:Concept>
     </skos:hasTopConcept>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://www.archesproject.org/ec1d4250-6228-4caa-9787-0f6dd6d0c717">
-        <skos:prefLabel xml:lang="en">{"id": "1271965d-d564-4501-b241-849fca3f978e", "value": "Feature"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/4a17a32c-1639-4ce5-9747-a0ceebe485a1"/>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://www.archesproject.org/f403aa7e-7272-4cb0-b130-d2d8d923345a">
-        <skos:inScheme rdf:resource="http://www.archesproject.org/4a17a32c-1639-4ce5-9747-a0ceebe485a1"/>
-        <skos:prefLabel xml:lang="en">{"id": "dddca8ae-c02b-4c8d-a0e7-7f889490609a", "value": "Findspot"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:hasTopConcept>
+    <dcterms:identifier xml:lang="en-US">{"id": "bced47ce-fe34-4ef8-ad2e-0554b2ccea66", "value": "http://www.archesproject.org/4a17a32c-1639-4ce5-9747-a0ceebe485a1"}</dcterms:identifier>
   </skos:ConceptScheme>
 </rdf:RDF>
