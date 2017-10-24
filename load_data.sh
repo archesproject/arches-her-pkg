@@ -70,38 +70,37 @@ python manage.py packages -o import_graphs -s $HERPATH/graphs/branches/
 python manage.py packages -o import_graphs -s $HERPATH/graphs/resource_models/
 
 # Unzip Overlays
-# unzip Lincoln_1886_1889.zip
-# unzip Lincoln_1887_1890.zip
-# unzip Lincoln_1905_1907.zip
-# unzip Lincoln_1906_1908.zip
-# unzip Lincoln_1920.zip
-# unzip Lincoln_1921_1933.zip
-# unzip Lincoln_1932_1938.zip
-# unzip Lincoln_1946_1950.zip
-# unzip Lincoln_VectorMap_District_Colour.zip
-# unzip Lincoln_VectorMap_Local_Colour.zip
+# cd $HERPATH/map_layers/tile_server/overlays -d $HERPATH/map_layers/tile_server/overlays
+# unzip '*.zip'
+# cd $ARCHESPATH
 
 # # Load Overlays
+# python manage.py packages -o add_tileserver_layer -m $HERPATH/map_layers/tile_server/overlays/Lincoln_VectorMap_District_Colour/Lincoln_VectorMap_District_Colour.xml -n "Lincoln VectorMap District Colour"
+# python manage.py packages -o add_tileserver_layer -m $HERPATH/map_layers/tile_server/overlays/Lincoln_VectorMap_Local_Colour/Lincoln_VectorMap_Local_Colour.xml -n "Lincoln VectorMap Local Colour"
+# python manage.py packages -o add_tileserver_layer -m $HERPATH/map_layers/tile_server/overlays/NonDesignatedMonuments/NonDesignatedMonuments.xml -n 'Non-Designated Monuments'
+# python manage.py packages -o add_tileserver_layer -m $HERPATH/map_layers/tile_server/overlays/TownPlan_1887_1888/TownPlan_1887_1888.xml -n 'Town Plan 1887 to 1888'
 # python manage.py packages -o add_tileserver_layer -m $HERPATH/map_layers/tile_server/overlays/Lincoln_1886_1889/Lincoln_1886_1889.xml -n "Lincoln 1886 to 1889"
 # python manage.py packages -o add_tileserver_layer -m $HERPATH/map_layers/tile_server/overlays/Lincoln_1887_1890/Lincoln_1887_1890.xml -n "Lincoln 1887 to 1890"
 # python manage.py packages -o add_tileserver_layer -m $HERPATH/map_layers/tile_server/overlays/Lincoln_1905_1907/Lincoln_1905_1907.xml -n "Lincoln 1905 to 1907"
 # python manage.py packages -o add_tileserver_layer -m $HERPATH/map_layers/tile_server/overlays/Lincoln_1906_1908/Lincoln_1906_1908.xml -n "Lincoln 1906 to 1908"
-# python manage.py packages -o add_tileserver_layer -m $HERPATH/map_layers/tile_server/overlays/Lincoln_1920/Lincoln_1920.xml -n "Lincoln 1920"
 # python manage.py packages -o add_tileserver_layer -m $HERPATH/map_layers/tile_server/overlays/Lincoln_1921_1933/Lincoln_1921_1933.xml -n "Lincoln 1921 to 1933"
 # python manage.py packages -o add_tileserver_layer -m $HERPATH/map_layers/tile_server/overlays/Lincoln_1932_1938/Lincoln_1932_1938.xml -n "Lincoln 1932 to 1938"
 # python manage.py packages -o add_tileserver_layer -m $HERPATH/map_layers/tile_server/overlays/Lincoln_1946_1950/Lincoln_1946_1950.xml -n "Lincoln 1946 to 1950"
-# python manage.py packages -o add_tileserver_layer -m $HERPATH/map_layers/tile_server/overlays/Lincoln_VectorMap_District_Colour/Lincoln_VectorMap_District_Colour.xml -n "Lincoln VectorMap District Colour"
-# python manage.py packages -o add_tileserver_layer -m $HERPATH/map_layers/tile_server/overlays/Lincoln_VectorMap_Local_Colour/Lincoln_VectorMap_Local_Colour.xml -n "Lincoln VectorMap Local Colour"
+# python manage.py packages -o add_tileserver_layer -m $HERPATH/map_layers/tile_server/overlays/Lincoln_1920/Lincoln_1920.xml -n "Lincoln 1920"
 
 # Load Business Data
 python manage.py packages -o import_business_data -s $HERPATH/business_data/files/LHD_Heritage_Asset_Artefacts.csv -ow overwrite --bulk
 python manage.py packages -o import_business_data -s $HERPATH/business_data/files/LHD_Investigative_Activities.csv -ow overwrite --bulk
 python manage.py packages -o import_business_data -s $HERPATH/business_data/files/LHD_Heritage_Asset_Monument.csv -ow overwrite --bulk
 python manage.py packages -o import_business_data -s $HERPATH/business_data/files/LHD_Bibliographic_Sources.csv -ow overwrite --bulk
+python manage.py packages -o import_business_data -s $HERPATH/business_data/files/LHD_Archive_Sources.csv -ow overwrite --bulk
 python manage.py packages -o import_business_data -s $HERPATH/business_data/files/LHD_Organizations.csv -ow overwrite --bulk
 python manage.py packages -o import_business_data -s $HERPATH/business_data/files/LHD_Actors.csv -ow overwrite --bulk
 
 
 # # Load Related Resources
-# python manage.py packages -o import_business_data_relations -s $HERPATH/data_export/DISCO\ Project_2017-04-14_18-24-49.relations
-# python manage.py packages -o import_business_data_relations -s $HERPATH/business_data/HER_master.relations
+python manage.py packages -o import_business_data_relations -s $HERPATH/business_data/relations/LHD_Actors_2_LHD_Organizations.relations
+python manage.py packages -o import_business_data_relations -s $HERPATH/business_data/relations/LHD_Archive_Sources_2_Bibliographic_Sources.relations
+python manage.py packages -o import_business_data_relations -s $HERPATH/business_data/relations/LHD_Heritage_Asset_Monuments_2_LHD_Heritage_Asset_Monuments.relations
+python manage.py packages -o import_business_data_relations -s $HERPATH/business_data/relations/LHD_Investigative_Activities_2_LHD_Bibliographic_Sources.relations
+python manage.py packages -o import_business_data_relations -s $HERPATH/business_data/relations/LHD_Sources_2_LHD_Heritage_Asset_Monuments.relations
