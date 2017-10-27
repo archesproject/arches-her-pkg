@@ -298,28 +298,11 @@
                     "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": false, 
-                    "name": "Epithet", 
+                    "name": "Forename", 
                     "nodegroup_id": "65bb0831-a77a-11e7-9f72-021893e306d8", 
-                    "nodeid": "65bb0838-a77a-11e7-9f72-021893e306d8", 
+                    "nodeid": "65bb0834-a77a-11e7-9f72-021893e306d8", 
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation", 
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of"
-                }, 
-                {
-                    "config": {
-                        "fillColor": "rgba(233,112,111,0.8)"
-                    }, 
-                    "datatype": "semantic", 
-                    "description": "", 
-                    "graph_id": "65bb0830-a77a-11e7-9f72-021893e306d8", 
-                    "is_collector": true, 
-                    "isrequired": false, 
-                    "issearchable": true, 
-                    "istopnode": true, 
-                    "name": "Person Name", 
-                    "nodegroup_id": "65bb0831-a77a-11e7-9f72-021893e306d8", 
-                    "nodeid": "65bb0831-a77a-11e7-9f72-021893e306d8", 
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation", 
-                    "parentproperty": ""
                 }, 
                 {
                     "config": {
@@ -347,11 +330,28 @@
                     "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": false, 
-                    "name": "Middle Name(s)", 
+                    "name": "Epithet", 
                     "nodegroup_id": "65bb0831-a77a-11e7-9f72-021893e306d8", 
-                    "nodeid": "65bb0839-a77a-11e7-9f72-021893e306d8", 
+                    "nodeid": "65bb0838-a77a-11e7-9f72-021893e306d8", 
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation", 
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of"
+                }, 
+                {
+                    "config": {
+                        "fillColor": "rgba(233,112,111,0.8)"
+                    }, 
+                    "datatype": "semantic", 
+                    "description": "", 
+                    "graph_id": "65bb0830-a77a-11e7-9f72-021893e306d8", 
+                    "is_collector": true, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": true, 
+                    "name": "Person Name", 
+                    "nodegroup_id": "65bb0831-a77a-11e7-9f72-021893e306d8", 
+                    "nodeid": "65bb0831-a77a-11e7-9f72-021893e306d8", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation", 
+                    "parentproperty": ""
                 }, 
                 {
                     "config": null, 
@@ -362,9 +362,9 @@
                     "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": false, 
-                    "name": "Forename", 
+                    "name": "Middle Name(s)", 
                     "nodegroup_id": "65bb0831-a77a-11e7-9f72-021893e306d8", 
-                    "nodeid": "65bb0834-a77a-11e7-9f72-021893e306d8", 
+                    "nodeid": "65bb0839-a77a-11e7-9f72-021893e306d8", 
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation", 
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of"
                 }, 
@@ -412,7 +412,7 @@
     ], 
     "metadata": {
         "db": "PostgreSQL 9.6.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 5.3.1-14ubuntu2) 5.3.1 20160413, 64-bit", 
-        "git hash": "411ce7d 2017-10-12 13:02:46 -0700", 
+        "git hash": "1e44493 2017-10-17 14:57:13 -0700", 
         "os": "Linux", 
         "os version": "4.4.0-97-generic"
     }
