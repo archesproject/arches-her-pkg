@@ -71,7 +71,7 @@
         {
             "arches_nodeid": "36d4c550-9dec-11e7-9f72-021893e306d8", 
             "arches_node_name": "Designation or Protection Type", 
-            "file_field_name": "",
+            "file_field_name": "Designation or Protection Type",
             "data_type": "concept-list", 
             "concept_export_value": "label", 
             "export": false

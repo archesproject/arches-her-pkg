@@ -1,0 +1,39 @@
+{
+	"type": "vector",
+	"layers": [{
+		"id": "monuments_listed_buildings",
+		"type": "circle",
+		"source": "monuments_listed_buildings",
+		"source-layer": "monuments_listed_buildings",
+		"layout": {
+			"visibility": "visible"
+		},
+		"paint": {
+			"circle-color": "#00ffff"
+		}
+	}],
+	"config": {
+		"provider": {
+			"class": "TileStache.Goodies.VecTiles:Provider",
+			"kwargs": {
+				"dbinfo": {
+					"host": "localhost",
+					"user": "postgres",
+					"password": "postgis",
+					"database": "arches_dev",
+					"port": "5432"
+				},
+				"simplify": 0.5,
+				"queries": [
+					"select gid as __id__, name, st_asgeojson(geom) as geojson, st_transform(geom, 900913) as __geometry__ from mv_monument_listed_buildings"
+				]
+			}
+		},
+		"allowed origin": "*",
+		"compress": true,
+		"write cache": false
+	}
+}
+
+// To deploy:
+// python manage.py packages -o add_tileserver_layer -t /Users/ryan/Projects/arches4_packages/Arches_HER/map_layers/tile_server/overlays/monuments_listed_buildings.json -n 'Heritage Asset - Listed Buildings (Designated)'
